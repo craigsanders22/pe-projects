@@ -1,7 +1,7 @@
 
 
 * {
-box-sizing: border-box;
+	box-sizing: border-box;
 
 }
 
@@ -42,25 +42,39 @@ header {
   padding: 40px;
 }
 
-nav {
+.nav {
   background-color: #eedede;
   padding: 20px 40px 20px 40px;
+
 }
 
-nav a {
+.nav a {
+	font-size: 18px;
   color: #272424;
   text-decoration: none;
   margin-right: 15px;
+  border: 3px solid #333;
+  padding: 10px;
+  border-radius: 25px;
 }
 
-nav a:hover {
-  color: #245c4c;
-  border-bottom: solid 4px #ffffff;
+.nav a:hover {
+  color: white;
+  border: solid 6px #555;
+  background: darkslategray;
+  transition: 1s ease;
+
 }
-@media (min-width: 600px) {
+
+
+@media (max-width: 600px) {
   .nav {
     flex-direction: row;
     align-items: center;
+  }
+
+  .intro h1 {
+  	max-width: 11ch;
   }
 }
 
@@ -68,6 +82,12 @@ nav a:hover {
   background-color: #38948f;
   padding: 40px;
   background-size: cover;
+}
+
+.abstract-image {
+	background-color: lightgray;
+	background-size: cover;
+
 }
 .ten-things {
 	background-color: darkslategray;
@@ -121,8 +141,10 @@ p {
 .contact a {
   color: #ffffff;
   text-decoration: none;
-  border-bottom: solid 2px tomato;
-  padding-bottom: 1px;
+  border: solid 5px #333;
+  padding: 10px 20px;
+  background: darkslategray;
+  border-radius: 25px;
 }
 
 footer {
