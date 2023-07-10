@@ -1,34 +1,8 @@
-<!doctype html>
+<?php
+  // comment
+  include('header.php');?>
 
-<html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>Craig Sanders</title>
-  <meta name="description" content="Web Designer - Craig Sanders">
-
-  <meta property="og:title" content="Craig Sanders">
-  <meta property="og:type" content="TYPE">
-  <meta property="og:url" content="https://peprojects.dev/alpha-7/craig/">
-  <meta property="og:description" content="Craig Sanders is a web designer and local food advocate based in Indianapolis, Indiana">
-  <meta property="og:image" content="https://thegraphicsfairy.com/wp-content/uploads/2014/02/Vintage-Tomato-Clip-Art-GraphicsFairy2.jpg">
-
-  <link rel="stylesheet" href="style.css">
-
-</head>
-
-<div class="nav">
-  <div class="inner-column">
-
-    <a href="about-me.html"> projects</a>
-    <a href="my-projects.html"> resume</a>
-    <a href="contact.html"> let's chat</a>
-  </div>
-</div>
-
-<div class="intro">
+<main class="intro">
   <div class="inner-column">
     <div class="intro-text">
       <h1>
@@ -43,6 +17,7 @@
     </div>
   </div>
 </div>
+</header>
 
 <div class="about">
   <div class="inner-column">
@@ -202,13 +177,10 @@
     </div>
   </div>
 </div>
+</main>
 
-<div class="footer">
-  <div class="inner-column">
-    <a href="about-me.html"> About Me</a>
-    <a href="my-projects.html"> My Projects</a>
-    <a href="contact.html"> Contact Me</a>
-  </div>
-</div>
 
-</html>
+<?php
+  // comment
+  include('footer.php');?>
+
