@@ -1,6 +1,4 @@
-<?php
-  // comment
-  include('header.php');?>
+<?php include('header.php');?>
 
 <main class="intro">
   <div class="inner-column">
@@ -16,8 +14,8 @@
 
     </div>
   </div>
-</div>
-</header>
+
+
 
 <div class="about">
   <div class="inner-column">
