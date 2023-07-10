@@ -3,9 +3,12 @@
 A description of that this is 
 
 
-## Today's Date
+## July 10
 
 ### standup 
+
+
+
 
 
 - list items
