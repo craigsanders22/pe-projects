@@ -3,18 +3,19 @@
 A daily worksheet for my DFTW journey. 
 
 
-## July 10
+## July 11
 
 ### standup 
 
-What I did this weekend - why I'm behind, what I can do to catch up 
+yesterday - did the 6 icons/symbols and got that posted, made sure MAMP was set up and working correctly, watched and worked through the exercises for the PHP lesson
 
+today - going to do a bit more from yesterday this morning then get into today's lesson. Meet with Derek later. Hoping to start chipping away at some of the work revolving around my personal site this afternoon. 
 
 TO DO: 
-- lesson 95 (icons)
-- work on personal site
-- get MAMP up and working right
+- finish up PHP from yesterday
 - today's lesson
+- meet with derek
+- watch video/work through ?'s aboout personal site
 
 
 
@@ -25,4 +26,3 @@ TO DO:
 
 
 ## conclusion
-I got the icons done and get MAMP running smoothly. Watched the lesson and did a good amount of a madlib, but need to come back and square it away tonight or first thing tomorrow. 
