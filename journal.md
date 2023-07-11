@@ -12,17 +12,34 @@ yesterday - did the 6 icons/symbols and got that posted, made sure MAMP was set 
 today - going to do a bit more from yesterday this morning then get into today's lesson. Meet with Derek later. Hoping to start chipping away at some of the work revolving around my personal site this afternoon. 
 
 TO DO: 
-- finish up PHP from yesterday
-- today's lesson
-- meet with derek
+[x] finish up PHP from yesterday
+[x] today's lesson
+[x] meet with derek
 - watch video/work through ?'s aboout personal site
 
 
 
 ### questions 
 
-- [] question 1 
+- [x] leave MAMP running?
+- [x] package - php syntax checker? 
+
 
 
 
 ## conclusion
+I made a php page that generated a random inventory number and based on the number (negative or positive) offered a link to order the item or gave a SOLD OUT message. 
+
+Met with Derek 
+Installed PHP syntax checker
+Reviewed personal site and things to do moving forward 
+
+### TOMORROW
+
+-   Work on personal site
+    -   make links work
+    -   add real images
+    -   build out linked pages 
+    
+- Lesson 101
+- Do a responsive garden project
