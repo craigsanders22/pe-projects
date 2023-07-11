@@ -28,7 +28,6 @@
 <?php
 
 	$stock = rand(-2, 5);
-	$website = "https://www.papajohns.com/order/menu/sides/jalapeno-popper-rolls?displayNutritionalInfo=false";
 
 	if ($stock > 0) {
 		$message = 'In stock';
@@ -37,7 +36,7 @@
 		}
 
 	if ($stock > 0) {
-		$order = '<a href=<?=$website;?>Order Here!</a>';
+		$order = '<a href="https://www.papajohns.com/order/menu/sides/jalapeno-popper-rolls?displayNutritionalInfo=false";?>Order Here!</a>';
 	} else {
 		
 
@@ -55,6 +54,7 @@
 			<p><?= $order ?></p>
 		</body>
 	</html>
+
 
 
 
