@@ -3,19 +3,17 @@
 A daily worksheet for my DFTW journey. 
 
 
-## July 11
+## July 12
 
 ### standup 
 
-yesterday - did the 6 icons/symbols and got that posted, made sure MAMP was set up and working correctly, watched and worked through the exercises for the PHP lesson. Set up my daily journal and got it connected with git, etc. I'm using it this morning to write this! 
+yesterday - did some extra work on PHP from Monday. Went through lesson 100 - made a little functioning if/else which was fun. Met with Derek and reviewed a bit and came up with some priorities over the next few weeks. Worked on making sure my personal site functioned correctly (links, replace filler images, etc.)
 
-today - going to do a bit more from yesterday this morning then get into today's lesson. Meet with Derek later. Hoping to start chipping away at some of the work revolving around my personal site this afternoon. 
+today - heading in to do todays lesson, planning to do a couple extra exercises in the responsive layout garden and work a bit more on my personal site. Also considering making some improvements to the Alpha 7 landing page? I cringe every time I open it, so it's time.  
 
 TO DO: 
-[x] finish up PHP from yesterday
-[x] today's lesson
-[x] meet with derek
-- watch video/work through ?'s aboout personal site
+[] lesson 101
+[] watch video/work through ?'s aboout personal site
 
 
 

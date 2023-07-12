@@ -1,5 +1,5 @@
 <?php include('header.php');?>
-
+<body>
 <main class="intro">
   <div class="inner-column">
     <div class="intro-text">
@@ -139,7 +139,7 @@
       </div>
 
       <div class="link2">
-        <a href="mailto: craig.sanders@me.com">Codepen</a>
+        <a href="https://codepen.io/craigsanders22">Codepen</a>
 
         </a>
       </div>
@@ -153,7 +153,7 @@
       </div>
 
       <div class="link3">
-        <a href="mailto: craig.sanders@me.com">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/craig-sanders-b0ba3525/">LinkedIn</a>
 
         </a>
       </div>
@@ -168,7 +168,7 @@
       </div>
 
       <div class="link4">
-        <a href="mailto: craig.sanders@me.com">Github</a>
+        <a href="https://github.com/craigsanders22">Github</a>
 
       </div>
 
@@ -176,7 +176,7 @@
   </div>
 </div>
 </main>
-
+</body>
 
 <?php
   // comment
