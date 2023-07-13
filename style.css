@@ -1,9 +1,10 @@
 * {
   box-sizing: border-box;
+  margin: 0%;
 }
 
 .inner-column {
-  padding: 20px;
+  padding-bottom: 40px;
   margin-left: auto;
   margin-right: auto;
   justify-content: center;
@@ -19,7 +20,9 @@ body {
   margin-right: auto;
   color: #fff;
   text-align: center;
+
 }
+
 
 .icon img {
   max-width: 200px;
@@ -28,7 +31,7 @@ body {
 
 header {
   background: #b1a2a2;
-  height: 60px;
+  height: 100px;
 }
 
 .nav {
@@ -165,16 +168,16 @@ header {
   padding: 20px;
 }
 
-.footer {
+footer {
   background: #b1a2a2;
-  height: 100px;
+  height: 50px;
 }
 
-.footer .inner-column {
+footer .inner-column {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  padding: 20px;
+  padding: 10px;
 }
 
 /* typography */
@@ -255,7 +258,7 @@ img {
   border-radius: 25px;
 }
 
-.footer a {
+footer a {
   font-size: 20px;
   color: #272424;
   text-decoration: none;
@@ -265,7 +268,7 @@ img {
   border-radius: 25px;
 }
 
-.footer a:hover {
+footer a:hover {
   color: white;
   border: solid 6px #555;
   background: darkslategray;

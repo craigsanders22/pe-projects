@@ -1,12 +1,18 @@
 <-- stuff -->
 
 
-<div class="footer">
+<footer class="site.footer">
+  <div class="nav">
   <div class="inner-column">
-    <a href="about-me.html"> About Me</a>
-    <a href="my-projects.html"> My Projects</a>
-    <a href="contact.html"> Contact Me</a>
+       
+    <a href="index.php"> home</a>
+    <a href="projects.php"> projects</a>
+    <a href="goals.php"> my goals</a>
+    <a href="resume.php"> resume</a>
+    <a href="contact.html"> let's chat</a>
+
   </div>
 </div>
+</footer>
 
 </html>

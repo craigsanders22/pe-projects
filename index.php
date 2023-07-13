@@ -1,5 +1,7 @@
-<?php include('header.php');?>
 <body>
+
+<?php include('header.php');?>
+
 <main class="intro">
   <div class="inner-column">
     <div class="intro-text">
