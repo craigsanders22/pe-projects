@@ -66,7 +66,7 @@ header {
 .accomplishments,
 .contact {
   background-color: #38948f;
-  padding: 40px;
+  
   background-size: cover;
 }
 
@@ -128,10 +128,20 @@ header {
 }
 
 
-.contact {
+
+.contact  {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.contact-cards {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  align-items: center;
+  
+  
 }
 
 @media (min-width: 1000px) {
@@ -161,12 +171,6 @@ header {
   min-height: 20vh;
 }
 
-.inner-column .link {
-  display: inline-block;
-  align-items: center;
-
-  padding: 20px;
-}
 
 footer {
   background: #b1a2a2;

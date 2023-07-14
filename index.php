@@ -111,11 +111,15 @@
 </div>
 <div class="contact">
   <div class="inner-column">
+    <div class="contact-text">
 
     <h2>I’d love to be in touch with you!</h2>
+  
 
     <p>Let’s chat about my journey, your journey, what kinds of jobs I'll be looking for, what kind of jobs you’re hiring/looking for, your favorite sandwich condiment, or anything else that we might have in common! Please don't hesitate to reach out!</p>
-
+    </div>
+    </div>
+  <div class= contact-cards>
     <div class="link">
 
       <div class="icon">
@@ -125,7 +129,7 @@
         </picture>
       </div>
 
-      <div class="link2">
+      <div class="link">
         <a href="mailto: craig.sanders@me.com">Email Me</a>
 
         </a>
@@ -143,7 +147,6 @@
       <div class="link2">
         <a href="https://codepen.io/craigsanders22">Codepen</a>
 
-        </a>
       </div>
     </div>
     <div class="link">
@@ -157,7 +160,6 @@
       <div class="link3">
         <a href="https://www.linkedin.com/in/craig-sanders-b0ba3525/">LinkedIn</a>
 
-        </a>
       </div>
     </div>
 
@@ -173,7 +175,7 @@
         <a href="https://github.com/craigsanders22">Github</a>
 
       </div>
-
+    </div>
     </div>
   </div>
 </div>
@@ -181,6 +183,6 @@
 </body>
 
 <?php
-  // comment
+ 
   include('footer.php');?>
 
