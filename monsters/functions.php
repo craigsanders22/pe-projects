@@ -10,17 +10,5 @@
 	double ();
 	double ();
 	double ();
-	double ();
-	double ();
-	double ();
-	double ();
-	double ();
-	double ();
-	double ();
-	double ();
-	double ();
-	double ();
-	double ();
-	double ();
-	
+
 ?>

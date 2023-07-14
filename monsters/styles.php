@@ -19,11 +19,9 @@
 
 	ul {
 
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
+		
 		display: grid;
-		grid-template-columns: repeat(auto-fill, minmax(400px, 2fr));
+		grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
 		grid-gap: 1em;
 		max-height: 500px;
 		margin-right: auto;
