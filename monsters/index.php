@@ -4,27 +4,28 @@
 <style>
 
 	* {
-		
-		width: 100;
+		display: block;
+	
 	}
 
 	ul {
 
 		display: flex;
 		flex-direction: row;
+		margin-right: auto;
+		margin-left: auto;
 		list-style-type: none;
-		padding: 20px;
 
 	}
 
 
 	monster-card{
 		display: block;
-		border: 5px dotted transparent;
-  		border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
-  		border-image-slice: 1;
+		border: 10px solid transparent;
+  border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+  border-image-slice: 1;
 		max-width: 400px;
-		padding-top: 20px;
+		padding: 20px;
 	}
 
 	
