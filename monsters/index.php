@@ -3,16 +3,28 @@
 
 <style>
 
-	ol {
+	* {
+		max-width: 1000px;
+		width: 100;
+	}
+
+	ul {
+
 		display: flex;
 		flex-direction: row;
-		padding-left: 20px;
+		list-style-type: none;
+		padding: 20px;
 
 	}
 
+
 	monster-card{
 		display: block;
-		border: 5px dotted blue;
+		border: 5px dotted transparent;
+  		border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+  		border-image-slice: 1;
+		max-width: 400px;
+		padding-top: 20px;
 	}
 
 	
@@ -33,7 +45,7 @@ $codey = [
 	"favoriteFood" => "Mt. Dew Code Red",
 	"age" => 7,
 	"adopted" => true,
-	"portrait" => "https://peprojects.dev/images/portrait.jpg"
+	"portrait" => "codey.jpg"
 
 
 ];
@@ -44,7 +56,7 @@ $limabean = [
 	"favoriteFood" => "English Peas",
 	"age" => 4,
 	"adopted" => false,
-	"portrait" => "https://peprojects.dev/images/portrait.jpg"
+	"portrait" => "limabean.jpg"
 
 ];
 
@@ -54,13 +66,54 @@ $readsalot = [
 	"favoriteFood" => "Baguette",
 	"age" => 9,
 	"adopted" => false,
-	"portrait" => "https://peprojects.dev/images/portrait.jpg"
+	"portrait" => "miss-reads-a-lot.jpg"
 
 ];
 
-$adoptionlist = [$codey, $limabean, $readsalot];
+$mrbanana = [
+	"id" => 30,
+	"name" => "Mr Banana",
+	"favoriteFood" => "Peanut Butter",
+	"age" => 9,
+	"adopted" => false,
+	"portrait" => "mr-banana.jpg"
 
-echo "<ol>";
+];
+
+
+$fragoo = [
+	"id" => 50,
+	"name" => "Fragoo",
+	"favoriteFood" => "Ragu",
+	"age" => 12,
+	"adopted" => false,
+	"portrait" => "fragoo.jpg"
+
+];
+
+$orangina = [
+	"id" => 60,
+	"name" => "Orangina",
+	"favoriteFood" => "Carrots",
+	"age" => 0.5,
+	"adopted" => true,
+	"portrait" => "orangina.jpg"
+
+];
+
+$shadow = [
+	"id" => 70,
+	"name" => "Shadow",
+	"favoriteFood" => "Ghosts",
+	"age" => 999,
+	"adopted" => false,
+	"portrait" => "shadow.jpg"
+
+];
+
+$adoptionlist = [$codey, $limabean, $fragoo, $orangina, $shadow, $mrbanana, ];
+
+echo "<ul>";
 
 foreach ($adoptionlist as $monster) {
 	$id = $monster["id"];
@@ -71,10 +124,10 @@ foreach ($adoptionlist as $monster) {
 	$status = $monster["adopted"];
 
 	if ($status == 0) {
-		$status = "Adopt Me!!";
+		$status = "Adopt Me!! I'd love to come destroy your forever home!";
 
 	} else {
-		$status = "I'm now destroying someone else's home!";
+		$status = "Hooray! I'm now destroying someone else's home!";
 
 	}
 
@@ -96,6 +149,6 @@ echo "</li>";
 
 }
 
-echo "</ol>";
+echo "</ul>";
 
  ?>
