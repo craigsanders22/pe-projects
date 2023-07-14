@@ -22,10 +22,10 @@
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
-		align-items: stretch;
 		display: grid;
 		grid-template-columns: repeat(auto-fill, minmax(400px, 2fr));
 		grid-gap: 1em;
+		max-height: 500px;
 		margin-right: auto;
 		margin-left: auto;
 		list-style-type: none;
@@ -37,8 +37,7 @@
 	monster-card {
 		display: flex;
 		flex-direction: column;
-		justify-content: flex-start;
-		align-items: center;
+		justify-content: center;
 		border: 10px solid transparent;
   		border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
   		border-image-slice: 1;

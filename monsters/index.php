@@ -5,7 +5,7 @@
 
 
 <?php
-$adoptionlist = [$codey, $limabean, $fragoo, $orangina, $shadow, $mrbanana, ];
+$adoptionlist = [$codey, $limabean, $fragoo, $orangina, $shadow, $mrbanana, $codey2, $limabean2, $fragoo2, $orangina2, $shadow2, $mrbanana2, ];
 
 
  foreach ($adoptionlist as $monster) { ?>
@@ -34,6 +34,7 @@ $adoptionlist = [$codey, $limabean, $fragoo, $orangina, $shadow, $mrbanana, ];
 	<monster-card id='<?=$id?>'>
 	<picture class='portrait'>
 		<img src='<?=$portrait?>' width='300'>
+	</picture>
 	<h2 class= 'name'><?=$name?></h2>
 	<p class= 'story'><?=$story?></p>
 	<p class= 'status'><?=$status?></p>

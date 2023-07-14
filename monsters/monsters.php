@@ -74,8 +74,8 @@ $shadow = [
 ];
 
 
-$codey = [
-	"id" => 10,
+$codey2 = [
+	"id" => 80,
 	"name" => "Codey",
 	"favoriteFood" => "Mt. Dew Code Red",
 	"age" => 7,
@@ -85,8 +85,8 @@ $codey = [
 
 ];
 
-$limabean = [
-	"id" => 20,
+$limabean2 = [
+	"id" => 90,
 	"name" => "Lima Bean",
 	"favoriteFood" => "English Peas",
 	"age" => 4,
@@ -95,8 +95,8 @@ $limabean = [
 
 ];
 
-$readsalot = [
-	"id" => 30,
+$readsalot2 = [
+	"id" => 130,
 	"name" => "Ms Readsalot",
 	"favoriteFood" => "Baguette",
 	"age" => 9,
@@ -105,8 +105,8 @@ $readsalot = [
 
 ];
 
-$mrbanana = [
-	"id" => 30,
+$mrbanana2 = [
+	"id" => 140,
 	"name" => "Mr Banana",
 	"favoriteFood" => "Peanut Butter",
 	"age" => 9,
@@ -116,8 +116,8 @@ $mrbanana = [
 ];
 
 
-$fragoo = [
-	"id" => 50,
+$fragoo2 = [
+	"id" => 150,
 	"name" => "Fragoo",
 	"favoriteFood" => "Ragu",
 	"age" => 12,
@@ -126,8 +126,8 @@ $fragoo = [
 
 ];
 
-$orangina = [
-	"id" => 60,
+$orangina2 = [
+	"id" => 160,
 	"name" => "Orangina",
 	"favoriteFood" => "Carrots",
 	"age" => 0.5,
@@ -136,8 +136,8 @@ $orangina = [
 
 ];
 
-$shadow = [
-	"id" => 70,
+$shadow2 = [
+	"id" => 170,
 	"name" => "Shadow",
 	"favoriteFood" => "Ghosts",
 	"age" => 999,
