@@ -1,136 +1,18 @@
+<?php include ('monsters.php'); ?>
+<?php include ('styles.php'); ?>
 
-<style>
-
-
-	img {
-		display: block;
-		width: 100%;
-		height: auto;
-		max-width: 400px;
-		overflow: hidden;
-	}
-
-	.inner-column {
-		max-width: 700px;
-		padding: 20px;
-		margin-left: auto;
-		margin-right: auto;
-		
-	}
-
-	ul {
-
-		display: flex;
-		flex-direction: column;
-		margin-right: auto;
-		margin-left: auto;
-		list-style-type: none;
+<ul class='monsters'>
 
 
-	}
-
-
-	monster-card {
-		display: flex;
-		flex-direction: column;
-		justify-content: flex-start;
-		align-items: center;
-		border: 10px solid transparent;
-  		border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
-  		border-image-slice: 1;
-		padding: 20px;
-	}
-
-	
-
-
-</style>
-
-<?php 
-
-
-
-
-
-$codey = [
-	"id" => 10,
-	"name" => "Codey",
-	"favoriteFood" => "Mt. Dew Code Red",
-	"age" => 7,
-	"adopted" => true,
-	"portrait" => "codey.jpg"
-
-
-];
-
-$limabean = [
-	"id" => 20,
-	"name" => "Lima Bean",
-	"favoriteFood" => "English Peas",
-	"age" => 4,
-	"adopted" => false,
-	"portrait" => "limabean.jpg"
-
-];
-
-$readsalot = [
-	"id" => 30,
-	"name" => "Ms Readsalot",
-	"favoriteFood" => "Baguette",
-	"age" => 9,
-	"adopted" => false,
-	"portrait" => "miss-reads-a-lot.jpg"
-
-];
-
-$mrbanana = [
-	"id" => 30,
-	"name" => "Mr Banana",
-	"favoriteFood" => "Peanut Butter",
-	"age" => 9,
-	"adopted" => false,
-	"portrait" => "mr-banana.jpg"
-
-];
-
-
-$fragoo = [
-	"id" => 50,
-	"name" => "Fragoo",
-	"favoriteFood" => "Ragu",
-	"age" => 12,
-	"adopted" => false,
-	"portrait" => "fragoo.jpg"
-
-];
-
-$orangina = [
-	"id" => 60,
-	"name" => "Orangina",
-	"favoriteFood" => "Carrots",
-	"age" => 0.5,
-	"adopted" => true,
-	"portrait" => "orangina.jpg"
-
-];
-
-$shadow = [
-	"id" => 70,
-	"name" => "Shadow",
-	"favoriteFood" => "Ghosts",
-	"age" => 999,
-	"adopted" => false,
-	"portrait" => "shadow.jpg"
-
-];
-
+<?php
 $adoptionlist = [$codey, $limabean, $fragoo, $orangina, $shadow, $mrbanana, ];
 
-echo "<ul>";
 
-foreach ($adoptionlist as $monster) {
+ foreach ($adoptionlist as $monster) { ?>
+	
+	<?php	
+
 	$id = $monster["id"];
-
 	$name = $monster["name"];
 	$story = "My favorite food is " . $monster["favoriteFood"] . " and I am " . $monster["age"] . " years old!";
 	$portrait = $monster["portrait"];
@@ -144,25 +26,24 @@ foreach ($adoptionlist as $monster) {
 
 	}
 
+	?>
 
-echo "<li class = 'monster'>";
+
+<li class = 'monster'>
+	<div style='" . $monster . "' class='inner-column'>
+	<monster-card id='<?=$id?>'>
+	<picture class='portrait'>
+		<img src='<?=$portrait?>' width='300'>
+	<h2 class= 'name'><?=$name?></h2>
+	<p class= 'story'><?=$story?></p>
+	<p class= 'status'><?=$status?></p>
+
+	</monster-card>
+
+</li>
 
 
-echo 
-	"<div style='" . $monster . "' class='inner-column'>" .
-	"<monster-card id='" . $id . "'>" .
-		"<picture class='portrait'>" . 
-			"<img src='" . $portrait . "' width='300'>" .
-		"<h2 class= 'name'>" . $monster['name'] . "</h2>" .
-		"<p class= 'story'>" . $story . "</p>" .
-		"<p class= 'status'>" . $status. "</p>" .
+<?php } ?>
 
-	"</monster-card>";
 
-echo "</li>";
-
-}
-
-echo "</ul>";
-
- ?>
+</ul>

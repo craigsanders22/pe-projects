@@ -12,6 +12,7 @@ yesterday - ended up having a rough day. I havent been sleeping well and it caug
 today - fingers crossed - I have a lot of time today to focus on everything here. Going to go finish things from yesterday, then look at today. I really need to prioritize my personal site and getting it cohesive and just in a good spot, so that is how I hope to spend the rest of the day. I should be available for the team meeting but may just listen in or pop in and out if I'm in the zone on the other things I need to get done...
 
 TO DO: 
+[x] lesson 102
 [] lesson 103
 [] layout garden
 [] personal site - build additional pages + style + add images/icons
@@ -36,6 +37,7 @@ TO DO:
     -   make links work
     -   add real images
     -   build out linked pages 
+    -   goals
     
-- Lesson 103
+- Lesson 104
 - Do a responsive garden project
