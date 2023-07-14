@@ -24,7 +24,6 @@
 		flex-direction: column;
 		margin-right: auto;
 		margin-left: auto;
-		
 		list-style-type: none;
 
 
