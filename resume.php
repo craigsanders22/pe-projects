@@ -12,8 +12,8 @@
 
   </section>
 
-  <section class="image">
-    <img src="https://source.unsplash.com/random/1000x700/?nature">
+  <section class="resume-image">
+    <img src="https://source.unsplash.com/random/1000x700/?notebook">
   </section>
 
   <section class="past">

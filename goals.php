@@ -13,7 +13,7 @@
   </section>
 
   <section class="image">
-    <img src="https://source.unsplash.com/random/1000x700/?construction">
+    <img src="https://source.unsplash.com/random/1000x700/?norway">
   </section>
 
   <section class="past">

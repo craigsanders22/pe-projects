@@ -77,8 +77,12 @@ body {
   transition: 1s ease;
 }
 
-img {
+.logo img {
   max-width: 150px;
+}
+
+.box img {
+  max-width: 200px;
 }
 
 
