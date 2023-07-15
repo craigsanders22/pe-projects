@@ -11,7 +11,7 @@
  <div class="header-items">
   <div class="logo">
     <picture>
-     <img src="alpha-seven.png"/>
+     <img src="assets/alpha-seven.png"/>
     </picture>
   </div>
 

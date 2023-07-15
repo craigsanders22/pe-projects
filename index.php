@@ -12,7 +12,7 @@
       </h1>
     </div>
     <div class="avatar">
-      <img src="avataaars.png">
+      <img src="assets/avataaars.png">
 
     </div>
   </div>
@@ -49,14 +49,14 @@
 
         <div class="box">
           <picture>
-            <img src="market.png">
+            <img src="assets/market.png">
           </picture>
           <p>OWNED A MARKET<br> $1.5M+ in annual sales, team of 10+, designed 2500+ unique sandwiches over 8 years </p>
         </div>
 
         <div class="box">
           <picture>
-            <img src="applications.png">
+            <img src="assets/applications.png">
           </picture>
           <p>GREW A RESPONSIVE GARDEN<br> Check out all of the responsive things that I've grown! </p>
         
@@ -66,16 +66,16 @@
                   
         <div class="box">
           <picture>
-            <img src="gardening.png">
+            <img src="assets/gardening.png">
           </picture>
           <p>GREW AN ACTUAL GARDEN <br> Our family runs a wholesale flower farm. We supply event florists with heirloom, specialty flowers like peonies, and dahlias</p>
         </div>
 
         <div class="box">
           <picture>
-            <img src="cow.png">
+            <img src="assets/cow.png">
           </picture>
-          <p>DIRECTOR OF OPS<br> for a locally distributed grassfed, organic dairy. Spearheaded marketing, branding, distribution, and sales for $20M+/yr company</p>
+          <p>DIRECTOR OF OPS<br> for a nationally distributed grassfed, organic dairy. Spearheaded marketing, branding, distribution, and sales for $20M+/yr company</p>
 
         </div>
       </div>
@@ -129,7 +129,7 @@
       <div class="icon">
 
         <picture>
-          <img src="email.gif">
+          <img src="assets/email.gif">
         </picture>
       </div>
 
@@ -144,7 +144,7 @@
       <div class="icon">
 
         <picture>
-          <img src="coding.gif">
+          <img src="assets/coding.gif">
         </picture>
       </div>
 
@@ -157,7 +157,7 @@
       <div class="icon">
 
         <picture>
-          <img src="society.gif">
+          <img src="assets/society.gif">
         </picture>
       </div>
 
@@ -171,7 +171,7 @@
       <div class="icon">
 
         <picture>
-          <img src="php.gif">
+          <img src="assets/php.gif">
         </picture>
       </div>
 

@@ -296,6 +296,12 @@ p {
   text-align: center;
 }
 
+.box p{
+  max-width: 60ch;
+  font-size: 16px;
+
+}
+
 .image {
   padding: 10px;
 }
