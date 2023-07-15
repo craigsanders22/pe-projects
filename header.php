@@ -8,31 +8,31 @@
 
 <header class="site-header">
 
- <div class="inner-column">
+ <div class="header-items">
+  <div class="logo">
+    <picture>
+     <img src="alpha-seven.png"/>
+    </picture>
+  </div>
 
 
-  <!-- <picture class="logo">
-      <img src="alpha-seven.svg">
-  </picture> -->
-    <div class="nav">
   
+    <nav class="site-nav">
+      <ul class="nav-list">
 
-    <nav>
+        <li><a href="index.php"> home</a></li>
+        <li><a href="projects.php"> projects</a></li>
+        <li><a href="goals.php"> my goals</a></li>
+        <li><a href="resume.php"> resume</a></li>
+        <li><a href="contact.php"> let's chat</a> </li>
 
-
-
-    
-    <a href="index.php"> home</a>
-    <a href="projects.php"> projects</a>
-    <a href="goals.php"> my goals</a>
-    <a href="resume.php"> resume</a>
-    <a href="contact.php"> let's chat</a> 
+      </ul>
 
     </nav>
  
-  
+ 
   </div>
-</div>
+
 
 </header>
 

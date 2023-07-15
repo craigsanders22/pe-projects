@@ -2,8 +2,6 @@
  <style>
   @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,600&display=swap');
 </style>
-
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -18,7 +16,6 @@
 }
 
 body {
-
   color: white;
   width: 100%;
   min-height: 100vh;
@@ -26,38 +23,94 @@ body {
   flex-direction: column;
   margin-left: auto;
   margin-right: auto;
-  color: #fff;
   text-align: center;
   margin: 0;
-
 }
 
 
 
 
-header {
+.header-items {
   display: flex;
-  align-items: center;
+  flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;  
+}
 
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+@media (max-width: 800px) {
+  .header-items {
+    flex-direction: column;
+  
+  }
+}
+
+@media (max-width: 580px) {
+  .nav-list {
+    flex-direction: column;
+    
+  }
+}
+
+/* header and footer styling */
+.site-nav a {
+  display: inline-block;
+  font-family: didot;
+  font-size: 18px;
+  font-weight: 700;
+  color: #272424;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+.site-nav a:hover {
+  color: white;
+  background: darkslategray;
+  transition: 1s ease;
+}
+
+img {
+  max-width: 150px;
+}
+
+
+.site-header {
   background: #b1a2a2;
-  min-height: 5vh;
-  padding: 20px;
+  position: sticky;
+  z-index: 999;
+  top: -10px;
+  box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
+  
+}
+.site-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: sticky;
+  background: #b1a2a2;
+
+}
+
+
+@media (max-width: 575px) {
   
 }
 
-.logo img {
-  max-width: 200px;
-  display: flex;
-  flex-direction: flex-start;
-}
 
 
-nav {
-  vertical-align: center;
-}
 
 
+
+
+
+/* body */
 
 .intro,
 .accomplishments,
@@ -99,12 +152,8 @@ nav {
 .favorite-things svg {
   max-width: 300px;
   position: relative;
-  right: -50px;
-
-  
+  right: -50px; 
 }
-
-
 
 .intro .inner-column {
   display: flex;
@@ -124,8 +173,6 @@ nav {
   padding: 10px;
 }
 
-
-
 .contact  {
   display: flex;
   flex-direction: column;
@@ -135,10 +182,8 @@ nav {
 }
 
 .contact .inner-column {
-
   display: flex;
-  flex-grow: 1;
-  
+  flex-grow: 1;  
 }
 
 
@@ -147,8 +192,6 @@ nav {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  
-  
 }
 
 .icon img {
@@ -174,34 +217,16 @@ nav {
     flex-direction: column;
     flex-grow: 1;
   }
+
+
+  .about .inner-column {
+    display: flex;
+    align-items: center;
+    max-width: 100ch;
+    min-height: 20vh;
+  }
 }
 
-.about .inner-column {
-  display: flex;
-  align-items: center;
-  max-width: 100ch;
-  min-height: 20vh;
-}
-
-
-.site-footer {
-  background: #b1a2a2;
-  padding: 10px;
-}
-
-
-.site-footer a {
-  display: inline-block;
-  padding: 10px;
-
-
-}
-
-footer .inner-column {
-
-  justify-content: flex-start;
-  padding: 10px;
-}
 
 /* typography */
 h1 {
@@ -224,7 +249,7 @@ h1 {
   }
 }
 
-H2 {
+h2 {
   color: white;
   font-size: 30px;
   font-family: playfair display;
@@ -250,27 +275,7 @@ p {
   padding: 10px;
 }
 
-img {
-  padding: 0;
-}
 
-.nav a {
-  display: inline-block;
-  font-size: 20px;
-  color: #272424;
-  text-decoration: none;
-  margin: 0 0 0 20px;
-  border: 3px solid #333;
-  padding: 10px 20px;
-  border-radius: 25px;
-}
-
-.nav a:hover {
-  color: white;
-  border: solid 3px #555;
-  background: darkslategray;
-  transition: 1s ease;
-}
 
 .contact p {
   margin-top: 20px;
@@ -285,65 +290,21 @@ img {
   border-radius: 25px;
 }
 
-footer a {
-  font-size: 20px;
-  color: #272424;
-  text-decoration: none;
-  margin: 0 0 0 32px;
-  border: 3px solid #333;
-  padding: 10px 30px;
-  border-radius: 25px;
-}
 
-footer a:hover {
-  color: white;
-  border: solid 6px #555;
-  background: darkslategray;
-  transition: 1s ease;
-}
 
 @media (max-width: 900px) {
-  section,
-  header {
-    padding: 20px;
-  }
-
-  nav {
-    padding: 10px 20px 10px 20px;
-  }
-
   p {
     font-size: 16px;
     color: #fff;
     padding-top: 0;
   }
 
-  nav a {
-    display: block;
-    margin: auto;
-    padding: 20px;
-  
-  }
-
-  nav a:hover {
-    border: none;
-  }
-
-  li {
-    padding-bottom: 20px;
-  }
 
   .contact-cards {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-
-  .footer .nav {
-    display: border-box;
- 
-  }
-}
   
   .about h2 {
     font-size: 24px;
