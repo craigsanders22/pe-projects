@@ -19,7 +19,6 @@
 
 
 
-
 <div class="about">
   <div class="inner-column">
 
