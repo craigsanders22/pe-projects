@@ -41,38 +41,41 @@
 
 <div class="accomplishments">
   <div class="inner-column">
-    <div class="text">
+    <div class="accomplishment-text">
       <h3>a few of the things that i've done</h3>
-    </div>
+      </div>
     <div class="box-layout">
       <div class="box-module">
 
         <div class="box">
           <picture>
-            <img src="https://placehold.co/200">
+            <img src="market.png">
           </picture>
-          <p>here is some text</p>
+          <p>OWNED A MARKET<br> $1.5M+ in annual sales, team of 10+, designed 2500+ unique sandwiches over 8 years </p>
         </div>
 
         <div class="box">
           <picture>
-            <img src="https://placehold.co/200">
+            <img src="applications.png">
           </picture>
-          <p>here is some text</p>
+          <p>GREW A RESPONSIVE GARDEN<br> Check out all of the responsive things that I've grown! </p>
+        
+           
+
+          </div>
+                  
+        <div class="box">
+          <picture>
+            <img src="gardening.png">
+          </picture>
+          <p>GREW AN ACTUAL GARDEN <br> Our family runs a wholesale flower farm. We supply event florists with heirloom, specialty flowers like peonies, and dahlias</p>
         </div>
 
         <div class="box">
           <picture>
-            <img src="https://placehold.co/200">
+            <img src="cow.png">
           </picture>
-          <p>here is some text</p>
-        </div>
-
-        <div class="box">
-          <picture>
-            <img src="https://placehold.co/200">
-          </picture>
-          <p>here is some text</p>
+          <p>DIRECTOR OF OPS<br> for a locally distributed grassfed, organic dairy. Spearheaded marketing, branding, distribution, and sales for $20M+/yr company</p>
 
         </div>
       </div>
@@ -114,7 +117,7 @@
   <div class="inner-column">
     <div class="contact-text">
 
-    <h2>I’d love to be in touch with you!</h2>
+    <h2>I’d love to connect with you!</h2>
   
 
     <p>Let’s chat about my journey, your journey, what kinds of jobs I'll be looking for, what kind of jobs you’re hiring/looking for, your favorite sandwich condiment, or anything else that we might have in common! Please don't hesitate to reach out!</p>

@@ -1,19 +1,15 @@
-<<<<<<< HEAD
 
-
-=======
  <link rel="styles"  href="reset.css">
  <style>
-  @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,600&display=swap');
-</style>
->>>>>>> parent of 7f5e9ac (update css)
+
 * {
   box-sizing: border-box;
   margin: 0;
 }
 
 .inner-column {
-  padding-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
   justify-content: center;
@@ -140,6 +136,18 @@ img {
   
   
 }
+
+.accomplishment-text {
+  display:inline-block;
+
+}
+
+.accomplishments .inner-column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
 .about,
 .favorite-things {
   background-color: #2a3749;
@@ -185,8 +193,10 @@ img {
 
 .box {
   flex-basis: 50%;
-  padding: 10px;
+  padding: 20px;
 }
+
+
 
 .contact  {
   display: flex;
@@ -319,6 +329,8 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+   
   }
   
   .about h2 {
