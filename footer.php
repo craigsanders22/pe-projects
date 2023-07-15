@@ -1,7 +1,7 @@
-<-- stuff -->
 
 
-<footer class="site.footer">
+
+<footer class="site-footer">
   <div class="nav">
   <div class="inner-column">
        
