@@ -7,7 +7,7 @@
   <section class="main">
 
     <p>
-      yada yada yada
+      Gross, what is this?
     </p>
 
   </section>
@@ -18,13 +18,13 @@
 
   <section class="past">
     <p>
-      yada yada yada?
+      But.... why?
     </p>
   </section>
 
   <footer>
     <footer class="contact">
-      <h2> yo - call me. </h2>
+      <h2> yo - I'll make this look better soon. I swear. </h2>
     </footer>
   </footer>
 </main>
