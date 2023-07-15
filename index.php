@@ -19,6 +19,7 @@
 
 
 
+
 <div class="about">
   <div class="inner-column">
 
@@ -125,7 +126,7 @@
       <div class="icon">
 
         <picture>
-          <img src="icon.jpg">
+          <img src="email.gif">
         </picture>
       </div>
 
@@ -140,7 +141,7 @@
       <div class="icon">
 
         <picture>
-          <img src="icon.jpg">
+          <img src="coding.gif">
         </picture>
       </div>
 
@@ -153,7 +154,7 @@
       <div class="icon">
 
         <picture>
-          <img src="icon.jpg">
+          <img src="society.gif">
         </picture>
       </div>
 
@@ -167,7 +168,7 @@
       <div class="icon">
 
         <picture>
-          <img src="icon.jpg">
+          <img src="php.gif">
         </picture>
       </div>
 

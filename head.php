@@ -12,6 +12,5 @@
   <meta property="og:image" content="https://thegraphicsfairy.com/wp-content/uploads/2014/02/Vintage-Tomato-Clip-Art-GraphicsFairy2.jpg">
 
   <link rel="stylesheet" href="style.css">
-  <link rel="styles"  href="reset.css">
 
 </head>

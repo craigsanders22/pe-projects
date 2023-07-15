@@ -1,0 +1,49 @@
+/* Boilerplate formatting/styling - should not be custom to any project */
+
+* {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, p, ul, ol, li,
+span, a, table, tr, td, blockquote {
+	line-height: 1.25em;
+	letter-spacing: normal;
+}
+
+table {
+	border-color:black;
+	border-style:solid;
+	border-width:2px;
+	border-collapse:collapse;
+}
+
+/* Resizing images */
+
+/* Explainer: https://codepen.io/perpetual-education/pen/dyNemyW?editors=1100 */
+
+picture {
+	display: block;
+}
+
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+/* GLOBAL LINKS RESET/SETUP*/
+
+/*Explainer: https://codepen.io/perpetual-education/pen/VwPxxKg?editors=1100 */
+
+a {
+	display: block;
+	text-decoration: none;
+	/* remove default link styles */
+	/* set links to be blocks so you can wrap thing */
+	/* inline elements can't have block elements inside! */
+}
+
+p a { /* "all links in paragraphs..." */
+	display: inline-block;
+}
+/* yes! you might also want to do this for other headings and list items etc --- this is just a basic use-case */

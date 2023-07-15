@@ -1,7 +1,5 @@
- <link rel="styles"  href="reset.css">
- <style>
-  @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,600&display=swap');
-</style>
+
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -105,11 +103,6 @@ img {
 
 
 
-
-
-
-
-
 /* body */
 
 .intro,
@@ -118,6 +111,10 @@ img {
   background-color: #38948f;
   
   background-size: cover;
+}
+
+.accomplishments {
+  padding-top: 40px;
 }
 
 .about svg {
@@ -199,10 +196,10 @@ img {
   padding: 40px;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 800px) {
   .box-layout .box-module {
     flex-direction: row;
-    flex-basis: 20%;
+    flex-basis: 50%;
     padding: 10px;
   }
 }
@@ -211,7 +208,7 @@ img {
   max-width: 350px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .intro .inner-column {
     display: flex;
     flex-direction: column;
