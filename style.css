@@ -1,7 +1,6 @@
- <link rel="styles"  href="reset.css">
- <style>
-  @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,600&display=swap');
-</style>
+@import "meyer-reset.css";
+ 
+
 * {
   box-sizing: border-box;
   margin: 0;
