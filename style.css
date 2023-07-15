@@ -103,6 +103,11 @@ img {
 
 
 
+
+
+
+
+
 /* body */
 
 .intro,
@@ -111,10 +116,6 @@ img {
   background-color: #38948f;
   
   background-size: cover;
-}
-
-.accomplishments {
-  padding-top: 40px;
 }
 
 .about svg {
@@ -196,10 +197,10 @@ img {
   padding: 40px;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1000px) {
   .box-layout .box-module {
     flex-direction: row;
-    flex-basis: 50%;
+    flex-basis: 20%;
     padding: 10px;
   }
 }
@@ -208,7 +209,7 @@ img {
   max-width: 350px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
   .intro .inner-column {
     display: flex;
     flex-direction: column;
