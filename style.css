@@ -70,6 +70,13 @@ body {
   padding: 10px 20px;
 }
 
+@media screen and (max-width: 500px) {
+  .site-nav a {
+    font-size: 16px;
+    padding: 0 15px;
+  }
+}
+
 .site-nav a:hover {
   color: white;
   background: darkslategray;
