@@ -103,9 +103,6 @@ body {
   }
 }
 
-
-
-
 .site-footer {
   display: flex;
   flex-direction: row;
@@ -116,15 +113,6 @@ body {
 }
 
 
-@media (max-width: 575px) {
-  
-}
-
-
-
-
-
-
 
 
 /* body */
@@ -133,14 +121,11 @@ body {
 .accomplishments,
 .contact {
   background-color: #38948f;
-  
   background-size: cover;
 }
 
 .about svg {
   max-width: 200px;
-  
-  
 }
 
 .accomplishment-text {
@@ -169,9 +154,7 @@ body {
 .favorite-things .inner-column {
   display: flex;
   flex-grow: 1;
-  
-  
-  
+
 }
 
 .favorite-things li {
@@ -312,8 +295,6 @@ p {
   padding: 10px;
 }
 
-
-
 .contact p {
   margin-top: 20px;
 }
@@ -327,8 +308,6 @@ p {
   border-radius: 25px;
 }
 
-
-
 @media (max-width: 900px) {
   p {
     font-size: 16px;
@@ -336,13 +315,11 @@ p {
     padding-top: 0;
   }
 
-
   .contact-cards {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-   
   }
   
   .about h2 {
@@ -352,6 +329,4 @@ p {
   .about svg {
     display: none;
   }
-  
-  
 }
