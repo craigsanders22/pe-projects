@@ -1,6 +1,6 @@
 
  <link rel="styles"  href="reset.css">
- <style>
+ </style>
 
 * {
   box-sizing: border-box;
@@ -51,14 +51,11 @@ body {
 @media (max-width: 800px) {
   .header-items {
     flex-direction: column;
-  
   }
-}
 
-@media (max-width: 580px) {
-  .nav-list {
-    flex-direction: column;
-    
+  .site-nav {
+    align-items: center;
+
   }
 }
 
