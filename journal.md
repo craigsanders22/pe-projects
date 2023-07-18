@@ -3,20 +3,21 @@
 A daily worksheet for my DFTW journey. 
 
 
-## July 14
+## July 18
 
 ### standup 
 
-yesterday - ended up having a rough day. I havent been sleeping well and it caught up to me. I got through the lesson and started to build the monster module, but just couldn't get through it. I decided I needed to get outside so I took my daughter on a long trail bike ride. Caught my pedal on a tree root and banged up my ankle trying to catch myself/my bike. Seems like just a sprain but not the most fun.  Hoped to come back in the evening but never did... 
+Hello! Didn't get much time at the computer yesterday and never did my standup so doing a video standup today to make up for that '
+yesterday/weekend - worked on my personal site a good amount Friday and Saturday. It is getting there from a visual perspective but need to clean the code up and try to get using some of the new concepts we've learned. Yesterday I got the exercises for programmers book and read the first chapter. Spent some time thinking through the process. I intended to come back and practice some PHP stuff in the evening but our power went out and it was out until nearly midnight so my night was a loss.
 
-today - fingers crossed - I have a lot of time today to focus on everything here. Going to go finish things from yesterday, then look at today. I really need to prioritize my personal site and getting it cohesive and just in a good spot, so that is how I hope to spend the rest of the day. I should be available for the team meeting but may just listen in or pop in and out if I'm in the zone on the other things I need to get done...
-
+today - heading in to do the lesson for today. Then I'm going to go back and review a couple lessons that I kind of skimmed over - I think I only got about halfway through Friday's lesson, so definitely want to make sure I understand that. Might meet with Derek if he doesn't want to postpone our weekly. I was listening to Chris Coyers podcast this morning and it had an interesting little section that I am going to ask about below. Hope everyone has a good day! 
 TO DO: 
-[x] lesson 102
+[x] lesson 107
 [] lesson 103
 [] layout garden
-[] personal site - build additional pages + style + add images/icons
+[] meet with derek
 [] goals page
+[] clean up HTML on personal site
 
 
 
@@ -34,10 +35,8 @@ TO DO:
 ### TOMORROW
 
 -   Work on personal site
-    -   make links work
-    -   add real images
-    -   build out linked pages 
-    -   goals
+    -   goals page (HTML)
+    -   clean up css 
     
-- Lesson 104
+- 
 - Do a responsive garden project
