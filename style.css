@@ -19,7 +19,7 @@
 
 body {
   color: white;
-  background-color: #1e232a;
+  background-color: #2a3748;
   width: 100%;
   min-height: 100vh;
   display: flex;
@@ -295,17 +295,21 @@ p {
 }
 
 .goals p {
+
   text-align: left;
   max-width: 120ch;
 }
 
 .goals h1 {
+  font-family: didot;
   padding: 20px;
-  outline: 2px solid #333;
+  outline: 2px solid #FFF;
+  background-color: #1E4947;
+
 }
 
 .goals h2 {
-  
+  font-family: didot;
   text-decoration: underline;
 }
 
