@@ -17,7 +17,7 @@
 		font-size: 16px;
 		font-family: sans-serif;
 		margin-bottom: 5px;
-		
+
 	}
 
 
@@ -99,19 +99,19 @@
 		
 		$total = floatval($first) + $second;
 
-		echo "<p>Addition ($first + $second) = $total</p>";
+		echo "<p>Addition: $first + $second = $total</p>";
 
 		$total = floatval($first) - $second;
 
-		echo "<p>Subtraction ($first - $second) = $total</p>";
+		echo "<p>Subtraction: $first - $second = $total</p>";
 
 		$total = floatval($first) * $second;
 
-		echo "<p>Multiplication ($first * $second) = $total</p>";
+		echo "<p>Multiplication: $first * $second = $total</p>";
 
 		$total = floatval($first) / $second;
 
-		echo "<p>Division ($first / $second) = $total</p>";
+		echo "<p>Division: $first / $second = $total</p>";
 
 		
 
