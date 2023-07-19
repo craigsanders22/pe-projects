@@ -1,6 +1,6 @@
 
  <link rel="styles"  href="reset.css">
- </style>
+
 
 * {
   box-sizing: border-box;
@@ -292,6 +292,25 @@ p {
   margin-bottom: 20px;
   padding: 20px;
   text-align: center;
+}
+
+.goals p {
+  text-align: left;
+  max-width: 120ch;
+}
+
+.goals h1 {
+  padding: 20px;
+  outline: 2px solid #333;
+}
+
+.goals h2 {
+  
+  text-decoration: underline;
+}
+
+.goals p + h2 {
+  padding-top: 150px;
 }
 
 .box p{
