@@ -7,7 +7,7 @@
   <section class="main">
 
     <h2>
-       <a href="/projects/e4p/">Check out my Exercises for Programmers page!</a> 
+       <a href="/e4p">Check out my Exercises for Programmers page!</a> 
     </h2>
 
   </section>
