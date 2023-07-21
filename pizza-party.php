@@ -54,7 +54,7 @@
 
 	
 
-	<h2>Pizza Party!</h2>
+	<h2>PIZZA PARTY!</h2>
 	
 	<div class='field'>
 	
@@ -72,7 +72,7 @@
 
 	<div class='field'>
 	
-		<label>How many slices per pizza?</label>
+		<label>How many slices in each pizza pie?</label>
 		<input type="number" name="pizza" min="6" max="20" value="<?=$slicesperpizza ?>">
 
 	</div>
@@ -99,7 +99,7 @@
 <style>
 
 	form {
-		padding-top: 25px;
+		
 		padding-left: 200px;
 		max-width: 700px;
 	}
@@ -131,6 +131,7 @@
 		font-weight: 700;
 		letter-spacing: 1.2;
 		text-decoration: none;
+		margin-top: 100px;
 		
 	}
 
@@ -139,7 +140,7 @@
 		color: black;
 		font-size: 20px;
 		font-weight: 500;
-		margin-top: 60px;
+		margin-top: 40px;
 	}
 
 	b {
