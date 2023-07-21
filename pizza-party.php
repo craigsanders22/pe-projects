@@ -1,8 +1,8 @@
 
 <?php
 
-	$guests = 2;
-	$slicesperperson = 2;
+	$guests = 4;
+	$slicesperperson = 4;
 	$slicesperpizza = 8;
 	$summary = "";
 	$solution = "";
@@ -25,8 +25,23 @@
 	 $neededslices = $guests * $slicesperperson;
 	 $extraslices = $totalslices - $neededslices;
 
-	$solution = "You're going to need $roundedpizza pizzas!";
-	$leftovers = "If everything goes as planned, you'll have $extraslices slices to spare!";
+	if ($roundedpizza == 1) {
+		$solution = "You're going to need $roundedpizza pizza";
+
+	} else {
+		$solution = "You're going to need $roundedpizza pizzas";
+	}
+
+
+	if ($extraslices == 0) {
+		$leftovers = "If everything goes as planned, you won't have a single slice to spare! <br> (You should probably get another pizza, pal!)";
+
+	} else {
+		$leftovers = "If everything goes as planned, you'll have $extraslices slices to spare!";
+	}
+
+	
+	
 
 
 
@@ -58,7 +73,7 @@
 	<div class='field'>
 	
 		<label>How many slices per pizza?</label>
-		<input type="number" name="pizza" value="<?=$slicesperpizza ?>">
+		<input type="number" name="pizza" min="6" max="20" value="<?=$slicesperpizza ?>">
 
 	</div>
 
@@ -71,7 +86,7 @@
 
 	<h3><?= $summary ?></h3>
 
-	<h2><?= $solution ?></h2>
+	<h2><?= $solution ?></h2> 
 
 	<h3><?= $leftovers ?></h3>
 
@@ -86,7 +101,7 @@
 	form {
 		padding-top: 25px;
 		padding-left: 200px;
-		max-width: 800px;
+		max-width: 700px;
 	}
 
 	.field {
