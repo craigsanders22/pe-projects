@@ -3,6 +3,8 @@
   <?php include('../../header.php');?>
   <style>
   <?php include '../../style.css'; ?>
+  <?php include '../../reset.css'; ?>
+  <?php include '../../setup.css'; ?>
 </style>
 
 <body>
