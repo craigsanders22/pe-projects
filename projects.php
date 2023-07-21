@@ -6,15 +6,12 @@
 <main>
   <section class="main">
 
-    <p>
-       Gross, what is this?
-    </p>
+    <h2>
+       <a href="/projects/e4p/">Check out my Exercises for Programmers page!</a> 
+    </h2>
 
   </section>
 
-  <section class="image">
-    <img src="https://source.unsplash.com/random/1000x700/?construction">
-  </section>
 
   <section class="past">
     <p>
