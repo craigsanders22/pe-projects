@@ -25,6 +25,7 @@
       <p>
          <a href="projects/e4p/pizza-party.php"> Pizza Party!</a>
          <a href="projects/e4p/simple-math.php">A Simple Math Calculator</a>
+         <a href="projects/e4p/character-counts.php">Character Counts</a>
       </p>
   
     
