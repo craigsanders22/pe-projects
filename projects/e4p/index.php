@@ -15,6 +15,8 @@
 
          <a href="pizza-party.php"> Pizza Party!</a>
          <a href="simple-math.php">A Simple Math Calculator</a>
+         <a href="character-counts.php">Character Counts</a>
+
 
 
 
