@@ -38,7 +38,7 @@
       </p>
 
       <p>
-         <a href="projects/e4p"> (Don't Click!)</a>
+         <a href="projects/e4p"> (Don't Click! - I'm naked!)</a>
 
   
     
