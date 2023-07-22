@@ -33,14 +33,6 @@
 	}
 	
 
-
-
-
-
-
-
-
-
  ?>
 
 <form method="POST">
@@ -70,12 +62,11 @@
 	<button type="submit" name="submitted">
 		Audit Me
 	</button>
+	
 
 	<h3>Results:</h3>
 
 	<h3><?= $summary ?></h3>
-
-	
 
 	<h2><?= $solution ?></h2> 
 
@@ -85,9 +76,6 @@
 
 <style>
 
-	* {
-		
-	}
 
 	form {
 		
