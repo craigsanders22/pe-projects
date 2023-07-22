@@ -15,13 +15,10 @@
 		$subtotal = $_POST["orderamount"];
 		$tax = $subtotal * $tax;
 		$instate = $subtotal + $tax;
-		
-
-
 	}
 
 	
-	if ($state == WI) {
+	if ($state == "WI") {
 		$summary = "Your order is $$orderamount and you are in the state of $state. <br> Your tax is $$tax";
 		$solution = "The total is: $$instate";
 		
@@ -32,7 +29,6 @@
 		$solution = "The total is: $$orderamount";
 	}
 	
-
  ?>
 
 <form method="POST">
@@ -57,12 +53,10 @@
 
 	</div>
 
-	
-
 	<button type="submit" name="submitted">
 		Audit Me
 	</button>
-	
+
 
 	<h3>Results:</h3>
 
