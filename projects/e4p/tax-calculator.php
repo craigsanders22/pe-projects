@@ -24,7 +24,7 @@
 		
 	}
 	else {
-		$summary = "Your order is $orderamount and you are in the state of $state.";
+		$summary = "Your order is $$orderamount and you are in the state of $state.";
 
 		$solution = "The total is: $$orderamount";
 	}
