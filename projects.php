@@ -5,6 +5,14 @@
     text-decoration: none;
   }
 
+  a {
+    display:block;
+  }
+
+  p a {
+    display: inline-block;
+  }
+
 
 </style>
 
@@ -27,6 +35,10 @@
          <a href="projects/e4p/simple-math.php">A Simple Math Calculator</a>
          <a href="projects/e4p/character-counts.php/?">Character Counts</a>
       </p>
+
+      <p>
+         <a href="projects/e4p"> (Don't Click!)</a>
+
   
     
 </main>
