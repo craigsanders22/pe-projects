@@ -1,18 +1,10 @@
 <?php
 
-	$orderamount = 1;
-	$state = WI;
-	$subtotal = 1;
-	$tax = .55;
+	$orderamount = 0;
+	$state = "";
+	$subtotal = 0;
+	$tax = ".055%";
 	$solution = "";
-
-
-
-	$subtotal = "The subtotal is $orderamount";
-
-	$instate = $subtotal * $tax;
-
-
 	
 
 
@@ -20,7 +12,9 @@
 
 		$orderamount = $_POST["orderamount"]; 
 		$state = $_POST["state"];
-		$subtotal = ["subtotal"];
+		$subtotal = $_POST["orderamount"];
+		$tax = $subtotal * $tax;
+		$instate = $subtotal + $tax;
 		
 
 
@@ -28,12 +22,22 @@
 
 	
 	if ($state == WI) {
-		$solution = "The total is: $instate";
+		$summary = "Your order is $$orderamount and you are in the state of $state. <br> Your tax is $$tax";
+		$solution = "The total is: $$instate";
+		
 	}
+	else {
+		$summary = "Your order is $orderamount and you are in the state of $state.";
 
-	 
+		$solution = "The total is: $$orderamount";
+	}
 	
-	
+
+
+
+
+
+
 
 
 
@@ -44,7 +48,8 @@
 
 	<h2>Pay the Tax Man (only in Wisconsin!)</h2>
 
-	<p>Here in Wisconsin, we collect 5.5% sales tax. But if you're anywhere else, no sales tax at all!</p>
+	<p>Here in Wisconsin, we collect 5.5% sales tax. <br>
+	But if you're anywhere else, no sales tax at all!</p>
 	
 	<div class='field'>
 	
@@ -66,7 +71,11 @@
 		Audit Me
 	</button>
 
-	<h2><?= $subtotal ?></h2>
+	<h3>Results:</h3>
+
+	<h3><?= $summary ?></h3>
+
+	
 
 	<h2><?= $solution ?></h2> 
 
@@ -75,6 +84,10 @@
 
 
 <style>
+
+	* {
+		
+	}
 
 	form {
 		
@@ -107,7 +120,7 @@
 		font-weight: 700;
 		letter-spacing: 1.2;
 		text-decoration: none;
-		margin-top: 100px;	
+		margin-top: 60px;	
 	}
 
 	h3 {
