@@ -13,7 +13,7 @@ if ( isset($_POST["submitted"]) ) {
 	
 }
 
-$summary = "Your phrase is:<b> $str </b>";
+$summary = "<u>Your phrase is:</u> </br><br> <em> $str </em>";
 
 $solution = "You have <b>$len characters</b> in your phrase<br> *including spaces and punctuation*"; 
 
@@ -83,13 +83,22 @@ $solution = "You have <b>$len characters</b> in your phrase<br> *including space
 		outline: 3px solid white;
 	}
 
+	b {
+		color: ;
+	}
+
 	h1 {
 		font-size: 40px;
 	}
 
 	em {
-		font-size: 28px;
-		text-transform: uppercase;
+		margin-top: 15px;
+		font-size: 20px;
+		
+	}
+
+	h3 + em {
+		gap: 15px;
 	}
 
 
@@ -109,6 +118,7 @@ $solution = "You have <b>$len characters</b> in your phrase<br> *including space
 		font-size: 18px;
 		font-weight: 500;
 		margin-top: 40px;
+
 	}
 
 
