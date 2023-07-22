@@ -86,7 +86,7 @@
 
 	form {
 		
-		padding-left: 200px;
+		padding-left: 100px;
 		max-width: 700px;
 	}
 

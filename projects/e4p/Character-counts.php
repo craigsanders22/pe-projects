@@ -13,7 +13,7 @@ if ( isset($_POST["submitted"]) ) {
 	
 }
 
-$summary = "Your phrase is: $str";
+$summary = "Your phrase is:<b> $str </b>";
 
 $solution = "You have <b>$len characters</b> in your phrase<br> *including spaces and punctuation*"; 
 
