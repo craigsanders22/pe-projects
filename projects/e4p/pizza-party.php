@@ -40,19 +40,10 @@
 		$leftovers = "If everything goes as planned, you'll have $extraslices slices to spare!";
 	}
 
-	
-	
-
-
-
-
  ?>
-
-
 
 <form method="POST">
 
-	
 
 	<h2>PIZZA PARTY!</h2>
 	
@@ -77,8 +68,6 @@
 
 	</div>
 
-
-
 	<button type="submit" name="submitted">
 		Let's Party!
 	</button>
@@ -91,9 +80,6 @@
 	<h3><?= $leftovers ?></h3>
 
 </form>
-
-
-
 
 
 <style>
@@ -115,13 +101,11 @@
 		font-size: 16px;
 		font-family: sans-serif;
 		margin-bottom: 5px;
-
 	}
 
 
 	button[type="submit"], .field + .field {
 		margin-top: 20px;
-
 	}
 
 	h2 {
@@ -131,8 +115,7 @@
 		font-weight: 700;
 		letter-spacing: 1.2;
 		text-decoration: none;
-		margin-top: 100px;
-		
+		margin-top: 100px;	
 	}
 
 	h3 {

@@ -1,3 +1,13 @@
+<style>
+  
+  h1 {
+    color: white;
+    text-decoration: none;
+  }
+
+
+</style>
+
 
 <body>
 
@@ -6,26 +16,23 @@
 <main>
   <section class="main">
 
-    <h2>
-       <a href="https://peprojects.dev/alpha-7/craig/projects/e4p/">Check out my Exercises for Programmers page!</a> 
-    </h2>
+    <h1>
+       Check out my Exercises for Programmers!
+    </h1>
 
-  </section>
-
-
-  <section class="past">
-    <p>
-      cool projects, bro
-    </p>
-  </section>
-
-  <footer>
-    <footer class="contact">
-      <h2> yo yo - I'll make this look better soon. I swear... </h2>
-    </footer>
-  </footer>
+  
+    <main class="contact">
+      <p>
+         <a href="projects/e4p/pizza-party.php"> Pizza Party!</a>
+         <a href="projects/e4p/simple-math.php">A Simple Math Calculator</a>
+      </p>
+  
+    
 </main>
 
 </body>
 
 <?php include('footer.php');?>
+
+
+
