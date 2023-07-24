@@ -28,7 +28,7 @@
        Check out my Exercises for Programmers!
     </h1>
 
-    <h2>Exercises for Programmers is a book by Brian P. Hogan that includes practice exercises rooted in real-world scenarios. Here are some of my results: </h2>
+    <p>Exercises for Programmers is a book by Brian P. Hogan that includes practice exercises rooted in real-world scenarios. Here are some of my results: </p>
 
   
     <main class="contact">
