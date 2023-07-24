@@ -28,17 +28,15 @@
        Check out my Exercises for Programmers!
     </h1>
 
+    <h2>Exercises for Programmers is a book by Brian P. Hogan that includes practice exercises rooted in real-world scenarios. Here are some of my results: </h2>
+
   
     <main class="contact">
-      <p>
-         <a href="projects/e4p/pizza-party.php"> Pizza Party!</a>
-         <a href="projects/e4p/simple-math.php">A Simple Math Calculator</a>
-         <a href="projects/e4p/character-counts.php/?">Character Counts</a>
-         <a href="projects/e4p/tax-calculator.php">Tax Calculator</a>
-      </p>
+   
 
       <p>
-         <a href="projects/e4p"> (Don't Click! - I'm naked!)</a>
+         <a href="projects/e4p"> Check it out!</a>
+       </p>
 
   
     
