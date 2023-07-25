@@ -3,14 +3,16 @@
 A daily worksheet for my DFTW journey. 
 
 
-## July 18
+## July 24
 
 ### standup 
 
 
-yesterday - watched the video, then did the simple math exercise to practice the lesson. Worked some on a personal project, set up my goals page and got it (mostly) cohesive with my landing page. Studied a bit of PHP. 
+weekend - went in and finished a couple of things from Exercises for programers. Made sure the projects/exercise pages were working right and had at least some styling and didnt break. Yesterday I started to do the peer review but only got about half done. Awesome weather and it was my Moms birthday so we were out most of the day yesterday for that. 
 
-today - heading in to do the lesson/practice for the day. Planning to do some extra work today to keep nailing this stuff down. Will go back and make an adjustment to what I did yesterday (keep numbers in form after submitting), and then hoping to get html/php set up for my resume page. 
+today - going to finish the peer review at some point today. the lesson looks good but maybe time consuming so planning to make sure I get that done first. Will spend some time on PHP and CSS on my personal site if I have time. 
+
+
 
 
 
