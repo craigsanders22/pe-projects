@@ -10,7 +10,7 @@
 		<?php 
 		$price = "$" . number_format($flower["price"], 2, ".", ",");
 		?>
-		
+
 	<li class='flower'>
 		<flower-card>
 			<h2 class='name'>Name: <?=$flower["name"]?></h2>
@@ -19,7 +19,7 @@
 			<h3 class='season'>Growing Season:<?=$flower["season"]?></h3>
 			<h4 class='color'>Color: <?=$flower["color"]?></h4>
 			<h2 class='price'>Price per stem: <?=$price?></h2>
-			<a href="?page=detail">Check it out</a>
+			<a href='?page=detail&flower=<?=$flower["id"]?>'>Check it out</a>
 		</flower-card>
 	</li>
 <?php } ?>
