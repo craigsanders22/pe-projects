@@ -21,6 +21,7 @@
 
  
  <div class="inner-column">
+ 	<div class="flower-card">
 
 
 	<h1><?=$detail["name"]?></h1>
@@ -45,7 +46,7 @@
 
 	<p>Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Dolore exercitationem maxime soluta porro sed voluptatibus corrupti, culpa fuga, sapiente qui, voluptates cupiditate quasi quia hic reiciendis fugit? Vel, eum voluptate.</p>
 
-
+</div>
 
 <?php } else { ?>
 

@@ -39,23 +39,23 @@ nav a {
 nav {
 	display: flex;
 	background-color:white;
-	width: 100;
+	width: 100%;
 }
 
 h1 {
-	font-size: 40px;
+	font-size: 30px;
 	margin-top: 25px;
 }
 
 h2	{
 	font-family: helvetica;
-	font-size: 28px;
+	font-size: 18px;
 	margin-top: 1.5em;
 }
 
 h3 {
 	font-family: georgia;
-	font-size: 20px;
+	font-size: 14px;
 	margin-top: 1.2em;
 }
 
@@ -65,8 +65,12 @@ p {
 }
 
 img {
-	width: auto;
-	max-height: 40vh;
+  width: 35%;
+  height: auto;
+
+  max-width: 30vw;
+  padding: 5px;
+  vertical-align: center;
 }
 
 
@@ -74,20 +78,25 @@ h2 a {
 	display: inline-block;
 	border: 5px solid pink;
 	padding: 2px 10px;
-	margin-top: 40px;3
-	border-radius: 50%;
+	margin-top: 40px;
+	border-radius: 10%;
 }
 
 @media (max-width: 600px) {
+
+	flower-card {
+		display: flex;
+		flex-direction: column;
+	}
 	h1 {
-		font-size: 28px;
+		font-size: 24px;
 	}
 	h2 {
-		font-size: 18px;
+		font-size: 14px;
 	}
 
 	h3 {
-		font-size: 14px;
+		font-size: 12px;
 	}
 }
 
@@ -109,9 +118,11 @@ flower-card a {
 
 
 flower-card a {
+
 	display: inline-block;
 	border: 2px solid green;
 	padding: 10px 20px;
+	margin-top: 40px;
 	}
 
 img {
