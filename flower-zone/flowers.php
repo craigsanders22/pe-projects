@@ -2,9 +2,10 @@
 
 <div class="inner-column">
 
+<div class="headline">
 
 <h1>Currently out in the field at Flower Zone </h1>
-
+</div>
 
 <ul>
 	

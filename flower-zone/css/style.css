@@ -24,7 +24,7 @@ main {
 
 nav a {
 	text-decoration: underline;
-	color: salmon;
+	color: darksalmon;
 	font-weight: 700;
 	padding: 20px;
 }
@@ -36,6 +36,9 @@ nav a {
 	justify-content: center;
 }
 
+.headline {
+	padding-left: 20px;
+}
 nav {
 	display: flex;
 	background-color:white;
