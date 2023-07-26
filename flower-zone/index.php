@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 
+
 <?php 
 
 	$page = null;
@@ -30,6 +31,7 @@
 	</header>
 
 	<main class='page-content'>
+		<div class="inner-column">
 		<?php
 
 		if ($page == "home") { 
@@ -46,11 +48,18 @@
 	
 		?> 
 
-
+	</div>
 	
 	</main>
-	
+
+		
 </body>
+
+	<footer>
+		<?php include('site-menu.php'); ?>
+
+	</footer>
+
 
 
 </html>

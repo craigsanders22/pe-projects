@@ -3,7 +3,7 @@
 <div class="inner-column">
 
 
-<h1>Here are some of the flowers that we are growing! </h1>
+<h1>Currently out in the field at Flower Zone </h1>
 
 
 <ul>
@@ -35,12 +35,3 @@
 </ul>
 
 </div>
-
-<style>
-	
-	img {
-		float:right;
-		max-height: 300px;
-
-	}
-</style>
