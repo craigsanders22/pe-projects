@@ -23,3 +23,20 @@ h1 {
 	font-size: 40px;
 }
 
+.page-content {
+	outline: 2px solid green;
+}
+
+flower-card {
+	display: block;
+	border: 5px solid pink;
+	padding: 10px;
+}
+
+.flower + .flower {
+	margin-top: 40px;
+}
+
+flower-card a {
+	text-decoration: underline;
+}

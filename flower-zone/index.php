@@ -18,7 +18,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>FZ: <?=$page?></title>
 	<link rel="stylesheet" href="css/style.css">
-	
+
 </head>
 
 
@@ -29,7 +29,7 @@
 
 	</header>
 
-	<main>
+	<main class='page-content'>
 		<?php
 
 		if ($page == "home") { 
@@ -37,6 +37,10 @@
 		}
 		if ($page == "flowers") {
 		include('flowers.php');
+		}
+
+		if ($page == "detail") {
+		include('detail.php');
 
 		}
 	
