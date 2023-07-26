@@ -95,7 +95,7 @@ h2 a {
 		font-size: 24px;
 	}
 	h2 {
-		font-size: 14px;
+		font-size: 15px;
 	}
 
 	h3 {
@@ -118,7 +118,23 @@ flower-card {
 
 
 
+.about {
+	background-color: #FFF;
+	justify-content: center;
+	margin: 20px;
+	padding: 20px;
+}
 
+.about p {
+	font-size: 16px;
+	max-width: 100ch;
+}
+
+@media (max-width: 600px) {
+	.about p {
+		font-size: 14px;
+	}
+	}
 
 flower-card a {
 
