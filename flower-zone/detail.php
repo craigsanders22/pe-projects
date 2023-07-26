@@ -7,7 +7,6 @@
 		$current_flower_id = $_GET["flower"];
 	}
 
-	echo $current_flower_id;
 
 	foreach ($flower_data as $flower) {
 		if ($current_flower_id == $flower["id"] ) {
@@ -23,10 +22,18 @@
 
 
 	<h1><?=$detail["name"]?></h1>
-
 	<picture>
-		<img src="https://shop.floretflowers.com/cdn/shop/products/Benary_s_Giant_Coral_Floret-2_768x.jpg?v=1624470068" alt="Giant Coral Zinnia">
+		<img src="./assets/<?=$detail["img"]?>"/>
 	</picture>
+	
+
+	<h3>Genus: <?=$detail["genus"]?></h3>
+	<h3>Plant Type: <?=$detail["plant-type"]?></h3>
+	<h3>Growing Season: <?=$detail["season"]?></h3>
+	<h3>Available colors: <?=$detail["color"]?></h1>
+
+	<h2>Price Per Stem: $<?=$detail["price"]?></h2>
+
 
 	<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda quo esse sint provident voluptatem saepe libero harum suscipit, ullam unde deserunt officiis aut, quaerat velit laborum in hic dignissimos a.</p>
 

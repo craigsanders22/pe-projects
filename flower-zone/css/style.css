@@ -23,6 +23,23 @@ h1 {
 	font-size: 40px;
 }
 
+h2	{
+	font-size: 28px;
+	margin-top: 1.5em;
+}
+
+h3 {
+	font-size: 20px;
+	margin-top: 1.2em;
+}
+
+img {
+	width: auto;
+	max-height: 40vh;
+}
+
+
+
 .page-content {
 	outline: 2px solid green;
 }
@@ -40,3 +57,4 @@ flower-card {
 flower-card a {
 	text-decoration: underline;
 }
+

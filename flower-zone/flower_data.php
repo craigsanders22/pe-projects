@@ -68,6 +68,7 @@ $flower_data = [
 		"season" => "mid-late summer",
 		"color" => "dark chocolate",
 		"price" => 2,
+		"img" => "sunflower.jpg",
 	],
 
 ];

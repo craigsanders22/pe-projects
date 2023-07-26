@@ -13,7 +13,7 @@
 
 	<li class='flower'>
 		<flower-card>
-			<h2 class='name'>Name: <?=$flower["name"]?></h2>
+			<h1 class='name'>Name: <?=$flower["name"]?></h1>
 			<h3 class='genus'>Breed: <?=$flower["genus"]?></h3>
 			<h3 class='plant-type'>Plant Type:<?=$flower["plant-type"]?></h3>
 			<h3 class='season'>Growing Season:<?=$flower["season"]?></h3>
