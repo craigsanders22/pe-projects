@@ -21,8 +21,8 @@
 	</picture>
 			<h1 class='name'><?=$flower["name"]?></h1>
 			<h3 class='genus'>Breed: <?=$flower["genus"]?></h3>
-			<h3 class='plant-type'>Plant Type:<?=$flower["plant-type"]?></h3>
-			<h3 class='season'>Growing Season:<?=$flower["season"]?></h3>
+			<h3 class='plant-type'>Plant Type: <?=$flower["plant-type"]?></h3>
+			<h3 class='season'>Growing Season: <?=$flower["season"]?></h3>
 			<h3 class='color'>Color: <?=$flower["color"]?></h3>
 			<h2 class='price'>Price per stem: <?=$price?></h2>
 			<a href='?page=detail&flower=<?=$flower["id"]?>'>Check it out</a>

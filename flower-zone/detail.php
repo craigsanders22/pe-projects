@@ -11,7 +11,7 @@
 	foreach ($flower_data as $flower) {
 		if ($current_flower_id == $flower["id"] ) {
 		$detail = $flower;
-		$price = "$" . number_format($detail["price"], 2, ".", ",");
+		$price = number_format($detail["price"], 3, ".", ",");
 
 	}
 	}
