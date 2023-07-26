@@ -41,8 +41,15 @@ nav a {
 }
 nav {
 	display: flex;
+	flex-direction: column;
 	background-color:white;
 	width: 100%;
+}
+
+nav .links {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 }
 
 h1 {
