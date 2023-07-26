@@ -1,5 +1,16 @@
 <!DOCTYPE html>
 
+<?php 
+
+	$page = null;
+	if ( isset($_GET["page"]) ) {
+		$page = $_GET["page"];
+	}
+	else {
+		$page = "home";
+	}
+ ?>
+
 <!--
 	pages: home, flowers, detail
 -->
@@ -14,17 +25,29 @@
 </head>
 
 
+
 <body>
+	<header>
+		<?php include('site-menu.php'); ?>
 
-	<h1>Welcome to the Flower Zone! </h1>
+	</header>
 
-	<nav class='site-menu'>
-		<a href="?page=home">Home</a>
-		<a href="?page=flowers">Our Flowers</a>
-		
+	<main>
+		<?php
+
+		if ($page == "home") { 
+		include('home.php');
+		}
+		if ($page == "flowers") {
+		include('flowers.php');
+
+		}
+	
+		?> 
 
 
-	</nav>
+	
+	</main>
 	
 </body>
 </html>
