@@ -12,6 +12,7 @@ $flower_data = [
 		"season" => "mid summer",
 		"color" => "coral pink",
 		"price" => 1.50,
+		"img" => "zinnia.jpg",
 
 	],
 
@@ -23,6 +24,7 @@ $flower_data = [
 		"season" => "spring",
 		"color" => "light purple",
 		"price" => 2.50,
+		"img" => "peony.jpg",
 
 	],
 
@@ -34,6 +36,7 @@ $flower_data = [
 		"season" => "mid summer",
 		"color" => "mixed",
 		"price" => 2.50,
+		"img" => "dahlia.jpg",
 
 
 	],
@@ -46,6 +49,7 @@ $flower_data = [
 		"season" => "late spring / early summer",
 		"color" => "deep maroon",
 		"price" => 1.75,
+		"img" => "sweet-pea.jpg",
 
 	],
 
@@ -57,6 +61,7 @@ $flower_data = [
 		"season" => "mid-late summer",
 		"color" => "light pink",
 		"price" => 1.25,
+		"img" => "strawflower.jpg",
 
 	],
 
@@ -67,7 +72,7 @@ $flower_data = [
 		"plant-type" => "annual",
 		"season" => "mid-late summer",
 		"color" => "dark chocolate",
-		"price" => 2,
+		"price" => 2.00,
 		"img" => "sunflower.jpg",
 	],
 

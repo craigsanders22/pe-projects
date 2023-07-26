@@ -15,6 +15,13 @@ nav a {
 	padding: 20px;
 }
 
+.inner-column {
+	max-width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	justify-content: center;
+}
+
 nav {
 	display: flex;
 }
