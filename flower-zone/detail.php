@@ -23,24 +23,20 @@
  <div class="inner-column">
  	<div class="flower-card">
 
-
 	<h1><?=$detail["name"]?></h1>
 	<picture>
 		<img src="./assets/<?=$detail["img"]?>"/>
 	</picture>
 
 
-	<h3>Genus: <?=$detail["genus"]?></h3>
-	<h3>Plant Type: <?=$detail["plant-type"]?></h3>
-	<h3>Growing Season: <?=$detail["season"]?></h3>
-	<h3>Available colors: <?=$detail["color"]?></h3>
+	<p>Genus: <?=$detail["genus"]?></h3>
+	<p>Plant Type: <?=$detail["plant-type"]?></p>
+	<p>Growing Season: <?=$detail["season"]?></p>
+	<p>Available colors: <?=$detail["color"]?></p>
 
 	<h2>Price Per Stem: $<?=$detail["price"]?></h2>
 
-
-
 	<h2><a href="https://www.wufoo.com/gallery/templates/online-orders/flowers-order-form/">Order Here!</a></h2>
-
 
 	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis sint quibusdam deleniti, earum facilis aspernatur numquam, quos veritatis, dolorem corrupti voluptate consectetur nam. Quia ad veritatis, iure blanditiis error, voluptas?</p>
 

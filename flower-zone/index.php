@@ -22,8 +22,6 @@
 
 </head>
 
-
-
 <body>
 	<header>
 		<?php include('site-menu.php'); ?>
@@ -57,14 +55,11 @@
 	
 	</main>
 
-
 </body>
 
 	<footer>
 		<?php include('footer.php'); ?>
 
 	</footer>
-
-
 
 </html>
