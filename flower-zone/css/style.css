@@ -4,7 +4,7 @@
 
 body {
   	background-color: #e8ecee;
-  	padding: 20px;
+  	
  	display: flex;
  	flex-direction: column;
  	min-height: 100vh;
@@ -36,6 +36,7 @@ nav a, footer a {
 	margin-right: auto;
 	margin-left: auto;
 	justify-content: center;
+	padding: 10px;
 }
 
 .headline {
@@ -46,7 +47,6 @@ nav {
 	display: flex;
 	flex-direction: column;
 	background-color:white;
-	width: 100%;
 }
 
 nav .links {
@@ -91,12 +91,14 @@ img {
 h2 a {
 	display: inline-block;
 	border: 5px solid darksalmon;
-	padding: 2px 10px;
-	margin-top: 40px;
+	padding: 10px 20px;
+	margin-top: 20px;
 	border-radius: 10%;
 }
 
 @media (max-width: 600px) {
+
+
 
 	flower-card {
 		display: flex;
@@ -119,7 +121,7 @@ flower-card {
 	display: block;
 	margin: 20px;
 	border: 5px solid darksalmon;
-	padding: 10px;
+
 
 }
 
@@ -185,6 +187,10 @@ field + field {
 
 
 
+.site-menu img {
+	max-height: 125px;
+
+}
 
 
 

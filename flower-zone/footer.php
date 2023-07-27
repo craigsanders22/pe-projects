@@ -1,4 +1,4 @@
-<div class="inner-column">
+
 <footer class='site-menu'>
 	
 	

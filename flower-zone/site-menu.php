@@ -1,4 +1,4 @@
-<div class="inner-column">
+
 <nav class='site-menu'>
 	
 	<img src="assets/flower-zone.svg">
