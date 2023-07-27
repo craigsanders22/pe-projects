@@ -32,6 +32,8 @@
 
 			<section class="about">
 
+				<h2>About our process</h2>
+
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit dolorem ad sit esse illum quae sed exercitationem pariatur, rem! At molestiae aliquam odit numquam voluptatibus repudiandae. Officiis, quia doloribus. Facere!</p>
 
 				<p>Lorem ipsum, dolor sit amet consectetur, adipisicing elit. Necessitatibus quaerat distinctio pariatur modi adipisci obcaecati dolor. Animi, ipsa esse dolorem ex nemo. Voluptatibus quidem obcaecati vitae quam voluptas nam quae. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste saepe deserunt, et molestiae laboriosam fugiat facere voluptas iusto unde harum pariatur minima doloribus quidem non exercitationem, soluta earum perspiciatis expedita. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, inventore asperiores earum odio esse eaque eligendi, totam? Nihil quasi, sint impedit facilis dolores laudantium consectetur velit, quod nulla sit distinctio.</p>
