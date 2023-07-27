@@ -166,6 +166,28 @@ flower-card a:hover {
 
 }
 
+form {
+	padding: 40px 0;
+}
+
+field {
+	display: block;
+
+}
+
+field :is(label, input) {
+	display: block;
+}
+
+field + field {
+	margin-top: 25px;
+}
+
+
+
+
+
+
 img {
 	display: flex;
 	float:right;

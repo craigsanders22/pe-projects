@@ -5,7 +5,7 @@
 	<div class="links">
 		<h3><a href="?page=home">Home</a></h3>
 		<h3><a href="?page=flowers">Our Flowers</a></h3>
-		<h3><a href="?page=flowers">Staff Login(coming soon)</a></h3>
+		<h3><a href="?page=create">Staff Only</a></h3>
 
 	</div>
 

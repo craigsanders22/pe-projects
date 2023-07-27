@@ -45,6 +45,11 @@
 		include('detail.php');
 
 		}
+
+		if ($page == "create") {
+		include('create.php');
+
+		}
 	
 		?> 
 
