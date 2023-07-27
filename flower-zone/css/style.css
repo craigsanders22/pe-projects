@@ -22,12 +22,14 @@ main {
  	flex-basis: auto;
 }
 
-nav a {
+nav a, footer a {
 	text-decoration: underline;
 	color: darksalmon;
 	font-weight: 700;
 	padding: 20px;
 }
+
+
 
 .inner-column {
 	max-width: 1000px;
@@ -50,6 +52,7 @@ nav .links {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
+	margin-top: -30px;
 }
 
 h1 {
@@ -171,11 +174,16 @@ img {
 
 }
 
-footer {
- 
-  left: 0;
-  bottom: 0;
-  width: 100%;
- text-align: center;
+footer .links {
+	display: flex;
+	flex-direction: row;
+	background-color:white;
+	width: 100%;
+	justify-content: center;
+
 }
 
+footer a {
+		padding-left: 25px;
+	align-items: center;
+}
