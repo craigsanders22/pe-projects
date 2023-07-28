@@ -1,0 +1,23 @@
+
+/* PHP FORM */
+form {
+	padding: 40px 0;
+}
+
+field {
+	display: block;
+}
+
+field :is(label, input) {
+	display: block;
+}
+
+field label {
+	font-family: sans-serif;
+	font-size: 20px;
+	
+}
+
+field + field {
+	margin-top: 25px;
+}
