@@ -24,12 +24,18 @@ main {
 
 nav a,
 footer a {
-	text-decoration: underline;
+	text-decoration: none;
 	color: darksalmon;
 	font-weight: 700;
-	padding: 20px;
+	padding: 10px 25px;
+
 }
 
+nav a.active {
+	border-bottom: 5px solid #8e612f;
+
+
+}
 .inner-column {
 	max-width: 1000px;
 	margin-right: auto;
