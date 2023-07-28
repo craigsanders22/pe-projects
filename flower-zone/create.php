@@ -73,7 +73,7 @@
 <div class="inner-column">
 
 
-<h1>Inventory CRUD</h1>
+<h1 class="form-text">Add New Inventory</h1>
 
 <form method='POST'>
 
@@ -108,11 +108,11 @@
 	</field>
 
 	<field>	
-	<div class="button">	
+		
 	<button type="submit" name="add">
 		Submit
 	</button>
-</div>
+
 	</field>
 </form>
 

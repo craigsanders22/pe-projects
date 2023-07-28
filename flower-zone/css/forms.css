@@ -33,4 +33,7 @@ field + field {
 	margin-top: 25px;
 }
 
-
+.form-text {
+	Font-family: didot;
+	font-size: 40px;
+}
