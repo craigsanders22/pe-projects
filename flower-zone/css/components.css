@@ -1,12 +1,18 @@
 button {
 	display: inline-block;
 	padding: 15px 30px;
-	border: 0;
+	border: 2px solid #8e612f;
 	border-radius: 1em;
-	background: #8e612f;
+	background: #e9977a;
 	font-size: 20px;
 	font-family: sans-serif;
 	text-transform: uppercase;
+	color: white ;
+	cursor: pointer;
+}
 
-
+button:hover {
+	background-color: floralwhite;
+	color: #e9977a;
+	font-weight: 700;
 }
