@@ -15,8 +15,9 @@ field :is(label, input) {
 field label {
 	font-family: sans-serif;
 	font-size: 20px;
-	
 }
+
+field input [type='text'] {}
 
 field + field {
 	margin-top: 25px;

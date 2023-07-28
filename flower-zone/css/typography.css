@@ -1,1 +1,95 @@
-typography.css
+/* TYPOGRAPHY */
+
+h1 {
+	font-size: 30px;
+	margin-top: 25px;
+}
+
+h2 {
+	font-family: helvetica;
+	font-size: 18px;
+	margin-top: 1.5em;
+}
+
+h3 {
+	font-family: georgia;
+	font-size: 14px;
+	margin-top: 1.2em;
+}
+
+p {
+	margin-top: 20px;
+	max-width: 70ch;
+}
+
+.about p {
+	font-size: 16px;
+	max-width: 100ch;
+}
+
+@media (max-width: 600px) {
+	.about p {
+		font-size: 14px;
+	}
+}
+
+
+img {
+	width: 35%;
+	height: auto;
+
+	max-width: 30vw;
+	padding: 5px;
+	vertical-align: center
+}
+
+.site-menu img {
+	max-height: 125px;
+}
+
+img {
+	display: flex;
+	float: right;
+	flex-shrink: 1;
+	max-height: 380px;
+	margin: auto;
+	text-align: center;
+}
+
+footer .links {
+	display: flex;
+	flex-direction: row;
+	background-color: white;
+	width: 100%;
+	justify-content: center;
+}
+
+footer a {
+	padding-left: 25px;
+	align-items: center;
+}
+
+
+h2 a {
+	display: inline-block;
+	border: 5px solid darksalmon;
+	padding: 10px 20px;
+	margin-top: 20px;
+	border-radius: 10%;
+}
+
+
+@media (max-width: 600px) {
+	
+	h1 {
+		font-size: 24px;
+	}
+	h2 {
+		font-size: 15px;
+	}
+
+	h3 {
+		font-size: 12px;
+	}
+}
+
