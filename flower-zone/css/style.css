@@ -2,24 +2,15 @@
 @import "setup.css";
 
 @import "typography.css";
-@import "layout.css";
 @import "modules.css";
 @import "menu.css";
 @import "forms.css";
 
 body {
 	background-color: #e8ecee;
-
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
-}
-
-header,
-footer {
-	flex-grow: 0;
-	flex-shrink: 0;
-	flex-basis: auto;
 }
 
 main {
@@ -27,8 +18,6 @@ main {
 	flex-shrink: 0;
 	flex-basis: auto;
 }
-
-
 
 .inner-column {
 	max-width: 1000px;
@@ -42,7 +31,6 @@ main {
 	padding-left: 20px;
 	padding-top: 40px;
 }
-
 
 .about {
 	background-color: #fff;
@@ -58,34 +46,6 @@ main {
 
 
 
-/* CARD MODULE */
-
-flower-card {
-	background-color: #eeeae3;
-	display: block;
-	margin: 20px;
-	border: 5px solid darksalmon;
-	padding: 10px;
-}
-
-.flower + .flower {
-	margin-top: 40px;
-}
-
-flower-card a {
-	display: inline-block;
-	color: white;
-	background-color: darksalmon;
-	font-weight: 600;
-	border: 2px solid black;
-	padding: 10px 20px;
-	margin-top: 40px;
-}
-
-flower-card a:hover {
-	background-color: mintcream;
-	color: black;
-}
 
 
 

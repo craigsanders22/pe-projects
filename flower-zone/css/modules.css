@@ -1,5 +1,31 @@
-@media (max-width: 600px) {
-	flower-card {
-		display: flex;
-		flex-direction: column;
-	}
+/* CARD MODULE */
+
+flower-card {
+	background-color: #eeeae3;
+	display: block;
+	margin: 20px;
+	border: 5px solid darksalmon;
+	padding: 10px;
+}
+
+.flower + .flower {
+	margin-top: 40px;
+}
+
+flower-card a {
+	display: inline-block;
+	color: white;
+	background-color: darksalmon;
+	font-weight: 600;
+	border: 2px solid black;
+	padding: 10px 20px;
+	margin-top: 40px;
+}
+
+flower-card a:hover {
+	background-color: mintcream;
+	color: black;
+}
+
+
+
