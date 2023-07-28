@@ -71,7 +71,7 @@
 
 
 <?php
-//put sha1() encrypted password here - example is 'hello'
+//put sha1() encrypted password here - example is 'Hello'
 $password = 'aaf4c61ddcc5e8a2dabede0f3b482cd9aea9434d';
 
 session_start();
@@ -103,6 +103,7 @@ if (!$_SESSION['loggedIn']): ?>
 exit();
 endif;
 ?>
+
 
 
 
