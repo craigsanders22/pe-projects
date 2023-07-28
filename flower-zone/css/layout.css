@@ -1,5 +1,0 @@
-@media (max-width: 600px) {
-	flower-card {
-		display: flex;
-		flex-direction: column;
-	}

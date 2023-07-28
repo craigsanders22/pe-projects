@@ -34,20 +34,12 @@ p {
 }
 
 
-img {
+.flower-card img, .flower img {
 	width: 35%;
 	height: auto;
-
 	max-width: 30vw;
 	padding: 5px;
 	vertical-align: center
-}
-
-.site-menu img {
-	max-height: 125px;
-}
-
-img {
 	display: flex;
 	float: right;
 	flex-shrink: 1;
@@ -56,10 +48,10 @@ img {
 	text-align: center;
 }
 
-home img {
-
-	min-height: 1000px;
+.site-menu img {
+	max-height: 125px;
 }
+
 
 footer .links {
 	display: flex;

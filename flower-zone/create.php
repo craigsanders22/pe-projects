@@ -68,7 +68,10 @@
 
  ?>
 
+
+
 <div class="inner-column">
+
 
 <h1>Inventory CRUD</h1>
 
@@ -104,10 +107,12 @@
 		<input type="number" name='price' value='<?=$price?>'>
 	</field>
 
-	<field>		
+	<field>	
+	<div class="button">	
 	<button type="submit" name="add">
 		Submit
 	</button>
+</div>
 	</field>
 </form>
 

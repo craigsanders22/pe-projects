@@ -5,6 +5,7 @@
 @import "modules.css";
 @import "menu.css";
 @import "forms.css";
+@import "components.css";
 
 body {
 	background-color: #e8ecee;
