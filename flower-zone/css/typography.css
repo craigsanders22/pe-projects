@@ -56,6 +56,11 @@ img {
 	text-align: center;
 }
 
+home img {
+
+	min-height: 1000px;
+}
+
 footer .links {
 	display: flex;
 	flex-direction: row;

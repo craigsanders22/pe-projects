@@ -1,6 +1,7 @@
 
 /* PHP FORM */
 form {
+	max-width: 350px;
 	padding: 40px 0;
 }
 
@@ -10,14 +11,23 @@ field {
 
 field :is(label, input) {
 	display: block;
+	width: 100%;
 }
 
 field label {
 	font-family: sans-serif;
-	font-size: 20px;
+	font-size: 18px;
+	line-height: 1.6;
 }
 
-field input [type='text'] {}
+field input {
+	border: 0;
+	padding: 10px;
+	font: inherit;
+	color: black;
+	border-radius: 10px;
+
+}
 
 field + field {
 	margin-top: 25px;

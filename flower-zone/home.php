@@ -9,9 +9,9 @@
 	<title>Document</title>
 </head>
 <body>
-	<main class=intro>
+	<main class="intro">
 	<div class="inner-column">
-		<section class=headline>
+		<section class='headline'>
 
 
 	<h1>Welcome to the Flower Zone! </h1>
