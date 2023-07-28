@@ -6,8 +6,7 @@
 	$page = null;
 	if ( isset($_GET["page"]) ) {
 		$page = $_GET["page"];
-	}
-	else {
+	} else {
 		$page = "home";
 	}
 
@@ -33,7 +32,7 @@
 	</header>
 
 	<main class='page-content'>
-		<div class="inner-column">
+		
 		<?php
 
 		if ($page == "home") { 
@@ -55,7 +54,6 @@
 	
 		?> 
 
-	</div>
 	
 	</main>
 

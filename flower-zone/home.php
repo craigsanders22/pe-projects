@@ -10,14 +10,17 @@
 </head>
 <body>
 	<main class="intro">
-	<div class="inner-column">
-		<section class='headline'>
 
 
-	<h1>Welcome to the Flower Zone! </h1>
+		
+		<div class="inner-column">
+			<section class='headline'>
 
 
-		</section>
+			<h1>Welcome to the Flower Zone! </h1>
+
+
+			</section>
 
 		<section class="about">
 			<h2>About us</h2>

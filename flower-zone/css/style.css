@@ -43,8 +43,9 @@ main {
 	border-radius: 10px;
 }
 
-.create {
-	background-image: url("../assets/background.jpg");
+.home {
+	background-image: url("assets/background.jpg");
+	background-color: transparent;
 	background-size: cover;
 	background-position: center;
 
