@@ -1,7 +1,8 @@
 <header class="site-header">
 	<div class="inner-column">
 
-		<masthead>
+		<div class="masthead">
+			
 			<nav class="site-menu">
 				<a href="#">LOGO</a>
 				<a href="#">A Page</a>
@@ -12,9 +13,8 @@
 				<a href="#" class="button">Sign-in</a>
 
 			</nav>
-		</masthead>
-
+		</div>
 	</div>
-
 </header>
+
 
