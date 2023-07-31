@@ -12,11 +12,12 @@
 	flex-direction: row;
 	flex-wrap: wrap;
 	padding: 10px;
-	border: 3px solid green;
+	text-align: center;
+
 
 }
 
-.masthead a {
+.masthead nav a {
 	padding: 10px;
 	border: 3px solid black;
 }

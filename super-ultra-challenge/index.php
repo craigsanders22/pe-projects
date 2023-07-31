@@ -34,6 +34,8 @@
 	<?php include('call-to-action.php'); ?>
 	<?php include('articles.php'); ?>
 	<?php include('call-to-action.php'); ?>
+	<?php include('footer.php'); ?>
+
 
 
 
