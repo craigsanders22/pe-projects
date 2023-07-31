@@ -2,6 +2,7 @@
 @import "setup.css";
 
 @import "masthead.css";
+@import "landing.css";
 
 /* setup */
 a {
@@ -30,6 +31,7 @@ main {
 	margin-left: auto;
 	justify-content: center;
 	padding: 10px;
+	width: 90%;
 }
 
 .calm-voice {

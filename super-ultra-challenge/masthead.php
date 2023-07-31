@@ -1,5 +1,5 @@
 <header class="site-header">
-	<inner-column>
+	<div class="inner-column">
 
 		<masthead>
 			<nav class="site-menu">
@@ -14,7 +14,7 @@
 			</nav>
 		</masthead>
 
-	</inner-column>
+	</div>
 
 </header>
 

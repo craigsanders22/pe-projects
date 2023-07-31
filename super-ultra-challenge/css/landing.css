@@ -1,1 +1,64 @@
-landing.css
+
+.landing-square {
+	max-width: 400px;
+	height: auto; 
+}
+
+
+.landing-banner  {
+	display: flex;
+	flex-direction: column;
+	border: 5px solid red;
+	padding: 10px;
+}
+
+.landing-square {
+	border: 2px solid green;
+	max-width: 700px;
+	padding: 20px;
+}
+
+
+
+.landing-text {
+	display: block;
+	border: 5px solid black;
+}
+
+.landing-text h1 {
+
+	display:block;
+	border: 2px solid pink;
+	padding: 10px;
+	margin-top: 20px;
+}
+
+.landing-text p {
+
+	display:block;
+	border: 2px solid yellow;
+	padding: 5px;
+}
+
+.landing h1 + p {
+	margin-top: 20px;
+}
+
+
+@media (min-width:700px){
+	.landing-banner {
+		display:flex;
+		flex-direction: row-reverse;
+	}
+
+
+
+
+}
+
+}
+
+
+
+
+
