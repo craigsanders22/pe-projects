@@ -9,7 +9,7 @@
 			</nav>
 
 			<nav class="sign-in">
-				<a href="#">Sign-in</a>
+				<a href="#" class="button">Sign-in</a>
 
 			</nav>
 		</masthead>
@@ -17,3 +17,4 @@
 	</inner-column>
 
 </header>
+

@@ -29,6 +29,17 @@
 
 </header>
 
+<main>
+	<?php include('landing.php'); ?>
+
+
+
+
+
+
+
+
+</main>
 
 	
 </body>
