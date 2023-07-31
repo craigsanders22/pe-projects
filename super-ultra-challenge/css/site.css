@@ -42,7 +42,6 @@ main {
 	max-width: 70ch;
 }
 
-
 .neutral-voice {
 	font-family: montserrat;
 	font-size: 1.2rem;
@@ -56,7 +55,6 @@ main {
 	font-weight: 600;
 	letter-spacing: .03em;
 }
-
 
 .loud-voice {
 	font-family: baskerville;

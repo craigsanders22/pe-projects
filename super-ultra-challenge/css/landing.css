@@ -4,7 +4,6 @@
 	height: auto; 
 }
 
-
 .landing-banner  {
 	display: flex;
 	flex-direction: column;
@@ -17,8 +16,6 @@
 	max-width: 700px;
 	padding: 20px;
 }
-
-
 
 .landing-text {
 	display: block;
@@ -44,17 +41,12 @@
 	margin-top: 20px;
 }
 
-
 @media (min-width:700px){
 	.landing-banner {
 		display:flex;
 		flex-direction: row-reverse;
+		}
 	}
-
-
-
-
-}
 
 }
 

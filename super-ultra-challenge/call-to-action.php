@@ -9,6 +9,6 @@
 
 				<a class="button" href="#">here's the action!</a>
 
-			</div>
-			
+	</div>
+
 </section>
