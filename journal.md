@@ -3,14 +3,16 @@
 A daily worksheet for my DFTW journey. 
 
 
-## July 24
+## August 1
 
 ### standup 
 
 
-weekend - went in and finished a couple of things from Exercises for programers. Made sure the projects/exercise pages were working right and had at least some styling and didnt break. Yesterday I started to do the peer review but only got about half done. Awesome weather and it was my Moms birthday so we were out most of the day yesterday for that. 
+weekend - was pretty jam packed but I finished up the JSON lesson last night. 
 
-today - going to finish the peer review at some point today. the lesson looks good but maybe time consuming so planning to make sure I get that done first. Will spend some time on PHP and CSS on my personal site if I have time. 
+today - I started on the HTML and CSS for the layout this morning, have the file structure and top quarter or so of it done. I've got some time today and tomrorow so I'm going to take it as an opportunity to do this from scratch and get some practice.
+
+Guess thats it! Bye
 
 
 
