@@ -31,6 +31,8 @@
 
 <main>
 	<?php include('landing.php'); ?>
+	<?php include('call-to-action.php'); ?>
+
 
 
 

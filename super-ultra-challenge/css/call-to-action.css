@@ -1,0 +1,28 @@
+
+.call-to-action {
+	border: 2px solid black;
+	padding: 10px;
+}
+
+.call-to-action h1 {
+	border: 3px solid black;
+	margin: 5px;
+	padding: 10px;
+
+}
+
+.call-to-action p {
+	border: 3px solid red;
+	padding: 10px;
+	margin: 5px;
+
+}
+
+.button {
+	display: inline-block;
+	background-color: black;
+	color: whitesmoke;
+	text-transform: uppercase;
+	padding: 10px 20px;
+	border: 2px solid pink;
+}
