@@ -33,6 +33,7 @@
 	<?php include('landing.php'); ?>
 	<?php include('call-to-action.php'); ?>
 	<?php include('articles.php'); ?>
+	<?php include('call-to-action.php'); ?>
 
 
 

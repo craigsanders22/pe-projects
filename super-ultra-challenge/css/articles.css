@@ -2,6 +2,7 @@
   background-color: tan;
 	border: 2px solid black;
 	padding: 10px;
+	
 }
 
 .article-heading {
@@ -19,12 +20,42 @@
 	padding: 10px;
 }
 
-h2 + p {
-	margin: 20px;
+.article-card-copy h2 {
+	border: 2px solid black;
+	
 }
 
- h1 {
-	border: 3px solid black;
-	margin: 5px;
-	padding: 10px;
+.article-card-copy p {
+	border: 2px solid black;
+	
+}
+
+.article-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-gap: 30px;
+  justify-items: center;
+}
+
+.article-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+
+}
+
+h2 + p {
+	margin-top: 20px;
+}
+
+
+.button {
+	display: inline-block;
+	background-color: black;
+	color: whitesmoke;
+	text-transform: uppercase;
+	padding: 10px 20px;
+	border: 2px solid pink;
+	margin-top: 20px;
 }
