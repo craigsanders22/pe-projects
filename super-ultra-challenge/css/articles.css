@@ -1,0 +1,30 @@
+.articles {
+  background-color: tan;
+	border: 2px solid black;
+	padding: 10px;
+}
+
+.article-heading {
+	border: 2px solid pink;
+	padding: 10px;
+}
+
+.article-card {
+	border: 2px solid blue;
+	padding: 10px;
+}
+
+.article-card-copy {
+	border: 5px solid black;
+	padding: 10px;
+}
+
+h2 + p {
+	margin: 20px;
+}
+
+ h1 {
+	border: 3px solid black;
+	margin: 5px;
+	padding: 10px;
+}
