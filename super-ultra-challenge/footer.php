@@ -13,15 +13,14 @@
 				<a href="#">Some other page</a>
 			</nav>
 
-			<nav class="site-nav">
-				<a href="#">Legal thing a</a>
-				<a href="#">Legal thing b</a>
+				<nav class="site-nav">
+				<a href="#">sign-in</a>
 			</nav>
 
 
-
 			<nav class="site-nav">
-				<a href="#">sign-in</a>
+				<a href="#">Legal thing a</a>
+				<a href="#">Legal thing b</a>
 			</nav>
 
 
