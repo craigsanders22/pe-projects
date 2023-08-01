@@ -1,37 +1,35 @@
 .site-footer {
   background-color: tan;
-	border: 2px solid black;
-	padding: 10px;
-	
+	border: 3px solid black;
+	padding: 10px;	
 }
 
 .footer-text {
-	border: 2px solid pink;
+	border: 3px solid black;
 	padding: 10px;
 }
 
 .footer-text h1 {
+	padding: 10px;
 	margin-bottom: 20px;
-	border: 5px solid black;
+	border: 3px solid black;
 }
 
 .footer-text p {
+	padding: 10px;
 	margin-bottom: 20px;
-	border: 5px solid black;
+	border: 3px solid black;
 }
 
 .site-map {
-
-justify-content: center;
+	justify-content: center;
   align-items: center;
   text-align: center;
 }
 
 .site-map nav {
-	
 	padding: 10px;
-	border: 3px solid green;
-
+	border: 3px solid black;
 }
 
 .site-map nav a {
@@ -44,11 +42,8 @@ justify-content: center;
   .site-map {
     display: flex;
     flex-direction: row;
-
-    justify-content: space-between;
+		justify-content: space-between;
     align-items: flex-start;
     text-align: left;
-  }
-
-
-	}
+  	}
+}
