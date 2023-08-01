@@ -3,6 +3,7 @@
 
 .site-header {
 		background-color: palegreen;
+		border: 3px solid black;
 }
 
 
@@ -13,7 +14,7 @@
 	flex-wrap: wrap;
 	padding: 10px;
 	text-align: center;
-
+	border: 3px solid black;
 
 
 }

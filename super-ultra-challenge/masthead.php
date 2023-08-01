@@ -10,7 +10,7 @@
 			</nav>
 
 			<nav class="sign-in">
-				<a href="#" class="button">Sign-in</a>
+				<a href="#" class="login-button">Sign-in</a>
 
 			</nav>
 		</div>
