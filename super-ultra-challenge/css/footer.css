@@ -25,12 +25,8 @@
 	border: 3px solid black;
 	display: flex;
 	flex-wrap: wrap;
-
-
 	justify-content: space-between;
- 
-  text-align: center;
-  
+ 	text-align: center; 
 }
 
 .site-map nav {

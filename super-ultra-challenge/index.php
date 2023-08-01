@@ -36,17 +36,6 @@
 	<?php include('call-to-action.php'); ?>
 	<?php include('footer.php'); ?>
 
-
-
-
-
-
-
-
-
-
 </main>
-
-	
 </body>
 </html>

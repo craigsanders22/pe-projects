@@ -1,5 +1,3 @@
-
-
 * {
 	box-sizing: border-box;
 }
@@ -9,7 +7,6 @@ span, a, table, tr, td, blockquote {
 	line-height: 1.25em;
 	letter-spacing: normal;
 }
-
 
 picture {
 	display: block;
@@ -21,13 +18,10 @@ img {
 	height: auto;
 }
 
-
-
 a {
 	display: block;
 	text-decoration: none;
-	color: inherit;
-	
+	color: inherit;	
 }
 
 p a { 
