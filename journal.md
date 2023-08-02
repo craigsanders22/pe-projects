@@ -3,14 +3,14 @@
 A daily worksheet for my DFTW journey. 
 
 
-## August 1
+## August 2
 
 ### standup 
 
 
-yesterday - did the HTML/CSS for the layout project. I took a little time with it and made sure I thought through next steps before I dug into it so I could avoid the "trial and error" method that I've fallen into some in the past. It went well. I did it all in PHP and also worked through my mental block on the CSS voices. 
+yesterday - spent some time getting the HTML/CSS closer to the example. Tried to clean up my code as much as possible. Researched some ideas for themes and settled on the manly candle. Didn't like what I saw with my initial research but ended up leaning more toward "high end" companies and found what is more in line with what I was thinking. 
 
-today - going to work on making some of the layout more accurate - mainly some header and footer things that I rushed over and knew I'd need to come back to. Then will do a little research on my theme ideas and settle on something and dig a bit more into that. Trying to stay ahead a bit here as the rest of my week is a little hectic. 
+today - I've watched the videos from the lesson today, found 3-4 sites and pulled a bunch of screenshots. Going to do a bit of looking through those and writing some things up now but then will need to come back later to finish. Need to try to meet with Derek today, too. 
 
 
 
