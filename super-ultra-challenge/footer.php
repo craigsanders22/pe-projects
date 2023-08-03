@@ -14,7 +14,7 @@
 			</nav>
 
 				<nav class="site-nav">
-				<a href="#">sign-in</a>
+				<a href="#">SIGN-IN</a>
 			</nav>
 
 
