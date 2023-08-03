@@ -8,9 +8,11 @@ A daily worksheet for my DFTW journey.
 ### standup 
 
 
-yesterday - spent some time getting the HTML/CSS closer to the example. Tried to clean up my code as much as possible. Researched some ideas for themes and settled on the manly candle. Didn't like what I saw with my initial research but ended up leaning more toward "high end" companies and found what is more in line with what I was thinking. 
+yesterday - researched candle websites, took a bunch of screenshots, compiled notes, made some visual boards to pick up on themes. Met with Derek. Went ahead and made a couple style tiles.
 
-today - I've watched the videos from the lesson today, found 3-4 sites and pulled a bunch of screenshots. Going to do a bit of looking through those and writing some things up now but then will need to come back later to finish. Need to try to meet with Derek today, too. 
+today - I've got my daughter with me all day, so I made a couple style tiles last night to try and stay ahead a touch. Going to go post those now, see if I get any feedback, and make another one or two later. I haven't watched the videos for todays lesson, so I'll watch those at some point today and use that to inform another iteration, as well. That's probably all I'll have time for if I'm realistic!
+
+
 
 
 
