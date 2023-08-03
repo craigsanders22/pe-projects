@@ -39,30 +39,30 @@ main {
 }
 
 .calm-voice {
-	font-family: montserrat;
+	font-family: avenir;
 	font-size: 1rem;
 	font-weight: 400;
 	max-width: 70ch;
 }
 
 .neutral-voice {
-	font-family: montserrat;
+	font-family: avenir;
 	font-size: 1.2rem;
 	font-weight: 400;
 	letter-spacing: .02em;
 }
 
 .attention-voice {
-	font-family: baskerville;
+	font-family: kepler;
 	font-size: 1.8rem;
 	font-weight: 600;
 	letter-spacing: .03em;
 }
 
 .loud-voice {
-	font-family: baskerville;
+	font-family: kepler;
 	font-size: 2.5rem;
-	font-weight: 600;
+	font-weight: 700;
 	letter-spacing: .03em;
 }
 
