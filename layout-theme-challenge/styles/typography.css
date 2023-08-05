@@ -1,8 +1,8 @@
-/* could we pull in @fonts here? */
+
 
 .loud-voice	{
-	font-family: sans-serif;
-	font-size: clamp(36px, 5vw, 60px);
+	font-family:'EB Garamond';
+	font-size: clamp(48px, 5vw, 60px);
 }
 @media (min-width: 600px) {
 	.loud-voice {
@@ -11,12 +11,12 @@
 }
 
 .attention-voice	{
-	font-family: sans-serif;
+	font-family: 'EB Garamond';
 	font-size: 30px;
 }
 
 .strong-voice	{
-	font-family: sans-serif;
+	font-family: 'avenir next';
 	font-weight: 700;
 	font-size:  1rem;
 }
