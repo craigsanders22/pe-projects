@@ -5,14 +5,14 @@ html {
 	--neutral-stuffs: #4d4d4d;
 
 	--color: #141414;
-	--highlight: #141414;
+	--highlight: #4d4d4d;
 
 	--shadow: rgba(0, 0, 0, 0.8);
 
 	--corners: 10px; /* or whatevers */
 
-	--paper: var(--white);
-	--ink: var(--black);
+	--paper: var(--black);
+	--ink: var(--white);
 
 	--standard: 1140px;
 	--tight: 800px;

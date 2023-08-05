@@ -1,10 +1,15 @@
 
 graphic-diptych {
+
 	display: block;
 	display: flex;
 	flex-direction: column;
 	gap: 30px;
 	padding: 10vh 0;
+}
+
+img {
+	border-radius: var(--corners);
 }
 
 graphic-diptych p {
