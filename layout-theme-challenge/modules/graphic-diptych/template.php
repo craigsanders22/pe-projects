@@ -2,7 +2,7 @@
 <graphic-diptych>
 
 	<picture>
-		<img src='https://peprojects.dev/images/landscape.jpg' alt='$todo'>
+		<img src='./images/background/hero.png' alt='$todo'>
 	</picture>
 	
 	<text-content>

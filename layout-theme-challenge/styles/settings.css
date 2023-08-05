@@ -1,11 +1,11 @@
 html {
 	--black: #141414;
-	--white: #eeeae3;
+	--white: #fdfbf5;
 
-	--neutral-stuffs: gray;
+	--neutral-stuffs: #4d4d4d;
 
-	--color: #9ec9eb;
-	--highlight: #aadee9;
+	--color: #141414;
+	--highlight: #141414;
 
 	--shadow: rgba(0, 0, 0, 0.8);
 
@@ -20,7 +20,7 @@ html {
 
 @media (prefers-color-scheme: dark) {
 	html {
-		--paper: #231a1a;
-		--ink: #ffffe2;
+		--paper: #141414;
+		--ink: #eeeae3;
 	}
 }
