@@ -8,9 +8,9 @@ A daily worksheet for my DFTW journey.
 ### standup 
 
 
-yesterday - researched candle websites, took a bunch of screenshots, compiled notes, made some visual boards to pick up on themes. Met with Derek. Went ahead and made a couple style tiles.
+yesterday - didn't get much done. Worked with style tiles a bit more, reviewed the code for the challenge, but otherwise took my kid outside for the day. We found a huge geode and did a bunch of creek stomping. Reviewed what I missed last night and started a new style tile. 
 
-today - I've got my daughter with me all day, so I made a couple style tiles last night to try and stay ahead a touch. Going to go post those now, see if I get any feedback, and make another one or two later. I haven't watched the videos for todays lesson, so I'll watch those at some point today and use that to inform another iteration, as well. That's probably all I'll have time for if I'm realistic!
+today - I sent the family out for a few hours and I'm hoping to finish up the better style tile and get going on the CSS. I'm hoping to get 3ish hours today and the same tomorrow, but more would be better I'm guessing.
 
 
 
