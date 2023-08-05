@@ -52,6 +52,12 @@ section:is(.get-involved, .sign-up) .button {
 	color: var(--paper);
 }
 
+section.latest .button {
+	background: linear-gradient(0deg, #240240 0%, #592503 100%);
+	color: var(--white);
+	border-radius: var(--corners);
+}
+
 section.get-involved {
 	background: linear-gradient(0deg, #240240 0%, #592503 100%);
 }
