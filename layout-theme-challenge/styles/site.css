@@ -39,11 +39,12 @@ section:is(.sign-up, .get-involved) inner-column {
 
 section.get-involved {
 	background-color: var(--highlight);
+	color: var(--paper);
 }
 
 section.get-involved .button {
-	background-color: var(--ink);
-	color: var(--paper);
+	background-color: var(--paper);
+	color: var(--ink);
 }
 
 @media (prefers-color-scheme: dark) {
