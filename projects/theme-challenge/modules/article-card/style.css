@@ -7,6 +7,10 @@
 
 }
 
+.article-card h1 {
+	text-transform: uppercase;
+}
+
 	align-items: flex-start;
 .article-card text-content {
 	display: flex;
