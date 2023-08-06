@@ -1,7 +1,7 @@
 
 site-map {
 	display: block;
-	/*border: 4px solid green;*/
+	border: 4px solid green;
 
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
@@ -13,11 +13,13 @@ site-map {
 site-map .logo {
 	max-width: 180px;
 	margin-bottom: 20px;
+	border: 2px solid pink;
 
 }
 
 site-map .logo * {
 	fill: var(--ink);
+	border: 2px solid white;
 
 }
 
