@@ -1,6 +1,6 @@
 
 graphic-diptych {
-
+	
 	display: block;
 	display: flex;
 	flex-direction: column;
@@ -10,7 +10,7 @@ graphic-diptych {
 
 img {
 	border-radius: var(--corners);
-	
+
 
 }
 
