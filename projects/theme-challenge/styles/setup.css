@@ -18,10 +18,7 @@ p a {
 	text-decoration: underline;
 }
 
-picture {
-	display: block;
-	overflow: hidden;
-}
+
 
 img {
 	display: block;

@@ -1,18 +1,12 @@
 
 graphic-diptych {
-	
 	display: block;
 	display: flex;
 	flex-direction: column;
-	gap: 30px;
-	padding: 10vh 0;
+	gap: 25px;
+	padding: 5vh 0;
 }
 
-img {
-	border-radius: var(--corners);
-
-
-}
 
 graphic-diptych p {
 	margin-top: 20px;

@@ -38,7 +38,7 @@ section:is(.sign-up, .get-involved) inner-column {
 }
 
 section.welcome  {
-	background-color: var(--white);
+	background-color: #fdfbf5;
 	color: var(--paper);
 }
 
@@ -59,8 +59,7 @@ section.latest .button {
 }
 
 section:is(.get-involved, .sign-up) {
-	background:linear-gradient(180deg, rgba(5, 0, 9, 0.00) 73.44%, rgba(132, 23, 16, 0.26) 92.48%, rgba(31, 5, 51, 0.19) 97.71%);
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+background: linear-gradient(180deg, rgba(217, 217, 217, 0.00) 90.57%, rgba(208, 148, 30, 0.63) 91.37%, rgba(198, 21, 53, 0.56) 94.84%, rgba(72, 3, 103, 0.62) 98.30%);box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 @media (prefers-color-scheme: dark) {

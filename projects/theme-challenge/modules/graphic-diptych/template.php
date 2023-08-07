@@ -2,13 +2,17 @@
 <graphic-diptych>
 
 	<picture>
-		<img src='./images/background/hero.png' alt='$todo'>
+		<img src='./images/hero.png' alt='$todo'>
 	</picture>
 	
 	<text-content>
-		<h1 class='loud-voice'>This is a graphic diptych</h1>
+		<h1 class='loud-voice'>WILDLY WEST</h1>
+		<h1 class='loud-voice'>WILDLY MODERN</h1>
 
-		<p>What a fun thing that we have here</p>
+		
+
+		<p class='calm-voice'>Hand poured candles. <br>
+		(Man)made in Deadwood, South Dakota.</p>
 	</text-content>
 
 </graphic-diptych>

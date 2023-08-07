@@ -2,33 +2,33 @@
 
 $articles = [
 	[
-		"heading" => "Article or product",
+		"heading" => "Worn Leather",
 		"description" => "Here's a little info to help you understand if this is a thing you want to know about.",
-		"thumbnail" => "landscape.jpg",
+		"thumbnail" => "saddle.png",
 	],
 	[
-		"heading" => "Destination or option",
+		"heading" => "Whiskey & Tobacco",
 		"description" => "Here's a little info to help you understand if this is a thing you want to know about.",
-		"thumbnail" => "landscape.jpg",
+		"thumbnail" => "proto.png",
 	],
 	[
-		"heading" => "Story or something",
+		"heading" => "Hewn Pine",
 		"description" => "Here's a little info to help you understand if this is a thing you want to know about.",
-		"thumbnail" => "landscape.jpg",
+		"thumbnail" => "pine.png",
 	],
 	[
-		"heading" => "Banana tandori",
+		"heading" => "Wintergreen & Cedar",
 		"description" => "Here's a little info to help you understand if this is a thing you want to know about.",
-		"thumbnail" => "landscape.jpg",
+		"thumbnail" => "cone.png",
 	],
 	[
-		"heading" => "Bar B Q",
+		"heading" => "Mesquite Embers",
 		"description" => "Here's a little info to help you understand if this is a thing you want to know about.",
-		"thumbnail" => "landscape.jpg",
+		"thumbnail" => "bonfire.png",
 	],
 	[
-		"heading" => "Marsala",
+		"heading" => "Sandwood & Hay",
 		"description" => "Here's a little info to help you understand if this is a thing you want to know about.",
-		"thumbnail" => "landscape.jpg",
+		"thumbnail" => "hay.png",
 	],
 ];

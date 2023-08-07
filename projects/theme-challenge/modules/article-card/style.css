@@ -5,10 +5,22 @@
 	display: flex;
 	flex-direction: column;
 
+
+}
+
+.article-card h1, p {
+	padding: 5px;
 }
 
 .article-card h1 {
 	text-transform: uppercase;
+}
+
+.article-card picture {
+	
+	margin-right:auto;
+	margin-left: auto;
+	
 }
 
 	align-items: flex-start;
@@ -21,4 +33,5 @@
 
 .article-card a {
 	margin-top: 25px;
+
 }
