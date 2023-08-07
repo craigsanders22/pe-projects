@@ -55,8 +55,19 @@ section:is(.get-involved, .sign-up) .button {
 section.latest .button {
 	background: linear-gradient(0deg, #240240 0%, #592503 100%);
 	color: var(--white);
-	border-radius: var(--corners);
+	
 }
+
+section.latest a.button:hover {
+	background-image: linear-gradient(to top, #3e0b28, #5b1533, #78203b, #962e41, #b33f43, #c85341, #da693e, #e9803a, #f19e36, #f3bd39, #efdc47, #e6fb5f);
+	color: var(--white);
+	
+	border: 2px solid var(--white);
+	
+	font-weight: 700;
+	transition: .5s;
+}
+
 
 section:is(.get-involved, .sign-up) {
 background: linear-gradient(180deg, rgba(217, 217, 217, 0.00) 90.57%, rgba(208, 148, 30, 0.63) 91.37%, rgba(198, 21, 53, 0.56) 94.84%, rgba(72, 3, 103, 0.62) 98.30%);box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);

@@ -2,7 +2,7 @@
 
 .loud-voice	{
 	font-family:'EB Garamond';
-	font-size: clamp(48px, 5vw, 60px);
+	font-size: clamp(32px, 5vw, 56px);
 }
 @media (min-width: 600px) {
 	.loud-voice {

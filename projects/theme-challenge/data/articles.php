@@ -27,7 +27,7 @@ $articles = [
 		"thumbnail" => "bonfire.png",
 	],
 	[
-		"heading" => "Sandwood & Hay",
+		"heading" => "Sandalwood & Hay",
 		"description" => "Here's a little info to help you understand if this is a thing you want to know about.",
 		"thumbnail" => "hay.png",
 	],

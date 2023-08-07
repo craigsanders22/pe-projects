@@ -1,18 +1,18 @@
 
 graphic-diptych {
-	display: block;
+	
 	display: flex;
 	flex-direction: column;
-	gap: 25px;
-	padding: 5vh 0;
+	gap: 10px;
+	padding: 3vh 0;
 }
 
 
 graphic-diptych p {
-	margin-top: 20px;
+	margin-top: 10px;
 }
 
-@media (min-width:  700px) {
+@media (min-width:  820px) {
 	graphic-diptych {
 		flex-direction: row;
 		align-items: center;
@@ -22,3 +22,8 @@ graphic-diptych p {
 		flex-basis: 50%;
 	}
 }
+
+
+
+
+

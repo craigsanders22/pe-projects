@@ -8,9 +8,9 @@
 	font-family:'avenir next';
 	font-size: 1rem;
 	line-height: 1.4;
-
 	padding: 0.5em 1em;
-	background-color: linear-gradient(180deg, rgba(217, 217, 217, 0.00) 90.57%, rgba(208, 148, 30, 0.63) 91.37%, rgba(198, 21, 53, 0.56) 94.84%, rgba(72, 3, 103, 0.62) 98.30%);
+	background-color: black;
 	min-width: 120px;
 	text-align: center;
 }
+
