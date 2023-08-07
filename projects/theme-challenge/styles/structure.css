@@ -21,14 +21,9 @@ inner-column.tight {
 	max-width: var(--tight);
 }
 
-header {
-
+.header #top {
 background-color: var(--black);
     position: sticky;
     top: 0vh;
 }
-
-.header {
-    background-color: lightskyblue;
-
 
