@@ -8,9 +8,9 @@ A daily worksheet for my DFTW journey.
 ### standup 
 
 
-yesterday - didn't get much done. Worked with style tiles a bit more, reviewed the code for the challenge, but otherwise took my kid outside for the day. We found a huge geode and did a bunch of creek stomping. Reviewed what I missed last night and started a new style tile. 
+yesterday - had a couple 2 hour chunks to work on styling the theme challenge. had a few roadblocks but generally feel ok about it. I needed a break from it for a bit last night so I actually went through most of the WP lesson that was for today, but I'll just be on top of it when we get there
 
-today - I sent the family out for a few hours and I'm hoping to finish up the better style tile and get going on the CSS. I'm hoping to get 3ish hours today and the same tomorrow, but more would be better I'm guessing.
+today - just got back from some errands - new Microcenter and bought myself a better chair. Have an hour or two here to work on finding a finishing point for the challenge then will start working on personal site and a case study. 
 
 
 
