@@ -6,8 +6,8 @@
 	</picture>
 	
 	<text-content>
-		<h1 class='loud-voice'>WILDLY WEST</h1>
-		<h1 class='loud-voice'>WILDLY MODERN</h1>
+		<h1 class='loud-voice'>WILDLY WESTERN</h1>
+		<h1 class='loud-voice'>WILDLY  MODERN</h1>
 
 		
 
