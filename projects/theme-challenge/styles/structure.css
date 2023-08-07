@@ -22,9 +22,13 @@ inner-column.tight {
 }
 
 header {
-	position: sticky;
-	top: 0;
-	
+
+background-color: var(--black);
+    position: sticky;
+    top: 0vh;
 }
+
+.header {
+    background-color: lightskyblue;
 
 
