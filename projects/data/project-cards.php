@@ -15,9 +15,6 @@ $projects = [
 		"link" => "../projects/e4p",
 	],
 
-
-
-
 ];
 
 ?>

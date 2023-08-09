@@ -1,24 +1,24 @@
+<?php function showErrors() {
+  ini_set('display_errors', 1);
+  ini_set('display_startup_errors', 1);
+  error_reporting(E_ALL);
+}
+
+showErrors()
+ ?>
+
+<?php include('../header.php');?>
 
 
+<section class='projects' id='projects'>
+	<inner-column>
 
+		<?php include('project-intro/template.php'); ?>
 
-	<main id="page-content">
-			<section class='projects' id='welcome'>
-			<inner-column>
+	</inner-column>
+</section>
 
-				<?php include('project-intro/template.php'); ?>
-
-			</inner-column>
-			</section>
-
-
-			<section class='sign-up' id='sign-up'>
-			<inner-column>
-
-				<?php include('modules/call-to-action/template.php'); ?>
-
-			</inner-column>
-			</section>
+<?php include('../footer.php');?>
 
 
 
