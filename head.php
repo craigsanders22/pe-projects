@@ -11,6 +11,6 @@
   <meta property="og:description" content="Craig Sanders is a web designer and local food advocate based in Indianapolis, Indiana">
   <meta property="og:image" content="https://thegraphicsfairy.com/wp-content/uploads/2014/02/Vintage-Tomato-Clip-Art-GraphicsFairy2.jpg">
 
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/site.css">
 
 </head>

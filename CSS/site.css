@@ -1,1 +1,11 @@
-site.css
+@import "preset.css";
+@import "reset.css";
+@import "style.css";
+@import "settings.css";
+@import "components.css";
+@import "modules.css";
+
+
+body {
+	background-color: black;
+}
