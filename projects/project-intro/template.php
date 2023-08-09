@@ -1,40 +1,20 @@
 <?php include ('data/project-cards.php'); ?>
 
+<project-grid>
 
+  <p>bacon</p>
+  <ul class='project-list'>
 
-<body>
+    <?php foreach ($projects as $project) { ?>
+      <li class='project'> 
+        <p>tomato</p>
+       <?php include('project-cards/template.php'); ?>
+      </li>
+    <?php } ?>
 
-<header class='top' id="top">
+  </ul>
 
-<?php include('../header.php');?>
-
-</header>
-
-
-<main>
-  <div class=inner-column>
-  <section class="projects-intro">
-
-    <project-grid>
-    <ul class='project-list'>
-
-      <?php foreach ($projects as $projects) { ?>
-        <li class='project'>
-          <?php include('data/project-cards.php'); ?>
-        </li>
-      <?php } ?>
-
-    </ul>
-  </project-grid>
-</projects-intro>
-</main>
-
-
-<?php include('../footer.php');?>
-
-</body>
-
-
+</project-grid>
 
 
 

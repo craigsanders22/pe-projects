@@ -1,13 +1,13 @@
 
 <?php
-	$heading = $projects['heading'];
-	$description = $projects['description'];
-	$thumbnail = $projects['thumbnail'];
+	$heading = $project['heading'];
+	$description = $project['description'];
+	$thumbnail = $project['thumbnail'];
 ?>
 
 <project class='project-card'>
 	<picture>
-		<img src='images/<?=$thumbnail?>' alt='$todo'>
+		<img src='../../assets/<?=$thumbnail?>' alt='$todo'>
 	</picture>
 
 	<text-content>
