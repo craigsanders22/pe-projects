@@ -1,11 +1,13 @@
 
 
-<body>
+
 
 <?php include('header.php');?>
 
+<body>
+
 <main>
-  <section class="main">
+  <section class="projects">
 
     <h1>
        Check out my Exercises for Programmers!
