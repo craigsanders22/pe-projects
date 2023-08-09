@@ -1,54 +1,24 @@
-<?php
-  $heading = $projects['heading'];
-  $description = $projects['description'];
-  $thumbnail = $projects['thumbnail'];
-  $link = $projects['link']
-?>
 
 
-<body>
-
-<header class='top' id="top">
-
-<?php include('../header.php');?>
-
-</header>
 
 
-<main>
-  <div class=inner-column>
-  <section class="projects-intro">
+	<main id="page-content">
+			<section class='projects' id='welcome'>
+			<inner-column>
 
-    <h1>
-       Check out my Exercises for Programmers!
-    </h1>
+				<?php include('project-intro/template.php'); ?>
 
-    <p>Exercises for Programmers is a book by Brian P. Hogan that includes practice exercises rooted in real-world scenarios. Here are some of my results: </p>
-
-  
-    <section class="project-cards">
-<picture>
-    <img src='../../assets/<?=$thumbnail?>' alt='$todo'>
-  </picture>
-
-  <text-content>
-    <h1 class='loud-voice'><?=$heading?></h1>
-
-    <p class='calm-voice'><?=$description?></p>
-
-    <a class='button' href='e4p'>Take a Peek!`</a>
-  </text-content>
-</section>
-</section>
-</div>
-</main>
+			</inner-column>
+			</section>
 
 
-<?php include('../footer.php');?>
+			<section class='sign-up' id='sign-up'>
+			<inner-column>
 
-</body>
+				<?php include('modules/call-to-action/template.php'); ?>
 
-
+			</inner-column>
+			</section>
 
 
 
