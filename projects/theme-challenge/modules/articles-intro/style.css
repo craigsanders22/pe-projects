@@ -9,10 +9,16 @@ articles-intro {
 article-grid {
 	display: block;
 	margin-top: 60px;
+	border:;
 }
 
 article-grid ul {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
 	grid-gap: 60px 20px;
+	border: 5px solid red;
+}
+
+article-grid li {
+	border: 2px solid green;
 }
