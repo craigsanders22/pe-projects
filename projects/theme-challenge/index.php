@@ -16,12 +16,12 @@
 
 	<body>
 
-		<header id="top">
-		<inner-column>
+		<header class='top' id="top">
+	
 			
 			<?php include('modules/mast-head/template.php'); ?>
 
-		</inner-column>	
+	
 		</header>
 
 

@@ -20,10 +20,10 @@ inner-column {
 inner-column.tight {
 	max-width: var(--tight);
 }
-
-.header #top {
-background-color: var(--black);
-    position: sticky;
-    top: 0vh;
+/*
+header {
+	background: transparent;
+	position: sticky;
+	top: 0;
 }
 

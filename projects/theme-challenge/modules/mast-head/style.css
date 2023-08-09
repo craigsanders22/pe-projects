@@ -3,7 +3,16 @@ mast-head {
 	background-color: var(--black);
 	display: block;
 	color: var(--white);
+
 }
+
+header.top {
+	background: black;
+	position: sticky;
+	top: 0;
+	
+}
+
 
 
 mast-head .logo {
@@ -40,5 +49,12 @@ mast-head nav a:not(.home) {
 		flex-direction: row;
 		justify-content: space-between;
 		align-items: center;
+	}
+}
+
+@media (min-width: 1300px) {
+	mast-head {
+		padding-left: 100px;
+		padding-right: 100px;
 	}
 }

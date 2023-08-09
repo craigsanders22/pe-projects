@@ -2,7 +2,7 @@
 <?php include ('data/articles.php'); ?>
 
 <articles-intro>
-	<header>
+	<header class=articles>
 		<h2 class='attention-voice'>Heading for this section here</h2>
 
 		<p>A short introduction explaining why these articles are here to help you understand if you want to read them.</p>
