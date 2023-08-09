@@ -1,20 +1,3 @@
-<style>
-  
-  h1 {
-    color: white;
-    text-decoration: none;
-  }
-
-  a {
-    display:block;
-  }
-
-  p a {
-    display: inline-block;
-  }
-
-
-</style>
 
 
 <body>

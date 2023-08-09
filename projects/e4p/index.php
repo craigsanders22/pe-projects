@@ -1,35 +1,22 @@
-<style>
 
 
-  
-  h1 {
-    color: white;
-    text-decoration: none;
-  }
-
-  a {
-    display:block;
-  }
-
-  p a {
-    display: inline-block;
-  }
 
 
-</style>
-
-
-<body>
 
 <link rel="stylesheet" href="../../style.css">
 <link rel="stylesheet" href="../../reset.css">
 <link rel="stylesheet" href="../../setup.css">
 
+<body>
+  
+  <header class=top>
 
 <?php include("../../header.php");?>
 
+</header>
+
 <main>
-  <section class="main">
+  <section class="projects">
 
     <h1>
        Check out my Exercises for Programmers!
