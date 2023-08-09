@@ -28,15 +28,15 @@
   
     <section class="project-cards">
 <picture>
-    <img src='images/<?=$thumbnail?>' alt='$todo'>
+    <img src='../../assets/<?=$thumbnail?>' alt='$todo'>
   </picture>
 
   <text-content>
-    <h1 class='title strong-voice'><?=$heading?></h1>
+    <h1 class='loud-voice'><?=$heading?></h1>
 
-    <p class='teaser'><?=$description?></p>
+    <p class='calm-voice'><?=$description?></p>
 
-    <a class='button' href='e4p'>Take a Peek!</a>
+    <a class='button' href='e4p'>Take a Peek!`</a>
   </text-content>
 </section>
 </section>
