@@ -1,3 +1,9 @@
+<?php
+  $heading = $projects['heading'];
+  $description = $projects['description'];
+  $thumbnail = $projects['thumbnail'];
+  $link = $projects['link']
+?>
 
 
 <body>
@@ -10,6 +16,7 @@
 
 
 <main>
+  <div class=inner-column>
   <section class="projects-intro">
 
     <h1>
@@ -19,14 +26,21 @@
     <p>Exercises for Programmers is a book by Brian P. Hogan that includes practice exercises rooted in real-world scenarios. Here are some of my results: </p>
 
   
-    <section class="projects-cards">
+    <section class="project-cards">
+<picture>
+    <img src='images/<?=$thumbnail?>' alt='$todo'>
+  </picture>
 
-      <p>
-         <a href="projects/e4p"> Check it out!</a>
-       </p>
+  <text-content>
+    <h1 class='title strong-voice'><?=$heading?></h1>
 
-  
-    </section>
+    <p class='teaser'><?=$description?></p>
+
+    <a class='button' href='e4p'>Take a Peek!</a>
+  </text-content>
+</section>
+</section>
+</div>
 </main>
 
 
