@@ -1,9 +1,14 @@
 
 <body>
 
-<?php include('header.php');?>
+<header class='top' id="top">
+
+<?php include('../header.php');?>
+
+</header>
 
 <main>
+
   <div class="inner-column">
   <section class="goals">
     
@@ -32,6 +37,7 @@
     </div>
   </main>
 
+<?php include('../footer.php');?>
+
 </body>
 
-<?php include('footer.php');?>

@@ -1,7 +1,12 @@
 
+
 <body>
 
-<?php include('header.php');?>
+<header class='top' id="top">
+
+<?php include('../header.php');?>
+
+</header>
 
 <main>
   <section class="main">
@@ -29,7 +34,9 @@
   </footer>
 </main>
 
+<?php include('../footer.php');?>
+
 </body>
 
-<?php include('footer.php');?>
+
 
