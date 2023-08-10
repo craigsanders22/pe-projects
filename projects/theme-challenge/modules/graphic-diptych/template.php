@@ -7,7 +7,7 @@
 	
 	<text-content>
 		<h1 class='loud-voice'>WILDLY WESTERN</h1>
-		<h1 class='loud-voice'>WILDLY  MODERN</h1>
+		<h1 class='row2 loud-voice'>WILDLY  MODERN</h1>
 
 		
 

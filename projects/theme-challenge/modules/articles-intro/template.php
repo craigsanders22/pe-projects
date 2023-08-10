@@ -3,9 +3,9 @@
 
 <articles-intro>
 	<header class=articles>
-		<h2 class='attention-voice'>Heading for this section here</h2>
+		<h2 class='attention-voice'>Our Saloon Originals</h2>
 
-		<p>A short introduction explaining why these articles are here to help you understand if you want to read them.</p>
+		<p>Where it all began! Our core set of six saloon-inspired candles are close to our hearts - and our noses! </p>
 	</header>
 
 	<article-grid>
