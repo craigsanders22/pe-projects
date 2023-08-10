@@ -3,6 +3,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh; /* be at least a full viewport height */
+
 } 
 
 main {
@@ -19,11 +20,5 @@ inner-column {
 
 inner-column.tight {
 	max-width: var(--tight);
-}
-/*
-header {
-	background: transparent;
-	position: sticky;
-	top: 0;
 }
 

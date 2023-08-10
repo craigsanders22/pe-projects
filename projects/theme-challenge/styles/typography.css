@@ -12,18 +12,18 @@
 
 .attention-voice	{
 	font-family: 'EB Garamond';
-	font-size: 30px;
+	font-size: 36px;
 }
 
 .strong-voice	{
 	font-family: 'avenir next';
 	font-weight: 700;
-	font-size:  1rem;
+	font-size:  1.2rem;
 }
 
 .calm-voice, p, li {
 	font-family: 'avenir next';
-	font-size: 1rem;
+	font-size: 1.1rem;
 	line-height: 1.4;
 }
 

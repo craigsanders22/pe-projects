@@ -4,14 +4,17 @@ site-map {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
 	grid-gap: 10px;
-	padding: 10vh 0 15vh;
+	padding: 8vh 0 12vh;
+	
 }
 
 site-map .logo {
 	max-width: 150px;
-	height: 50px;
-	
+	height: 100px;
+	margin-top: -30px;
+	margin-bottom: -12px;
 	display: block;
+	
 }
 
 

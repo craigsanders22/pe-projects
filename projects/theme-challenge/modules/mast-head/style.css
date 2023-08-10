@@ -3,14 +3,13 @@ mast-head {
 	background-color: var(--black);
 	display: block;
 	color: var(--white);
-
+	border-top: 30px solid #4d4d4d;
 }
 
 header.top {
 	background: black;
 	position: sticky;
 	top: 0;
-	
 }
 
 
@@ -18,7 +17,9 @@ header.top {
 mast-head .logo {
 	max-width: 150px;
 	height: 60px;
-	padding: 10px;	
+	padding: 10px;
+	margin-top: 15px;
+	border: 2px solid white;
 }
 
 
