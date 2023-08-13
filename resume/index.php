@@ -11,9 +11,9 @@
 <main>
   <section class="main">
 
-    <p>
-      Gross, what is this?
-    </p>
+    <h1>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias libero dolorum magnam explicabo, sit unde nemo optio laudantium consequatur tempore animi accusamus illo totam? At dignissimos expedita eaque recusandae nam.
+    </h1>
 
   </section>
 
@@ -23,7 +23,7 @@
 
   <section class="past">
     <p>
-     What a sadsack...
+    Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Commodi, qui deleniti distinctio, optio sed quisquam ipsum saepe autem repellendus illum quo numquam quos ea officiis quis exercitationem officia ex molestiae.
     </p>
   </section>
 

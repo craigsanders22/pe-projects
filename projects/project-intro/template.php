@@ -2,7 +2,7 @@
 
 <project-grid>
 
-  <p>bacon</p>
+  <p>testing</p>
   <ul class='project-list'>
 
     <?php foreach ($projects as $project) { ?>
