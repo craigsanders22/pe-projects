@@ -14,7 +14,7 @@
 <div class="inner-column">
 <project class='project-card'>
 	<picture>
-		<img src='../../assets/<?=$thumbnail?>' alt='$todo'>
+		<img src='../../../assets/<?=$thumbnail?>' alt='$todo'>
 	</picture>
 
 	<text-content>
