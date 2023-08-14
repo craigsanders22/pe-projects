@@ -21,7 +21,7 @@
 <main>
   <?php include('home.php'); ?>
   <?php include('projects'); ?>
-  <?php include('resume'); ?>
+  <?php include('resume.php'); ?>
   <?php include('goals'); ?>
   <?php include('contact'); ?>
 
