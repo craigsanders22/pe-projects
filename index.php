@@ -33,7 +33,7 @@
   <?php include('projects.php'); ?>
   <?php include('resume.php'); ?>
   <?php include('goals.php'); ?>
-  <?php include('contact.php'); ?>
+  <?php include('../contact.php'); ?>
 
 
 </main>
