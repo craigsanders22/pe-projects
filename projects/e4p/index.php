@@ -3,9 +3,8 @@
 
 
 
-<link rel="stylesheet" href="../../style.css">
-<link rel="stylesheet" href="../../reset.css">
-<link rel="stylesheet" href="../../setup.css">
+<link rel="stylesheet" href="../../../styles/site.css">
+
 
 <body>
   

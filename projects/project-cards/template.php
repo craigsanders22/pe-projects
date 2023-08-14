@@ -1,10 +1,12 @@
-
+<link rel="stylesheet" href="../style.css">
 <?php
 	$heading = $project['heading'];
 	$description = $project['description'];
 	$thumbnail = $project['thumbnail'];
+	$link = $project['link'];
 ?>
 
+<div class="inner-column">
 <project class='project-card'>
 	<picture>
 		<img src='../../assets/<?=$thumbnail?>' alt='$todo'>
@@ -14,7 +16,8 @@
 		<h1 class='strong-voice'><?=$heading?></h1>
 
 		<p class='teaser'><?=$description?></p>
-
-		<a class='button' href='#'>Shop Now</a>
+		<a href='../projects/<?=$link?>'> Find out More!</a>
+  
 	</text-content>
 </project>
+</div>
