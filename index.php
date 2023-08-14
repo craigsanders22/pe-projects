@@ -19,11 +19,11 @@
 
 
 
-  <?php include('home'); ?>
-  <?php include('projects'); ?>
-  <?php include('resume'); ?>
-  <?php include('goals'); ?>
-  <?php include('contact'); ?>
+  <?php include('home.php'); ?>
+  <?php include('../projects'); ?>
+  <?php include('/resume'); ?>
+  <?php include('/goals'); ?>
+  <?php include('/contact'); ?>
 
 
 
