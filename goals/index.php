@@ -1,11 +1,10 @@
 
-<body>
 
-<header class='top' id="top">
+ <link rel="stylesheet" href='../styles/site.css'>
+<link rel="stylesheet" href="../projects.css">
 
-<?php include('header.php');?>
 
-</header>
+<?php include('../header.php');?>
 
 <main>
 
@@ -39,5 +38,4 @@
 
 <?php include('../footer.php');?>
 
-</body>
 

@@ -1,12 +1,9 @@
 
+ <link rel="stylesheet" href='../styles/site.css'>
+<link rel="stylesheet" href="../projects.css">
 
-<body>
-
-<header class='top' id="top">
 
 <?php include('../header.php');?>
-
-</header>
 
 <main>
   <section class="main">
