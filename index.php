@@ -18,10 +18,10 @@
   <?php include('header.php');?>
 
 
-<main>
-  <?php include('home.php'); ?>
+
+  <?php include('home'); ?>
   <?php include('projects'); ?>
-  <?php include('resume.php'); ?>
+  <?php include('resume'); ?>
   <?php include('goals'); ?>
   <?php include('contact'); ?>
 
