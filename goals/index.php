@@ -3,7 +3,7 @@
 
 <header class='top' id="top">
 
-<?php include('../header.php');?>
+<?php include('header.php');?>
 
 </header>
 
