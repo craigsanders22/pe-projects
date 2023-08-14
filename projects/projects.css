@@ -1,16 +1,26 @@
 
 img {
-	max-width: 200px;
+	max-width: 400px;
 }
 
 
 .project-card {
-	display: block;
-	border: 4px solid red;
+	display: flex;
+	border: 4px solid darkslategray;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	
+}
+
+ .picture {
+	display:flex;
+	margin-right:auto;
+	margin-left: auto;
+	align-items: center;
+	justify-content: center;
 }
 
 .project-card h1, p {
@@ -19,24 +29,50 @@ img {
 
 .project-card a {
 	margin-top: 25px;
+	border: 2px solid darkslategray;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-right: auto;
+	margin-left: auto;
+	padding: 20px 40px;
+	margin-bottom: 40px;
+
+}
+
+.project-card a:hover {
+	background-color: #364e4f;
+	color: #f2f2f2;
+	font-weight: 500;
+	transition: 1s;
+	border: 2px solid #f2f2f2;
+
 }
 
 
 .project-card h1 {
 	text-transform: uppercase;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 20px;
 }
 
-.project-card picture {
-	
+.project-card img {
+	padding: 20px;
+	margin-top: 20px;
 	margin-right:auto;
 	margin-left: auto;
-	border: 2px solid yellow;
+	border: 2px solid white;
 }
 
 .project-card text-content {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
+	max-width: 100ch;
+	margin-top: 20px ;
+}
+
+p + p {
+	margin: 20px;
 }
 
 

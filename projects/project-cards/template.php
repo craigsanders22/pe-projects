@@ -1,10 +1,15 @@
 <link rel="stylesheet" href="../style.css">
+
+
+
 <?php
 	$heading = $project['heading'];
 	$description = $project['description'];
 	$thumbnail = $project['thumbnail'];
 	$link = $project['link'];
 ?>
+
+<link rel="stylesheet" href="../style.css">
 
 <div class="inner-column">
 <project class='project-card'>
