@@ -1,6 +1,6 @@
 
  <link rel="stylesheet" href='../styles/site.css'>
-<link rel="stylesheet" href="../projects.css">
+<link rel="stylesheet" href="projects.css">
 
 
 <?php include('../header.php');?>
