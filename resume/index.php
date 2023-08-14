@@ -1,11 +1,4 @@
 
-<body>
-
-<header class='top' id="top">
-
-<?php include('../header.php');?>
-
-</header>
 
 
 <main>
@@ -27,15 +20,5 @@
     </p>
   </section>
 
-  <footer>
-    <footer class="contact">
-      <h2> yo - I'll make this look better soon. I swear. </h2>
-    </footer>
-  </footer>
-</main>
-
-<?php include('../footer.php');?>
-
-</body>
 
 
