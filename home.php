@@ -1,18 +1,12 @@
-<main class="intro">
-    <div class="inner-column">
-      <div class="intro-text">
-        <h1>
-          Hey there,
+<section class="intro">
+  <div class="inner-column">
+    
+    <?php include("modules/welcome.php") ?>
 
-          I'm Craig.
-        </h1>
-      </div>
-      <div class="avatar">
-        <img src="assets/avataaars.png">
+  </div>
+</section>
 
-      </div>
-    </div>
-
+  <section>
     <div class="about">
       <div class="inner-column">
 
@@ -173,4 +167,4 @@
       </div>
     </div>
 
-</main>
+</section>

@@ -1,8 +1,4 @@
 
-<link rel="stylesheet" href="../projects.css">
-
-
-<link rel="stylesheet" href="../style.css">
 
 <?php include ('data/project-cards.php'); ?>
 <div class="inner-column">

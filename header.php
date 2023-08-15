@@ -12,7 +12,7 @@
         <div class="logo">
           <picture>
           	<a href="#">
-           <img src="../assets/alpha-seven.png"/>
+           <img src="assets/alpha-seven.png"/>
           </picture>
         </div>
     
@@ -29,3 +29,7 @@
 
     </div>
   </header>
+
+  <main id="page-content">
+
+  <!-- /* each page content goes here -->

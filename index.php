@@ -1,17 +1,16 @@
-<!DOCTYPE html>
 
 <?php 
 
-  $page = null;
-  if ( isset($_GET["page"]) ) {
-    $page = $_GET["page"];
-  } else {
-    $page = "home";
-  }
+  // $page = null;
+  // if ( isset($_GET["page"]) ) {
+  //   $page = $_GET["page"];
+  // } else {
+  //   $page = "home";
+  // }
 
-  function getTemplate($page) {
-    include($page . '.php');
-  }
+  // function getTemplate($page) {
+  //   include($page . '.php');
+  // }
  ?>
 
 
@@ -20,13 +19,8 @@
 
 
   <?php include('home.php'); ?>
-  <?php include('../projects'); ?>
-  <?php include('/resume'); ?>
-  <?php include('/goals'); ?>
-  <?php include('/contact'); ?>
-
-
-
-<?php
  
-  include('footer.php');?>
+
+
+
+<?php include('footer.php');?>
