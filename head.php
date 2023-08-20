@@ -3,7 +3,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Craig Sanders</title>
-  <meta name="description" content="Web Designer - Craig Sanders">
+  <meta name="description" content="Front End Developer + Web Designer - Craig Sanders">
 
   <meta property="og:title" content="Craig Sanders">
   <meta property="og:type" content="TYPE">
