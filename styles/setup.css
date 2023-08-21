@@ -13,6 +13,7 @@ span, a, table, tr, td, blockquote {
 
 picture {
 	display: block;
+	width: auto;
 }
 
 img {

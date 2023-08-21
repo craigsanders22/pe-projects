@@ -38,7 +38,7 @@
     <div class="accomplishments">
       <div class="inner-column">
         <div class="accomplishment-text">
-          <h3>a few of the things that i've done</h3>
+          <h3 class ="attention-voice">a few of the things that i've done</h3>
         </div>
         <div class="box-layout">
           <div class="box-module">
@@ -47,14 +47,14 @@
               <picture>
                 <img src="assets/market.png">
               </picture>
-              <p>OWNED A MARKET<br> $1.5M+ in annual sales, team of 10+, designed 2500+ unique sandwiches over 8 years </p>
+              <h3 class="strong-voice">OWNED A MARKET</h3><p class="quiet-voice"> $1.5M+ in annual sales, team of 10+, designed 2500+ unique sandwiches over 8 years </p>
             </div>
 
             <div class="box">
               <picture>
                 <img src="assets/applications.png">
               </picture>
-              <p>GREW A RESPONSIVE GARDEN<br> Check out all of the responsive things that I've grown! </p>
+              <h3 class="strong-voice">GREW A RESPONSIVE GARDEN</h3><p class="quiet-voice"> Check out all of the responsive things that I've grown! </p>
 
             </div>
 
@@ -62,14 +62,14 @@
               <picture>
                 <img src="assets/gardening.png">
               </picture>
-              <p>GREW AN ACTUAL GARDEN <br> Our family runs a wholesale flower farm. We supply event florists with heirloom, specialty flowers like peonies, and dahlias</p>
+              <h3 class="strong-voice">GREW AN ACTUAL GARDEN</h3><p class="quiet-voice"> Our family runs a wholesale flower farm. We supply event florists with heirloom, specialty flowers like peonies, and dahlias</p>
             </div>
 
             <div class="box">
               <picture>
                 <img src="assets/cow.png">
               </picture>
-              <p>DIRECTOR OF OPS<br> for a nationally distributed grassfed, organic dairy. Spearheaded marketing, branding, distribution, and sales for $20M+/yr company</p>
+              <h3 class="strong-voice">Director of Ops</h3><p class="quiet-voice"> for a nationally distributed grassfed, organic dairy. Spearheaded marketing, branding, distribution, and sales for $20M+/yr company</p>
 
             </div>
           </div>
@@ -110,16 +110,16 @@
   </section>
 
 
-    <section class="contact">
-      <div class="inner-column">
-        <div class="contact-text">
+<section class="contact">
+  <div class="inner-column">
+    <div class="contact-text">
 
-          <h2>I’d love to connect with you!</h2>
+      <h2>I’d love to connect with you!</h2>
 
-          <p>Let’s chat about my journey, your journey, what kinds of jobs I'll be looking for, what kind of jobs you’re hiring/looking for, your favorite sandwich condiment, or anything else that we might have in common! Please don't hesitate to reach out!</p>
-        </div>
-      </div>
-      
+      <p>Let’s chat about my journey, your journey, what kinds of jobs I'll be looking for, what kind of jobs you’re hiring/looking for, your favorite sandwich condiment, or anything else that we might have in common! Please don't hesitate to reach out!</p>
+    </div>
+  </div>
+
       <div class=contact-cards>
         <div class="link">
 

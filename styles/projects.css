@@ -75,6 +75,10 @@ p + p {
 	margin: 20px;
 }
 
+h3 + p {
+	margin-top: 25px;
+}
+
 
 
 

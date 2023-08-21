@@ -143,7 +143,7 @@ body {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  padding: 20px;
+
 }
 
 .about,
@@ -276,24 +276,18 @@ h1 {
 
 h2 {
   color: white;
-  font-size: 30px;
-  font-family: playfair display;
+ 
 }
 
 h3 {
   color: white;
   text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  font-size: 28px;
-  font-family: Source Serif Pro;
+  
 }
 
 p {
   color: #fff;
-  font-size: 20px;
-  line-height: 1.5em;
-  margin-bottom: 20px;
-  padding: 20px;
-  text-align: center;
+ 
 }
 
 .goals p {
