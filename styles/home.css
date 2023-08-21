@@ -1,0 +1,16 @@
+.intro {
+	display: flex;
+	flex-direction: row;
+	padding: 20px 20px;
+
+
+}
+
+.favorite-things h2 {
+	margin-right: 100px;
+
+}
+
+.favorite-things li {
+	list-style: square;
+}
