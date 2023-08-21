@@ -6,11 +6,11 @@
 
       I'm Craig.
     </h1>
-  </div>
+  
 
   <div class="avatar">
     <img src="assets/avataaars.png">
-
+  </div>
   </div>
 </section>
 
@@ -27,7 +27,7 @@
           <path fill="#3A506B" d="M154.63 198.75L154.62 213.23 154.72 227 155.14 240.76 154.17 254.53 155.45 268.16 169.93 267.42 184.54 269.22 199.16 268.54 213.77 268.23 228.39 268.41 243.01 268.54 257.63 268.66 272.21 268.26 272.11 254.54 272.79 240.77 273.25 227.01 271.64 213.24 271.96 199.78 257.64 199.62 243.02 199.5 228.41 199.99 213.79 199.91 199.17 198.64 184.56 198.47 169.95 198.86 154.63 198.75z"></path>
         </svg>
 
-        <h2>
+        <h2 class='attention-voice'>
           I'm a web-designer learning the ins & outs of making beautiful, functional, and accessible versions of modern websites
         </h2>
 
@@ -38,7 +38,7 @@
     <div class="accomplishments">
       <div class="inner-column">
         <div class="accomplishment-text">
-          <h3 class ="attention-voice">a few of the things that i've done</h3>
+          <h3 class ="attention-voice">a few of the things that i've done:</h3>
         </div>
         <div class="box-layout">
           <div class="box-module">
@@ -47,14 +47,14 @@
               <picture>
                 <img src="assets/market.png">
               </picture>
-              <h3 class="strong-voice">OWNED A MARKET</h3><p class="quiet-voice"> $1.5M+ in annual sales, team of 10+, designed 2500+ unique sandwiches over 8 years </p>
+              <h3 class="strong-voice">OWNED A MARKET</h3><p class="quiet-voice"> $1.5M+ in annual sales, team of 10+, consistently rave reviews, strong social media presence, and aloyal following </p>
             </div>
 
             <div class="box">
               <picture>
                 <img src="assets/applications.png">
               </picture>
-              <h3 class="strong-voice">GREW A RESPONSIVE GARDEN</h3><p class="quiet-voice"> Check out all of the responsive things that I've grown! </p>
+              <h3 class="strong-voice">GREW A RESPONSIVE GARDEN</h3><p class="quiet-voice"> Check out all of the responsive things that I've grown! I'm looking forward to nurturing many more! </p>
 
             </div>
 
@@ -69,7 +69,7 @@
               <picture>
                 <img src="assets/cow.png">
               </picture>
-              <h3 class="strong-voice">Director of Ops</h3><p class="quiet-voice"> for a nationally distributed grassfed, organic dairy. Spearheaded marketing, branding, distribution, and sales for $20M+/yr company</p>
+              <h3 class="strong-voice">DIRECTOR OF OPS</h3><p class="quiet-voice"> for a nationally distributed grassfed, organic dairy. Spearheaded marketing, branding, distribution, and sales for $20M+/yr company</p>
 
             </div>
           </div>
@@ -114,9 +114,9 @@
   <div class="inner-column">
     <div class="contact-text">
 
-      <h2>I’d love to connect with you!</h2>
+      <h2 class="attention-voice">I’d love to connect with you!</h2>
 
-      <p>Let’s chat about my journey, your journey, what kinds of jobs I'll be looking for, what kind of jobs you’re hiring/looking for, your favorite sandwich condiment, or anything else that we might have in common! Please don't hesitate to reach out!</p>
+      <p class="calm-voice">Let’s chat about my journey, your journey, what kinds of jobs I'll be looking for, what kind of jobs you’re hiring/looking for, your favorite sandwich condiment, or anything else that we might have in common! Please don't hesitate to reach out!</p>
     </div>
   </div>
 

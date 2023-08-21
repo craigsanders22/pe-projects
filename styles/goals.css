@@ -1,0 +1,36 @@
+.goals {
+	width: 100%;
+	
+
+}
+
+h1 {
+	
+}
+
+
+ p {
+
+  text-align: left;
+  max-width: 100ch;
+  margin: auto;
+  margin-top: 20px;
+}
+
+
+ h1 {
+  font-family: didot;
+ padding: 30px 20px;
+  outline: 2px solid #aea2a2;
+
+  background-color: #37948f;
+
+}
+
+h2 {
+  font-family: didot;
+  text-decoration: underline;
+}
+ h2 {
+  padding-top: 50px;
+}
