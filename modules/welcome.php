@@ -1,15 +1,15 @@
-
-<div class="welcome">
-  <div class="intro-text">
-    <h1>
+<section class="intro">
+  <div class="inner-column">
+    
+    <h1 class='loud-voice'>
       Hey there,
 
       I'm Craig.
     </h1>
-  </div>
+  
 
   <div class="avatar">
     <img src="assets/avataaars.png">
-
   </div>
-</div>
+  </div>
+</section>
