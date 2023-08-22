@@ -12,6 +12,6 @@
   <meta property="og:description" content="Craig Sanders is a web designer based in Indianapolis, Indiana">
   <meta property="og:image" content="assets/meta.png">
 
-  <link rel="stylesheet" href='styles/site.css'>
+  <link rel="stylesheet" href='site.css'>
 
 </head>
