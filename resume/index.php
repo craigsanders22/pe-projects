@@ -1,7 +1,7 @@
 <?php include('../header.php');?>
 
 
-
+<main class="resume">
   <div class="intro">
     <inner-column>
     <h1 class="loud-voice">Craig Sanders</h1>
@@ -22,6 +22,7 @@
       </div>
       
       <div class="work-details">
+        <div class="work-title">Director of Ops</div> 
         <div class="work-title">Director of Sales and Business Development</div>
         <div>Traders Point Creamery - Zionsville, IN</div>
         <div class="work-dates">June 2007 - September 2014</div>
@@ -36,14 +37,14 @@
     <div class="education">
       <h2 class= "attention-voice">Education</h2>
       <div class="education-details">
-        <div>English</div>
         <div>Indiana University-Purdue University Indianapolis - Indianapolis, IN</div>
-        <div>January 2003 - May 2006</div>
+        <div>English</div>
+        <div>August 2003 - May 2006</div>
       </div>
     </div>
     
     <div class="skills">
-      <h2>Skills</h2>
+      <h2 class="attention-voice">Skills</h2>
       <ul class="skills-list">
         <li class="skills-item">Relationship Building and Sales</li>
         <li class="skills-item">Team Leadership and Management</li>

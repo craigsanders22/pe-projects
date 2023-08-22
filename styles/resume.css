@@ -1,4 +1,4 @@
-   
+
     .resume-intro {
       background-color: #333;
       color: #fff;
@@ -11,6 +11,9 @@
       padding: 20px;
       border: 1px solid #ddd;
     }
+    .resume h2 {
+     text-decoration: underline;
+    }
 
     .work-dates {
       padding-top: 10px;
@@ -18,11 +21,16 @@
     
     .work-experience {
       margin-bottom: 40px;
+
     }
     .work-title {
       font-size: 1.2em;
       font-weight: bold;
       padding-top: 20px;
+    }
+
+    .work-title + .work-title {
+      padding-top: 5px;
     }
    
     .work-details {
