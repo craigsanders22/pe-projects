@@ -9,7 +9,6 @@
 <body>
   <header class="site-header">
     <div class="inner-column">
-
       <div class="header-items">
         <div class="logo">
           <picture>
