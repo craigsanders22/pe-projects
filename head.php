@@ -1,6 +1,6 @@
 <head>
   <meta charset="utf-8">
-  <base href="<?=BASE_URL?>">
+  <base href="<?='http://peprojects.dev/alpha-7/craig/'?>">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Craig Sanders</title>
