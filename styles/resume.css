@@ -1,3 +1,14 @@
+   
+  .inner-column {
+      display: block;
+      max-width: 1000px;
+      
+
+    }
+
+    .work-experience .inner-column {
+      text-align: left;
+    }
 
     .resume-intro {
       background-color: #333;
@@ -5,15 +16,19 @@
       text-align: center;
       padding: 20px 0;
     }
-    .container {
-      max-width: 800px;
-      margin: 20px auto;
-      padding: 20px;
-      border: 1px solid #ddd;
-    }
+
     .resume h2 {
-     text-decoration: underline;
-    }
+  text-decoration: underline;
+  
+}
+
+.intro {
+  text-align: center;
+}
+
+.resume {
+  text-align: left;
+}
 
     .work-dates {
       padding-top: 10px;
@@ -52,7 +67,7 @@
       list-style: none;
       display: flex;
       flex-direction: column;
-     align-items: center;
+  
      
       padding: 0px;
       margin: 0px;
