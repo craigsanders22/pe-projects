@@ -1,39 +1,33 @@
 
- <link rel="stylesheet" href='../styles/site.css'>
-<link rel="stylesheet" href="../projects.css">
-
-
 <?php include('../header.php');?>
 
-<main>
-  <section class="main">
+<main class="contact">
+  <form action="send_email.php" method="post" class="contact-form">
+  <div class="inner-column">
+      <div class="container">
+        <h2 class="attention-voice">Contact Me</h2>
+        <form action="#" method="post" class="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
 
-    <p>
-      Gross, what is this?
-    </p>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
 
-  </section>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
 
-  <section class="image">
-    <img src="https://source.unsplash.com/random/1000x700/?email">
-  </section>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+  </div>
 
-  <section class="past">
-    <p>
-      But.... why?
-    </p>
-  </section>
-
-  <footer>
-    <footer class="contact">
-      <h2> yo - I'll make this look better soon. I swear. </h2>
-    </footer>
-  </footer>
+ </form>
 </main>
+
 
 <?php include('../footer.php');?>
 
-</body>
+
 
 
 
