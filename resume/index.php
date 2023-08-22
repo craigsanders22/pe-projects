@@ -34,7 +34,7 @@
     </div>
     
     <div class="education">
-      <h2>Education</h2>
+      <h2 class= "attention-voice">Education</h2>
       <div class="education-details">
         <div>English</div>
         <div>Indiana University-Purdue University Indianapolis - Indianapolis, IN</div>
