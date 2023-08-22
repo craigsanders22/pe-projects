@@ -2,6 +2,9 @@
 <?php include('../header.php');?>
 
 
+
+
+
 <section class='projects' id='projects'>
 	<inner-column>
 

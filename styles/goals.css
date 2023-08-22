@@ -4,12 +4,8 @@
 
 }
 
-h1 {
-	
-}
 
-
- p {
+ .goals p {
 
   text-align: left;
   max-width: 100ch;
@@ -18,7 +14,7 @@ h1 {
 }
 
 
- h1 {
+ .goals h1 {
   font-family: didot;
  padding: 30px 20px;
   outline: 2px solid #aea2a2;
@@ -27,7 +23,7 @@ h1 {
 
 }
 
-h2 {
+.goals h2 {
   font-family: didot;
   text-decoration: underline;
 }

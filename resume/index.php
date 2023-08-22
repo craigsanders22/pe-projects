@@ -1,8 +1,9 @@
-<?php include('header.php');?>
+<?php include('../header.php');?>
 
 
 
   <div class="intro">
+    <inner-column>
     <h1 class="loud-voice">Craig Sanders</h1>
     <p class="calm-voice">Indianapolis, IN 46219 | craig.sanders@me.com | +1 765 721 0820</p>
   </div>
@@ -50,6 +51,7 @@
         <li class="skills-item">Sales and Marketing Strategy</li>
       </ul>
     </div>
+    </inner-column>
   </div>
 
-  <?php include('footer.php');?>
+  <?php include('../footer.php');?>

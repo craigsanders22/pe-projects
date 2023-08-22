@@ -11,8 +11,6 @@
 	$link = $project['link'];
 ?>
 
-<link rel="stylesheet" href="../style.css">
-
 <div class="inner-column">
 <project class='project-card'>
 	<picture>

@@ -1,10 +1,4 @@
 
-img	{
-	max-width: 200px;
-	border: 2px solid yellow;
-
-	
-}
 .project-card {
 	display: block;
 	border: 4px solid red;
@@ -40,18 +34,19 @@ img	{
 	align-items: flex-start;
 }
 
-/* Center the image horizontally and vertically */
-picture {
+.project-card picture {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%; /* Ensure the picture element takes full height */
+    height: 100%; 
 }
 
-/* Ensure the image doesn't exceed the parent container's width */
-img {
+
+.project-card img {
     max-width: 100%;
     max-height: 100%;
+    max-width: 200px;
+	border: 2px solid yellow;
 }
 
 
