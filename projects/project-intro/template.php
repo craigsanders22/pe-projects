@@ -1,6 +1,7 @@
 
 
 <?php include ('data/project-cards.php'); ?>
+
 <div class="inner-column">
 <section class="project-grid">
 

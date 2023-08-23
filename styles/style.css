@@ -16,6 +16,11 @@
 
 }
 
+.site-header .inner-column {
+  padding-top: 5px;
+  padding-bottom: 0px;
+}
+
 body {
   color: white;
   background-color: #2a3748;
@@ -37,7 +42,9 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding-top: 10px;
+  padding-top: 0px;
+  padding-bottom: 10px;
+  align-items: center;
 }
 
 .nav-list {
@@ -65,7 +72,7 @@ body {
   font-weight: 700;
   color: #272424;
   text-decoration: none;
-  padding: 5px 20px;
+  padding: 5px 10px;
   margin-left: auto;
   margin-right: auto;
 }
