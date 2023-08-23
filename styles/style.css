@@ -25,13 +25,14 @@ body {
   color: white;
   background-color: #2a3748;
   width: 100%;
-  min-height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   margin: 0;
+  
 }
 
 
@@ -118,9 +119,9 @@ body {
 
 .site-footer {
   display: flex;
+  flex-shrink: 0;
   flex-direction: row;
   justify-content: center;
-  position: sticky;
   background: #b1a2a2;
 
 }
