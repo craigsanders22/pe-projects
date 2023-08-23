@@ -1,7 +1,3 @@
-<link rel="stylesheet" href="style.css">
-
-
-
 
 
 <?php
@@ -10,9 +6,9 @@
 	$thumbnail = $project['thumbnail'];
 	$link = $project['link'];
 ?>
-
+<section class='project-card'>
 <div class="inner-column">
-<project class='project-card'>
+
 	<picture>
 		<img src='<?=$thumbnail?>' alt='$todo'>
 	</picture>
@@ -24,5 +20,7 @@
 		<a href='<?=$link?>'> Find out More!</a>
   
 	</text-content>
-</project>
 </div>
+
+</div>
+</section>
