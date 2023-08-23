@@ -2,7 +2,7 @@
 <?php include('../header.php');?>
 
 <main class="contact">
-  <form action="send_email.php" method="post" class="contact-form">
+  <form action="functions.php" method="post" class="contact-form">
   <div class="inner-column">
       <div class="container">
         <h2 class="attention-voice">Contact Me</h2>
