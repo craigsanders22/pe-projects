@@ -2,7 +2,7 @@
 
 <?php include ('data/project-cards.php'); ?>
 <div class="inner-column">
-<project-grid>
+<section class="project-grid">
 
 
 
@@ -16,7 +16,7 @@
 
   </ul>
 
-</project-grid>
+</section>
 </div>
 
 

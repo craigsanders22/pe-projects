@@ -3,16 +3,24 @@
 
 
 
+<main class="project-page">
+<div class="inner-column">
+	<section class="project-intro">
+		<h1 class="loud-voice">Projects</h1>
+		<h2 class="attention-voice">A sampling of the design and development projects I've completed recently
+	</section>
+
+	<section class="project-grid">
+		<h2 class="attention-voice">Exercises For Programmers</h2>
+		<h3 class="strong-voice">Exercises for Programmers is a book by Brian P. Hogan that includes practice exercises rooted in real-world scenarios. Here are some of my results:</h3>
+		<a href="theme-challenge/">Theme Challenge</a>
+		
+
+	</section>
 
 
-<section class='projects' id='projects'>
-	<inner-column>
-
-		<?php include('project-intro/template.php'); ?>
-
-	</inner-column>
-</section>
-
+</div>
+</main>
 <?php include('../footer.php');?>
 
 
