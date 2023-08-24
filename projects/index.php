@@ -16,7 +16,7 @@
 		</picture>
 		<h2 class="attention-voice">Exercises For Programmers</h2>
 		<h3 class="calm-voice">Exercises for Programmers is a book by Brian P. Hogan that includes practice exercises rooted in real-world scenarios. Here are some of my results:</h3>
-		<a href="../projects/theme-challenge/">Theme Challenge</a>
+		<a href="projects/theme-challenge/">Theme Challenge</a>
 	</section>
 
 	<section class="project-grid">
