@@ -10,7 +10,7 @@
               <picture>
                 <img src="assets/market.png">
               </picture>
-              <h3 class="strong-voice">OWNED A MARKET</h3><p class="quiet-voice"> $1.5M+ in annual sales, team of 10+, consistently rave reviews, strong social media presence, and aloyal following </p>
+              <h3 class="strong-voice">OWNED A MARKET</h3><p class="quiet-voice"> $1.5M+ in annual sales, team of 10+, consistently rave reviews, strong social media presence, and a loyal following </p>
             </div>
 
             <div class="box">
@@ -18,6 +18,7 @@
                 <img src="assets/applications.png">
               </picture>
               <h3 class="strong-voice">GREW A RESPONSIVE GARDEN</h3><p class="quiet-voice"> Check out all of the responsive things that I've grown! I'm looking forward to nurturing many more! </p>
+              <a class="calm-voice" href="projects/layout-garden/">My Garden Grows</a>
 
             </div>
 

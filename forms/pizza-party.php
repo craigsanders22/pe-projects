@@ -1,4 +1,4 @@
-<?php include("../../../header.php");?>
+
 <?php
 
 	$guests = 4;
@@ -41,6 +41,8 @@
 	}
 
  ?>
+
+ <?php include("../../../header.php");?>
 
 <form method="POST">
 

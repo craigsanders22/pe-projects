@@ -37,3 +37,14 @@
 	padding: 15px 30px;
 	border-radius: 5px;
 }
+
+.e4p .inner-column {
+	width: 1200px;
+}
+
+.e4p-exercises {
+	display: flex;
+	flex-direction: column;
+
+}
+

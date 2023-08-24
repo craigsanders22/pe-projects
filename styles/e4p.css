@@ -1,5 +1,5 @@
 .e4p {
-	
+	display: flex;
 	padding: 20px;
 	height: 100vh;
 }
@@ -11,14 +11,31 @@
 
 .e4p-exercises {
 	padding: 50px;
-	display: flex;
-	flex-direction: column;
+
+}
+
+.e4p li {
+	padding-top: 25px;
+	max-width: 400px;
+	margin: auto;
+
 }
 
 .e4p a {
-	border: 5px solid #aea3a2 ;
+	border: 5px solid #52928e ;
 	color: white;
 	text-decoration: none;
-	padding: 20px 30px;
+	padding: 15px 25px;
 	margin-right: 20px;
+}
+
+.e4p .inner-column {
+	width: 1000px;
+}
+
+.e4p-exercises {
+	border: 2px solid #52928e;
+	
+	
+
 }
