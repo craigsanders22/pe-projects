@@ -3,9 +3,9 @@
 
 
 
-<link rel="stylesheet" href="../../style.css">
-<link rel="stylesheet" href="../../reset.css">
-<link rel="stylesheet" href="../../setup.css">
+
+<link rel="stylesheet" href="../../../styles/site.css">
+
 
 <body>
   
@@ -20,7 +20,7 @@
 
     <h1>
        Check out my Exercises for Programmers!
-       Checking
+       
     </h1>
 
   
@@ -40,6 +40,3 @@
 </body>
 
 <?php include('../../footer.php');?>
-
-
-

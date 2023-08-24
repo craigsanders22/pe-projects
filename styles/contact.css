@@ -1,0 +1,85 @@
+
+.container {
+   
+    border-radius: 8px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 500px;
+    margin-bottom: 50px;
+
+}
+
+.contact a {
+    display: inline-block;
+    border: none;
+    background: none;
+    padding: 0px 5px;
+    color: #2d3746;
+    text-decoration: underline;
+
+}
+
+.contact h1 {
+    margin-bottom: 30px;
+}
+
+.contact h2 {
+    
+    margin-bottom: 20px;
+    max-width: 75ch;
+   
+}
+
+.contact-form label {
+    font-family: avenir next;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    font-family: avenir next;
+    background-color: #2d3746;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contact-form button:hover {
+    background-color: #aea3a2;
+    color: #2d3746;
+    transition: 1s;
+    outline: 2px solid #2d3746;
+}
+
+
+.contact-cards a {
+    font-family: avenir next;
+    padding: 10px 20px;
+    background-color: #2f3745;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+
+/* Responsive adjustments */
+@media (max-width: 400px) {
+    .container {
+        width: 90%;
+    }
+}

@@ -1,20 +1,26 @@
 
+
 <?php
 	$heading = $project['heading'];
 	$description = $project['description'];
 	$thumbnail = $project['thumbnail'];
+	$link = $project['link'];
 ?>
+<section class='project-card'>
+<div class="inner-column">
 
-<project class='project-card'>
 	<picture>
-		<img src='../../assets/<?=$thumbnail?>' alt='$todo'>
+		<img src='<?=$thumbnail?>' alt='$todo'>
 	</picture>
 
 	<text-content>
 		<h1 class='strong-voice'><?=$heading?></h1>
 
 		<p class='teaser'><?=$description?></p>
-
-		<a class='button' href='#'>Shop Now</a>
+		<a href='<?=$link?>'> Find out More!</a>
+  
 	</text-content>
-</project>
+</div>
+
+</div>
+</section>

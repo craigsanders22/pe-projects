@@ -1,20 +1,21 @@
+
+
 <?php include ('data/project-cards.php'); ?>
 
-<project-grid>
+<div class="inner-column">
+<section class="project-grid">
 
-  <p>bacon</p>
+
+
   <ul class='project-list'>
 
     <?php foreach ($projects as $project) { ?>
       <li class='project'> 
-        <p>tomato</p>
        <?php include('project-cards/template.php'); ?>
       </li>
     <?php } ?>
 
   </ul>
 
-</project-grid>
-
-
-
+</section>
+</div>
