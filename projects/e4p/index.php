@@ -3,8 +3,9 @@
 
 
 
-<link rel="stylesheet" href="../../../styles/site.css">
-
+<link rel="stylesheet" href="../../style.css">
+<link rel="stylesheet" href="../../reset.css">
+<link rel="stylesheet" href="../../setup.css">
 
 <body>
   
@@ -19,7 +20,7 @@
 
     <h1>
        Check out my Exercises for Programmers!
-       
+       Checking
     </h1>
 
   

@@ -1,5 +1,3 @@
-<?php include('config.php'); ?>
-
 <!doctype html>
 
 <html lang="en">
@@ -9,21 +7,21 @@
 <body>
   <header class="site-header">
     <div class="inner-column">
+
       <div class="header-items">
         <div class="logo">
           <picture>
-          	<a href="#">
-           <img src="alpha-seven.png"/>
+           <img src="../assets/alpha-seven.png"/>
           </picture>
         </div>
     
         <nav class="site-nav">
           <ul class="nav-list">
-            
-            <li><a href="projects/">projects</a></li>
-            <li><a href="goals/">my goals</a></li>
-            <li><a href="resume/">resume</a></li>
-            <li><a href="contact/">let's chat</a> </li>
+            <li><a href="../index.php">home</a></li>
+            <li><a href="../projects">projects</a></li>
+            <li><a href="../goals">my goals</a></li>
+            <li><a href="../resume">resume</a></li>
+            <li><a href="../contact">let's chat</a> </li>
           </ul>
         </nav>
       </div>
@@ -31,6 +29,4 @@
     </div>
   </header>
 
-  <main id="page-content">
-
-  <!-- /* each page content goes here -->
+  <main>

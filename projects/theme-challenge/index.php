@@ -17,8 +17,6 @@
 	<body>
 
 		<header class='top' id="top">
-
-
 	
 			
 			<?php include('modules/mast-head/template.php'); ?>
@@ -58,7 +56,7 @@
 			<section class='get-involved' id='get-involved'>
 			<inner-column>
 
-				<?php include('modules/call-to-action/template2.php'); ?>
+				<?php include('modules/call-to-action/template.php'); ?>
 
 			</inner-column>
 			</section>

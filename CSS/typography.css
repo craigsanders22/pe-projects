@@ -1,5 +1,5 @@
 .loud-voice	{
-	font-family:'Didot';
+	font-family:'Georgia';
 	font-size: clamp(40px, 5vw, 56px);
 }
 @media (min-width: 600px) {
@@ -9,7 +9,7 @@
 }
 
 .attention-voice	{
-	font-family: 'Didot';
+	font-family: 'Georgia';
 	font-size: 30px;
 }
 
@@ -23,10 +23,4 @@
 	font-family: 'avenir next';
 	font-size: 1rem;
 	line-height: 1.4;
-}
-
-.quiet-voice {
-	font-family: 'Avenir Next';
-	font-size: 12px;
-	line-height: 1.2;
 }

@@ -1,3 +1,7 @@
+
+ <link rel="styles"  href="reset.css">
+
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -5,34 +9,25 @@
 }
 
 .inner-column {
-
   padding-top: 20px;
   padding-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
   justify-content: center;
-  align-items: center;
   max-width: 1240px;
-
-}
-
-.site-header .inner-column {
-  padding-top: 5px;
-  padding-bottom: 0px;
 }
 
 body {
   color: white;
   background-color: #2a3748;
   width: 100%;
-  height: 100%;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   margin: 0;
-  
 }
 
 
@@ -43,9 +38,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding-top: 0px;
-  padding-bottom: 10px;
-  align-items: center;
+  padding-top: 10px;
 }
 
 .nav-list {
@@ -73,7 +66,7 @@ body {
   font-weight: 700;
   color: #272424;
   text-decoration: none;
-  padding: 5px 10px;
+  padding: 5px 20px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -100,8 +93,6 @@ body {
 }
 
 
-
-
 .site-header {
   background: #b1a2a2;
   
@@ -119,9 +110,9 @@ body {
 
 .site-footer {
   display: flex;
-  flex-shrink: 0;
   flex-direction: row;
   justify-content: center;
+  position: sticky;
   background: #b1a2a2;
 
 }
@@ -151,7 +142,6 @@ body {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-
 }
 
 .about,
@@ -197,22 +187,7 @@ body {
 
 .box {
   flex-basis: 50%;
-  box-sizing: content-box;
-width: 100%;
-height: 400px;
-padding: 5px;
-margin-top: 30px;
- 
-}
-
-.box picture {
-  height: 200px;
-  padding: 20px 10px;
-}
-.box img{
-  margin: auto;
-  min-height: 200px;
-
+  padding: 20px;
 }
 
 ul {
@@ -225,7 +200,7 @@ padding-inline-start: 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
- padding: 40px;
+  margin: 40px;
 
 }
 
@@ -277,7 +252,11 @@ padding-inline-start: 0px;
 
 
 /* typography */
-
+h1 {
+  color: white;
+  font-size: 60px;
+  font-family: playfair display;
+}
 
 @media (max-width: 800px) {
   h1 {
@@ -295,30 +274,53 @@ padding-inline-start: 0px;
 
 h2 {
   color: white;
- 
+  font-size: 30px;
+  font-family: playfair display;
 }
 
 h3 {
   color: white;
   text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  
+  font-size: 28px;
+  font-family: Source Serif Pro;
 }
 
 p {
   color: #fff;
- 
+  font-size: 20px;
+  line-height: 1.5em;
+  margin-bottom: 20px;
+  padding: 20px;
+  text-align: center;
 }
 
+.goals p {
 
+  text-align: left;
+  max-width: 120ch;
+}
+
+.goals h1 {
+  font-family: didot;
+  padding: 20px;
+  outline: 2px solid #FFF;
+  background-color: #37948f;
+
+}
+
+.goals h2 {
+  font-family: didot;
+  text-decoration: underline;
+}
+
+.goals p + h2 {
+  padding-top: 150px;
+}
 
 .box p{
   max-width: 60ch;
   font-size: 16px;
 
-}
-
-.accomplishments h3 {
-  padding-top: 25px;
 }
 
 .image {

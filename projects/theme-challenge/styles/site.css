@@ -1,0 +1,102 @@
+/* 
+	BTW in case it isn't obvious... the whole PSSST-CSS idea is a joke 
+	like... (it's just CSS)
+*/
+
+/* P reset */
+@import "reset.css";
+
+/* S etup */
+@import "setup.css";
+
+/* S setings */
+@import "settings.css";
+@import "developer-styles.css";
+
+/* S tructure */
+@import "structure.css";
+
+/* T ypography */
+@import "typography.css";
+
+/* C omponents */
+@import "components.css";
+
+/* S tuff (modules) */
+@import "modules.css";
+
+/* S ections and more stuff */
+
+/* then other contextual styles */
+body {
+	background-color: var(--paper);
+	color: var(--ink);
+	
+}
+
+section:is(.sign-up, .get-involved) inner-column {
+	max-width: var(--tight);
+}
+
+section.welcome  {
+	background-color: #fdfbf5;
+	color: var(--paper);
+}
+
+section.latest  {
+	background-color: var(--white);
+	color: var(--paper);
+}
+
+section:is(.get-involved, .sign-up) .button {
+	background-color: var(--ink);
+	color: var(--paper);
+}
+
+section:is(.get-involved, .sign-up) .button:hover {
+	background-image: radial-gradient(circle, #c94122, #d1561d, #d86a18, #dc7d14, #e09013, #e19f1e, #e2ae2a, #e3bc37, #e3c94b, #e4d65f, #e5e373, #e6ef87);
+	/*transform: skewX(-5deg);*/
+	box-shadow: inset 400px 0 0 0 #771828;
+	transition-duration: 2s;
+	color: white;
+	font-weight: 600;
+}
+
+
+
+section.latest .button {
+	background: linear-gradient(0deg, #240240 0%, #592503 100%);
+	color: var(--white);
+	
+}
+
+section.latest a.button:hover {
+	background-image: radial-gradient(circle, #c94122, #d1561d, #d86a18, #dc7d14, #e09013, #e19f1e, #e2ae2a, #e3bc37, #e3c94b, #e4d65f, #e5e373, #e6ef87);
+	/*transform: skewX(-5deg);*/
+	box-shadow: inset 600px 0 0 0 #771828;
+	transition-duration: 2s;
+	
+	font-weight: 600;
+}
+
+
+section:is(.get-involved, .sign-up) {
+background: linear-gradient(180deg, rgba(217, 217, 217, 0.00) 90.57%, rgba(208, 148, 30, 0.63) 91.37%, rgba(198, 21, 53, 0.56) 94.84%, rgba(72, 3, 103, 0.62) 98.30%);box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+/*
+@media (prefers-color-scheme: dark) {
+	section.sign-up {
+		background-color: var(--color);
+		color: var(--black);
+	}
+
+	section.sign-up .button {
+		background-color: var(--black);
+		color: var(--white);
+	}
+
+	section.get-involved {
+		background-color: var(--highlight);
+		color: var(--black);
+	}
+}
