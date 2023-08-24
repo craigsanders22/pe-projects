@@ -1,4 +1,4 @@
-<<?php include('config.php'); ?>
+<?php include('config.php'); ?>
 
 <!doctype html>
 
@@ -13,7 +13,7 @@
         <div class="logo">
           <picture>
             <a href="#">
-           <img src="alpha-seven.png"/>
+           <img src="assets/alpha-seven.png"/>
           </picture>
         </div>
     
