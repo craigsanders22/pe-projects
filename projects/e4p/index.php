@@ -1,35 +1,21 @@
 
 
-
-
-
-
-<link rel="stylesheet" href="../../../styles/site.css">
-
-
-<body>
-  
-  <header class=top>
-
 <?php include("../../header.php");?>
 
-</header>
 
-<main>
-  <section class="projects">
+<main class="e4p">
+  <section class="e4p-intro">
 
-    <h1>
-       Check out my Exercises for Programmers!
-       
-    </h1>
+    <h1 class="attention-voice">Check out my Exercises for Programmers!</h1>
+    </section>
 
   
-    <main class="contact">
-      <p>
-         <a href="pizza-party.php"> Pizza Party!</a>
-         <a href="simple-math.php">A Simple Math Calculator</a>
-         <a href="character-counts.php/?">Character Counts</a>
-         <a href="tax-calculator.php">Tax Calculator</a>
+    <section class="e4p-exercises">
+      <p class="strong-voice">
+         <a href="projects/E4P/pizza-party.php"> Pizza Party!</a>
+         <a href="projects/E4P/simple-math.php">A Simple Math Calculator</a>
+         <a href="projects/E4P/character-counts.php/?">Character Counts</a>
+         <a href="projects/E4P/tax-calculator.php">Tax Calculator</a>
       </p>
 
 

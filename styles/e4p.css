@@ -1,0 +1,24 @@
+.e4p {
+	
+	padding: 20px;
+	height: 100vh;
+}
+
+
+.e4p-intro {
+	padding: 50px;
+}
+
+.e4p-exercises {
+	padding: 50px;
+	display: flex;
+	flex-direction: column;
+}
+
+.e4p a {
+	border: 5px solid #aea3a2 ;
+	color: white;
+	text-decoration: none;
+	padding: 20px 30px;
+	margin-right: 20px;
+}
