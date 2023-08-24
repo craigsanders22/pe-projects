@@ -1,0 +1,6 @@
+.DS_Store
+/Not-in-use
+/projects/Portfolio-page/home.html
+/responsive-challenge
+/config.php
+/untitled file

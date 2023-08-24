@@ -1,0 +1,32 @@
+.loud-voice	{
+	font-family:'Didot';
+	font-size: clamp(40px, 5vw, 56px);
+}
+@media (min-width: 600px) {
+	.loud-voice {
+		font-weight: 700; /* or variable font */
+	}
+}
+
+.attention-voice	{
+	font-family: 'Didot';
+	font-size: 30px;
+}
+
+.strong-voice	{
+	font-family: 'avenir next';
+	font-weight: 700;
+	font-size:  1rem;
+}
+
+.calm-voice, p, li {
+	font-family: 'avenir next';
+	font-size: 1rem;
+	line-height: 1.4;
+}
+
+.quiet-voice {
+	font-family: 'Avenir Next';
+	font-size: 12px;
+	line-height: 1.2;
+}
