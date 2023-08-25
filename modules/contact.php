@@ -18,7 +18,7 @@
             </picture>
           </div>
 
-          <div class="link">
+          <div class="link5">
             <a href="mailto: craig.sanders@me.com">Email Me</a>
 
             </a>

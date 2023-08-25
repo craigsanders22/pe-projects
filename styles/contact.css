@@ -75,6 +75,11 @@
     text-decoration: none;
 }
 
+.contact-cards {
+    
+    padding: 10px 20px 40px 20px;
+}
+
 
 
 /* Responsive adjustments */
