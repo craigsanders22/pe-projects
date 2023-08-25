@@ -1,0 +1,62 @@
+.site-footer {
+  background-color: #fdfbf5;
+	
+	padding: 10px;	
+}
+
+.footer-text {
+	border: 3px solid black;
+	padding: 10px;
+}
+
+.footer-text h1 {
+	font-family: montserrat;
+	padding: 10px;
+	color: #5d341f;
+	margin-bottom: 20px;
+
+	margin-top: 25px;
+}
+
+.footer-text p {
+	padding: 10px;
+	color: #5d341f;
+	margin-bottom: 20px;
+
+}
+
+.site-map {
+	border: 3px solid black;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+ 	text-align: center; 
+}
+
+.site-map nav {
+	padding: 10px;
+	
+	margin-top: 30px;
+	margin-bottom: 75px;
+}
+
+.site-map nav a {
+	font-family: helvetica;
+	font-size: 16px;
+	
+	color: #5d341f;
+	padding: 5px 10px;
+	margin-right: 10px;
+	font-weight: 600;
+}
+
+@media (min-width: 600px) {
+  .site-map {
+    display: flex;
+    flex-direction: row;
+		justify-content: space-between;
+    align-items: flex-start;
+    text-align: left;
+    padding: 10px;
+  	}
+}

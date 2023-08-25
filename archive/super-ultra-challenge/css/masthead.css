@@ -1,0 +1,36 @@
+
+
+.site-header {
+		background-color: #eeeae3;
+		border: 3px solid black;
+}
+
+.masthead nav {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 10px;
+	text-align: center;
+	
+}
+
+.masthead nav a {
+	font-family: helvetica;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #5d341f;
+	padding: 5px 10px;
+	margin-right: 10px;
+	font-weight: 600;
+}
+
+
+@media (min-width: 600px) {
+	.masthead {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		}
+}
+

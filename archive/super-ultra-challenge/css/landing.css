@@ -1,0 +1,59 @@
+
+.landing {
+	border: 2px solid black;
+	background-color: lightskyblue;
+}
+
+.landing-banner  {
+	display: flex;
+	flex-direction: column;
+	border: 5px solid black;
+	padding: 10px;
+}
+
+.landing-square {
+	border: 3px solid black;
+	max-width: 700px;
+	padding: 20px;
+	max-width: 400px;
+	height: auto; 
+	margin: auto;
+}
+
+.landing-text {
+	display: block;
+	border: 5px solid black;
+}
+
+.landing-text h1 {
+
+	display:block;
+	border: 2px solid black;
+	padding: 10px;
+	margin-top: 20px;
+}
+
+.landing-text p {
+
+	display:block;
+	border: 2px solid black;
+	padding: 5px;
+}
+
+.landing h1 + p {
+	margin-top: 20px;
+}
+
+@media (min-width:700px){
+	.landing-banner {
+		display:flex;
+		flex-direction: row-reverse;
+		}
+	}
+
+}
+
+
+
+
+
