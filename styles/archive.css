@@ -1,0 +1,13 @@
+.archive-page {
+	height: 100vh;
+}
+
+.archive-page {
+	margin-top: 100px;
+}
+
+@media (max-width: 600px) {
+	.archive-page {
+		margin-top: 60px;
+	}
+}

@@ -12,7 +12,7 @@
         <div class="logo">
           <picture>
           	<a href="../#">
-           <img src="assets/alpha-seven.png"/>
+           <img src="assets/logo.png"/>
           </picture>
         </div>
     

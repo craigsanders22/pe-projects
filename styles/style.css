@@ -16,9 +16,12 @@
 
 }
 
-.site-header .inner-column {
-  padding-top: 5px;
-  padding-bottom: 0px;
+header .inner-column {
+  padding: 5px;
+}
+
+nav.site-nav {
+  margin-top: -12px;
 }
 
 body {
@@ -43,8 +46,8 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding-top: 0px;
-  padding-bottom: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
   align-items: center;
 }
 
@@ -92,7 +95,7 @@ body {
 }
 
 .logo img {
-  max-width: 150px;
+  max-width: 80px;
 }
 
 .box img {
@@ -106,7 +109,7 @@ body {
   background: #b1a2a2;
   
   z-index: 999;
-  top: -10px;
+  top: -2px;
   box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
   
 }

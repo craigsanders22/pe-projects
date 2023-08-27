@@ -15,7 +15,7 @@
 			<img src="assets/project.png" alt="">
 		</picture>
 		<h2 class="attention-voice">Exercises For Programmers</h2>
-		<h3 class="calm-voice">Exercises for Programmers is a book by Brian P. Hogan that includes practice exercises rooted in real-world scenarios. Here are some of my results:</h3>
+		<h3 class="calm-voice">Exercises for Programmers is a book by Brian P. Hogan that includes practice exercises rooted in real-world scenarios. Here are some of my results.</h3>
 		<a href="projects/e4p/">The Exercises</a>
 	</section>
 	
@@ -23,9 +23,9 @@
 		<picture>
 			<img src="assets/project.png" alt="">
 		</picture>
-		<h2 class="attention-voice">Theme Challenge Sprint</h2>
+		<h2 class="attention-voice">Theme Challenge</h2>
 		<h3 class="calm-voice">In this challenge we researched a specific branding strategy for a product,shared our research results, assembled style tiles, developed a visual guide, then built a themed page based on our research.</h3>
-		<a href="projects/theme-challenge/">Saloon Candle Co.</a>
+		<a href="projects/theme-challenge/" target="_blank">Saloon Candle Co.</a>
 	</section>
 
 	<section class="project-grid">
@@ -41,7 +41,7 @@
 			<img src="assets/project.png" alt="">
 		</picture>
 		<h2 class="attention-voice">Small Biz Site</h2>
-		<h3 class="calm-voice">I created a simple website for a family member to help them sell their watercolor paintings and connect with potential clients</h3>
+		<h3 class="calm-voice">I created a simple website for a family member to help them sell their watercolor paintings and connect with potential clients.</h3>
 		<a href="projects/layout-garden/">Watercolor Tales</a>
 	</section>
 	</section>

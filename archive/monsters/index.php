@@ -1,6 +1,7 @@
 <?php include ('monsters.php'); ?>
 <?php include ('styles.php'); ?>
 
+<div class="inner-column">
 <ul class='monsters'>
 
 
@@ -48,3 +49,4 @@ $adoptionlist = [$codey, $limabean, $fragoo, $orangina, $shadow, $mrbanana, $cod
 
 
 </ul>
+</div>
