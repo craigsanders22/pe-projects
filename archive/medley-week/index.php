@@ -9,6 +9,8 @@
 
 	<h1>Here is the Medley Page</h1>
 <a href="layout-1/">Here is the layout </a>
+
+<a href="temp-converter.php">This is the temp converter</a>
 </body>
 </html>
 
