@@ -8,9 +8,7 @@
 <body>
 
 	<h1>Here is the Medley Page</h1>
-	
-<a href="layout1/">Here is the layout </a>
+<a href="layout-1/">Here is the layout </a>
 </body>
 </html>
 
-<a href="archive/layout1/">Here is the layout </a>
