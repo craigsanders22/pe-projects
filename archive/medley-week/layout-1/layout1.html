@@ -1,5 +1,5 @@
 <style>
-	@import "styles/site.css";
+	@import "../styles/site.css";
 </style>
 
 
