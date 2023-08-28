@@ -1,0 +1,38 @@
+
+
+* {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, p, ul, ol, li,
+span, a, table, tr, td, blockquote {
+	line-height: 1.25em;
+	letter-spacing: normal;
+}
+
+
+picture {
+	display: block;
+	width: auto;
+}
+
+img {
+	display: block;
+	
+	height: auto;
+}
+
+
+
+a {
+	display: block;
+	text-decoration: none;
+	color: inherit;
+	
+}
+
+p a { 
+	display: inline;
+	color: blue;
+	text-decoration: underline;
+}
