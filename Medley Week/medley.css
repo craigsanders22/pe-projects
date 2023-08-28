@@ -1,0 +1,31 @@
+/* Typography */
+
+.loud-voice {
+	font-family: palatino;
+	font-size: 2.8rem;
+	font-weight: 700;
+}
+
+.attention-voice {
+	font-family: palatino;
+	font-size: 2.1rem;
+	font-weight: 500;
+}
+
+.strong-voice {
+	font-family: optima;
+	font-size: 1.4rem;
+	font-weight: 700;
+}
+
+.calm-voice {
+	font-family: optima;
+	font-size: 1rem;
+	font-weight: 500;
+}
+
+.quiet-voice {
+	font-family: optima;
+	font-size: .7rem;
+	font-weight: 300;
+}
