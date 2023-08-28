@@ -5,7 +5,6 @@
 
 body {
 	max-width: 100%;
-	border: 2px solid green;
 	color: var(--ink);
 	background-color: var(--paper);
 	margin: auto;
