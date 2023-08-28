@@ -1,4 +1,14 @@
 
+/* colors */
+
+:root {
+    --main-color:#06c;
+}
+
+body { 
+	background-color: var(--main-color); 
+}
+
 
 
 /* Typography */
@@ -71,7 +81,7 @@ img {
 	max-width: 600px;
 	max-height: 400px;
 	padding: 10px;
-	
+
 
 
 
