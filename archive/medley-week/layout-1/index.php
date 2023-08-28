@@ -59,9 +59,9 @@
 	<main class="image-content">
 		<div class="inner-column">
 			<section class="images">
-				<img src="/crystal1.jpg" alt="an image of a crystal">
+				<img src="crystal1.jpg" alt="an image of a crystal">
 
-				<img src="../crystal2.jpg" alt="an image of a crystal">
+				<img src="crystal2.jpg" alt="an image of a crystal">
 
 				<img src="crystal3.jpg" alt="an image of a crystal">
 
