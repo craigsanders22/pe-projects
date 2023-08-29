@@ -91,13 +91,13 @@ img {
 	margin-top: 10px;
 	max-height: 800px;
 	padding: 5px;
-	outline: 2px solid var(--ink);
+	
 }
 
 @media (min-width: 600px) {
 	.images {
 		display: grid;
-		grid-template-columns: 1fr 1fr;
+		grid-template-columns: 1fr 1fr 1fr;
 		grid-gap: 20px;
 	}
 }
