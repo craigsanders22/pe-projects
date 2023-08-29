@@ -1,6 +1,6 @@
 :root {
-    --ink:#6c6874;
-    --paper:#f7cfb6;
+	--ink: #6c6874;
+	--paper: #f7cfb6;
 }
 
 body {
@@ -9,7 +9,6 @@ body {
 	background-color: var(--paper);
 	margin: auto;
 }
-
 
 /* Typography */
 
@@ -25,7 +24,6 @@ body {
 	font-weight: 700;
 }
 
-
 .strong-voice {
 	font-family: optima;
 	font-size: 1.4rem;
@@ -40,14 +38,14 @@ body {
 
 .quiet-voice {
 	font-family: optima;
-	font-size: .7rem;
+	font-size: 0.7rem;
 	font-weight: 300;
 }
 
 @media (max-width: 600px) {
 	.attention-voice {
 		font-size: 1.6rem;
-}
+	}
 	.strong-voice {
 		font-size: 1.2rem;
 	}
@@ -68,42 +66,41 @@ body {
 }
 
 .crystal {
-    padding: 20px;
+	padding: 20px;
 }
 
 .articles h2 {
-	border-top: 2px solid black;
+	border-top: 2px solid var(--ink);
 	margin-top: 10px;
 	padding-top: 10px;
 }
 
-
-
 @media (min-width: 600px) {
-.articles {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
+	.articles {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 20px;
+	}
 }
-}
-
 
 /* assets */
 
 img {
-	max-width: 100%;
+	max-width: 95%;
+	margin: auto;
+	margin-top: 10px;
 	max-height: 800px;
-	padding: 10px;
-}
-	
-@media (min-width: 600px) {
-.images {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
-	}
+	padding: 5px;
+	outline: 2px solid var(--ink);
 }
 
+@media (min-width: 600px) {
+	.images {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 20px;
+	}
+}
 
 @media (min-width: 1200px) {
 	main {
@@ -114,11 +111,4 @@ img {
 	.image-content {
 		margin-top: 20px;
 	}
-	
-
-
 }
-
-
-
-
