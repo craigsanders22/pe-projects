@@ -1,4 +1,4 @@
-
+<<?php include 'form-header.php' ?>
 <?php
 
 	$guests = 4;
@@ -42,7 +42,6 @@
 
  ?>
 
- <?php include("../../../header.php");?>
 
 <form method="POST">
 
@@ -84,60 +83,3 @@
 </form>
 
 
-<style>
-
-	form {
-		
-		padding-left: 100px;
-		max-width: 700px;
-	}
-
-	.field {
-
-		max-width: 300px;
-		display: flex;
-		flex-direction: column;
-	}
-
-	.field label {
-		font-size: 16px;
-		font-family: sans-serif;
-		margin-bottom: 5px;
-	}
-
-
-	button[type="submit"], .field + .field {
-		margin-top: 20px;
-	}
-
-	h2 {
-		font-family:didot;
-		color: darkgreen;
-		font-size: 32px;
-		font-weight: 700;
-		letter-spacing: 1.2;
-		text-decoration: none;
-		margin-top: 100px;	
-	}
-
-	h3 {
-		font-family: didot;
-		color: black;
-		font-size: 20px;
-		font-weight: 500;
-		margin-top: 40px;
-	}
-
-	b {
-		color: red;
-	}
-
-	p {
-		font-size: 16px;
-		font-weight: 400;
-	}
-
-
-</style>
-
-<?php include('../../footer.php');?>
