@@ -1,1 +1,22 @@
-layout2.css
+.adventure h2 {
+	margin-left: 20px;
+}
+
+.adventure h3 {
+	margin-left: 20px;
+}
+
+.adventure p {
+	margin-left: 20px;
+}
+
+.headline {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+
+}
+
+.adventure {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}

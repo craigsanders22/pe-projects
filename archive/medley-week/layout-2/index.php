@@ -16,8 +16,10 @@
 				<picture>
 					<img src="joy.png" alt="">
 				</picture>
+				<div class="adventure-text">
 				<h2 class="attention-voice"> Adventure travel done right</h2>
 				<p class="calm-voice">Wherever you want to go, whatever you want to get into, we've got a trip that’ll make your dream vacation come true. Visit like a local, explore at your own pace, and eat like a king (or a vegan king, if that's more your thing).</p>
+			</div>
 			</section>
 
 			<section class="articles">
@@ -43,7 +45,7 @@
 
 					<div class="article-card">
 					<picture>
-						<img src="mountain.png" alt="">
+						<img src="camp.png" alt="">
 					</picture>
 					<h3 class="strong-voice">
 						Decades of experience
