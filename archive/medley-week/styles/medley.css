@@ -53,7 +53,7 @@ body {
 
 /* layout */
 .inner-column {
-	max-width: 1000px;
+	max-width: 1200px;
 	margin: auto;
 }
 
@@ -91,7 +91,6 @@ img {
 	margin-top: 10px;
 	max-height: 800px;
 	padding: 5px;
-	
 }
 
 @media (min-width: 600px) {
