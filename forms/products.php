@@ -5,20 +5,20 @@
   <form method="post">
     <label for="productName">
       <p class="calm-voice">Enter Product Name:</label></p>
-    <p class="calm-voice"><input type="text" id="productName" name="productName" required><br><br></p>
+    <input type="text" id="productName" name="productName" placeholder="product 1, etc" required><br><br>
     <button type="submit" name="lookup">Lookup</button>
   </form>
   <p id="result">
     <?php
       if (isset($_POST['lookup'])) {
-      $productName = strtolower($_POST['productName']); // Convert input to lowercase
+      $productName = strtolower($_POST['productName']); 
       $jsonData = file_get_contents('products.json');
 
       $data = json_decode($jsonData, true);
       $product = null;
 
       foreach ($data['products'] as $p) {
-        if (strtolower($p['name']) === $productName) { // Convert product name to lowercase
+        if (strtolower($p['name']) === $productName) {
           $product = $p;
           break;
         }
