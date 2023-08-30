@@ -1,8 +1,13 @@
-.headline {
-	margin-bottom: 0px;
-	padding: 0;
+.adventure {
+	display: block;
+	padding: 60px;
 }
 
+
+ul {
+	display: grid;
+	gap: 40px;
+}
 .adventure img {
 	width: 100%;
 }
@@ -22,7 +27,7 @@
 	
 }
 
-.headline {
+.article-card {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	align-items: center;
