@@ -1,5 +1,7 @@
 <?php include 'form-header.php' ?>
 
+<link rel="stylesheet" href="../forms.css">
+
 <body>
     <div class="container">
     <h1>Simple Interest Calculator</h1>
