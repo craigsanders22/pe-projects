@@ -14,6 +14,7 @@
     <section class="e4p-exercises">
       <ul>
       <p class="strong-voice">
+        <li><a href="forms/simple-interest.php/"> Simple Interest</a></li>
 
         <li><a href="forms/mad-lib/"> Mad Lib</a></li>
 
