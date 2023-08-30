@@ -1,6 +1,6 @@
 <?php include 'form-header.php' ?>
 
-<link rel="stylesheet" href="../forms.css">
+
 
 <body>
     <div class="container">
@@ -16,11 +16,14 @@
         <label for="years">Number of years:</label>
         <input type="number" id="years" name="years" required><br><br>
 
-        <input type="submit" name="calculate" value="Calculate">
+        <p><button type="submit" name="submit">Calculate</button></p>
+  
     </form>
+
     
+
     <?php
-    if (isset($_POST['calculate'])) {
+    if (isset($_POST['submit'])) {
         $principal = floatval($_POST['principal']);
         $rate = floatval($_POST['rate']);
         $years = intval($_POST['years']);
@@ -29,7 +32,7 @@
         $totalAmount = $principal + $interest;
         
         echo "<div id='result'>";
-        echo "After $years years at $rate% interest, the investment will be worth $" . number_format($totalAmount, 2) . ".";
+        echo "<h4>After $years years at $rate% interest, the investment will be worth $$totalAmount</h4>";
         echo "</div>";
     }
     ?>

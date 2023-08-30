@@ -14,7 +14,7 @@
     <section class="e4p-exercises">
       <ul>
       <p class="strong-voice">
-        <li><a href="forms/simple-interest.php/"> Simple Interest</a></li>
+        <li><a href="forms/simple-interest.php"> Simple Interest</a></li>
 
         <li><a href="forms/mad-lib/"> Mad Lib</a></li>
 
@@ -23,7 +23,7 @@
         <li><a href="forms/temp-converter.php"> Temperature Converter</a></li>
          <li><a href="forms/pizza-party.php"> Pizza Party!</a></li>
          <li><a href="forms/simple-math.php">A Simple Math Calculator</a></li>
-         <li><a href="forms/character-counts.php/?">Character Counts</a></li>
+         <li><a href="forms/character-counts.php">Character Counts</a></li>
          <li><a href="forms/tax-calculator.php">Tax Calculator</a></li>
       </p>
       </ul>
