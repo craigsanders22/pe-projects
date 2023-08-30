@@ -42,15 +42,18 @@
 
 	.headline p {
 		margin-top: 0px;
+		margin-left: 20px;
 	}
 
 	.articles p {
 		margin-top: 10px;
+		margin-left: 30px;
 		padding-bottom: 20px;
 	}
 
 	.adventure h2 {
 		padding: 15px;
+	
 	}
 
 	.articles {

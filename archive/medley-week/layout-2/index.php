@@ -1,3 +1,9 @@
+
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -23,7 +29,11 @@
 			</section>
 
 			<section class="articles">
-				<div class="article-card">
+				<ul>
+				<?php foreach ([1, 2, 3] as $text) { ?>
+		
+				
+				<li class="article-card">
 					<picture>
 						<img src="mountain.png" alt="">
 					</picture>
@@ -31,9 +41,12 @@
 						The uncommon path
 					</h3>
 					<p class="calm-voice">We go where others don’t, exploring unique destinations and the lesser-seen sides of popular places.</p>
-				</div>
+				</li>
 
-				<div class="article-card">
+				<?php } ?>
+				
+
+			<!-- 	<li class="article-card">
 					<picture>
 						<img src="hike.png" alt="">
 					</picture>
@@ -41,9 +54,10 @@
 						Expert, indespensable guides
 					</h3>
 					<p class="calm-voice">Our experienced, multitalented guides will keep you smiling, well-fed and learning new things around every bend.</p>
-				</div>
+				</li> -->
 
-				<div class="article-card">
+
+			<!-- 	<li class="article-card">
 					<picture>
 						<img src="camp.png" alt="">
 					</picture>
@@ -51,9 +65,10 @@
 						Decades of experience
 					</h3>
 					<p class="calm-voice">For 30+ years, we’ve wowed travelers with exceptional service, flexible booking policies, and our dedication to travelers’ health & safety.</p>
-				</div>
+				</li> -->
 
 
+			</ul>
 
 
 

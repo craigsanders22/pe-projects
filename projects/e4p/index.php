@@ -15,6 +15,8 @@
       <ul>
       <p class="strong-voice">
 
+        <li><a href="forms/mad-lib/"> Mad Lib</a></li>
+
          <li><a href="forms/age-checker.php"> Age Checker</a></li>
 
         <li><a href="forms/temp-converter.php"> Temperature Converter</a></li>
