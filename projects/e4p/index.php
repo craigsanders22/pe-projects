@@ -16,7 +16,7 @@
       <p class="strong-voice">
         <li><a href="forms/simple-interest.php"> Simple Interest</a></li>
 
-        <li><a href="forms/mad-lib/"> Mad Lib</a></li>
+        <li><a href="forms/mad-lib.php/"> Mad Lib</a></li>
 
          <li><a href="forms/age-checker.php"> Age Checker</a></li>
 
