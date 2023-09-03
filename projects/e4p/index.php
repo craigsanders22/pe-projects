@@ -14,6 +14,8 @@
     <section class="e4p-exercises">
       <ul>
       <p class="strong-voice">
+
+          <li><a href="forms/currency-converter.php"> Currency Converter</a></li>
         <li><a href="forms/products.php"> Product Search</a></li>
 
         <li><a href="forms/simple-interest.php"> Simple Interest</a></li>
