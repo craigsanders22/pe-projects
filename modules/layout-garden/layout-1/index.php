@@ -44,7 +44,7 @@
 				<h2 class="strong-voice">This is a crystal</h2>
 				<p class="calm-voice">This is some body text. This is some body text. This is some body text. This is some body text.</p>
 			</div>
-			</div>
+			
 		</section>
 		
 	
