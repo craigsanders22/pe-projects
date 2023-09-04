@@ -9,12 +9,11 @@
 	padding: 50px;
 }
 
-.e4p h1 {
-	
-}
+
 
 .e4p-exercises {
 	padding: 50px;
+	border: 2px solid #52928e;
 
 }
 
@@ -27,7 +26,6 @@
 
 .e4p a {
 	border: 5px solid #52928e ;
-	color: white;
 	text-decoration: none;
 	padding: 15px 25px;
 	margin-right: 20px;
@@ -37,9 +35,3 @@
 	width: 1000px;
 }
 
-.e4p-exercises {
-	border: 2px solid #52928e;
-	
-	
-
-}

@@ -14,7 +14,7 @@
 			<div class="inner-column">
 				<section class="text">
 					<div class="headline">
-						<h2 class="attention-voice">Livy's Crystal Garden</h2>
+						<h2 class="attention-voice">Livy's Amazing Crystal Garden</h2>
 						<p class="calm-voice">This is some body text. This is some body text. This is some body text. This is some body text. </p>
 					</div>
 

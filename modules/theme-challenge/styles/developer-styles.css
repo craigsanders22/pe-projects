@@ -1,0 +1,15 @@
+
+body * {
+	
+	padding: 2px;
+}
+
+body inner-column {
+	
+	padding: 2px;
+}
+
+section:nth-of-type(odd) {
+	
+}
+

@@ -1,0 +1,29 @@
+
+graphic-diptych {
+	
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	padding: 3vh 0;
+}
+
+
+graphic-diptych p {
+	margin-top: 10px;
+}
+
+@media (min-width:  820px) {
+	graphic-diptych {
+		flex-direction: row;
+		align-items: center;
+	}
+
+	graphic-diptych :is(picture, text-content) {
+		flex-basis: 50%;
+	}
+}
+
+
+
+
+

@@ -1,0 +1,61 @@
+
+mast-head {
+	background-color: var(--black);
+	display: block;
+	color: var(--white);
+	border-top: 30px solid #4d4d4d;
+}
+
+header.top {
+	background: black;
+	position: sticky;
+	top: 0;
+}
+
+
+
+mast-head .logo {
+	max-width: 150px;
+	height: 60px;
+	padding: 10px;
+	margin-top: 15px;
+	border: 2px solid white;
+}
+
+
+
+
+mast-head .logo * {
+	fill: var(--ink);
+
+}
+
+mast-head nav ul {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+
+
+mast-head nav a:not(.home) {
+	padding: .5em 1em;
+}
+
+
+
+@media (min-width:  600px) {
+	mast-head {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+}
+
+@media (min-width: 1300px) {
+	mast-head {
+		padding-left: 100px;
+		padding-right: 100px;
+	}
+}

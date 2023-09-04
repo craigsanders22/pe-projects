@@ -1,0 +1,118 @@
+:root {
+	--ink: #6c6874;
+	--paper: #f7cfb6;
+}
+
+body {
+	max-width: 100%;
+	color: var(--ink);
+	background-color: var(--paper);
+	margin: auto;
+}
+
+section {
+	padding: 20px;
+	border: 5px solid green;
+}
+
+/* Typography */
+
+.loud-voice {
+	font-family: palatino;
+	font-size: 2.8rem;
+	font-weight: 700;
+}
+
+.attention-voice {
+	font-family: palatino;
+	font-size: 2.1rem;
+	font-weight: 700;
+}
+
+.strong-voice {
+	font-family: optima;
+	font-size: 1.4rem;
+	font-weight: 700;
+}
+
+.calm-voice {
+	font-family: optima;
+	font-size: 1rem;
+	font-weight: 500;
+}
+
+.quiet-voice {
+	font-family: optima;
+	font-size: 0.7rem;
+	font-weight: 300;
+}
+
+@media (max-width: 600px) {
+	.attention-voice {
+		font-size: 1.6rem;
+	}
+	.strong-voice {
+		font-size: 1.2rem;
+	}
+}
+
+/* layout */
+.inner-column {
+	max-width: 1200px;
+	margin: auto;
+}
+
+.headline {
+	padding: 20px;
+	margin-bottom: 40px;
+}
+.text {
+	padding: 10px;
+}
+
+.crystal {
+	padding: 20px;
+}
+
+.articles h2 {
+	border-top: 2px solid var(--ink);
+	margin-top: 10px;
+	padding-top: 10px;
+}
+
+@media (min-width: 600px) {
+	.articles {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 20px;
+	}
+}
+
+/* assets */
+
+img {
+	max-width: 95%;
+	margin: auto;
+	margin-top: 10px;
+	max-height: 800px;
+	padding: 5px;
+}
+
+@media (min-width: 600px) {
+	.images {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-gap: 20px;
+	}
+}
+
+@media (min-width: 1200px) {
+	main {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.image-content {
+		margin-top: 20px;
+	}
+}
