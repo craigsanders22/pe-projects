@@ -95,11 +95,15 @@ page-content {
 	.page-content {
 		display: flex;
 		flex-direction: column;
+		padding: 20px;
+		gap: 10px;
 	}
 
 	.articles {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
+		gap: 10px;
+		
 	}
 }
 
