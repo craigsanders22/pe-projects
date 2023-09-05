@@ -1,6 +1,4 @@
-<main class="feature-section">
-	<section class="feature">
-
+<section class="feature-section">
 	<div class="top-text">
 		<h3 class="strong-voice">Etiam Null Lectus Molestine At Vulputate.
 		</h3>
@@ -55,10 +53,6 @@
 				<p class="calm-voice">Aliquam Vehicula Pelletesque Id Mi QUam Ipsum. Arcu Nisi Faubicibus Mattis Etiam.
 				</p>
 			</li>
-
 		</ol>
-
 	</div>
-
 </section>
-</main>
