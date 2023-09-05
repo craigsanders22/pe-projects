@@ -170,7 +170,13 @@ nav ul li {
 	margin-bottom: 40px;
 }
 
+.feature-section .picture {
+	max-width: 300px;
+}
 
+.feature-section .feature-cards img {
+	max-width: 40px;
+}
 
 
 
