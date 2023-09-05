@@ -1,5 +1,5 @@
-<section class="feature-section">
-	
+<main class="feature-section">
+	<section class="feature">
 
 	<div class="top-text">
 		<h3 class="strong-voice">Etiam Null Lectus Molestine At Vulputate.
@@ -61,3 +61,4 @@
 	</div>
 
 </section>
+</main>
