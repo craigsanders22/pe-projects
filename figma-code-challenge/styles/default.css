@@ -170,6 +170,12 @@ nav ul li {
 	margin-bottom: 40px;
 }
 
+.feature-section {
+	display: flex;
+	flex-direction: row;
+	
+}
+
 .feature-section .picture {
 	max-width: 300px;
 }
@@ -177,6 +183,7 @@ nav ul li {
 .feature-section .feature-cards img {
 	max-width: 40px;
 }
+
 
 
 

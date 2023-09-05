@@ -1,4 +1,5 @@
 <section class="feature-section">
+	<div>
 	<div class="top-text">
 		<h3 class="strong-voice">Etiam Null Lectus Molestine At Vulputate.
 		</h3>
@@ -8,6 +9,7 @@
 
 	<div class="picture">
 		<img src="images/square.jpg" alt="">
+	</div>
 	</div>
 
 	<div class="feature-cards">
