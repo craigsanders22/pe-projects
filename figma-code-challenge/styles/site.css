@@ -21,16 +21,15 @@
 @import 'modules.css';
 
 /* S ections and more stuff */
+@import 'default.css';
+@import 'theme2.css';
+@import 'theme3.css';
 
 /* then other contextual styles */
 body {
 	background-color: var(--paper);
 	color: var(--ink);
 
-}
-
-* {
-	border: 5px solid black;
 }
 
 .my-fantastic-image {

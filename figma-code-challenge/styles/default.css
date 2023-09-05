@@ -1,0 +1,75 @@
+nav img {
+	max-width: 150px;
+}
+
+mast-head {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	text-align: center;
+	vertical-align: center;
+
+}
+
+.site-menu {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+nav ul {
+	list-style: none;
+	
+	margin-left: auto;
+	margin-right: auto;
+}
+
+nav ul li {
+	display: inline-block;
+	
+	text-align: center;
+	padding: 10px;
+}
+
+.text-area {
+	max-width: 100ch;
+	margin: auto;
+
+}
+
+.hero-buttons {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	
+
+
+}
+
+.get-started {
+	display: block;
+	padding: 10px 40px;
+	background-color: var(--color);
+	color: var(--white);
+	
+}
+
+.trial-button {
+	display: block;
+	padding: 10px 40px;
+	background-color: var(--paper);
+	color: var(--color);
+		margin-left: 40px;
+	
+
+}
+
+
+
+
+
+
+
+
+
+
