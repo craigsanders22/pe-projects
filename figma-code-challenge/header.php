@@ -53,11 +53,11 @@
 		<nav class='user-menu'>
 			<ul>
 				<li>
-					<a class='button' href='#'>EN EN</a>
+					<a class='button1' href='#'>EN EN</a>
 				</li>
 
 				<li>
-					<a class='button' href='#'>Login</a>
+					<a class='button2' href='#'>Login</a>
 				</li>
 			</ul>
 		</nav>
