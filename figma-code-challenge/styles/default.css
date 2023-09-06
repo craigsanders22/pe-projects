@@ -1,12 +1,19 @@
 
 /* HEADER MODULE */
 
+header {
+	padding: 0;
+}
+
 nav img {
 	max-width: 150px;
+	aspect-ratio: 3 / 1;
+	margin: 0;
+	padding: 0;
 }
 
 mast-head {
-	
+	padding: 0;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
@@ -14,22 +21,23 @@ mast-head {
 	vertical-align: center;
 }
 
-.site-menu {
+.site-nav {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	flex-shrink: 1;
 }
 
-nav ul {
+.site-nav ul {
 	list-style: none;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-nav ul li {
+.site-nav .user-menu li {
 	display: inline-block;
 	text-align: center;
-	padding: 10px;
+	padding: 5px 10px;
 }
 
 .headline {
@@ -51,7 +59,7 @@ mast-head {
 	vertical-align: center;
 }
 
-.site-menu {
+.user-menu {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -68,6 +76,13 @@ nav ul li {
 	display: inline-block;
 	text-align: center;
 	padding: 10px;
+}
+
+.user-menu .button2 {
+	border: 1px solid black;
+	background-color: var(--color);
+	color: var(--white);
+	padding: 5px 30px;
 }
 
 
@@ -164,11 +179,12 @@ nav ul li {
 	margin-bottom: 40px;
 }
 
-.video-player iframe {
-	max-width: 90%;
+.video-player {
+	max-width: 800px;
 	padding: 0;
 	margin: 0;
 	flex-shrink: 1;
+	margin: auto;
 
 }
 
@@ -344,6 +360,10 @@ nav ul li {
 	background-color: hsla(223, 178%, 98%, 1.0);
 }
 
+.hero-buttons {
+	padding-top: 60px;
+}
+
 
 
 
@@ -356,6 +376,11 @@ nav ul li {
 
 
 /* FAQ MODULE */
+
+.faq-section {
+	padding: 80px 40px;
+}
+
 
 .faq-section .top-text {
 	text-align: center;
