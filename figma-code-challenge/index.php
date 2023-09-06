@@ -1,5 +1,5 @@
 <?php 
-	$sections=['hero', 'main-content', 'feature', 'clients', 'faq', 'cta' ]
+	$sections=['hero', 'main-content', 'feature', 'clients','cta', 'faq' ]
 ?>
 
 <?php include('header.php') ?>
