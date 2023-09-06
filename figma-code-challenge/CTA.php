@@ -1,4 +1,4 @@
-<main class="call-to-action">
+<section class="call-to-action">
 	
 	<section class="intro-area">
 		<p class="calm-voice">Lorem, ipsum, dolor.
@@ -19,4 +19,4 @@
 		<a href="#">Free SignUp</a>
 		</button>
 
-</main>
+</section>
