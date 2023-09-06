@@ -13,7 +13,7 @@
 		<ol class="carousel">
 
 		<?php 
-			$clients = [1, 2, ]; 
+			$clients = [1, 2]; 
 
 			foreach ($clients as $x) { 
 			?>
