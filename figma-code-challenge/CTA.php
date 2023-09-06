@@ -18,5 +18,5 @@
 		<button class="trial-button">
 		<a href="#">Free SignUp</a>
 		</button>
-
+	</section>
 </section>
