@@ -7,7 +7,7 @@
 		</p>
 	</div>
 
-	</div>
+
 
 	<div class="carousel-container">
 		<ol class="carousel">
@@ -45,3 +45,4 @@
 		</ol>
 	</div>
 </section>
+
