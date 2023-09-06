@@ -29,5 +29,6 @@
 			?>
 
 		</ol>
+	</section>
 	</div>
 </section>
