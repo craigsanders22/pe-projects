@@ -237,6 +237,22 @@ nav ul li {
 	padding: 20px;
 }
 
+footer {
+	max-width: 1200px;
+	margin: auto;
+
+}
+
+.footer-nav {
+
+	display: flex;
+	flex-direction: row;
+	gap: 40px;
+	text-align: center;
+	vertical-align: center;
+
+	
+}
 
 
 

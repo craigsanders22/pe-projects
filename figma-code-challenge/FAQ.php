@@ -19,7 +19,7 @@
 				<li>
 					
 					<div class="card-text">
-					<h4 class="strong-voice">Here is the question that is asked</h4>
+					<h4 class="strong-voice">Here is the question that is often asked</h4>
 					<p class="calm-voice">Here is the answer that is given. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, enim?
 					</p>
 					</div>

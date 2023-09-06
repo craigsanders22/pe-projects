@@ -17,7 +17,13 @@ body {
 
 .attention-voice {
 	font-family: sans-serif;
-	font-size: 30px;
+	font-size: 36px;
+}
+
+.strong-voice {
+	font-family: sans-serif;
+	font-size: 22px;
+	font-weight: 700;
 }
 
 .calm-voice,
