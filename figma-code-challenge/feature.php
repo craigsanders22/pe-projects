@@ -7,7 +7,7 @@
 		</p>
 	</div>
 
-	<div class="picture">
+	<div class="square-image">
 		<img src="images/square.jpg" alt="">
 	</div>
 	</div>

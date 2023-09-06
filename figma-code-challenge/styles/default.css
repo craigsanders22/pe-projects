@@ -149,18 +149,9 @@ nav ul li {
 
 }
 
-.footer-nav {
-	display: flex;
-	flex-direction: row;
-	list-style: none;
-	padding: 20px;
 
-}
 
-.footer-nav ul {
-	width: 200px;
-
-}
+/* MAIN CONTENT MODULE */
 
 .center-content {
 	display: flex;
@@ -169,6 +160,18 @@ nav ul li {
 	text-align: center;
 	margin-bottom: 40px;
 }
+
+.video-player iframe {
+	max-width: 90%;
+	padding: 0;
+	margin: 0;
+	flex-shrink: 1;
+
+}
+
+
+
+/* FEATURE MODULE */
 
 .feature-section {
 	display: flex;
@@ -181,7 +184,7 @@ nav ul li {
 	padding: 20px;
 }
 
-.feature-section img {
+.feature-section .square-image img {
 	max-width: 80%;
 	padding: 20px;
 }
@@ -199,6 +202,7 @@ nav ul li {
 	flex-direction: row;
 }
 
+/* CLIENT MODULE */
 .client-section .top-text {
 	text-align: center;
 }
@@ -219,11 +223,14 @@ nav ul li {
 		padding: 20px;
 }
 
+/* CTA MODULE */
 .call-to-action {
 	text-align: center;
 	padding: 20px;
 }
 
+
+/* FAQ MODULE */
 .faq-section .top-text {
 	text-align: center;
 	max-width: 80ch;
@@ -236,6 +243,9 @@ nav ul li {
 	justify-items: flex-start;
 	padding: 20px;
 }
+
+
+/* FOOTER MODULE */
 
 footer {
 	max-width: 1200px;
@@ -253,6 +263,22 @@ footer {
 
 	
 }
+
+
+.footer-nav {
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	padding: 20px;
+
+}
+
+.footer-nav ul {
+	width: 200px;
+
+}
+
+
 
 
 

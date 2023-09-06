@@ -11,10 +11,14 @@
 		<p class="quiet-voice">
 			Neque, Pulvinar Vestibulum Non Aliquam.
 		</p>
-
+		</div>
 	<div class="video-player">
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/8O_ifyIIrN4?si=19oB5qVFajdtdeRp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		<img src="https://peprojects.dev/images/cloud.png" alt="">
 	</div>
 
-	</div>
+	
 </section>
+
+<!-- 	<iframe width="560" height="315" src="https://www.youtube.com/embed/8O_ifyIIrN4?si=19oB5qVFajdtdeRp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+
+	-->
