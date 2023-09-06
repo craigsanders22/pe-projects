@@ -6,6 +6,7 @@ nav img {
 }
 
 mast-head {
+	
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
@@ -76,11 +77,20 @@ nav ul li {
 
 /* HERO MODULE */
 
+.hero {
+	background-image: url("../images/background/diagonal.png");
+ 	background-color: #cccccc;
+ 	background-size: cover;
+ 	width: 100%;
+ 	padding: 100px 0px;
+}
+
 
 .headline {
 	max-width: 120ch;
 	margin: auto;
 	text-align: center;
+	padding: 60px 60px 20px 60px;
 }
 .text-area {
 	max-width: 80ch;
@@ -145,6 +155,8 @@ nav ul li {
 /* MAIN CONTENT MODULE */
 
 .center-content {
+	background-color: whitesmoke;
+	background-size: cover;
 	display: flex;
 	flex-direction: column;
 	padding: 40px;
@@ -170,7 +182,7 @@ nav ul li {
 	justify-content: center;
 	align-items: flex-start;
 	gap: 20px;
-	padding: 40px;
+	padding: 80px 40px;
 
 }
 
@@ -182,9 +194,14 @@ nav ul li {
 	align-self: stretch;
 }
 
+.feature-section h3 {
+	max-width: 22ch;
+}
+
 .feature-section .square-image img {
 	max-width: 700px;
 	max-height: auto;
+	flex-shrink: 1;
 	justify-content: center;
 	align-items: center;
 	gap: 40px;
@@ -197,6 +214,12 @@ nav ul li {
 	max-height: 40px;
 }
 
+.feature-cards {
+	display: flex;
+	align-self: flex-end;
+	
+}
+
 .feature-section .feature-cards li {
 	display: flex;
 	flex-direction: row;
@@ -207,23 +230,42 @@ nav ul li {
 	gap: 20px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
 	.feature-section {
+		
 		flex-direction: column;
+		align-items: center;
+
+
+	}
+
+	.feature-cards {
+		align-self: flex-start;
+		margin: auto;
+
 	}
 
 	 .feature-cards ol {
 		display: grid;
-  grid-template-columns: repeat(2, 500px);
+  grid-template-columns: repeat(2, 300px);
   
 	}
 }
 
 @media (max-width: 700px) {
+	.feature-cards {
+		margin: 0;
+	}
+
 	.feature-cards ol {
 		display: flex;
 		flex-direction: column;
 		max-width: 100ch;
+
+	}
+
+	.feature-cards .quiet-voice {
+		max-width: 40ch;
 	}
 }
 
@@ -234,6 +276,7 @@ nav ul li {
     justify-content: center;
     gap: 40px;
     flex-shrink: 1; 
+    padding: 40px 20px;
 }
 
 .carousel {
@@ -249,11 +292,11 @@ nav ul li {
     flex-direction: column;
 	max-width: 400px;
     max-height: auto;
-    background-color: #ccc;
-    border: 1px solid #999;
+   
+   
     align-items: center;
     justify-content: center;
-    padding: 20px;  
+    padding: 60px 0px;  
 }
 
 .card h4 {
@@ -264,8 +307,6 @@ nav ul li {
 .card p {
 	text-align: center;
 }
-
-
 
 /* Add media queries */
 
@@ -290,14 +331,32 @@ nav ul li {
 }
 
 
+
+
+
+
+
 /* CTA MODULE */
+
 .call-to-action {
 	text-align: center;
-	padding: 20px;
+	padding: 60px 20px;
+	background-color: hsla(223, 178%, 98%, 1.0);
 }
 
 
+
+
+
+
+
+
+
+
+
+
 /* FAQ MODULE */
+
 .faq-section .top-text {
 	text-align: center;
 	max-width: 80ch;
@@ -309,6 +368,14 @@ nav ul li {
 	flex-direction: column;
 	justify-items: flex-start;
 	padding: 20px;
+}
+
+.questions {
+	display: flex;
+	justify-content: space-around;
+
+
+
 }
 
 

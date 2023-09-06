@@ -69,4 +69,3 @@
 
 <main>
 
-<inner-column>
