@@ -44,5 +44,7 @@
 
 		</ol>
 	</div>
+</div>
+
 </section>
 
