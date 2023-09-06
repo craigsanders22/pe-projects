@@ -4,8 +4,8 @@
 		<p class="calm-voice">Lorem, ipsum, dolor.
 		</p>	
 	</section>
-	<section class="headline">
-		<h1 class="loud-voice">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, vero?
+	<section class="cta-headline">
+		<h1 class="loud-voice">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
 		</h1>
 	</section>
 	
