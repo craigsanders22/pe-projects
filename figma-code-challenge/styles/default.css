@@ -173,15 +173,33 @@ nav ul li {
 .feature-section {
 	display: flex;
 	flex-direction: row;
-	
+	justify-items: space-around;
+
+}
+
+.feature-section .top-text {
+	padding: 20px;
 }
 
 .feature-section .picture {
-	max-width: 300px;
+	max-width: 80%%;
+	padding: 20px;
 }
 
 .feature-section .feature-cards img {
+	
 	max-width: 40px;
+}
+
+.feature-section .feature-cards {
+
+	min-width: 50%;
+}
+
+.feature-section .feature-cards li {
+
+	display: flex;
+	flex-direction: row;
 }
 
 
