@@ -1,5 +1,3 @@
-
-
 <section class="center-content">
 <inner-column>
 	<div class="center-text">
