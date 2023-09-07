@@ -534,7 +534,27 @@ footer {
 .site-map ul {
 	display: flex;
 	flex-direction: column;
-	padding: 10px;
+	padding-top: 10px;
+}
+
+.form-container {
+	padding: 0;
+	gap: 0;
+	align-items: center;
+}
+
+.form-container input {
+	border: none;
+}
+
+.form-container button {
+	background-color: var(--color);
+	color: var(--white);
+	padding:9px;
+	margin-left: -5px;
+	
+	border: none;
+
 }
 
 footer h3 {
@@ -543,7 +563,19 @@ footer h3 {
 
 .subscribe {
 	background-color: darkblue;
+	margin: auto;
 	padding: 40px;
+	text-align: left;	
+}
+
+.subscribe h3 {
+	margin-bottom: 10px;
+	
+}
+
+.subscribe p {
+	margin-top: 10px;
+	
 }
 
 .bottom-footer {
