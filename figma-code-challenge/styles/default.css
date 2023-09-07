@@ -1,4 +1,3 @@
-
 /* HEADER MODULE */
 
 header {
@@ -18,7 +17,7 @@ mast-head {
 	flex-direction: row;
 	justify-content: space-around;
 	text-align: center;
-	vertical-align: center;
+	align-items: center;
 }
 
 .site-nav {
@@ -36,15 +35,7 @@ mast-head {
 
 .site-nav .user-menu li {
 	display: inline-block;
-	text-align: center;
-	padding: 5px 10px;
-}
-
-.headline {
-
-	max-width: 120ch;
-	margin: auto;
-	text-align: center;
+	text-align: center;	
 }
 
 nav img {
@@ -54,7 +45,7 @@ nav img {
 mast-head {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: space-between;
 	text-align: center;
 	vertical-align: center;
 }
@@ -62,27 +53,110 @@ mast-head {
 .user-menu {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	align-items: center;
+}
+
+.user-menu img {
+	max-width: 20px;
+	height: 20px;
+	padding-right: 5px;
+}
+
+.user-menu .language {
+	display: flex;
+	flex-direction: row;
+	align-items:center;
+	font-size: 10px;
+	
+	
+	
 }
 
 nav ul {
 	list-style: none;
-
-	margin-left: auto;
-	margin-right: auto;
+	display: flex;
+	align-items: center;
+	
 }
 
 nav ul li {
 	display: inline-block;
 	text-align: center;
-	padding: 10px;
+	
 }
 
 .user-menu .button2 {
 	border: 1px solid black;
 	background-color: var(--color);
 	color: var(--white);
-	padding: 5px 30px;
+	padding: 5px 20px;
+	margin-right: -10px;
+}
+
+@media (max-width: 900px) {
+	.site-nav ul {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+/* Hamburger */
+
+.site-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.site-nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.site-nav li {
+    margin: 0 10px;
+}
+
+.site-nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+.toggle-menu {
+    display: none; /* Hide the checkbox initially */
+}
+
+@media (max-width: 900px) {
+    .site-nav ul {
+        display: none;
+    }
+
+    .toggle-menu:checked + .hamburger + .site-nav ul {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        background: #fff;
+        width: 100%;
+        text-align: center;
+    }
+
+    .toggle-menu:checked + .hamburger + .site-nav ul li {
+        margin: 10px 0;
+    }
+
+    .hamburger {
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+    }
+
+    .bar {
+        width: 25px;
+        height: 3px;
+        background-color: #333;
+        margin: 4px 0;
+    }
 }
 
 
@@ -94,12 +168,11 @@ nav ul li {
 
 .hero {
 	background-image: url("../images/background/diagonal.png");
- 	background-color: #cccccc;
- 	background-size: cover;
- 	width: 100%;
- 	padding: 100px 0px;
+	background-color: #cccccc;
+	background-size: cover;
+	width: 100%;
+	padding: 100px 0px;
 }
-
 
 .headline {
 	max-width: 120ch;
@@ -152,7 +225,7 @@ nav ul li {
 	display: block;
 	padding: 10px 40px;
 	background-color: var(--color);
-	color: var(--white);	
+	color: var(--white);
 }
 
 .trial-button {
@@ -162,6 +235,8 @@ nav ul li {
 	color: var(--color);
 	margin-left: 40px;
 }
+
+
 
 
 
@@ -185,21 +260,23 @@ nav ul li {
 	margin: 0;
 	flex-shrink: 1;
 	margin: auto;
-
 }
+
+
+
+
 
 
 
 /* FEATURE MODULE */
 
-.feature-section {
+.feature-section inner-column {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: flex-start;
 	gap: 20px;
 	padding: 80px 40px;
-
 }
 
 .feature-section .top-text {
@@ -222,7 +299,6 @@ nav ul li {
 	align-items: center;
 	gap: 40px;
 	padding-top: 40px;
-	
 }
 
 .feature-section .feature-cards img {
@@ -233,7 +309,6 @@ nav ul li {
 .feature-cards {
 	display: flex;
 	align-self: flex-end;
-	
 }
 
 .feature-section .feature-cards li {
@@ -247,24 +322,19 @@ nav ul li {
 }
 
 @media (max-width: 1100px) {
-	.feature-section {
-		
+	.feature-section inner-column {
 		flex-direction: column;
 		align-items: center;
-
-
 	}
 
 	.feature-cards {
 		align-self: flex-start;
 		margin: auto;
-
 	}
 
-	 .feature-cards ol {
+	.feature-cards ol {
 		display: grid;
-  grid-template-columns: repeat(2, 300px);
-  
+		grid-template-columns: repeat(2, 300px);
 	}
 }
 
@@ -277,7 +347,6 @@ nav ul li {
 		display: flex;
 		flex-direction: column;
 		max-width: 100ch;
-
 	}
 
 	.feature-cards .quiet-voice {
@@ -285,34 +354,38 @@ nav ul li {
 	}
 }
 
+
+
+
+
+
+
 /* CLIENT MODULE */
 
 .carousel-container {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    flex-shrink: 1; 
-    padding: 40px 20px;
+	display: flex;
+	justify-content: center;
+	gap: 40px;
+	flex-shrink: 1;
+	padding: 40px 20px;
 }
 
 .carousel {
-    display: grid;
-    grid-template-columns: repeat(2, 400px);
-    transition: transform 0.5s;
-    gap: 40px;
-
+	display: grid;
+	grid-template-columns: repeat(2, 400px);
+	transition: transform 0.5s;
+	gap: 40px;
 }
 
 .card {
 	display: flex;
-    flex-direction: column;
+	flex-direction: column;
 	max-width: 400px;
-    max-height: auto;
-   
-   
-    align-items: center;
-    justify-content: center;
-    padding: 60px 0px;  
+	max-height: auto;
+
+	align-items: center;
+	justify-content: center;
+	padding: 60px 0px;
 }
 
 .card h4 {
@@ -357,7 +430,7 @@ nav ul li {
 .call-to-action {
 	text-align: center;
 	padding: 60px 20px;
-	background-color: hsla(223, 178%, 98%, 1.0);
+	background-color: hsla(223, 178%, 98%, 1);
 }
 
 .hero-buttons {
@@ -370,17 +443,11 @@ nav ul li {
 
 
 
-
-
-
-
-
 /* FAQ MODULE */
 
 .faq-section {
 	padding: 80px 40px;
 }
-
 
 .faq-section .top-text {
 	text-align: center;
@@ -398,42 +465,71 @@ nav ul li {
 .questions {
 	display: flex;
 	justify-content: space-around;
-
-
-
 }
+
+
+
+
 
 
 /* FOOTER MODULE */
 
 footer {
-	max-width: 1200px;
-	margin: auto;
+	background-color: var(--color);
+	background-size: cover;
+	width: 100%;
+	padding: 100px 0px;
 }
 
-.footer-nav {
-
+.footer-nav  {
 	display: flex;
 	flex-direction: row;
-	gap: 40px;
 	text-align: center;
 	vertical-align: center;
+	list-style: none;
+	border-top: 2px solid gray;
 }
 
+@media (max-width: 800px) {
+	.footer-nav {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+}
 
-.footer-nav {
+.footer-nav .site-map {
+	
 	display: flex;
 	flex-direction: row;
-	list-style: none;
-	padding: 20px;
+	justify-content: space-around;
+	min-width: 75%;
 }
 
-.footer-nav ul {
-	width: 200px;
+.site-map ul {
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
 }
 
+footer h3 {
+	color: white;
+}
 
+.subscribe {
+	background-color: darkblue;
+	padding: 40px;
+}
 
+.bottom-footer {
+	display: flex;
+	align-content: space-around;
+	justify-content: space-between;
+	margin-right: 200px;
+}
+
+.social-menu {
+	display: flex;
+}
 
 
 
