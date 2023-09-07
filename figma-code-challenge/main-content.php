@@ -1,6 +1,7 @@
 
 
 <section class="center-content">
+<inner-column>
 	<div class="center-text">
 		<p class="quiet-voice">
 			Rhoncus, Accumsam Dictum
@@ -17,7 +18,7 @@
 	<div class="video-player">
 		<img src="https://peprojects.dev/images/cloud.png" alt="">
 	</div>
-
+</inner-column>
 	
 </section>
 
