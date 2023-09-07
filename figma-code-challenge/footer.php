@@ -71,7 +71,8 @@
 							<a href="#" class="quiet-voice">Link Here</a>
 						</li>
 					</ul>
-				</nav>
+				
+
 			</div>
 			<div class="subscribe">
 
