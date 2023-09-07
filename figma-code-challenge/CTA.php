@@ -1,4 +1,5 @@
 <section class="call-to-action">
+<inner-column>
 	
 	<section class="intro-area">
 		<p class="calm-voice">Lorem, ipsum, dolor.
@@ -19,4 +20,5 @@
 		<a href="#">Free SignUp</a>
 		</button>
 	</section>
+</inner-column>
 </section>

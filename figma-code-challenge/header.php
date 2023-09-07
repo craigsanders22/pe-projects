@@ -17,6 +17,7 @@
 <body>
 	
 <header>
+	<inner-column>
 	<mast-head>
 
 		<nav class='logo'>
@@ -26,34 +27,32 @@
 		</a>
 		</nav>
 
+
+
 		<nav class='site-nav'>
-			<ul>
-				<li>
-					<a href='#'>Home</a>
-				</li>
-
-				<li>
-					<a href='#'>Updates</a>
-				</li>
-
-				<li>
-					<a href='#'>Services</a>
-				</li>
-
-				<li>
-					<a href='#'>Features</a>
-				</li>
-
-				<li>
-					<a href='#'>About Us</a>
-				</li>
-			</ul>
+			
+		<input type="checkbox" id="toggle-menu" class="toggle-menu">
+		<label for="toggle-menu" class="hamburger">
+    		<div class="bar"></div>
+    		<div class="bar"></div>
+    		<div class="bar"></div>
+		</label>
+    		<ul>
+        	<li><a href='#'>Home</a></li>
+        	<li><a href='#'>Updates</a></li>
+        	<li><a href='#'>Services</a></li>
+        	<li><a href='#'>Features</a></li>
+        	<li><a href='#'>About Us</a></li>
+    		</ul>
 		</nav>
+
 
 		<nav class='user-menu'>
 			<ul>
 				<li>
-					<a class='button1' href='#'>EN EN</a>
+					<a href="#" class="language">
+					<img src="images/language.png" alt="">EN
+				</a>
 				</li>
 
 				<li>
@@ -63,7 +62,7 @@
 		</nav>
 
 	</mast-head>
-
+	</inner-column>
 	
 </header>
 

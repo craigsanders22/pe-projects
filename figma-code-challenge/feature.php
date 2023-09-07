@@ -1,4 +1,5 @@
 <section class="feature-section">
+<inner-column>
 	<div>
 	<div class="top-text">
 		<h3 class="attention-voice">Etiam Null Lectus Molestine At Vulputate.
@@ -35,4 +36,5 @@
 
 		</ol>
 	</div>
+</inner-column>
 </section>

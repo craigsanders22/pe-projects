@@ -1,4 +1,5 @@
 <section class="client-section">
+	<inner-column>
 	<div>
 	<div class="top-text">
 		<h3 class="attention-voice">What Our Clients Say
@@ -45,6 +46,6 @@
 		</ol>
 	</div>
 </div>
-
+</inner-column>
 </section>
 

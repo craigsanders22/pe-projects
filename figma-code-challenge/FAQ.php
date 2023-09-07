@@ -1,4 +1,5 @@
 <section class="faq-section">
+<inner-column>
 	<div>
 	<div class="top-text">
 		<h2 class="attention-voice">Frequently Asked Questions
@@ -31,4 +32,5 @@
 		</ol>
 	</section>
 	</div>
+</inner-column>
 </section>
