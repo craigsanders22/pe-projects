@@ -17,6 +17,8 @@ html {
 	--ink: black;
 }
 
+/*
+
 @media (prefers-color-scheme: dark) {
 	html {
 		--black: #111111;
