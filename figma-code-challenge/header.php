@@ -1,4 +1,5 @@
 
+
 <!doctype html>
 
 <html lang='en' class='special-magic no-js'>
@@ -10,6 +11,21 @@
 		<title>Figma to Code Sprint!</title>
 		<meta name='description' content=' logoipsum'>
 		<meta property='og:image' content='$todo'>
+		   <?php
+        $page = isset($_GET['page']) ? $_GET['page'] : '1'; // Default to page 1 is set
+
+        if ($page == '1') {
+            $cssFile = 'styles/page1.css';
+        } elseif ($page == '2') {
+            $cssFile = 'styles/page2.css';
+        } elseif ($page == '3') {
+            $cssFile = 'styles/page3.css';
+        } else {
+            $cssFile = 'styles/page1.css'; // Default to page 1 
+        }
+
+        echo '<link rel="stylesheet" href="' . $cssFile . '">';
+    ?>
 
 		<link rel='stylesheet' href='styles/site.css'>
 	</head>
@@ -38,7 +54,7 @@
     		<div class="bar"></div>
 		</label>
     		<ul>
-        	<li><a href='#'>Home</a></li>
+        	<li><a href="?page=1">Home</a></li>
         	<li><a href='#'>Updates</a></li>
         	<li><a href='#'>Services</a></li>
         	<li><a href='#'>Features</a></li>
