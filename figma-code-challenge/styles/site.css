@@ -21,9 +21,7 @@
 @import 'modules.css';
 
 /* S ections and more stuff */
-@import 'default.css';
-@import 'theme2.css';
-@import 'theme3.css';
+
 
 /* then other contextual styles */
 body {
