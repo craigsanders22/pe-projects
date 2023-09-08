@@ -27,7 +27,7 @@
 	<?php if($page == 2): ?>
 	<section class="hero-buttons">
 		
-		<button class="get-started">
+		<button class="calm-voice get-started">
 		<a href="#">Get Started</a>
 		</button>
 

@@ -32,7 +32,7 @@
 
 <body>
 	
-<header>
+<header class="site-header">
 	<inner-column>
 	<mast-head>
 
