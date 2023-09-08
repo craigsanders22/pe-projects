@@ -12,7 +12,7 @@
 		<meta name='description' content=' logoipsum'>
 		<meta property='og:image' content='$todo'>
 		   <?php
-        $page = isset($_GET['page']) ? $_GET['page'] : '1'; // Default to page 1 is set
+        $page = isset($_GET['page']) ? $_GET['page'] : '1'; // default to page 1 is set
 
         if ($page == '1') {
             $cssFile = 'styles/page1.css';
@@ -21,7 +21,7 @@
         } elseif ($page == '3') {
             $cssFile = 'styles/page3.css';
         } else {
-            $cssFile = 'styles/page1.css'; // Default to page 1 
+            $cssFile = 'styles/page1.css'; // default to page 1 
         }
 
         echo '<link rel="stylesheet" href="' . $cssFile . '">';
@@ -43,8 +43,6 @@
 		</a>
 		</nav>
 
-
-
 		<nav class='site-nav'>
 			
 		<input type="checkbox" id="toggle-menu" class="toggle-menu">
@@ -52,13 +50,15 @@
     		<div class="bar"></div>
     		<div class="bar"></div>
     		<div class="bar"></div>
-		</label>
+			</label>
+
+
     		<ul>
-        	<li><a href="?page=1">Home</a></li>
-        	<li><a href='#'>Updates</a></li>
-        	<li><a href='#'>Services</a></li>
-        	<li><a href='#'>Features</a></li>
-        	<li><a href='#'>About Us</a></li>
+	        	<li><a href="?page=1">Home</a></li>
+	        	<li><a href="?page=2">Updates</a></li>
+	        	<li><a href="?page=3">Services</a></li>
+	        	<li><a href="?page=4">Features</a></li>
+	        	<li><a href='#'>About Us</a></li>
     		</ul>
 		</nav>
 
