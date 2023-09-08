@@ -1,25 +1,42 @@
-<section class="center-content">
-<inner-column>
-	<div class="center-text">
-		<p class="quiet-voice">
-			Rhoncus, Accumsam Dictum
-		</p>
+<?php
+if(isset($_GET['page'])) {
+    $page = $_GET['page'];
+    
+    if($page == 1) {
+        $sectionClass = "page1-center-content";
+    } elseif($page == 2) {
+        $sectionClass = "page2-center-content";
+    } elseif($page == 3) {
+        $sectionClass = "page3-center-content";
+    } 
+} 
+?>
 
-		<h2 class="attention-voice">
-			Etiam Nulla Lfulputate.
-		</h2>
+<section class="center-content <?php echo $sectionClass; ?>">
+    <inner-column>
+        <div class="center-text">
+        	 <?php if($page == 2): ?>
+            <img class="cloud-icon" src="images/upload.png" alt="">
+        <?php endif; ?>
+            <p class="quiet-voice">
+                Rhoncus, Accumsam Dictum
+            </p>
 
-		<p class="quiet-voice">
-			Neque, Pulvinar Vestibulum Non Aliquam.
-		</p>
-		</div>
-	<div class="video-player">
-		<img src="https://peprojects.dev/images/cloud.png" alt="">
-	</div>
-</inner-column>
-	
+            <h2 class="attention-voice">
+                Etiam Nulla Lfulputate.
+            </h2>
+
+            <p class="quiet-voice">
+                Neque, Pulvinar Vestibulum Non Aliquam.
+            </p>
+        </div>
+        <?php if($page == 1): ?>
+        <div class="video-player">
+            <img src="https://peprojects.dev/images/cloud.png" alt="">
+        </div>
+        <?php endif; ?>
+        <?php if($page == 2): ?>
+            <button class="calm-voice">Learn More -></button>
+        <?php endif; ?>
+    </inner-column>
 </section>
-
-<!-- 	<iframe width="560" height="315" src="https://www.youtube.com/embed/8O_ifyIIrN4?si=19oB5qVFajdtdeRp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
-
-	-->
