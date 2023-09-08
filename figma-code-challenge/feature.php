@@ -7,10 +7,11 @@
 		<p class="quiet-voice">Neque, Pulvinar Vestibulum Non Aliquam.
 		</p>
 	</div>
-
+	<?php if($page == 1): ?>
 	<div class="square-image">
 		<img src="images/square.jpg" alt="">
 	</div>
+	<?php endif; ?>
 	</div>
 
 	<div class="feature-cards">
