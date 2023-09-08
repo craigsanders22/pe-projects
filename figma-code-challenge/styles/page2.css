@@ -238,7 +238,12 @@ nav ul li {
 }
 
 .trial-button {
-	display: none;
+	display: block;
+	padding: 10px 40px;
+	background-color: var(--paper);
+	color: var(--color);
+	margin-left: 40px;
+}
 }
 
 
@@ -408,7 +413,6 @@ button {
 	text-align: center;
 }
 
-/* Add media queries */
 
 @media (max-width: 900px) {
 	.carousel {
@@ -428,6 +432,10 @@ button {
 
 .client-section {
 	padding: 20px;
+}
+
+.client-picture {
+
 }
 
 
@@ -483,7 +491,7 @@ details {
  
   border-radius: 4px;
   padding: 0.5em 0.5em 0;
-  max-width: 53ch;
+  max-width: 55ch;
   border-top: 1px solid lightgray;
 
 }
@@ -494,8 +502,14 @@ summary {
   padding: 0.5em;
 }
 
+details p {
+	border-left: 2px solid var(--color);
+	margin-left: 30px;
+}
+
 details[open] {
   padding: 0.5em;
+
 }
 
 details[open] summary {

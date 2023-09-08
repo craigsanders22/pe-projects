@@ -440,9 +440,12 @@ nav ul li {
 /* CTA MODULE */
 
 .call-to-action inner-column {
-	text-align: center;
+	text-align: left;
 	padding: 60px 20px;
-	background-color: hsla(223, 178%, 98%, 1);
+	display: flex;
+	flex-direction: row;
+}
+	/*background-color: hsla(223, 178%, 98%, 1);*/
 }
 
 .hero-buttons {
@@ -451,6 +454,16 @@ nav ul li {
 
 
 
+img {
+	max-width: 300px;
+}
+
+
+.cta-text {
+	display: flex;
+	flex-direction: row;
+}
+
 
 
 
@@ -458,9 +471,13 @@ nav ul li {
 /* FAQ MODULE */
 
 .faq-section {
+
 	padding: 80px 40px;
 }
 
+.faq-content {
+	display: flex;
+}
 .faq-section .top-text {
 	text-align: center;
 	max-width: 80ch;
