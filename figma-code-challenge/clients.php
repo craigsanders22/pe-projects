@@ -13,6 +13,8 @@
 	<div class="carousel-container">
 		<ol class="carousel">
 
+
+		<?php if($page == 1): ?>
 		<?php 
 			$clients = [1, 2]; 
 
@@ -42,6 +44,52 @@
 			<?php 
 			}
 			?>
+		<?php endif ; ?>
+
+
+			<?php if($page == 2): ?>
+		<?php 
+			$clients = [1]; 
+
+			foreach ($clients as $x) { 
+			?>
+				<li class="card">
+
+				<div class="card-text">
+				<h4 class="strong-voice">Et, Odio Elementum Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, nostrum.</h4>
+				<img src="https://peprojects.dev/images/dot.png" alt="">
+				<p class="calm-voice">Courtney Henry</p>
+				<p class="quiet-voice">Marketing Coordinator
+				
+				</div>
+				</li>
+			<?php 
+			}
+			?>
+		<?php endif ; ?>
+
+			<?php if($page == 3): ?>
+		<?php 
+			$clients = [1]; 
+
+			foreach ($clients as $x) { 
+			?>
+				<li class="card">
+
+				<img class="client-picture" src="images/square.jpg" alt="">
+
+				<div class="card-text">
+				<h4 class="strong-voice">Et, Odio Elementum Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, nostrum.</h4>
+				
+				<p class="calm-voice">Courtney Henry</p>
+				<p class="quiet-voice">Marketing Coordinator
+				
+				</div>
+				</li>
+			<?php 
+			}
+			?>
+		<?php endif ; ?>
 
 		</ol>
 	</div>
