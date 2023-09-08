@@ -1,18 +1,6 @@
-<?php
-if(isset($_GET['page'])) {
-    $page = $_GET['page'];
-    
-    if($page == 1) {
-        $sectionClass = "page1-center-content";
-    } elseif($page == 2) {
-        $sectionClass = "page2-center-content";
-    } elseif($page == 3) {
-        $sectionClass = "page3-center-content";
-    } 
-} 
-?>
 
-<section class="center-content <?php echo $sectionClass; ?>">
+
+<section class="center-content">
     <inner-column>
         <div class="center-text">
         	 <?php if($page == 2): ?>
@@ -38,5 +26,36 @@ if(isset($_GET['page'])) {
         <?php if($page == 2): ?>
             <button class="calm-voice">Learn More -></button>
         <?php endif; ?>
+
+        
+		<?php if($page == 3): { ?>
+		        <div class="article-cards">
+				<ol>
+
+				<?php 
+					$items = [1, 2, 3]; 
+
+					foreach ($items as $x) { 
+					?>
+						<li>
+							
+							
+							<div class="article-text">
+							<h4 class="strong-voice">Et, Odio Elementum</h4>
+							<p class="quiet-voice">Aliquam Vehicula Pelletesque Id Mi QUam Ipsum. Arcu Nisi Faubicibus Mattis Etiam.
+							</p>
+							</div>
+						</li>
+					<?php 
+					}
+					?>
+
+				</ol>
+			</div>
+
+			<button class="calm-voice">See All -></button>
+		<?php } endif; ?>
+
+
     </inner-column>
 </section>
