@@ -1,7 +1,17 @@
+
+body {
+	padding: 0;
+	
+}
+
+
+
 /* HEADER MODULE */
 
 header {
 	padding: 0;
+	background-color: blue;
+	color: white;
 }
 
 nav img {
@@ -35,8 +45,9 @@ mast-head {
 
 .site-nav .user-menu li {
 	display: inline-block;
-	text-align: center;	
+	text-align: center;		
 }
+
 
 nav img {
 	max-width: 150px;
@@ -79,13 +90,14 @@ nav ul {
 nav ul li {
 	display: inline-block;
 	text-align: center;
+
 	
 }
 
 .user-menu .button2 {
 	border: 1px solid black;
-	background-color: var(--color);
-	color: var(--white);
+	background-color: var(--white);
+	color: var(--color);
 	padding: 5px 20px;
 	margin-right: -10px;
 }
@@ -117,7 +129,7 @@ nav ul li {
 
 .site-nav a {
     text-decoration: none;
-    color: #333;
+    color: var(--white);
 }
 
 .toggle-menu {
@@ -273,7 +285,7 @@ button {
 
 .feature-section inner-column {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: center;
 	align-items: flex-start;
 	gap: 20px;
@@ -323,23 +335,23 @@ button {
 	gap: 5px;
 }
 
-@media (max-width: 1100px) {
-	.feature-section inner-column {
-		flex-direction: column;
-		align-items: center;
-	}
 
-	.feature-cards {
-		align-self: flex-start;
-		margin: auto;
-	}
-
-	.feature-cards ol {
-		display: grid;
-		grid-template-columns: repeat(2, 300px);
-	}
+.feature-cards ol {
+	display: grid;
+	grid-template-columns: repeat(3, 300px);
+	grid-gap: 20px;
 }
 
+
+@media (max-width: 1000px) {
+
+.feature-cards ol {
+	display: grid;
+	grid-template-columns: repeat(2, 300px);
+	grid-gap: 20px;
+}
+
+}
 @media (max-width: 700px) {
 	.feature-cards {
 		margin: 0;
@@ -355,9 +367,6 @@ button {
 		max-width: 40ch;
 	}
 }
-
-
-
 
 
 
