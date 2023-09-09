@@ -275,10 +275,12 @@ nav ul li {
     max-width: 100px;
     margin: auto;
     padding-bottom: 20px;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
-
+.center-text p {
+	padding: 20px;
+}
 
 .center-text {
     align-content: center;
@@ -289,7 +291,7 @@ nav ul li {
 
 .learn-more {
 	text-align: center;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .learn-more button {
@@ -304,11 +306,11 @@ nav ul li {
 
 /* FEATURE MODULE */
 
-.feature-section inner-column {
+.feature-section {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: flex-start;
+	align-items: center;
 	gap: 20px;
 	padding: 80px 40px;
 }
@@ -316,7 +318,8 @@ nav ul li {
 .feature-section .top-text {
 	display: flex;
 	flex-direction: column;
-	align-items: flex-start;
+	align-items: center;
+	text-align: center;
 	gap: 40px;
 	align-self: stretch;
 }
@@ -342,18 +345,20 @@ nav ul li {
 
 .feature-cards {
 	display: flex;
-	align-self: flex-end;
+	justify-content: center;
 	gap: 10px;
 }
 
 .feature-section .feature-cards li {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	max-width: 500px;
 	height: auto;
 	padding: 10px;
 	align-items: flex-start;
 	gap: 5px;
+	border: 1px solid lightgray;
+	border-radius: 10px;
 }
 
 
@@ -366,10 +371,15 @@ nav ul li {
 
 @media (max-width: 1000px) {
 
+.feature-cards {
+	justify-content: center;
+}
+
 .feature-cards ol {
 	display: grid;
+	align-items: center;
 	grid-template-columns: repeat(2, 300px);
-	grid-gap: 20px;
+	grid-gap: 30px;
 }
 
 }
@@ -394,6 +404,13 @@ nav ul li {
 
 /* CLIENT MODULE */
 
+.review {
+	display: flex;
+	flex-direction: row;
+		align-items: center;
+
+}
+
 .carousel-container {
 	display: flex;
 	justify-content: center;
@@ -402,9 +419,10 @@ nav ul li {
 	padding: 40px 20px;
 }
 
-.carousel {
-	display: grid;
-	grid-template-columns: repeat(2, 400px);
+.carousel-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	transition: transform 0.5s;
 	gap: 40px;
 }
@@ -412,16 +430,14 @@ nav ul li {
 .card {
 	display: flex;
 	flex-direction: column;
-	max-width: 400px;
+	max-width: 1000px;
 	max-height: auto;
-
-	align-items: center;
 	justify-content: center;
 	padding: 60px 0px;
 }
 
 .card h4 {
-	padding: 25px;
+	padding: 60px;
 	text-align: center;
 }
 
@@ -442,16 +458,26 @@ nav ul li {
 }
 
 .client-section .card img {
-	max-width: 40px;
-	margin: auto;
+	max-width: 50px;
+	max-height: 50px;
+	margin: 0;
 }
 
 .client-section {
 	padding: 20px;
 }
 
-.client-picture {
 
+.profile {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.profile-text {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
 }
 
 
