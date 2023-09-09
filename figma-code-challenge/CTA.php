@@ -18,7 +18,7 @@
 		<?php endif ; ?>
 <?php if($page == 2): ?>
 		<button class="trial-button">
-		<a href="#">Free SignUp</a>
+		<a href="#">Free SignUp ></a>
 		</button>
 	<?php endif ; ?>
 
@@ -39,9 +39,10 @@
 				<p class="quiet-voice">Lorem, ipsum, dolor Dictum.
 				</p>	
 
-			
+				<div class=cta-email>
 				<input type="email" class="quiet-voice" placeholder="Email Address">
 				<button>SignUp</button>
+			</div>
 			</div>
 
 

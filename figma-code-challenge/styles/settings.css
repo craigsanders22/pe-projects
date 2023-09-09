@@ -5,7 +5,8 @@ html {
 
 	--neutral-stuffs: gray;
 
-	--color: hsla(227, 77%, 52%, 1);
+	--color: hsla(227, 77%, 56%, 1);
+	--dark: hsla(227, 77%, 52%, 1);
 ;
 	--highlight: hsla(224, 81%, 86%, 1)
 

@@ -1,7 +1,7 @@
 <section class="feature-section">
 <inner-column>
 	
-<div class="top-text">
+	<div class="top-text">
 	<?php if($page == 3): ?>
 		<p class="quiet-voice">Neque, Pulvinar Vestibulum</p>
 
@@ -17,7 +17,7 @@
 		<img src="images/square.jpg" alt="">
 	</div>
 	<?php endif; ?>
-	</div>
+	
 
 	<div class="feature-cards">
 		<ol>

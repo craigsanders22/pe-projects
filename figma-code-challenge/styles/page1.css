@@ -120,6 +120,12 @@ nav ul li {
     color: #333;
 }
 
+.site-nav a:hover  {
+	color: var(--color);
+	font-weight: 600;
+}
+
+
 .toggle-menu {
     display: none;
 }

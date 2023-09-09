@@ -6,7 +6,9 @@
 			<?php if($page == 2): ?>
 				<img class="cloud-icon" src="images/upload.png" alt="">
 			<?php endif; ?>
-			<p class="quiet-voice">
+			
+
+			<p class="intro quiet-voice">
 				Rhoncus, Accumsam Dictum
 			</p>
 
@@ -83,8 +85,9 @@
 				</ol>
 			</div>
 			<div class="see-all">
-				<button class="calm-voice">See All -></button>
+				<a class="button calm-voice" href="#">See All -></a>
 			</div>
+			
 		<?php endif; ?>
 
 

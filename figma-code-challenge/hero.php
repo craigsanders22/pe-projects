@@ -14,22 +14,20 @@
 	<?php if($page == 1): ?>
 	<section class="hero-buttons">
 		
-		<button class="get-started">
-		<a href="#">Get Started</a>
-		</button>
+		<a class="button quiet-voice" href="#">Get Started</a>
 
-		<button class="trial-button">
-		<a href="#">Start Free Trial</a>
-		</button>
+
+		<a class="button quiet-voice" href="#">Start Free Trial</a>
+		
 	</section>
 	<?php endif; ?>
 
 	<?php if($page == 2): ?>
 	<section class="hero-buttons">
 		
-		<button class="calm-voice get-started">
-		<a href="#">Get Started</a>
-		</button>
+		
+		<a class="button calm-voice get-started" href="#">Get Started</a>
+		
 
 		<?php endif; ?>
 
@@ -37,10 +35,10 @@
 
 	<?php if($page == 3): ?>
 		
-<div class="form-container">
-					<input type="email" class="quiet-voice" placeholder="Email Address">
+<section class="hero-buttons">
+					<input type="email" class="email quiet-voice" placeholder="Email Address">
 					<button>SignUp</button>
-				</div>
+				</section>
 
 		<?php endif; ?>
 	</div>

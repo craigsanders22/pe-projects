@@ -83,11 +83,20 @@ nav ul li {
 }
 
 .user-menu .button2 {
-	border: 1px solid black;
+	border-radius: 5px;
 	background-color: var(--color);
 	color: var(--white);
 	padding: 5px 20px;
 	margin-right: -10px;
+}
+
+.user-menu .button3 {
+	border-radius: 5px;
+	outline: 1px solid var(--dark);
+	color: var(--dark);
+	padding: 5px 18px;
+	margin-right: 10px;
+	
 }
 
 @media (max-width: 900px) {
@@ -118,6 +127,11 @@ nav ul li {
 .site-nav a {
 	text-decoration: none;
 	color: #333;
+}
+
+.site-nav a:hover  {
+	color: var(--color);
+	font-weight: 600;
 }
 
 .toggle-menu {
@@ -206,32 +220,23 @@ nav ul li {
 	margin-left: 40px;
 }
 
-.text-area {
-	max-width: 80ch;
-	margin: auto;
-	text-align: center;
+input {
+	background-color: var(--dark);
+
+	border: none;
+	color: white;
 }
 
-.hero-buttons {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	padding: 40px;
-}
-
-.get-started {
-	display: block;
-	padding: 10px 40px;
-	background-color: var(--color);
+.hero-buttons .quiet-voice {
 	color: var(--white);
 }
 
-.trial-button {
-	display: block;
-	padding: 10px 40px;
-	background-color: var(--paper);
-	color: var(--color);
-	margin-left: 40px;
+
+
+.hero-buttons button {
+	color: var(--dark);
+	padding: 10px 20px;
+	margin-left: 10px;
 }
 
 
@@ -247,12 +252,16 @@ nav ul li {
 	display: flex;
 	flex-direction: column;
 	padding: 40px;
-	text-align: center;
+	align-content: center;
 	margin-bottom: 40px;
 }
 
 .center-text {
 	padding: 40px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-content: center;
 }
 
 .article-cards ol {
@@ -268,6 +277,12 @@ nav ul li {
 	color: var(--color);
 	background-color: var(--paper);
 	margin-top: 20px;
+	text-align: center;
+}
+
+.see-all {
+	text-align: center;
+	color: var(--color);
 }
 
 
@@ -276,7 +291,7 @@ nav ul li {
 
 /* FEATURE MODULE */
 
-.feature-section{
+.feature-section {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -471,6 +486,23 @@ nav ul li {
 	
 }
 
+.page3-CTA .quiet-voice {
+	text-align: left;
+}
+
+.cta-email input {
+	background-color: var(--paper);
+	border: 1px solid lightgrey;
+	margin-right: 10px;
+	width: 35ch;
+}
+
+.cta-email button {
+	background-color: var(--color);
+	color: var(--white);
+	padding: 10px 20px;
+}
+
 @media (max-width: 600px) {
 	.page3-CTA {
 		display: flex;
@@ -480,7 +512,6 @@ nav ul li {
 	
 }
 }
-
 
 
 
@@ -503,10 +534,8 @@ nav ul li {
 	align-items: center;
 }
 
-.faq-section .top-text h2, p {
+.faq-detail {
 	text-align: left;
-	max-width: 60ch;
-
 }
 
 .faq-section li {
@@ -607,6 +636,8 @@ footer {
 
 .form-container input {
 	border: none;
+	background-color: var(--paper);
+	width: 20ch;
 }
 
 .form-container button {
@@ -633,7 +664,7 @@ footer h3 {
 }
 
 .subscribe {
-	background-color: darkblue;
+	background-color: var(--dark);
 	margin: auto;
 	padding: 40px;
 

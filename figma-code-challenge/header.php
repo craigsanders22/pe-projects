@@ -65,15 +65,28 @@
 
 		<nav class='user-menu'>
 			<ul>
-				<li>
-					<a href="#" class="language">
+				
+					<?php if(in_array($page, [1, 2])): ?>
+					<li><a href="#" class="language">
 					<img src="images/language.png" alt="">EN
 				</a>
 				</li>
+				<?php endif ; ?>
+
+
+				<?php if($page == 3): ?>
+					<li>
+					<a class='button3' href="#">SignUp </a>
+				</li>
+				<?php endif ; ?>
 
 				<li>
 					<a class='button2' href='#'>Login</a>
 				</li>
+
+			
+
+			
 			</ul>
 		</nav>
 
