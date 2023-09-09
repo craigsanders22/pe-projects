@@ -1,7 +1,12 @@
 <section class="feature-section">
 <inner-column>
-	<div>
-	<div class="top-text">
+	
+<div class="top-text">
+	<?php if($page == 3): ?>
+		<p class="quiet-voice">Neque, Pulvinar Vestibulum</p>
+
+		<?php endif; ?>
+	
 		<h3 class="attention-voice">Etiam Null Lectus Molestine At Vulputate.
 		</h3>
 		<p class="quiet-voice">Neque, Pulvinar Vestibulum Non Aliquam.

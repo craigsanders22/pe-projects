@@ -4,7 +4,7 @@
 		<section class="top-text">
 			<h2 class="attention-voice">Frequently Asked Questions
 			</h2>
-			<p class="calm-voice">Lorem ipsum dolor sit amet consectetur adipisicing, elit. Dolor quasi sequi, cum eius laborum. Molestias modi corporis dolores at distinctio.
+			<p class="calm-voice">Lorem ipsum dolor sit amet consectetur adipisicing, elit. Dolor quasi sequi, cum eius laborum. Molestias modi corporis dolores at distinctio.Lorem ipsum dolor sit amet consectetur adipisicing, elit. Dolor quasi sequi, cum eius laborum. Molestias modi corporis dolores at distinctio.
 			</p>
 		</section>
 

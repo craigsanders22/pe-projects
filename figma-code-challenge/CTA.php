@@ -29,27 +29,28 @@
 
 
 
-<?php if($page == 3): ?>
-<section class= "page3-CTA">
-<section class="cta-headline">
-	<div class="cta-text">
-		<h1 class="loud-voice">Lorem ipsum dolor sit amet 
-		</h1>
-	</section>
+	<?php if($page == 3): ?>
+		<section class= "page3-CTA">
 
-	<section class="intro-area">
-		<p class="quiet-voice">Lorem, ipsum, dolor Dictum.
-		</p>	
-	</section>
-</div>
+			<div class="cta-text">
+				<h1 class="attention-voice">Lorem ipsum dolor sit amet 
+				</h1>
 
-	<div class="form-container">
-					<input type="email" class="quiet-voice" placeholder="Email Address">
-					<button>SignUp</button>
-				</div>
+				<p class="quiet-voice">Lorem, ipsum, dolor Dictum.
+				</p>	
+
+			
+				<input type="email" class="quiet-voice" placeholder="Email Address">
+				<button>SignUp</button>
 			</div>
-	<div>
-		</section>
+
+
+
+
+
+
+
+	
 	<img src="images/square.jpg" alt="">
 	</div>
 <?php endif ; ?>
