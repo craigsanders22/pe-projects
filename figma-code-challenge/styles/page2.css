@@ -69,16 +69,18 @@ mast-head {
 }
 
 .user-menu img {
-	max-width: 20px;
-	height: 20px;
+	max-width: 30px;
+	height: 30px;
 	padding-right: 5px;
-}
+	stroke-width: "2" stroke="green" fill="#ff0000";
+	
+	}
 
 .user-menu .language {
 	display: flex;
 	flex-direction: row;
 	align-items:center;
-	font-size: 10px;	
+	font-size: 12px;	
 }
 
 nav ul {
@@ -191,8 +193,9 @@ nav ul li {
 	background-image: url("../images/background/wavy.svg");
 
 	background-size: cover;
+
 	width: 100%;
-	padding: 100px 0px;
+	padding: 50px 0px;
 }
 
 

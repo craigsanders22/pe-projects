@@ -57,16 +57,20 @@ mast-head {
 }
 
 .user-menu img {
-	max-width: 20px;
-	height: 20px;
+	max-width: 30px;
+	height: 30px;
 	padding-right: 5px;
+}
+
+.language img {
+	color: var(--white);
 }
 
 .user-menu .language {
 	display: flex;
 	flex-direction: row;
 	align-items:center;
-	font-size: 10px;	
+	font-size: 12px;	
 }
 
 nav ul {

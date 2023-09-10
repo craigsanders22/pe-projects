@@ -55,8 +55,8 @@
 
     		<ul>
 	        	<li><a href="?page=1">Home</a></li>
-	        	<li><a href="?page=2">Updates</a></li>
-	        	<li><a href="?page=3">Services</a></li>
+	        	<li><a href="?page=2">Wavy</a></li>
+	        	<li><a href="?page=3">Blue</a></li>
 	        	<li><a href="?page=4">Features</a></li>
 	        	<li><a href='#'>About Us</a></li>
     		</ul>
@@ -66,10 +66,15 @@
 		<nav class='user-menu'>
 			<ul>
 				
-					<?php if(in_array($page, [1, 2])): ?>
+						<?php if($page == 1): ?>
 					<li><a href="#" class="language">
-					<img src="images/language.png" alt="">EN
-				</a>
+					<img src="images/world.svg" alt="">EN</a>
+				</li>
+				<?php endif ; ?>
+
+						<?php if($page == 2): ?>
+					<li><a href="#" class="language">
+					<img src="images/world-white.svg" alt="">EN</a>
 				</li>
 				<?php endif ; ?>
 
