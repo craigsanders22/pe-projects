@@ -73,9 +73,11 @@
 				<?php endif ; ?>
 
 						<?php if($page == 2): ?>
-					<li><a href="#" class="language">
+								<li><a href="#" class="language">
 					<img src="images/world-white.svg" alt="">EN</a>
 				</li>
+					
+					
 				<?php endif ; ?>
 
 
@@ -85,9 +87,17 @@
 				</li>
 				<?php endif ; ?>
 
+				
+
+
+
+
+
+				<div>
 				<li>
 					<a class='button2' href='#'>Login</a>
 				</li>
+				</div>
 
 			
 

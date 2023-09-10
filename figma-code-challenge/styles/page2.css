@@ -72,7 +72,7 @@ mast-head {
 	max-width: 30px;
 	height: 30px;
 	padding-right: 5px;
-	stroke-width: "2" stroke="green" fill="#ff0000";
+
 	
 	}
 
@@ -80,7 +80,8 @@ mast-head {
 	display: flex;
 	flex-direction: row;
 	align-items:center;
-	font-size: 12px;	
+	font-size: 12px;
+	font-weight: 700;	
 }
 
 nav ul {
