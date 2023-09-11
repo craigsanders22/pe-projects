@@ -36,7 +36,7 @@
 	<?php if($page == 3): ?>
 		
 <section class="hero-buttons">
-					<input type="email" class="email quiet-voice" placeholder="Email Address">
+					<input type="email" class="email" placeholder="Email Address">
 					<button>SignUp</button>
 				</section>
 

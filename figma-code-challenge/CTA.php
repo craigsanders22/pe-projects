@@ -56,7 +56,7 @@
 
 
 		<?php if($page == 3): ?>
-			<section class= "page3-CTA">
+			<section class="page3-CTA">
 
 				<div class="cta-text">
 					<h1 class="attention-voice">Lorem ipsum dolor sit amet 
@@ -71,9 +71,11 @@
 					</div>
 				</div>
 
-
+				<div class=cta-image>
 				<img src="images/square.jpg" alt="">
 			</div>
+		</section>
+		
 		<?php endif ; ?>
 
 

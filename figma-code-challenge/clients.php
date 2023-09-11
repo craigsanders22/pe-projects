@@ -15,13 +15,14 @@
 
 
 		<?php if($page == 1): ?>
+			<img src="images/chevron-left.svg" alt="">
 		<?php 
 			$clients = [1, 2]; 
 
 			foreach ($clients as $x) { 
 			?>
 
-			<img src="images/chevron-left.svg" alt="">
+			
 
 				<li class="card">
 					
@@ -44,10 +45,11 @@
 				
 				</div>
 				</li>
-				<img src="images/chevron-right.svg" alt="">
+				
 			<?php 
 			}
 			?>
+			<img src="images/chevron-right.svg" alt="">
 		<?php endif ; ?>
 
 
@@ -59,8 +61,7 @@
 				?>
 				<div class="review">
 
-					<img src="images/chevron-left.svg" alt="">
-
+				
 					<li class="card">
 
 						<div class="card-text">
@@ -75,9 +76,6 @@
 								</div>
 
 							</div>
-						</li>
-
-						<img src="images/chevron-right.svg" alt="">
 					</div>
 					<?php 
 				}

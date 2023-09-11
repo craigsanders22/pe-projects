@@ -380,13 +380,21 @@ nav ul {
 	gap: 40px;
 	flex-shrink: 1;
 	padding: 40px 20px;
+	
 }
 
 .carousel {
-	display: grid;
-	grid-template-columns: repeat(2, 400px);
+	display: flex;
+	
 	transition: transform 0.5s;
 	gap: 40px;
+	
+}
+
+
+.carousel-container img {
+	max-width: 40px;
+	
 }
 
 .card {
@@ -398,6 +406,7 @@ nav ul {
 	align-items: center;
 	justify-content: center;
 	padding: 60px 0px;
+	
 }
 
 .card h4 {
