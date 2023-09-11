@@ -20,6 +20,9 @@
 
 			foreach ($clients as $x) { 
 			?>
+
+			<img src="images/chevron-left.svg" alt="">
+
 				<li class="card">
 					
 					
@@ -36,11 +39,12 @@
 
 				<div class="card-text">
 				<h4 class="calm-voice">Et, Odio Elementum Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, nostrum.</h4>
-				<img src="https://peprojects.dev/images/dot.png" alt="">
+				<img src="images/avatar.svg" alt="">
 				<p class="calm-voice">Courtney Henry</p>
 				
 				</div>
 				</li>
+				<img src="images/chevron-right.svg" alt="">
 			<?php 
 			}
 			?>

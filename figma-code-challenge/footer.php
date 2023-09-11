@@ -98,9 +98,20 @@
 			
 			<nav class='logo'>
 
-			<a class='home' href='#'>
-			<img src="images/landscape.jpg" alt="">
-			</a>
+
+
+			<?php if($page == 2): ?>
+				
+					<img src="images/blue-logo.svg" alt="">
+			
+			<?php endif; ?>
+
+
+			<?php if(in_array($page, [1, 3])): ?>
+
+				<img src="images/white-logo.svg" alt="">
+
+			<?php endif; ?>
 			</nav>
 			
 			<nav class="legal-menu">

@@ -36,12 +36,23 @@
 	<inner-column>
 	<mast-head>
 
-		<nav class='logo'>
+			<nav class='logo'>
 
-		<a class='home' href='#'>
-			<img src="images/landscape.jpg" alt="">
-		</a>
-		</nav>
+
+
+			<?php if($page == 2): ?>
+				
+					<img src="images/white-logo.svg" alt="">
+			
+			<?php endif; ?>
+
+
+			<?php if(in_array($page, [1, 3])): ?>
+
+				<img src="images/blue-logo.svg" alt="">
+
+			<?php endif; ?>
+			</nav>
 
 		<nav class='site-nav'>
 			
