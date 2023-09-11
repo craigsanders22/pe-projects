@@ -4,7 +4,7 @@
 	<inner-column>
 		<div class="center-text">
 			<?php if($page == 2): ?>
-				<img class="cloud-icon" src="images/upload.png" alt="">
+				<img class="cloud-icon" src="images/cloud.svg" alt="">
 			<?php endif; ?>
 			
 
@@ -41,7 +41,7 @@
 
 		<?php if($page == 1): ?>
 			<div class="video-player">
-				<img src="https://peprojects.dev/images/cloud.png" alt="">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/8O_ifyIIrN4?si=iZEGY8n3JYV6J0Dx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 			</div>
 		<?php endif; ?>
 

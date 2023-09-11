@@ -20,11 +20,14 @@
 					<li>
 						
 						<div class="card-text">
+						
 						<details>
 						<summary class="strong-voice">Here is the question that is frequently asked</summary>
-						<p class="calm-voice">Here is the answer that is given. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, enim?
+
+						<p class="faq-answer calm-voice">Here is the answer that is given. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, enim?
 						</p>
 						</details>
+						
 						</div>
 					</li>
 				<?php 

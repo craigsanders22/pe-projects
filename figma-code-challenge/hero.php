@@ -14,10 +14,10 @@
 	<?php if($page == 1): ?>
 	<section class="hero-buttons">
 		
-		<a class="button quiet-voice" href="#">Get Started</a>
+		<button class="get-started quiet-voice" >Get Started</button>
 
 
-		<a class="button quiet-voice" href="#">Start Free Trial</a>
+		<button class="trial-button quiet-voice" >Start Free Trial</button>
 		
 	</section>
 	<?php endif; ?>

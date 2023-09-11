@@ -55,9 +55,7 @@
 				?>
 				<div class="review">
 
-					<div class="attention-voice left-arrow">
-						<
-					</div>
+					<img src="images/chevron-left.svg" alt="">
 
 					<li class="card">
 
@@ -65,9 +63,9 @@
 							<h4 class="attention-voice">"Et, Odio Elementum Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, nostrum."</h4>
 
 							<div class="profile">
-								<img src="https://peprojects.dev/images/dot.png" alt="">
+								<img src="images/avatar.svg" alt="">
 								<div class="profile-text">
-								<p class="calm-voice">Courtney Henry</p>
+								<p class="strong-voice">Courtney Henry</p>
 								<h5 class="quiet-voice">Marketing Coordinator
 								</p>
 								</div>
@@ -75,9 +73,7 @@
 							</div>
 						</li>
 
-						<div class="attention-voice right-arrow">
-							>
-						</div>
+						<img src="images/chevron-right.svg" alt="">
 					</div>
 					<?php 
 				}

@@ -6,7 +6,7 @@ body {
 }
 
 .loud-voice {
-	font-family: sans-serif;
+	font-family: inter;
 	font-size: clamp(48px, 5vw, 60px);
 	font-weight: 700;
 	letter-spacing: 1.2px;
@@ -33,7 +33,7 @@ body {
 	font-family: Inter;
 	font-size: 14px;
 	font-weight: 400;
-	color: #757575;
+
 	line-height: 24px;
 	letter-spacing: 0.2px;
 }
@@ -41,7 +41,7 @@ body {
 .calm-voice,
 p,
 li {
-	font-family: sans-serif;
+	font-family: inter;
 	font-size: 1rem;
 	line-height: 1.4;
 }

@@ -227,6 +227,7 @@ nav ul {
 .get-started {
 	display: block;
 	padding: 10px 40px;
+	border: none;
 	background-color: var(--color);
 	color: var(--white);
 }
@@ -234,6 +235,7 @@ nav ul {
 .trial-button {
 	display: block;
 	padding: 10px 40px;
+	border: 1px solid var(--color);
 	background-color: var(--paper);
 	color: var(--color);
 	margin-left: 40px;
@@ -257,12 +259,15 @@ nav ul {
 }
 
 .video-player {
-	background: lightskyblue;
+	display: flex;
+	justify-content: center;
+	background: #f0f3fc;
 	max-width: 600px;
 	padding: 0;
 	margin: 0;
 	flex-shrink: 1;
 	margin: auto;
+
 }
 
 
@@ -273,13 +278,16 @@ nav ul {
 
 /* FEATURE MODULE */
 
-.feature-section inner-column {
-	display: flex;
-	flex-direction: row;
+.feature-section {
 	justify-content: center;
 	align-items: flex-start;
 	gap: 20px;
 	padding: 80px 40px;
+}
+
+.feature-items {
+	display: flex;
+
 }
 
 .feature-section .top-text {
@@ -415,7 +423,7 @@ nav ul {
 }
 
 .client-section .card img {
-	max-width: 40px;
+	max-width: 60px;
 	margin: auto;
 }
 
@@ -437,8 +445,16 @@ nav ul {
 	background-color: hsla(223, 178%, 98%, 1);
 }
 
-.hero-buttons {
-	padding-top: 60px;
+
+
+.quote-button {
+
+	background-color: var(--color);
+	color: var(--white);
+	text-align: center;
+	padding: 8px 16px;
+	font-weight: 600;.
+	border: 1px solid hsla(207, 100%, 80%, 1.00);
 }
 
 
@@ -459,24 +475,29 @@ nav ul {
 	margin: auto;
 }
 
-.faq-section li {
+.questions li {
 	display: flex;
-	flex-direction: column;
-	justify-items: flex-start;
-	padding: 20px;
+	justify-content: center;
+
+
 }
 
-.questions {
-	display: flex;
-	justify-content: space-around;
 
+
+.card-text {
+	display: flex;
+	align-content: center;
+	padding: 20px 15px;
+	flex-direction: column;
+	justify-content: center;
+	gap: 24px;
 }
 
 details {
  
   border-radius: 4px;
   padding: 0.5em 0.5em 0;
-  max-width: 53ch;
+  max-width: 50ch;
   border-top: 1px solid lightgray;
 
 }
@@ -485,6 +506,11 @@ summary {
  
   margin: -0.5em -0.5em 0;
   padding: 0.5em;
+}
+
+.faq-answer {
+	color: #757575;
+
 }
 
 details[open] {
