@@ -3,37 +3,30 @@
 
 		<section class="feature-items">
 
-		<div class="feature-text">
-			<div class="top-text">
-				<?php if($page == 3): ?>
+			<div class="feature-text">
+				<div class="top-text">
+					<?php if($page == 3): ?>
 					<p class="quiet-voice">Neque, Pulvinar Vestibulum</p>
 
-				<?php endif; ?>
+					<?php endif; ?>
 
-				<h3 class="attention-voice">Etiam Null Lectus Molestine At Vulputate.
-				</h3>
-				<p class="quiet-voice">Neque, Pulvinar Vestibulum Non Aliquam.
-				</p>
-			</div>
-			<?php if($page == 1): ?>
+					<h3 class="attention-voice">Etiam Null Lectus Molestine At Vulputate.
+					</h3>
+					<p class="quiet-voice">Neque, Pulvinar Vestibulum Non Aliquam.
+					</p>
+				</div>
+				<?php if($page == 1): ?>
 				<div class="square-image">
 					<img src="images/square.jpg" alt="">
 				</div>
-			<?php endif; ?>
+				<?php endif; ?>
 
-		</div>
+			</div>
 
+			<div class="feature-cards">
+				<ol>
 
-
-
-
-
-
-
-		<div class="feature-cards">
-			<ol>
-
-				<?php 
+					<?php 
 				$items = [1, 2, 3, 4, 5, 6]; 
 
 				foreach ($items as $x) { 
@@ -51,8 +44,8 @@
 				}
 				?>
 
-			</ol>
-		</div>
+				</ol>
+			</div>
 		</section>
 	</inner-column>
 </section>

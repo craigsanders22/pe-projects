@@ -83,7 +83,8 @@ nav ul {
 
 
 .user-menu .button2 {
-	border: 1px solid black;
+	border: none;
+	border-radius: 5px;
 	background-color: var(--color);
 	color: var(--white);
 	padding: 5px 20px;
@@ -302,6 +303,10 @@ nav ul {
 	max-width: 22ch;
 }
 
+.feature-items .top-text .quiet-voice {
+	color: #757575;
+}
+
 .feature-section .square-image img {
 	max-width: 700px;
 	max-height: auto;
@@ -323,6 +328,10 @@ nav ul {
 	gap: 10px;
 }
 
+.feature-cards .quiet-voice {
+	color: #757575;
+}
+
 .feature-section .feature-cards li {
 	display: flex;
 	flex-direction: row;
@@ -334,7 +343,8 @@ nav ul {
 }
 
 @media (max-width: 1100px) {
-	.feature-section inner-column {
+	.feature-items {
+		display: flex;
 		flex-direction: column;
 		align-items: center;
 	}
@@ -353,6 +363,11 @@ nav ul {
 @media (max-width: 700px) {
 	.feature-cards {
 		margin: 0;
+	}
+
+	.feature-section {
+		display: flex;
+		flex-direction: column;
 	}
 
 	.feature-cards ol {
@@ -425,6 +440,10 @@ nav ul {
 		display: flex;
 		flex-direction: column;
 	}
+	.client-chevron {
+		display: none;
+	}
+
 }
 
 .client-section .top-text {
@@ -457,14 +476,22 @@ nav ul {
 
 
 .quote-button {
-
+	display: flex;
 	background-color: var(--color);
 	color: var(--white);
 	text-align: center;
+	align-items: center;
 	padding: 8px 16px;
 	font-weight: 600;.
 	border: 1px solid hsla(207, 100%, 80%, 1.00);
 }
+
+.quote-button img {
+	max-width: 30px;
+	text-align: center;
+}
+
+
 
 
 
