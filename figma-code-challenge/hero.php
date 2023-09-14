@@ -37,6 +37,8 @@
 		</div>
 	</inner-column>
 </section>
+
+
 <div class="client-chevron">
 	<img src="images/chevron-right.svg" alt="">
 </div>
