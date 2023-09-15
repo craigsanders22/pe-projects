@@ -1,29 +1,35 @@
-   
 .inner-column {
   display: block;
   max-width: 1200px;
   padding: 20px;
-  border: 2px solid yellow;
+  /*border: 2px solid yellow;*/
 }
-
 
 /* intro */
 
-.resume-intro  {
+.resume-intro {
+  background: hsla(216, 22%, 23%, 1);
 
-background: hsla(216, 22%, 23%, 1);
+  background: linear-gradient(
+    180deg,
+    hsla(216, 22%, 23%, 1) 0%,
+    hsla(176, 28%, 44%, 1) 100%
+  );
 
-background: linear-gradient(180deg, hsla(216, 22%, 23%, 1) 0%, hsla(176, 28%, 44%, 1) 100%);
+  background: -moz-linear-gradient(
+    180deg,
+    hsla(216, 22%, 23%, 1) 0%,
+    hsla(176, 28%, 44%, 1) 100%
+  );
 
-background: -moz-linear-gradient(180deg, hsla(216, 22%, 23%, 1) 0%, hsla(176, 28%, 44%, 1) 100%);
+  background: -webkit-linear-gradient(
+    180deg,
+    hsla(216, 22%, 23%, 1) 0%,
+    hsla(176, 28%, 44%, 1) 100%
+  );
 
-background: -webkit-linear-gradient(180deg, hsla(216, 22%, 23%, 1) 0%, hsla(176, 28%, 44%, 1) 100%);
-
-filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#2D3746", endColorstr="#508E8A", GradientType=1 );
- background-size: cover;
- 
-
-
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#2D3746", endColorstr="#508E8A", GradientType=1 );
+  background-size: cover;
 }
 
 .resume-intro .inner-column {
@@ -32,22 +38,19 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#2D3746", en
   justify-content: flex-end;
   text-align: right;
   padding-left: 20px;
-  min-width: 1200px;
-
 }
-
-
 
 /* work experience */
 
+.work-details {
+  margin-top: 40px;
+}
 
 .top-details {
   display: flex;
 
-  border: 2px solid teal;
-  margin-top: 25px;
-
-
+  margin-top: 10px;
+  padding-top: 20px;
 }
 
 .title-text {
@@ -55,40 +58,77 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#2D3746", en
   flex-direction: column;
 }
 
-.top-details img {
+.title-image img {
   max-width: 60px;
+  margin-left: 10px;
   margin-right: 20px;
   flex-shrink: 1;
-  
-
 }
 
- .title-image {
+.title-image {
   display: flex;
-    align-items: center;
-
+  align-items: center;
+  margin-top: 10px;
 }
 
-
-
+.company-name {
+  padding-top: 20px;
+  font-size: 40px;
+}
 .work-details .work-dates {
-  margin-top: 20px;
+  font-weight: 200;
 
-  padding: 20px 100px;
+  margin-left: 50px;
 }
 
+.role-text {
+  max-width: 120ch;
 
+  padding: 5px 100px;
+}
+
+.role-text li {
+  margin-top: 20px;
+  list-style: square;
+}
+
+.location {
+  line-height: 2;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
 
 /* education */
 
 .education {
-  margin-bottom: 40px;
-}
-.education-details {
-  margin-top: 10px;
-  padding-left: 20px;
+  margin-top: 60px;
+  margin-bottom: 80px;
 }
 
+.education-intro {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.education .location {
+  border: 2px solid pink;
+  padding: 0 40px 20px 40px;
+}
+
+.work-dates {
+  font-weight: 200;
+
+  padding: 0 40px 20px 40px;
+}
+
+.degree {
+  padding: 0 40px 20px 40px;
+  font-size: 20px;
+  letter-spacing: 1.2px;
+  font-weight: 200;
+  margin-left: 50px;
+}
 
 /* skills */
 
@@ -100,7 +140,6 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#2D3746", en
   display: flex;
   flex-direction: column;
 
-
   padding: 0px;
   margin: 0px;
 }
@@ -109,18 +148,12 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#2D3746", en
   width: 400px;
   height: 50px;
   vertical-align: justify;
-  padding: 15px 10px; 
+  padding: 15px 10px;
   border: 1px solid #ddd;
   border-radius: 5px;
 }
 
-
-/* typography */ 
-
-.resume h2 {
-  text-decoration: underline;
-  
-}
+/* typography */
 
 .resume {
   text-align: left;
