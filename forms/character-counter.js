@@ -1,7 +1,10 @@
 
 
 
-        function countCharacters() {
+function countCharacters(event) {
+           
+            event.preventDefault();
+
             // Get the input value
             var inputString = document.getElementById("inputString").value;
 
@@ -10,8 +13,4 @@
 
             // Output the result
             document.getElementById("result").innerHTML = '"' + inputString + '" has ' + charCount + ' characters.';
-            
-            // Prevent the form from actually submitting
-            return false;
         }
-
