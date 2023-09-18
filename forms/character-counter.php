@@ -10,11 +10,11 @@
 
 <body>
     <h1>Character Counter</h1>
-    <form>
+    <form onsubmit="return countCharacters();">
         <label for="inputString">Enter something:</label>
         <input type="text" id="inputString" required>
         <br>
-        <input type="button" value="Count Characters" onclick="countCharacters()">
+        <input type="button" value="Count Characters">
     </form>
     <h4 id="result"></h4>
 
