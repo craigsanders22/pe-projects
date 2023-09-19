@@ -4,27 +4,25 @@
 
 <form method="POST" onsubmit="doMath(event)">
 
-    <h2>Simple Math Form</h2>
+	<h2>Simple Math Form</h2>
 
-    <div class='field'>
-        <label>What is the first number?</label>
-        <input type="number" name="first" id="first" value="0">
-    </div>
+	<div class='field'>
+		<label>What is the first number?</label>
+		<input type="number" name="first" id="first" value="0">
+	</div>
 
-    <div class='field'>
-        <label>What is the second number?</label>
-        <input type="number" name="second" id="second" value="0">
-    </div>
+	<div class='field'>
+		<label>What is the second number?</label>
+		<input type="number" name="second" id="second" value="0">
+	</div>
 
-    <button type="submit" name="submitted">
-        Compute
-    </button>
-
- 
+	<button type="submit" name="submitted">
+		Compute
+	</button>
 
 </form>
 
-   <h4 id="results"></h4>
+<h4 id="results"></h4>
 
 
 <?php
