@@ -1,12 +1,15 @@
-function calculateRetirement() {
+function retirementAge(event) {
+    
+    event.preventDefault();
+
     var outputElement = document.getElementById("output");
     var currentAge = currentAgeInput.value;
     var retireAge = retireAgeInput.value;
 
-    if (currentAge > retireAge) {
-        alert("Invalid input. You must retire after your current age.");
-        return;
-    }
+    // if (currentAge <= retireAge) {
+    //     alert("Invalid input. You must retire after your current age.");
+    //     return;
+    // }
 
     var yearsToRetire = retireAge - currentAge;
     var currentYear = new Date().getFullYear();

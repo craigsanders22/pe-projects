@@ -5,6 +5,7 @@
 
 <body>
     <h1>Retirement Calculator</h1>
+     <form onsubmit="retirementAge(event)">
     <label for="currentAge">Current Age:</label>
     <input type="number" id="currentAgeInput">
     <br><br>
@@ -13,7 +14,7 @@
     <input type="number" id="retireAgeInput">
     <br><br>
 
-    <button onclick="calculateRetirement()">Calculate</button>
+     <input type="submit" value="How Long?">
     <br><br>
 
     <div id="output"></div>
