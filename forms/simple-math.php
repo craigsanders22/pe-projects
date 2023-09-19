@@ -1,66 +1,57 @@
 <?php include "form-header.php" ?>
 
-<form method="POST">
+<script src="simple-math.js"></script>
 
+<form method="POST" onsubmit="doMath(event)">
 
+    <h2>Simple Math Form</h2>
 
-	<h2>Simple Math Form</h2>
-	
-	<div class='field'>
-	
-		<label>What is the first number?</label>
-		<input type="number" name="first" value="0">	
+    <div class='field'>
+        <label>What is the first number?</label>
+        <input type="number" name="first" id="first" value="0">
+    </div>
 
-	</div>
+    <div class='field'>
+        <label>What is the second number?</label>
+        <input type="number" name="second" id="second" value="0">
+    </div>
 
-	<div class='field'>
-	
-		<label>What is the second number?</label>
-		<input type="number" name="second" value="0">	
+    <button type="submit" name="submitted">
+        Compute
+    </button>
 
-	</div>
-
-	<button type="submit" name="submitted">
-		Compute
-	</button>
-
-
-
-
+ 
 
 </form>
 
+   <h4 id="results"></h4>
+
+
 <?php
 
+if ( isset($_POST["submitted"]) ) {
 
+	$first = $_POST["first"];
+	$second = $_POST["second"];
 
+	echo "<h3 class='feedback'>Here are your results:</h3>";
 
-	if ( isset($_POST["submitted"]) ) {
+	echo "<p>The numbers you entered were <b>$first</b> and <b>$second</b></p>";
 
-		$first = $_POST["first"];
-		$second = $_POST["second"];
+	$total = floatval($first) + $second;
 
-		echo "<h3 class='feedback'>Here are your results:</h3>";
+	echo "<p>Addition: $first + $second = $total</p>";
 
-		echo "<p>The numbers you entered were <b>$first</b> and <b>$second</b></p>";
-		
-		$total = floatval($first) + $second;
+	$total = floatval($first) - $second;
 
-		echo "<p>Addition: $first + $second = $total</p>";
+	echo "<p>Subtraction: $first - $second = $total</p>";
 
-		$total = floatval($first) - $second;
+	$total = floatval($first) * $second;
 
-		echo "<p>Subtraction: $first - $second = $total</p>";
+	echo "<p>Multiplication: $first * $second = $total</p>";
 
-		$total = floatval($first) * $second;
+	$total = floatval($first) / $second;
 
-		echo "<p>Multiplication: $first * $second = $total</p>";
-
-		$total = floatval($first) / $second;
-
-		echo "<p>Division: $first / $second = $total</p>";
-
-		
-
+	echo "<p>Division: $first / $second = $total</p>";
 }
-	?>
+?>
