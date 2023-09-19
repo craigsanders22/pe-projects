@@ -16,3 +16,6 @@
         <input type="submit" value="Let's Meet">
     </form>
     <h4 id="result"></h4>
+
+</body>
+</html>
