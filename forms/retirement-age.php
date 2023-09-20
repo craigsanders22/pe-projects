@@ -1,11 +1,11 @@
 <?php include 'form-header.php' ?>
 
-<script src="retirement-age.js"></script>
+
 
 
 <body>
     <h1>Retirement Calculator</h1>
-     <form onsubmit="retirementAge(event)">
+     <form>
     <label for="currentAge">Current Age:</label>
     <input type="number" id="currentAgeInput">
     <br><br>
@@ -14,9 +14,12 @@
     <input type="number" id="retireAgeInput">
     <br><br>
 
-     <input type="submit" value="How Long?">
+     <button type="submit">How Long?</button>
+     <button type="button">Clear</button>
     <br><br>
 
-    <div id="output"></div>
+    <output></output>
 </body>
 </html>
+
+<script src="retirement-age.js"></script>
