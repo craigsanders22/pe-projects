@@ -2,6 +2,8 @@ var outputElement = document.querySelector("output");
 var form = document.querySelector("form");
 var clearButton = document.querySelector("[type='button']");
 
+
+
 function calculateYears() {
   	var currentAge = form.querySelector("#currentAgeInput");
 	var retireAge = document.querySelector("#retireAgeInput");

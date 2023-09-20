@@ -1,6 +1,6 @@
 <?php include "form-header.php" ?>
 
-<script src="simple-math.js"></script>
+
 
 <form method="POST" onsubmit="doMath(event)">
 
@@ -51,5 +51,10 @@ if ( isset($_POST["submitted"]) ) {
 	$total = floatval($first) / $second;
 
 	echo "<p>Division: $first / $second = $total</p>";
+
+	echo "calculated with PHP on the server";
 }
 ?>
+
+
+<script src="simple-math.js"></script>
