@@ -2,9 +2,6 @@
 
 
 
- <script src="saying-hello.js"></script>
-
-
 
 <body>
 
@@ -16,6 +13,10 @@
         <input type="submit" value="Let's Meet">
     </form>
     <h4 id="result"></h4>
+
+
+
+ <script src="saying-hello.js"></script>
 
 </body>
 </html>
