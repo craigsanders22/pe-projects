@@ -1,45 +1,61 @@
-var guessesTaken = 0;
+// declare variables
+let secretNumber, maxRange, attempts;
+var outputElement = document.querySelector('output');
 
-function guessNumber() {
-  var difficulty = document.getElementById("difficulty").value;
-  var guessInput = document.getElementById("guess");
-  var guess = parseInt(guessInput.value);
-  var output = document.getElementById("output");
-  var guesses = document.getElementById("guesses");
+// start the game
+function startGame() {
+  const difficulty = parseInt(document.querySelector("#difficulty").value);
 
-  if (isNaN(guess)) {
-    result.innerHTML = "Please enter a valid number.";
+  if (difficulty === 1) {
+    maxRange = 10;
+  } else if (difficulty === 2) {
+    maxRange = 100;
+  } else if (difficulty === 3) {
+    maxRange = 1000;
+  }
+
+  //generate secret number
+  secretNumber = Math.floor(Math.random() * maxRange) + 1;
+  attempts = 0;
+
+  //prompt for guess
+  document.querySelector("#instructions").textContent = `I have my number. It's between 1 and ${maxRange}.`;
+}
+
+//submit guess for comparison 
+function submitGuess() {
+  const guess = parseInt(document.querySelector("#guess").value);
+
+   document.querySelector("#result").textContent = "";
+
+  if (isNaN(guess) || guess < 1 || guess > maxRange) {
+    document.querySelector("#result").textContent = "Please enter a valid number within the range.";
     return;
   }
 
-  var secretNumber, maxGuesses;
+  attempts++;
+  
+  renderMessage(guess);
+}
 
-  if (difficulty === "1") {
-    secretNumber = Math.floor(Math.random() * 10) + 1;
-    maxGuesses = 5;
-  } else if (difficulty === "2") {
-    secretNumber = Math.floor(Math.random() * 100) + 1;
-    maxGuesses = 8;
-  } else if (difficulty === "3") {
-    secretNumber = Math.floor(Math.random() * 1000) + 1;
-    maxGuesses = 12;
-  }
-
-  guessesTaken++;
-
-  if (guess < secretNumber) {
-    output.innerHTML = "Too low. Guess again.";
-  } else if (guess > secretNumber) {
-    output.innerHTML = "Too high. Guess again.";
+function createMessage(guess) {
+  if (guess === secretNumber) {
+    return `You got it in ${attempts} guesses!`;
+  } else if (guess < secretNumber) {
+    return `Too low. Guess again.`;
   } else {
-    output.innerHTML = "You got it in " + guessesTaken + " guess(es)!";
-    guessInput.setAttribute("disabled", "disabled");
-  }
-
-  guesses.innerHTML = "Guesses taken: " + guessesTaken;
-
-  if (guessesTaken === maxGuesses) {
-    output.innerHTML = "You ran out of guesses.";
-    guessInput.setAttribute("disabled", "disabled");
+    return `Too high. Guess again.`;
   }
 }
+
+function renderMessage(guess) {
+  outputElement.innerHTML = createMessage(guess);
+}
+
+document.querySelector('form').addEventListener("submit", function(event) {
+  event.preventDefault();
+  submitGuess();
+});
+
+
+
