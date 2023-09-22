@@ -16,6 +16,12 @@
       <ul>
         <p class="strong-voice">
 
+          <li><a href="forms/guessing-game.php"> Guessing Game (JS)</a></li>
+
+          <li><a href="forms/temp-converterJS.php"> Temperature Converter</a></li>
+
+          <li><a href="forms/password-validator.php"> Password Validator (JS)</a></li>
+
           <li><a href="forms/paint-calculator.php"> Paint Calculator (JS)</a></li>
 
           <li><a href="forms/retirement-age.php"> Retirement Age (JS)</a></li>
