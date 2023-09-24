@@ -1,3 +1,6 @@
+
+
+
 var outputElement = document.querySelector("output");
 var form = document.querySelector("form");
 
