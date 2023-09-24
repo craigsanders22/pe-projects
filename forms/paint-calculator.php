@@ -10,11 +10,11 @@
 		Please enter the length and width of the room. </h2>
 
 		<form id="paintForm">
-			<p><label for="length">Length (feet):</label>
+			<label for="length">Length (feet):</label>
 			<input type="number" id="length" required><br>
 
 			<label for="width">Width (feet):</label>
-			<input type="number" id="width" required><br><br></p>
+			<input type="number" id="width" required><br><br>
 
 			<button type="submit">Calculate</button>
 		</form>
