@@ -1,7 +1,7 @@
 .articles {
   background-color: tan;
 	border: 2px solid black;
-	padding: 10px;
+padding: 30px 10px;
 }
 
 .article-heading {
@@ -25,6 +25,7 @@ border: 3px solid black;
 
 .article-card-copy p {
 	border: 3px solid black;	
+	padding: 3px;
 }
 
 .article-grid {

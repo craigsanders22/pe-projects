@@ -10,7 +10,7 @@
 			<div class="article-card">
 				<div class="article-card-copy">
 				<h2 class="attention-voice"> This is an article card</h2>
-				<p class="neutral-voice"> It's basically a mini call to action, right? </p>
+				<p class="neutral-voice"> It's basically a mini call to action, right? Well, here it is. So, what are you waiting for? </p>
 			
 		<a class="button" href="#">act!</a>
 		</div>

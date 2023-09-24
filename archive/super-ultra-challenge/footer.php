@@ -13,10 +13,6 @@
 				<a href="#">Some other page</a>
 			</nav>
 
-				<nav class="site-nav">
-				<a href="#">SIGN-IN</a>
-			</nav>
-
 
 			<nav class="site-nav">
 				<a href="#">Legal thing a</a>
@@ -29,6 +25,11 @@
 				<a href="#">Social thing b</a>
 				<a href="#">Social thing c</a>
 				<a href="#">Social thing d</a>
+			</nav>
+
+
+				<nav class="site-nav">
+				<a href="#">SIGN-IN</a>
 			</nav>
 		</div>
 	</div>
