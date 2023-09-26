@@ -42,7 +42,7 @@
 		</picture>
 		<h2 class="attention-voice">Small Biz Site</h2>
 		<h3 class="calm-voice">I created a simple website for a family member to help them sell their watercolor paintings and connect with potential clients.</h3>
-		<a href="projects/layout-garden/">Watercolor Tales</a>
+		<a href="projects/responsive-challenge/">Watercolor Tales</a>
 	</section>
 	</section>
 
