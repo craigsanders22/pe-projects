@@ -34,7 +34,7 @@
 
 
 	if ($extraslices == 0) {
-		$leftovers = "If everything goes as planned, you won't have a single slice to spare! <br> (You should probably get another pizza, pal!)";
+		$leftovers = "If everything goes as planned, you won't have a single slice to spare! <br> <br>(You should probably get another pizza, pal!)";
 
 	} else {
 		$leftovers = "If everything goes as planned, you'll have $extraslices slices to spare!";
@@ -42,11 +42,17 @@
 
  ?>
 
+<title>Pizza Party</title>
 
+
+
+<body>
+	<div class="container">
+		<div class="inner-column">
 <form method="POST">
 
 
-	<h2>PIZZA PARTY!</h2>
+	<h1>PIZZA PARTY!</h1>
 	
 	<div class='field'>
 	
@@ -74,12 +80,22 @@
 	</button>
 
 
-	<h3><?= $summary ?></h3>
+	<h4><?= $summary ?></h4>
 
 	<h2><?= $solution ?></h2> 
 
 	<h3><?= $leftovers ?></h3>
 
+
+
+	
+
+
 </form>
+
+</div>
+</div>
+</body>
+
 
 

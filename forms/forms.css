@@ -110,19 +110,38 @@ body {
 h1 {
     font-family: palatino;
     color: #fff;
-    font-size: 2.1rem;
+    font-size: 2.5rem;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
-h2 { font-family: palatino;
-color: darkslategray;
-font-size: 1.5rem;
-text-align: center;
+h2 { 
+  font-family: palatino;
+  color: whitesmoke;
+  font-size: 2.1rem;
+  text-align: center;
+  padding: 20px;
+}
+
+h3 {
+  font-family: optima;
+  font-size: 1.8rem;
+  color: floralwhite;
+  text-align: center;
 padding: 20px;
+  max-width: 40ch;
+  margin: auto;
 
+}
 
- }
+h4 {
+  font-family: optima;
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+  margin-bottom: 10px;
+
+}
 
 .container form {
     font-family: optima;
@@ -193,14 +212,7 @@ button {
     margin: 10px;
 }
 
-  h4 {
-    font-family: optima;
-    font-size: 1.5rem;
-    color: white;
-    text-align: center;
-    margin-bottom: 10px;
-    
-  }
+
 
 .paintForm {
   padding: 100px;

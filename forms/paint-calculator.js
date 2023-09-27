@@ -14,38 +14,38 @@ function calculateSquareFootage() {
 
 // Calculate gallons needed
 function gallonsNeeded() {
-    var totalSquareFeet = calculateSquareFootage(); 
-    var gallonsNeeded = Math.ceil(totalSquareFeet / squareFeetPerGallon);
-    return gallonsNeeded;
-  }
+  var totalSquareFeet = calculateSquareFootage(); 
+  var gallonsNeeded = Math.ceil(totalSquareFeet / squareFeetPerGallon);
+  return gallonsNeeded;
+}
 
 // Create message
-  function createMessage() {
-    if (gallonsNeeded() == 0) {
-      return "Maybe you don't need any paint?";
-    }
-    else if (gallonsNeeded() == 1 ) {
-      return "You'll need " + gallonsNeeded() + " gallon of paint!";
-    }
-
-    else if (gallonsNeeded() > 1 ) {
-      return "You'll need " + gallonsNeeded() + " gallons of paint!";
-    }
+function createMessage() {
+  if (gallonsNeeded() == 0) {
+    return "Maybe you don't need any paint?";
+  }
+  else if (gallonsNeeded() == 1 ) {
+    return "You'll need " + gallonsNeeded() + " gallon of paint!";
   }
 
-  function renderMessage() {
-    outputElement.innerHTML = createMessage();
+  else if (gallonsNeeded() > 1 ) {
+    return "You'll need " + gallonsNeeded() + " gallons of paint!";
   }
+}
+
+function renderMessage() {
+  outputElement.innerHTML = createMessage();
+}
 
 
-  form.addEventListener("submit",function(event){
-    event.preventDefault();
-    renderMessage()
+form.addEventListener("submit",function(event){
+  event.preventDefault();
+  renderMessage()
 
-  })
+})
 
-  form.addEventListener("input",function(event){
-    event.preventDefault();
-    clearMessage();
+form.addEventListener("input",function(event){
+  event.preventDefault();
+  clearMessage();
 
-  })
+})
