@@ -12,14 +12,14 @@ function createAndRenderMessage() {
 
     if (inputString) {
         var charCount = countCharacters(inputString);
-        // count words by splitting string on spaces or enter(line break) + filter out empty strings
         var words = inputString.split(/[\s\n]+/).filter(Boolean);
         var wordCount = words.length;
-        outputElement.innerHTML = `Your submission: "${inputString}" has ${charCount} characters and ${wordCount} words`;
+        outputElement.innerHTML = `Your submission has ${charCount} characters and ${wordCount} words`;
     } else {
         outputElement.innerHTML = '';
     }
 }
+
 
 // function createAndRenderMessage() {
 //     var inputString = inputElement.value;
