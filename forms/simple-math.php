@@ -1,10 +1,18 @@
 <?php include "form-header.php" ?>
 
 
+<title>Simple Math</title>
 
+</head>
+
+<body>
+	<div class="container">
+		<div class="inner-column">
 <form method="POST" onsubmit="doMath(event)">
 
-	<h2>Simple Math Form</h2>
+	<h1>Simple Math Form</h1>
+	<h4>Enter your two numbers and we'll do some computing!</h4>
+	<br>
 
 	<div class='field'>
 		<label>What is the first number?</label>
@@ -23,6 +31,11 @@
 </form>
 
 <h4 id="results"></h4>
+
+</div>
+</div>
+</body>
+
 
 
 <?php
