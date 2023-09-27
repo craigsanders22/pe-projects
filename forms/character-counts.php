@@ -3,7 +3,7 @@
 
 <body>
 
-<?php
+	<?php
 $str = "";
 $len = 0;
 $summary = "";
@@ -24,7 +24,8 @@ $solution = "You have <b>$len characters</b> in your phrase<br> *including space
 
 ?>
 
-
+	<div class="container">
+		<div class="inner-column">
 <form method="POST">
 
 	<h1>Character Counts!</h1>
@@ -46,4 +47,9 @@ $solution = "You have <b>$len characters</b> in your phrase<br> *including space
 
 	
 </form>
+
+</div>
+</div>
 </body>
+
+
