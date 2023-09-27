@@ -6,6 +6,8 @@
 
 </head>
 <body>
+	<div class="container">
+		<div class="inner-column">
 	<h1>Login Page</h1>
 	<form id="loginForm">
 		<label for="username">Username:</label>
@@ -14,14 +16,15 @@
 		<label for="password">Password:</label>
 		<input type="password" id="password" required><br><br>
 
-		<input type="submit" value="Login">
+		<button type="submit">LOG IN</button>
 	</form>
 
 
 
-	<h4><output></output></h4>
+	<h4><output id='output'></output></h4>
 
-
+</div>
+</div>
 
 	<script src="password-validator.js"></script>
 
