@@ -12,7 +12,7 @@
 						<option value="1">1 - Easy (1-10)</option>
 						<option value="2">2 - Medium (1-100)</option>
 						<option value="3">3 - Hard (1-1000)</option>
-					</select>
+					</select><br>
 					<button type="submit">Start Game</button>
 				</form>
 			</div>
@@ -20,7 +20,8 @@
 			<div id="game">
 				<p id="instructions"></p>
 				<form onsubmit="submitGuess(); return false;">
-					<input type="text" id="guess" placeholder="Enter your guess">
+					<br>
+					<input type="text" id="guess" maxlength="4" size="12" height="20px" placeholder= "Enter your guess">
 					<button type="submit">Submit Guess</button>
 				</form>
 
