@@ -16,6 +16,8 @@
       <ul>
         <p class="strong-voice">
 
+          <li><a href="forms/8-ball.php"> Magic 8 Ball (JS)</a></li>
+
           <li><a href="forms/guessing-game.php"> Guessing Game (JS)</a></li>
 
           <li><a href="forms/temp-converterJS.php"> Temperature Converter (JS)</a></li>
