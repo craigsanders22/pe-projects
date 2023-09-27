@@ -7,15 +7,15 @@ function countCharacters(inputString) {
 }
 
 // create response and display
-
 function createAndRenderMessage() {
     var inputString = inputElement.value;
 
     if (inputString) {
         var charCount = countCharacters(inputString);
-        var words = inputString.split(' ').filter(Boolean);
+        // count words by splitting string on spaces or enter(line break) + filter out empty strings
+        var words = inputString.split(/[\s\n]+/).filter(Boolean);
         var wordCount = words.length;
-        outputElement.innerHTML = `Your submission is "${inputString}" <br><br> It has ${charCount} characters and consists of ${wordCount} words`;
+        outputElement.innerHTML = `Your submission: "${inputString}" has ${charCount} characters and ${wordCount} words`;
     } else {
         outputElement.innerHTML = '';
     }
