@@ -5,7 +5,7 @@
 	$orderamount = 0;
 	$state = "";
 	$subtotal = 0;
-	$tax = ".055%";
+	$tax = .055;
 	$solution = "";
 	
 
@@ -33,6 +33,14 @@
 	
  ?>
 
+
+<title>Tax Calculator</title>
+
+</head>
+
+<body>
+	<div class="container">
+		<div class="inner-column">
 <form method="POST">
 
 
@@ -58,7 +66,8 @@
 	<button type="submit" name="submitted">
 		Audit Me
 	</button>
-
+	<br>
+	<br>
 
 	<h3>Results:</h3>
 
@@ -68,6 +77,8 @@
 
 
 </form>
+</div>
+</div>
 
 
 
