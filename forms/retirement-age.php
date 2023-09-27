@@ -4,22 +4,27 @@
 
 
 <body>
-    <h1>Retirement Calculator</h1>
-     <form>
-    <label for="currentAge">Current Age:</label>
-    <input type="number" id="currentAgeInput">
-    <br><br>
+    <div class="container">
+        <div class="inner-column">
+            <h1>Retirement Calculator</h1>
+            
 
-    <label for="retireAge">Retirement Age:</label>
-    <input type="number" id="retireAgeInput">
-    <br><br>
+            <form id="retirementForm">
+                <label for="currentAge">Current Age:</label>
+                <input type="number" id="currentAgeInput">
+                <br><br>
 
-     <button type="submit">How Long?</button>
-     <button type="button">Clear</button>
-    <br><br>
+                <label for="retireAge">Retirement Age:</label>
+                <input type="number" id="retireAgeInput">
+                <br><br>
 
-    <output></output>
-</body>
-</html>
+                <button type="submit">How Long?</button>
+                <button type="button">Clear</button>
+                <br><br>
 
-<script src="retirement-age.js"></script>
+                <h4> <output id='output'></output> </h4>
+            </form>
+        </body>
+        </html>
+
+        <script src="retirement-age.js"></script>
