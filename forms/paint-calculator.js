@@ -7,7 +7,8 @@ const squareFeetPerGallon = 350;
 function calculateSquareFootage() {
   var length = form.querySelector("#length");
   var width = form.querySelector("#width");
-  var totalSquareFeet = length.value * width.value;
+  var height = form.querySelector("#height"); // New code
+  var totalSquareFeet = 2 * (height.value * width.value + height.value * length.value); // New formula
   return totalSquareFeet;
 }
 
