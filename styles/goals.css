@@ -28,7 +28,8 @@
 }
 
 .goal-text {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 .goals h2 {
@@ -43,7 +44,7 @@
 
 h5 {
   font-family: didot;
-  font-size: 80px;
+  font-size: clamp(30px, 5vw, 80px);
   color: #f7cfb6;
   padding-left: 20px;
 }
