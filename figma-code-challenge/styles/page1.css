@@ -386,6 +386,7 @@ nav ul {
   display: flex;
   gap: 40px;
   transition: transform 0.5s;
+  align-items: center;
 }
 
 .carousel-container img {
@@ -411,7 +412,7 @@ nav ul {
   text-align: center;
 }
 
-/* Add media queries */
+/* media queries */
 @media (max-width: 900px) {
   .carousel {
     display: flex;
@@ -441,17 +442,23 @@ nav ul {
 	background-color: hsla(223, 178%, 98%, 1);
 }
 
+call-to-action .quiet-voice {
+	color: lightgray;
+}
 
-
-.quote-button {
+.call-to-action .quote-button {
 	display: flex;
 	background-color: var(--color);
 	color: var(--white);
-	text-align: center;
+	justify-content: center;
 	align-items: center;
-	padding: 8px 16px;
-	font-weight: 600;.
-	border: 1px solid hsla(207, 100%, 80%, 1.00);
+	margin: auto;
+	width: 230px;
+	font-weight: 600;
+	padding: 10px 20px;
+	
+	border: none;
+	
 }
 
 .quote-button img {
@@ -471,6 +478,7 @@ nav ul {
 
 .faq-section {
 	padding: 80px 40px;
+
 }
 
 .faq-section .top-text {
@@ -481,11 +489,17 @@ nav ul {
 
 .questions li {
 	display: flex;
-	justify-content: center;
-
 
 }
 
+.faq-list {
+	display: flex;
+	max-width: 1200px;
+	flex-direction: column;
+	align-items: space-between;
+	
+
+}
 
 
 .questions .card-text {
@@ -497,23 +511,36 @@ nav ul {
 	gap: 24px;
 }
 
-details {
- 
-  border-radius: 4px;
-  padding: 0.5em 0.5em 0;
-  max-width: 50ch;
-  border-top: 1px solid lightgray;
-
+.dropdown-arrow {
+	display: flex;
+	justify-content: flex-end;
 }
 
 summary {
- 
-  margin: -0.5em -0.5em 0;
-  padding: 0.5em;
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    min-width: 800px;
+    margin: -0.5em -0.5em 0;
+    padding: 0.5em;
+}
+
+details summary::-webkit-details-marker {
+    display: none;
+}
+
+details {
+    display: block;
+    border-radius: 4px;
+    padding: 0.5em 0.5em 0;
+    max-width: 50ch;
+    border-top: 1px solid lightgray;
 }
 
 .faq-answer {
 	color: #757575;
+	justify-content: center;
 
 }
 
@@ -526,7 +553,35 @@ details[open] summary {
   margin-bottom: 0.5em;
 }
 
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center; /* this will center your .faq-section */
+}
 
+.faq-section .questions {
+  padding: 80px 40px;
+  width: 70%; /* adjust this to meet your needs */
+  box-sizing: border-box;
+}
+
+.questions .card-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  /* flex-direction: column;
+  For the question text and dropdown arrow to sit on the same line, 
+  don't place them in a column, but in a row(default) */
+}
+
+.question {
+  text-align: left; /* Aligns the question to the left */
+}
+
+.dropdown-arrow {
+  text-align: right; /* Moves the dropdown arrow to the right */
+  flex-grow: 1; /* Makes the dropdown arrow use all available space */
+}
 
 
 

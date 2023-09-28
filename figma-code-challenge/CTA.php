@@ -20,6 +20,9 @@
 					<img src="images/chevron-right-white.svg" alt="Chevron to the right">
 				</span>
 			</button>
+		</section>
+	</inner-column>
+</section>
 
 			<?php 
 			if($page == 2): 

@@ -1,3 +1,15 @@
+<?php
+$faqs = array(
+  "How Soon Will My Order Ship?" => "Answer 1",
+  "Are There Any Warranty Exclusions?" => "Answer 2",
+  "Are There Any Return Exclusions?" => "Answer 3",
+  "Will I Be Charged For A Replacement Item?" => "Answer 4",
+  "How Can I Track My Orders & Payment?" => "Answer 5",
+);
+?>
+
+
+
 <section class="faq-section">
     <inner-column>
         <div class='faq-content'>
@@ -7,25 +19,34 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing, elit. Dolor quasi sequi, cum eius laborum. Molestias modi corporis dolores at distinctio.Lorem ipsum dolor sit amet consectetur adipisicing, elit. Dolor quasi sequi, cum eius laborum. Molestias modi corporis dolores at distinctio.
                 </p>
             </section>
+
+
             <section class="questions">
-                <ol>
+                <div class="container">
+                  <ol class="faq-list">
+                      <?php 
+                      foreach ($faqs as $question => $answer) { 
+                          ?>
+                          <li>
+                              <div class="card-text">
+                                  <details>
+                                   <summary class="strong-voice">
+                                    <span class="question"><?php echo $question; ?></span> 
+                                    <span class="dropdown-arrow">▼</span>
+                                </summary>
+                                 <div class="faq-answer">
+                <?php echo $answer; ?>
+            </div>
+                            </details>
+                        </div>
+                    </li>
                     <?php 
-                    $items = [1, 2, 3, 4, 5]; 
-                    foreach ($items as $x) { 
-                    ?>
-                        <li>
-                            <div class="card-text">
-                                <details>
-                                    <summary class="strong-voice">Here is the question that is frequently asked</summary>
-                                    <p class="faq-answer calm-voice">Here is the answer that is given. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, enim?</p>
-                                </details>
-                            </div>
-                        </li>
-                    <?php 
-                    }
-                    ?>
-                </ol>
-            </section>
-        </div>
-    </inner-column>
+                }
+                ?>
+            </ol>
+       </div>
+
+    </section>
+</div>
+</inner-column>
 </section>
