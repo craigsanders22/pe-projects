@@ -24,9 +24,7 @@
 	</div>
 </section>
 
-<div class="client-chevron">
-	<img src="images/chevron-right.svg" alt="">
-</div>
+
 
 <?php 
 $clients = [1]; 

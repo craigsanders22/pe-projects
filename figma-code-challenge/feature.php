@@ -18,7 +18,7 @@
             <div class="feature-cards">
                 <ol>
                     <?php 
-                    $items = [1, 2, 3, 4, 5, 6]; 
+                    $items = [1, 2, 3, 4, 5]; 
                     foreach ($items as $x) { 
                     ?>
                         <li>
