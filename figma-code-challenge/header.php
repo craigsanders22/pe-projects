@@ -1,9 +1,5 @@
-
-
 <!doctype html>
-
 <html lang='en' class='special-magic no-js'>
-
 	<head>
 		<meta charset='utf-8'>
 		<meta name='viewport' content='width=device-width, initial-scale=1'>
@@ -11,57 +7,36 @@
 		<title>Figma to Code Sprint!</title>
 		<meta name='description' content=' logoipsum'>
 		<meta property='og:image' content='$todo'>
-		   <?php
-        $page = isset($_GET['page']) ? $_GET['page'] : '1'; // default to page 1 is set
+		<?php
+		$page = isset($_GET['page']) ? (int)$_GET['page'] : 1;
+        $styles = [
+            1 => 'styles/page1.css',
+            2 => 'styles/page2.css',
+            3 => 'styles/page3.css'
+        ];
 
-        if ($page == '1') {
-            $cssFile = 'styles/page1.css';
-        } elseif ($page == '2') {
-            $cssFile = 'styles/page2.css';
-        } elseif ($page == '3') {
-            $cssFile = 'styles/page3.css';
-        } else {
-            $cssFile = 'styles/page1.css'; // default to page 1 
-        }
+        $cssFile = isset($styles[$page]) ? $styles[$page] : 'styles/page1.css';
 
         echo '<link rel="stylesheet" href="' . $cssFile . '">';
-    ?>
-
+		?>
 		<link rel='stylesheet' href='styles/site.css'>
 	</head>
+	<body>
+		<header class="site-header">
+			<inner-column>
+				<mast-head>
+					<nav class='logo'>
+						<?php if($page == 2): ?>	
+							<img src="images/white-logo.svg" alt="White Logo">	
+						<?php elseif(in_array($page, [1, 3])): ?>	
+							<img src="images/blue-logo.svg" alt="Blue Logo">	
+						<?php endif; ?>
+					</nav>
+                    
 
-<body>
-	
-<header class="site-header">
-	<inner-column>
-	<mast-head>
-
-			<nav class='logo'>
-
-
-
-			<?php if($page == 2): ?>
-				
-					<img src="images/white-logo.svg" alt="">
-			
-			<?php endif; ?>
-
-
-			<?php if(in_array($page, [1, 3])): ?>
-
-				<img src="images/blue-logo.svg" alt="">
-
-			<?php endif; ?>
-			</nav>
 
 		<nav class='site-nav'>
 			
-		<input type="checkbox" id="toggle-menu" class="toggle-menu">
-		<label for="toggle-menu" class="hamburger">
-    		<div class="bar"></div>
-    		<div class="bar"></div>
-    		<div class="bar"></div>
-			</label>
 
 
     		<ul>
@@ -73,53 +48,26 @@
     		</ul>
 		</nav>
 
+<nav class='user-menu'>
+	<ul>
+		<?php if(in_array($page, [1, 2])): ?>
+			<li><a href="#" class="language">
+				<img src="images/world<?= $page==2 ? '-white' : '' ?>.svg" alt="World Flag">EN</a>
+			</li>
+		<?php endif; ?>
 
-		<nav class='user-menu'>
-			<ul>
-				
-						<?php if($page == 1): ?>
-					<li><a href="#" class="language">
-					<img src="images/world.svg" alt="">EN</a>
-				</li>
-				<?php endif ; ?>
-
-						<?php if($page == 2): ?>
-								<li><a href="#" class="language">
-					<img src="images/world-white.svg" alt="">EN</a>
-				</li>
-					
-					
-				<?php endif ; ?>
-
-
-				<?php if($page == 3): ?>
-					<li>
-					<a class='button3' href="#">SignUp </a>
-				</li>
-				<?php endif ; ?>
-
-				
-
-
-
-
-
-				<div>
-				<li>
-					<a class='button2' href='#'>Login</a>
-				</li>
-				</div>
-
-			
-
-			
-			</ul>
-		</nav>
-
-	</mast-head>
-	</inner-column>
+		<?php if($page == 3): ?>
+			<li>
+				<a class='button3' href="#">SignUp</a>
+			</li>
+		<?php endif; ?>
 	
+		<li>
+			<a class='button2' href='#'>Login</a>
+		</li>
+	</ul>
+</nav>
+</mast-head>
+</inner-column>
 </header>
-
 <main>
-
