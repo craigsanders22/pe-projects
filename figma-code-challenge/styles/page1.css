@@ -516,7 +516,6 @@ call-to-action .quiet-voice {
 
 summary {
 	display: flex;
-
 	justify-content: space-between;
 	align-items: center;
 	min-width: 800px;
@@ -542,9 +541,7 @@ details {
 
 }
 
-details[open] {
-	padding: 0.5em;
-}
+
 
 details[open] summary {
 
@@ -555,11 +552,14 @@ details[open] summary {
 	width: 100%;
 	display: flex;
 	justify-content: center; 
+
 }
+
+
 
 .faq-section .questions {
 	padding: 80px 40px;
-	width: 70%; 
+	width: 85%; 
 	box-sizing: border-box;
 }
 
@@ -567,6 +567,7 @@ details[open] summary {
 	display: flex;
 	align-items: center;
 	justify-content: space-between; 
+	
 
 }
 
