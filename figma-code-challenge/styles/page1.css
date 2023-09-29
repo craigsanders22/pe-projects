@@ -576,16 +576,23 @@ details[open] summary {
 	margin-left: -2px;
 }
 
+
+.faq-dropdown-arrow {
+  background-image: url('images/chevron-right.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 24px; 
+  height: 24px; 
+}
 .faq-dropdown-arrow-down {
-    display: none;
-}
+  background-image: url('images/chevron-up.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 24px; 
+  height: 24px; 
 
-.faq-details[open] .faq-dropdown-arrow {
-    display: none;
-}
-
-.faq-details[open] .faq-dropdown-arrow-down {
-    display: unset;
 }
 
 

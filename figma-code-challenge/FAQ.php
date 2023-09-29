@@ -28,11 +28,15 @@ $faqs = array(
                             <div class="card-text">
                                 <details class="faq-details">
                                     <summary class="faq-summary">
-                                        <span class="faq-question"><?php echo $question; ?></span>
-                                        <span class="faq-dropdown-arrow">⟫</span>
-<span class="faq-dropdown-arrow-down">⌃</span>
-
-                                    </summary>
+    <span class="faq-question"><?php echo $question; ?></span>
+    <span class="faq-dropdown-arrow"><img src="images/chevron-right.svg" alt=""></span>
+    <span class="faq-dropdown-arrow-down" style="display: none;"><img src="images/chevron-up.svg" alt="dropdown arrow down"></span>
+</summary>
+                                <!--  <summary class="faq-summary">
+    <span class="faq-question"><?php echo $question; ?></span>
+    <span class="faq-dropdown-arrow"></span>
+    <span class="faq-dropdown-arrow-down" style="display: none;"></span>
+</summary> -->
                                     <div class="faq-answer">
                                         <?php echo $answer; ?>
                                     </div>
@@ -48,7 +52,7 @@ $faqs = array(
     </div>
 </inner-column>
 
-<!-- <script>
+<script>
 var detailsElements = document.querySelectorAll('.faq-details');
 detailsElements.forEach(function (detailsElement) {
     var arrowElements = {
@@ -66,5 +70,5 @@ detailsElements.forEach(function (detailsElement) {
         }
     });
 });
-</script> -->
+</script>
 </section>

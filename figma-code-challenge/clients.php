@@ -5,7 +5,7 @@
         <h3 class="attention-voice">What Our Clients Say</h3>
         <p class="quiet-voice">Neque, Pulvinar Vestibulum Non Aliquam.</p>
       </div>
-
+      <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
       <div class="carousel-container">
         <ol class="carousel">
           <?php if($page == 1): ?>
@@ -73,3 +73,4 @@
     </div>
   </inner-column>
 </section>
+<script src="/path/to/flickity.pkgd.min.js"></script>
