@@ -78,9 +78,9 @@
 					<h3 class="strong-voice">
 					Subscribe</h3>
 					<form action="submitForm()" method="post" class="form-container">
-						<label for="email" class="quiet-voice"></label>
-						<input type="email" id="email" name="email" class="quiet-voice" placeholder="Email Address" required />
-						<button type="submit" class="submit-button">Submit</button>
+						<label for="email" class="email-voice"></label>
+						<input type="email" id="email" name="email" class="email-voice" placeholder="Email Address" required />
+						<button type="submit" class="submit-button">&rsaquo;</button>
 					</form>
 
 
@@ -116,18 +116,10 @@
 
 				<nav class="social-menu">
 
-					<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50">
-						<circle cx="20" cy="20" r="20" fill="white" />
+				<img src="images/linkedin.svg" width="25" height="25" alt="A circle">
+					<img src="images/facebook.svg" width="25" height="25" alt="A circle">
 
-					</svg>
-					<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50">
-						<circle cx="20" cy="20" r="20" fill="white" />
-					</svg>
-
-				</svg>
-				<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50">
-					<circle cx="20" cy="20" r="20" fill="white" />
-				</svg>
+				<img src="images/git.svg" width="25" height="auto" alt="A circle">
 
 			</nav>
 
