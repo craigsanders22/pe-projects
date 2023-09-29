@@ -30,7 +30,8 @@ $faqs = array(
                                     <summary class="faq-summary">
                                         <span class="faq-question"><?php echo $question; ?></span>
                                         <span class="faq-dropdown-arrow">⟫</span>
-                                        <span class="faq-dropdown-arrow-down" style="display: none;">⌃</span>
+<span class="faq-dropdown-arrow-down">⌃</span>
+
                                     </summary>
                                     <div class="faq-answer">
                                         <?php echo $answer; ?>
@@ -47,7 +48,7 @@ $faqs = array(
     </div>
 </inner-column>
 
-<script>
+<!-- <script>
 var detailsElements = document.querySelectorAll('.faq-details');
 detailsElements.forEach(function (detailsElement) {
     var arrowElements = {
@@ -65,5 +66,5 @@ detailsElements.forEach(function (detailsElement) {
         }
     });
 });
-</script>
+</script> -->
 </section>

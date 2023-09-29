@@ -479,7 +479,6 @@ call-to-action .quiet-voice {
 
 .faq-section {
 	padding: 80px 40px;
-
 }
 
 .faq-section .top-text {
@@ -498,8 +497,6 @@ call-to-action .quiet-voice {
 	max-width: 1200px;
 	flex-direction: column;
 	align-items: space-between;
-	
-
 }
 
 
@@ -557,12 +554,12 @@ details[open] summary {
 .container {
 	width: 100%;
 	display: flex;
-	justify-content: center; /* this will center your .faq-section */
+	justify-content: center; 
 }
 
 .faq-section .questions {
 	padding: 80px 40px;
-	width: 70%; /* adjust this to meet your needs */
+	width: 70%; 
 	box-sizing: border-box;
 }
 
@@ -577,6 +574,18 @@ details[open] summary {
 	text-align: left; 
 	font-weight: 700;
 	margin-left: -2px;
+}
+
+.faq-dropdown-arrow-down {
+    display: none;
+}
+
+.faq-details[open] .faq-dropdown-arrow {
+    display: none;
+}
+
+.faq-details[open] .faq-dropdown-arrow-down {
+    display: unset;
 }
 
 
