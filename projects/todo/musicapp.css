@@ -1,0 +1,5 @@
+html {
+	--paper: #e6ede8;
+	background-color: var(--paper);
+}
+
