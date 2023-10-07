@@ -6,7 +6,7 @@ html {
 
 form, field {
 	display: grid;
-	grid: 20px;
+	grid: 10px;
 }
 
 form {
@@ -16,4 +16,42 @@ form {
 form input {
 	font: inherit;
 	padding: .5em 1em;
+}
+
+button {
+	padding: 10px 20px;
+	margin: 10px;
+}
+
+
+.completed {
+	opacity: .5;
+	text-decoration: line-through;
+}
+
+li {
+	list-style: none;
+}
+
+
+ h2 {
+  color: black; /* set the color of the h2 element */
+  font-size: 30px; /* set the font size of the h2 element */
+}
+
+ h3 {
+  color: darkslategray; /* set the color of the h3 element */
+  font-size: 26px; /* set the font size of the h3 element */
+}
+
+h4{
+  color: black; /* set the color of the h2 element */
+  font-family: monospace;
+  font-size: 18px; /* set the font size of the h2 element */
+  
+}
+
+.playlist-display {
+	font-size: 10px;
+	border: 2px solid black;
 }

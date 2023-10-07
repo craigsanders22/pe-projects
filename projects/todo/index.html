@@ -1,41 +1,113 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <title>Playlist App</title>
+    <link rel="stylesheet" href="musicapp.css">
+</head>
+<body>
+    <h1>Playlist Maker</h1>
+    <form id="form-playlist">
+        <field>
+            <h3><label for="playlist-title">Playlist Name</label></h3>
+            <input type="text" id="playlist-title">
+        </field>
+        <field>
+            <h3><label for="playlist-creator">Playlist Creator</label></h3>
+            <input type="text" id="playlist-creator">
+        </field>
+        <button type="submit" id="button-add-playlist">Add Playlist</button>
+    </form>
+ <div id="playlist-title-display"></div> 
+    <hr><hr>
+    <form id="form-song">
+        <field>
+            <h3><label for="song-title">Song Title</label></h3>
+            <input type="text" id="song-title" >
+        </field>
+        <field>
+         <h3><label for="song-artist">Song Artist</label></h3>
+         <input type="text" id="song-artist" >
+     </field>
+     <button type="submit" id="button-add-song" >Add Song</button>
+ </form>
+
+
+
+ <div id="playlist-display"></div>
+
+ <button type="button" id="button-reset">Reset Playlist</button>
+
+
+ <script src="musicapp.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+<!--  <!DOCTYPE html>
+<html>
+<head> -->
     <!-- <title>Playlist App</title> -->
-    <title>ToDo App</title>
+<!--     <title>ToDo App</title>
     <link rel="stylesheet" href="musicapp.css">
 
 </head>
 <body>
 	<inner-column>
-        <h1>ToDo App</h1>
-	
+        <h1>Playlist Maker</h1>
+
         <form action="">
+            <h2>Create your playlist!</h2>
             <field>
-                <label>What woud;d you like to do?</label>
+                <label>Playlist Name</label>
                 <input type="text">
             </field>
+            <field>
+                <label>Playlist Creator</label>
+                <input type="text">
+            </field>            
+            <h3>Add your songs!</h3>
+            <field>
+                <label>New Song Title</label>
+                <input type="text">
+            </field>
+
+            <field>
+                <label>New Song Artist</label>
+                <input type="text">
+            </field>
+
             <button type='submit'>Submit</button>
 
+            <button type='submit'>Remove</button>
 
-
+            <button type='submit'>Update</button>
 
 
         </form>
 
-    
-<output></output>
+
+        <output></output>
+        <complete></complete>
 
     </inner-column>
 
 
-    <script src="app.js">
-        
+    <script src="musicapp.js">
+
     </script>
 </body>
 </html>
 
-
+ --> -->
 
 <!--     <div>
     <h1>My Playlist</h1>

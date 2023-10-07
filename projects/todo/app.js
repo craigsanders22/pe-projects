@@ -1,8 +1,10 @@
 var todos = [];
 var lastId = 0;
+var archive = [];
 const $form = document.querySelector('form');
 const $input = document.querySelector('input');
 const $output = document.querySelector('output');
+const $complete = document.querySelector('complete');
 
 function add(content) {
 	const todo = {
@@ -18,11 +20,10 @@ function add(content) {
 }
 
 function remove(id) {
-	const filtered = todos.filter( function(todo) {
-		return todo.id != id;
-	});
-
+	const filtered = todos.filter(todo => todo.id != id);
 	todos = [...filtered];
+	renderTodos(todos);
+
 }
 
 
@@ -30,6 +31,7 @@ function complete (id) {
 	for (let i = 0; i < todos.length; i++) {
 		if ( todos[i].id == id ) {
 			todos[i].complete = true;
+			renderTodos(todos);
 		}
 	}
 }
@@ -37,10 +39,11 @@ function complete (id) {
 function renderTodo(todo) {
 	return `
 		<li data-id='${todo.id}'>
-		<todo-card>
+		<todo-card class='${todo.complete ? "complete" : ""}''>
 			<h2>${todo.content}</h2>
 			<actions>
 			<button>remove</button>
+			<button>complete</button>
 
 			</actions>
 		</todo-card>
@@ -75,7 +78,17 @@ $output.addEventListener('click', function(event) {
 		remove(id);
 	}
 
+
+
+
+
+	if(event.target.textContent == 'complete') {
+		const id = event.target.closest('li').dataset.id;
+		complete(id);
+	}
+
 });
+
 
 
 
