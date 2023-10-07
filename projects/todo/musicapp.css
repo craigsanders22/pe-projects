@@ -1,5 +1,19 @@
 html {
 	--paper: #e6ede8;
 	background-color: var(--paper);
+	padding: 10px;
 }
 
+form, field {
+	display: grid;
+	grid: 20px;
+}
+
+form {
+	max-width: 500px;
+}
+
+form input {
+	font: inherit;
+	padding: .5em 1em;
+}
