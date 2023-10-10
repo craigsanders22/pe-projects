@@ -78,10 +78,6 @@ $output.addEventListener('click', function(event) {
 		remove(id);
 	}
 
-
-
-
-
 	if(event.target.textContent == 'complete') {
 		const id = event.target.closest('li').dataset.id;
 		complete(id);
