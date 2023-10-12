@@ -113,6 +113,19 @@ $resetButton.addEventListener('click', () => {
 	$titleOutput.innerHTML = "";
 });
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 // class Playlist {
 //     constructor(title, creator) {
 //         this.title = title;
