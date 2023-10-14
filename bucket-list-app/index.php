@@ -1,41 +1,16 @@
 <!DOCTYPE html>
 
-
 <?php 
+    $page = isset($_GET["page"]) ? $_GET["page"] : 'login';
+?>
 
-	$page = null;
-	if ( isset($_GET["page"]) ) {
-		$page = $_GET["page"];
-	} else {
-		$page = "login";
-	}
-
-	function getTemplate($page) {
-		include($page . '.php');
-	}
- ?>
-
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Bucket List App</title>
-	<link rel="stylesheet" href="../styles/site.css">
-
-</head>
 <body>
-<header>
-		<!-- <?php include('masthead.php'); ?> -->
+    <header>
+        <?php include('masthead.php'); ?>
+    </header>
 
-</header>
-
-<main>
-	<?php include('login.php'); ?>
-	<?php include('signup.php'); ?>
-	<?php include('wayfinding.php'); ?>
-	<?php include('category-list.php'); ?>
-	<?php include('detail-page.php'); ?>
-
-</main>
+    <main>
+        <?php include($page . '.php'); ?>
+    </main>
 </body>
 </html>
