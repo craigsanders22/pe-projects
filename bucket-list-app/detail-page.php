@@ -1,1 +1,1 @@
-detail-page.html
+<h1>ITEM DETAILS</h1>

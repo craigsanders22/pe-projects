@@ -2,3 +2,14 @@ body {
 	padding: 4px;
 	font-family: inter;
 }
+
+ul {
+	display: flex;
+	list-style: none;
+	
+}
+
+li {
+
+	padding: 20px;
+}
