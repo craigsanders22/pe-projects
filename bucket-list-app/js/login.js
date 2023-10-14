@@ -18,7 +18,7 @@
             alert('Login success!');
             
             sessionStorage.setItem('loggedIn', true);
-            window.location.href = "#wayfinding"; // Redirect to home page
+            window.location.href = "?page=wayfinding"; // Redirect to home page
         } else {
             alert('Invalid username or password');
         }
