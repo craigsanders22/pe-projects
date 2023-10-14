@@ -1,5 +1,5 @@
 <body>
-    <h2>Signup</h2>
+    <h2 class='attention-voice'>Signup</h2>
 
     <form id="signupForm">
         <label for="firstName">Preferred Name:</label><br>

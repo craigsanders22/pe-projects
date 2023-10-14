@@ -1,3 +1,12 @@
+@import "reset.css";
+@import "setup.css";
+@import "masthead.css";
+
+
+
+
+
+
 body {
 	padding: 4px;
 	font-family: inter;
@@ -14,3 +23,67 @@ li {
 
 	padding: 20px;
 }
+/* setup */
+a {
+	display: block;
+	text-decoration: none;
+	
+}
+
+/* structure */
+
+
+body {
+	
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+
+}
+
+main {
+	flex-grow: 1;
+	flex-shrink: 0;
+	flex-basis: auto;
+}
+
+.inner-column {
+	max-width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	justify-content: center;
+	padding: 10px;
+	width: 90%;
+}
+
+.calm-voice {
+	font-family: avenir;
+	font-size: 1rem;
+	font-weight: 400;
+	max-width: 70ch;
+}
+
+.neutral-voice {
+	font-family: avenir;
+	font-size: 1.2rem;
+	font-weight: 400;
+	letter-spacing: .02em;
+}
+
+.attention-voice {
+	font-family: kepler;
+	font-size: 1.8rem;
+	font-weight: 600;
+	letter-spacing: .03em;
+}
+
+.loud-voice {
+	font-family: kepler;
+	font-size: 2.5rem;
+	font-weight: 700;
+	letter-spacing: .03em;
+}
+
+
+
+
