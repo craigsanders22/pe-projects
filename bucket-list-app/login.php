@@ -15,7 +15,7 @@
         <input type="submit" value="Submit">
     </form>
 
-    <p>Don't have an account? <a href="signup.html">Sign up here</a></p>
+    <p>Don't have an account? <a href="signup.php">Sign up here</a></p>
 
     <script src="../js/login.js"></script>
 </body>
