@@ -1,8 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Signup Page</title>
-</head>
+
 <body>
     <h2>Signup</h2>
 

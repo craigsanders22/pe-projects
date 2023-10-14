@@ -1,4 +1,4 @@
-// Using an immediately invoked function expression (IIFE) to avoid variable hoisting
+
 (function() { 
     // Get form elements
     const form = document.getElementById('loginForm');

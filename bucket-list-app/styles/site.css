@@ -1,4 +1,5 @@
-body {
+html {
 	padding: 4px;
-	font-family: inter;
+	
+	background-color: green;
 }

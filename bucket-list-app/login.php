@@ -1,9 +1,4 @@
 
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Login Page</title>
-</head>
 <body>
     <h2>Login</h2>
 
@@ -19,7 +14,8 @@
 
     <script src="../js/login.js"></script>
 </body>
-</html>
+
+
 
 
 
