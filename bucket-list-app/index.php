@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -6,9 +6,9 @@
 	<title>Document</title>
 	<link rel="stylesheet" href="styles/site.css">
 </head>
-<body>
+<body> -->
 	<?php
-$page = isset($_GET['page']) ? $_GET['page'] : '1'; // Default to page 1 
+$page = isset($_GET['page']) ? $_GET['page'] : 'wayfinding'; // Default to page 1 
 
 if ($page == 'login') {
     include 'login.php';
@@ -16,16 +16,16 @@ if ($page == 'login') {
 } elseif ($page == 'signup') {
     include 'signup.php';
     $cssFile = 'signup.css';
-} elseif ($page == '3') {
-    include 'page3.php';
-    $cssFile = 'page3.css';
+} elseif ($page == 'wayfinding') {
+    include 'wayfinding.php';
+    $cssFile = 'wayfinding.css';
 
 }
 ?>
 
-
+<!-- 
 
 
 
 </body>
-</html>
+</html> -->
