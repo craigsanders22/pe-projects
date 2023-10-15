@@ -1,6 +1,3 @@
-<body>
-
-
 
 
     
@@ -17,4 +14,4 @@
     <p class='calm-voice'>Don't have an account? <a href="?page=signup">Sign up here</a></p> 
 
     <script src="js/login.js"></script>
-</body>
+
