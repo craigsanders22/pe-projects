@@ -9,16 +9,21 @@
         // Prevent form from posting
         event.preventDefault();
 
-        // Get user input
+        // get user input
         const username = inputUsername.value;
         const password = inputPassword.value;
-
-        // quick check
-        if (username === "user" && password === "pass") {
+        
+        // get stored user data from local storage
+        let storedUserData = localStorage.getItem('user');
+        storedUserData = storedUserData !== null ? JSON.parse(storedUserData) : {email: "", password: ""};
+        
+        // Check if input matches stored data or hardcoded data
+        if ((username === storedUserData.email && password === storedUserData.password) || 
+            (username === "user" && password === "pass")) {
             alert('Login success!');
             
             sessionStorage.setItem('loggedIn', true);
-            window.location.href = "?page=wayfinding"; // Redirect to home page
+            window.location.href = "?page=wayfinding"; // Redirect to wayfinding
         } else {
             alert('Invalid username or password');
         }

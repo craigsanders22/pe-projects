@@ -7,11 +7,7 @@
 
 
 
-body {
-	padding: 4px;
-	font-family: inter;
-	background-color: whitesmoke;
-}
+
 
 ul {
 	display: flex;
@@ -38,6 +34,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
+	background-color: whitesmoke;
 
 }
 
