@@ -1,0 +1,83 @@
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bucket List App</title>
+	<link rel="stylesheet" href="styles/site.css">
+</head>
+<body>
+<header>
+	<nav>
+		<ul>
+			<li><button id="loginButton">Login</button></li>
+			<li><button id="signupButton">Sign Up</button></li>
+			<li><button id="wayfindingButton">Wayfinding</button></li>
+			<li><button id="categoryListButton">Category List</button></li>
+			<li><button id="detailButton">Detail Page</button></li>
+			<li><button id="completeButton">Complete</button></li>
+		</ul>
+	</nav>
+</header>
+
+<div id="loginPage" class="page">
+    <h2 class='attention-voice'>Login</h2>
+    <form id="loginForm">
+        <label class='calm-voice' for="username">Email:</label><br>
+        <input type="text" id="username" name="username" required><br>
+        <label class='calm-voice' for="loginPassword">Password:</label><br>
+        <input type="password" id="loginPassword" name="password" required><br>
+        <input class='calm-voice' type="submit" value="Submit">
+    </form>
+    <p class='calm-voice'>Don't have an account? <a href="#" id="signupLink">Sign up here</a></p> 
+</div>
+
+<div id="signupPage" class="page">
+    <h2 class='attention-voice'>Signup</h2>
+    <form id="signupForm">
+        <label class='calm-voice' for="firstName">Preferred Name:</label><br>
+        <input type="text" id="firstName" name="firstName" required><br>
+        <label class='calm-voice' for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label class='calm-voice' for="signupPassword">Password:</label><br>
+        <input type="password" id="signupPassword" name="password" required><br>
+        <input type="submit" value="Signup">
+    </form>
+    <p class='calm-voice'>Already have an account? <a href="#" id="loginLink">Login here</a></p>
+</div>
+
+<div id="wayfindingPage" class="page">
+<h1>Users bucket lists</h1>
+<ul id="bucketList">
+    <li>
+        <a href="#" id="placesToGo">Places to Go</a>
+        <ul id="places-list" hidden></ul>
+    </li>
+    <li>
+        <a href="#" id="experiences">Experiences</a>
+        <ul id="experiences-list" hidden></ul>
+    </li>  
+    <li><a href="#" id="addTitle">+</a></li>
+</ul>
+</div>
+
+<div id="categoryListPage" class="page">
+	<h1 id="listTitle">List</h1>
+	<input type="text" id="newItem" placeholder="Type here to add item...">
+	<button id="addItemButton">Add</button>
+	<ul id="list"></ul>
+</div>
+<div id="detailPage" class="page">
+	<h1>ITEM DETAILS</h1>
+</div>
+
+<div id="completePage" class="page">
+	<h1>COMPLETE</h1>
+</div>
+
+<footer>
+  <h2 class='quiet-voice'>This is the footer</h2>
+</footer>
+
+<script src="main.js" type="module"></script>
+</body>
+</html>
