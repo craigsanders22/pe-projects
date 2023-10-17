@@ -1,31 +1,27 @@
+import {showPage} from './showPage.js';
+import {getUserData, setSessionData} from './localStorage.js';
 
-(function() { 
-    // Get form elements
+export function handleLoginSubmit() {
     const form = document.getElementById('loginForm');
     const inputUsername = document.getElementById('username');
-    const inputPassword = document.getElementById('password');
+    const inputPassword = document.getElementById('loginPassword');
 
     form.onsubmit = function(event) {
-        // Prevent form from posting
         event.preventDefault();
 
-        // get user input
         const username = inputUsername.value;
         const password = inputPassword.value;
         
-        // get stored user data from local storage
-        let storedUserData = localStorage.getItem('user');
-        storedUserData = storedUserData !== null ? JSON.parse(storedUserData) : {email: "", password: ""};
+        const userData = getUserData();
         
-        // Check if input matches stored data or hardcoded data
-        if ((username === storedUserData.email && password === storedUserData.password) || 
+        if ((username === userData.email && password === userData.password) || 
             (username === "user" && password === "pass")) {
             alert('Login success!');
             
-            sessionStorage.setItem('loggedIn', true);
-            window.location.href = "?page=wayfinding"; // Redirect to wayfinding
+            setSessionData('loggedIn', true);
+            showPage('wayfindingPage'); //send to wayfinding
         } else {
             alert('Invalid username or password');
         }
-    }
-})();
+    };
+}
