@@ -1,25 +1,43 @@
+import { showPage } from './showPage.js';
 
+export function handleWayfinding() {
+    document.querySelector('#addTitle').addEventListener('click', createNewTitle);
+    document.querySelector('#placesToGo').addEventListener('click', function() { 
+        gotoAddItemsPage('Places to Go'); 
+    });
+    document.querySelector('#experiences').addEventListener('click', function() {
+        gotoAddItemsPage('Experiences');
+    });
+}
 
 function createNewTitle() {
     const newTitle = prompt("Enter the title for your new list");
-
     if (newTitle) {
-        // Store the newTitle to localStorage and lead user to new page
         localStorage.setItem("newTitle", newTitle);
-        window.location.href = 'category-list.php';
+        showPage('categoryListPage');
     }
 }
 
 function gotoAddItemsPage(category) {
-    // Store the category to localStorage and lead user to new page
     localStorage.setItem("newTitle", category);
-    window.location.href = 'category-list.php';
+    showPage('categoryListPage');
 }
 
-document.querySelector('#addTitle').addEventListener('click', createNewTitle);
-document.querySelector('#placesToGo').addEventListener('click', function() { 
-    gotoAddItemsPage('Places to Go'); 
-});
-document.querySelector('#experiences').addEventListener('click', function() { 
-    gotoAddItemsPage('Experiences'); 
-});
+
+export function handleCategoryList() {
+    document.addEventListener('DOMContentLoaded', () => {
+        document.getElementById('listTitle').innerText = localStorage.getItem("newTitle");
+
+        function addItem() {
+            const newItem = document.getElementById('newItem').value;
+            if (newItem) {
+                const li = document.createElement('li');
+                li.innerText = newItem;
+                document.getElementById('list').appendChild(li);
+                document.getElementById('newItem').value = '';
+            }
+        }
+
+        document.getElementById('addItemButton').addEventListener('click', addItem);
+    });
+}
