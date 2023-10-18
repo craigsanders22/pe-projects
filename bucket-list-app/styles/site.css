@@ -44,6 +44,12 @@ main {
 	flex-basis: auto;
 }
 
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+
 .inner-column {
 	max-width: 800px;
 	margin-right: auto;
@@ -84,7 +90,6 @@ main {
 
 .page {
 	border: 5px solid yellow;
-	margin-right: auto;
-	margin-left: auto;
+
 }
 

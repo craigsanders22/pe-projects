@@ -20,6 +20,8 @@
 	</nav>
 </header>
 
+
+<!-- login -->
 <div id="loginPage" class="page">
     <h2 class='attention-voice'>Login</h2>
     <form id="loginForm">
@@ -32,6 +34,8 @@
     <p class='calm-voice'>Don't have an account? <a href="#" id="signupLink">Sign up here</a></p> 
 </div>
 
+
+<!-- signup -->
 <div id="signupPage" class="page">
     <h2 class='attention-voice'>Signup</h2>
     <form id="signupForm">
@@ -46,6 +50,8 @@
     <p class='calm-voice'>Already have an account? <a href="#" id="loginLink">Login here</a></p>
 </div>
 
+
+<!-- wayfinding -->
 <div id="wayfindingPage" class="page">
 <h1>Users bucket lists</h1>
 <ul id="bucketList">
@@ -58,26 +64,53 @@
         <ul id="experiences-list" hidden></ul>
     </li>  
     <li><a href="#" id="addTitle">+</a></li>
+    <ul id="list">
+  <li class="list-item" data-index="0">Item 1</li>
+  <li class="list-item" data-index="1">Item 2</li>
+  <li class="list-item" data-index="2">Item 3</li>
+</ul>
+
 </ul>
 </div>
 
+
+<!-- category list -->
 <div id="categoryListPage" class="page">
 	<h1 id="listTitle">List</h1>
 	<input type="text" id="newItem" placeholder="Type here to add item...">
 	<button id="addItemButton">Add</button>
 	<ul id="list"></ul>
 </div>
+
+<!-- item details  -->
 <div id="detailPage" class="page">
-	<h1>ITEM DETAILS</h1>
+  <h1>ITEM DETAILS</h1>
+  <h2 id="itemTitle"></h2>
+  <input type="text" id="itemContent" placeholder="Add content...">
+  <div>
+    <label>
+      <input type="checkbox" id="itemComplete">
+      Complete
+    </label>
+  </div>
+  <button id="saveButton">Save</button>
 </div>
 
+
+
+
+
+
+<!-- complete -->
 <div id="completePage" class="page">
 	<h1>COMPLETE</h1>
 </div>
 </div>
-</body>
+
 
 
 <script src="js/main.js" type="module"></script>
 
+
+</body>
 </html>

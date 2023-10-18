@@ -17,9 +17,10 @@ export function handleLoginSubmit() {
         if ((username === userData.email && password === userData.password) || 
             (username === "user" && password === "pass")) {
             alert('Login success!');
-            
+        
+            //send to wayfinding
             setSessionData('loggedIn', true);
-            showPage('wayfindingPage'); //send to wayfinding
+            showPage('wayfindingPage'); 
         } else {
             alert('Invalid username or password');
         }
