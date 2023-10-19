@@ -1,11 +1,10 @@
 // wayfinding.js
 import { showPage } from './showPage.js';
+import { showList } from './showList.js';
+import { manipulateLocalStorage } from './main.js';
+
 // Extract common operations into functions
-function manipulateLocalStorage(key, defaultValue, operation) {
-    const value = localStorage.getItem(key);
-    if (!value && defaultValue) localStorage.setItem(key, JSON.stringify(defaultValue));
-    return operation ? JSON.parse(value) : value;
-}
+
 
 function generateListElement(title) {
     const li = document.createElement('li');
@@ -99,24 +98,24 @@ function addItem() {
     }
 }
 
-export function showList() {
-    const list = document.querySelector('#list');
-    list.innerHTML = "";
+// export function showList() {
+//     const list = document.querySelector('#list');
+//     list.innerHTML = "";
 
-    const currentCategory = manipulateLocalStorage("currentCategory");
-    const categories = manipulateLocalStorage("categories", null, true);
+//     const currentCategory = manipulateLocalStorage("currentCategory");
+//     const categories = manipulateLocalStorage("categories", null, true);
 
-    const items = categories[currentCategory];
-    for (let i = 0; i < items.length; i++) {
-        const item = items[i];
-        const li = document.createElement('li');
-        li.textContent = item;
-        li.classList.add('list-item');
-        li.dataset.index = i;
-        li.addEventListener('click', () => gotoDetailPage(i, item));
-        list.appendChild(li);
-    }
-}
+//     const items = categories[currentCategory];
+//     for (let i = 0; i < items.length; i++) {
+//         const item = items[i];
+//         const li = document.createElement('li');
+//         li.textContent = item;
+//         li.classList.add('list-item');
+//         li.dataset.index = i;
+//         li.addEventListener('click', () => gotoDetailPage(i, item));
+//         list.appendChild(li);
+//     }
+// }
 
 export function gotoDetailPage(index, item) {
     localStorage.setItem('currentItemIndex', index);

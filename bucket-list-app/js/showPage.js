@@ -1,3 +1,7 @@
+import { showList } from './showList.js';
+import { manipulateLocalStorage } from './main.js';
+
+
 export async function showPage(pageId) {
     const pages = document.querySelectorAll('.page');
     pages.forEach(page => {

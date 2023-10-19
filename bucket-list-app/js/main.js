@@ -4,6 +4,8 @@ import { handleSignupSubmit } from './signup.js';
 import { showPage } from './showPage.js';
 import { showList } from './showList.js';
 
+
+
 document.addEventListener('DOMContentLoaded', (event) => { 
   attachEventListeners();    
   handleLoginSubmit();
@@ -11,6 +13,23 @@ document.addEventListener('DOMContentLoaded', (event) => {
   showPage('loginPage'); // default to show login page
   handleDetailPage();
 });
+
+export function manipulateLocalStorage(key, defaultValue, operation) {
+    let value = localStorage.getItem(key);
+    if (value === null && defaultValue !== undefined) {
+        value = JSON.stringify(defaultValue);
+        localStorage.setItem(key, value);
+    }
+    if (operation) {
+        try {
+            return JSON.parse(value);
+        } catch (e) {
+            console.error('Erroneous non-JSON value in localStorage: ', value);
+        }
+    }
+    return value;
+}
+
 
 export function handleDetailPage() {
   const itemTitleElement = document.querySelector('#itemTitle');

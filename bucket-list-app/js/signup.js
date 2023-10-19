@@ -1,4 +1,5 @@
 import { showPage } from './showPage.js';
+import { manipulateLocalStorage } from './main.js';
 
 export function handleSignupSubmit() {
     const form = document.getElementById('signupForm');
