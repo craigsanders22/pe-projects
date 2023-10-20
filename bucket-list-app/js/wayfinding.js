@@ -6,12 +6,12 @@ import { manipulateLocalStorage } from './main.js';
 
 
 
-
+// get existing categories 
 function getCategories() {
     return manipulateLocalStorage("categories", null, true);
 }
 
-
+// build categories on page w/ edit
 function generateListElement(title) {
     const li = document.createElement('li');
     const a = document.createElement('a');
@@ -34,6 +34,7 @@ function generateListElement(title) {
     return li;
 }
 
+// change category name
 function renameCategory(oldTitle) {
     const newTitle = prompt("Enter a new title for the category", oldTitle);
     if (newTitle && newTitle !== oldTitle) {
@@ -89,8 +90,8 @@ export function handleCategoryList() {
 
 function createNewTitle() {
     const categories = getCategories(); 
-    if (Object.keys(categories).length >= 5) {
-        alert("Maximum of 5 categories allowed.");
+    if (Object.keys(categories).length >= 8) {
+        alert("Maximum of 8 categories allowed.");
     } else {
         const newTitle = prompt("Enter the title for your new list");
         if (newTitle) {
@@ -123,7 +124,7 @@ function addItem() {
     if (newItem) {
         let categories = manipulateLocalStorage("categories", null, true);
 
-        // Check if the currentCategory array exists. If not, initialise it as an empty array.
+        // Check if the currentCategory array exists. If not, create...
         const currentCategory = manipulateLocalStorage("currentCategory");
         categories[currentCategory] = categories[currentCategory] || [];
         categories[currentCategory].push(newItem);

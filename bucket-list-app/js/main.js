@@ -7,6 +7,8 @@ import { showCategories } from './wayfinding.js';
 
 
 
+
+
 document.addEventListener('DOMContentLoaded', (event) => { 
   attachEventListeners();    
   handleLoginSubmit();
@@ -16,7 +18,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
   showCategories();
 
   showPage('loginPage'); // default to show login page
-  handleDetailPage();
+ 
 });
 
 export function manipulateLocalStorage(key, defaultValue, operation) {
@@ -37,23 +39,23 @@ export function manipulateLocalStorage(key, defaultValue, operation) {
 
 
 
-export function handleDetailPage() {
-  const itemTitleElement = document.querySelector('#itemTitle');
-  const itemContentElement = document.querySelector('#itemContent');
-  const itemCompleteElement = document.querySelector('#itemComplete');
-  const saveButton = document.querySelector('#saveButton');
+// export function handleDetailPage() {
+//   const itemTitleElement = document.querySelector('#itemTitle');
+//   const itemContentElement = document.querySelector('#itemContent');
+//   const itemCompleteElement = document.querySelector('#itemComplete');
+//   const saveButton = document.querySelector('#saveButton');
 
-  const currentItemIndex = localStorage.getItem('currentItemIndex');
-  const currentItem = localStorage.getItem('currentItem');
+//   const currentItemIndex = localStorage.getItem('currentItemIndex');
+//   const currentItem = localStorage.getItem('currentItem');
 
-  itemTitleElement.textContent = currentItem;
-  itemContentElement.value = ''; // Update with the saved content if applicable
-  itemCompleteElement.checked = false; // Update with the saved completion status if applicable
+//   itemTitleElement.textContent = currentItem;
+//   itemContentElement.value = ''; // Update with the saved content if applicable
+//   itemCompleteElement.checked = false; // Update with the saved completion status if applicable
 
-  saveButton.addEventListener('click', () => {
-    saveData(currentItemIndex, itemContentElement.value, itemCompleteElement.checked);
-  });
-}
+//   saveButton.addEventListener('click', () => {
+//     saveData(currentItemIndex, itemContentElement.value, itemCompleteElement.checked);
+//   });
+// }
 
 function saveData(index, content, complete) {
   const currentCategory = localStorage.getItem("currentCategory");
