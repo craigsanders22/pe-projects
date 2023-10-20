@@ -56,9 +56,9 @@ const presetCategories = {
     "Foods to Eat": [],
     "Performances to See": [],
     "Wild Cards": [],
-    "User Category 1": [],
-    "User Category 2": [],
-    "User Category 3": [],
+    // "User Category 1": [],
+    // "User Category 2": [],
+    // "User Category 3": [],
 };
 
 
