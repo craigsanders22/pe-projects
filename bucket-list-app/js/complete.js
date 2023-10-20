@@ -2,7 +2,7 @@ export function showCompletedItems() {
   const completedItems = JSON.parse(localStorage.getItem("completedItems")) || [];
   const completedList = document.querySelector('#completedList');
 
-  completedList.innerHTML = ''; // Clear the existing contents
+  completedList.innerHTML = ''; // clear
 
   completedItems.forEach(item => {
     const li = document.createElement('li');

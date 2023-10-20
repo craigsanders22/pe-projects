@@ -19,7 +19,7 @@ export function handleSignupSubmit() {
 
         // Set user's name in HTML element
         const h1Element = document.querySelector('#wayfindingPage h1');
-        h1Element.innerText = `${firstName}'s bucket list`;
+        h1Element.innerText = `${firstName}'s Bucket List`;
 
         alert(`Signup successful, ${firstName}! You can now login.`);
         showPage('loginPage');

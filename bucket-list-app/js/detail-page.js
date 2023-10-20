@@ -16,12 +16,12 @@ export function handleDetailPage() {
   itemTitleElement.textContent = currentItem.title; // Access the title property
   
 
-  // Get the completion status from local storage
+  // Get completion from local storage
   const categories = getCategories();
   const currentCategory = localStorage.getItem("currentCategory");
   const itemCompleteStatus = categories[currentCategory][currentItemIndex].complete;
   
-  // Update the item's completion status and CSS style
+  // Update the status and css
   itemContentElement.value = currentItem;
   itemCompleteElement.checked = itemCompleteStatus;
   const itemElement = document.getElementById(`item${currentItemIndex}`);
@@ -46,7 +46,7 @@ function saveData(index, content, complete) {
   };
   localStorage.setItem("categories", JSON.stringify(categories));
   
-  // Update CSS style based on completion status
+  // Update CSS if complete
   const itemElement = document.getElementById(`item${index}`);
   if (complete) {
     itemElement.style.textDecoration = "line-through";
