@@ -1,6 +1,7 @@
 import { showPage } from './showPage.js';
 import { manipulateLocalStorage } from './main.js';
 
+
 export function handleSignupSubmit() {
     const form = document.getElementById('signupForm');
     const inputFirstName = document.getElementById('firstName');
@@ -16,7 +17,14 @@ export function handleSignupSubmit() {
 
         localStorage.setItem('user', JSON.stringify({firstName, email, password}));
 
-        alert('Signup successful - you can now login.');
+        // Set user's name in HTML element
+        const h1Element = document.querySelector('#wayfindingPage h1');
+        h1Element.innerText = `${firstName}'s bucket list`;
+
+        alert(`Signup successful, ${firstName}! You can now login.`);
         showPage('loginPage');
     }
 }
+
+
+

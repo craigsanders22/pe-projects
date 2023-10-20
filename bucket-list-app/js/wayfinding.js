@@ -157,14 +157,14 @@ export function gotoDetailPage(index, item) {
   const itemContent = item.content; 
   const itemComplete = item.complete; 
 
-  // Populate the detail page with the saved details
+  // buikd the detail page with the saved details
   detailPage.querySelector('#itemTitle').textContent = itemTitle;
   detailPage.querySelector('#itemContent').value = itemContent;
   detailPage.querySelector('#itemComplete').checked = itemComplete;
   
-  const currentCategory = localStorage.getItem("currentCategory"); // Retrieve the current category from localStorage
+  const currentCategory = localStorage.getItem("currentCategory"); // Retrieve current category
 
-  showPage('detailPage', currentCategory); // Pass the currentCategory to showPage function
+  showPage('detailPage', currentCategory); // Pass the category
 
 
   // Add event listener for the "save" button
@@ -179,8 +179,8 @@ export function gotoDetailPage(index, item) {
 
 function markAsCompleted(index, item) {
   item.complete = true;
-  // Save the updated item with the completed status
-  // to the completed page in local storage
+  // Save the updated item with the completed status to storage.
+ 
   let completedItems = JSON.parse(localStorage.getItem("completedItems")) || [];
   completedItems.push(item);
   localStorage.setItem("completedItems", JSON.stringify(completedItems));
