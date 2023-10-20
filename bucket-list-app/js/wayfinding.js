@@ -5,9 +5,8 @@ import { manipulateLocalStorage } from './main.js';
 
 
 
-
 // get existing categories 
-function getCategories() {
+export function getCategories() {
     return manipulateLocalStorage("categories", null, true);
 }
 
@@ -35,7 +34,7 @@ function generateListElement(title) {
 }
 
 // change category name
-function renameCategory(oldTitle) {
+export function renameCategory(oldTitle) {
     const newTitle = prompt("Enter a new title for the category", oldTitle);
     if (newTitle && newTitle !== oldTitle) {
         let categories = getCategories();

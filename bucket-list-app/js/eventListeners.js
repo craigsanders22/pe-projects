@@ -1,5 +1,8 @@
 import { showPage } from './showPage.js';
-import { handleWayfinding } from './wayfinding.js';
+import { handleWayfinding, getCategories, renameCategory } from './wayfinding.js';
+
+
+
 
 export function attachEventListeners() {
   const addTitleElement = document.querySelector('#addTitle');
@@ -11,8 +14,6 @@ export function attachEventListeners() {
     'loginButton', 
     'signupButton', 
     'wayfindingButton', 
-    // 'categoryListButton',
-    // 'detailButton',
     'completeButton'
   ];
 
@@ -37,3 +38,26 @@ export function attachEventListeners() {
   // Call wayfinding 
   handleWayfinding();
 }
+
+
+  // Add event listener for editing category titles
+  // const bucketList = document.querySelector('#bucketList');
+  // bucketList.addEventListener('click', (event) => {
+  //   if (event.target.tagName === 'A') {
+  //     const oldTitle = event.target.textContent;
+  //     const newTitle = prompt('Enter a new title for the category', oldTitle);
+
+  //     if (newTitle && newTitle !== oldTitle) {
+  //       // Modify the existing title in the DOM
+  //       event.target.textContent = newTitle;
+
+  //       // Update the title in the category object in localStorage
+  //       let categories = getCategories();
+  //       categories[newTitle] = categories[oldTitle];
+  //       delete categories[oldTitle];
+  //       manipulateLocalStorage('categories', categories);
+  //     }
+  //   }
+//   });
+// }
+

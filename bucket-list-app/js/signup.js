@@ -17,7 +17,7 @@ export function handleSignupSubmit() {
 
         localStorage.setItem('user', JSON.stringify({firstName, email, password}));
 
-        // Set user's name in HTML element
+        // Set name in HTML
         const h1Element = document.querySelector('#wayfindingPage h1');
         h1Element.innerText = `${firstName}'s Bucket List`;
 
