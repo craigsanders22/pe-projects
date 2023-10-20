@@ -12,16 +12,16 @@ import { showCategories } from './wayfinding.js';
 // Handle successful login
 function onLoginSuccess() {
   showCategories();
-  showPage('categoriesPage'); 
+  showPage('categoriesPage'); // Assume 'categoriesPage' is the page showing categories
 }
 
-document.addEventListener('DOMContentLoaded', (event) => { 
-  attachEventListeners();    
-  handleLoginSubmit(onLoginSuccess);
-  handleSignupSubmit();
+// document.addEventListener('DOMContentLoaded', (event) => { 
+//   attachEventListeners();    
+//   handleLoginSubmit(onLoginSuccess);
+//   handleSignupSubmit();
 
-  showPage('categoriesPage'); // default to show login page
-});
+//   showPage('loginPage'); // default to show login page
+// });
 
 
 document.addEventListener('DOMContentLoaded', (event) => { 
