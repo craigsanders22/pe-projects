@@ -11,8 +11,8 @@ export function attachEventListeners() {
         'loginButton', 
         'signupButton', 
         'wayfindingButton', 
-        'categoryListButton', 
-        'detailButton', 
+        // 'categoryListButton', 
+        // 'detailButton', 
         'completeButton'
     ];
 
