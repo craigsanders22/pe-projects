@@ -52,33 +52,24 @@ export function manipulateLocalStorage(key, defaultValue, operation) {
     return value;
 }
 
+// Save button click event
+document.addEventListener('DOMContentLoaded', (event) => {
+  document.getElementById('saveButton').addEventListener('click', () => {
+    // Retrieve the item details from the detail page
+    const detailPage = document.getElementById('detailPage');
+    const itemContent = detailPage.querySelector('#itemContent').value;
+    const itemComplete = detailPage.querySelector('#itemComplete').checked;
 
+    // Update the item details in localStorage
+    const currentItemIndex = localStorage.getItem('currentItemIndex');
+    const currentCategory = manipulateLocalStorage('currentCategory');
+    const categories = manipulateLocalStorage('categories', null, true);
 
-export function handleDetailPage() {
-  const itemTitleElement = document.querySelector('#itemTitle');
-  const itemContentElement = document.querySelector('#itemContent');
-  const itemCompleteElement = document.querySelector('#itemComplete');
-  const saveButton = document.querySelector('#saveButton');
+    categories[currentCategory][currentItemIndex].content = itemContent;
+    categories[currentCategory][currentItemIndex].complete = itemComplete;
 
-  const currentItemIndex = localStorage.getItem('currentItemIndex');
-  const currentItem = localStorage.getItem('currentItem');
-
-  itemTitleElement.textContent = currentItem;
-  itemContentElement.value = ''; // Update with the saved content if applicable
-  itemCompleteElement.checked = false; // Update with the saved completion status if applicable
-
-  saveButton.addEventListener('click', () => {
-    saveData(currentItemIndex, itemContentElement.value, itemCompleteElement.checked);
+    localStorage.setItem('categories', JSON.stringify(categories));
   });
-}
+});
 
-function saveData(index, content, complete) {
-  const currentCategory = localStorage.getItem("currentCategory");
-  const categories = getCategories();
-  categories[currentCategory][index] = {
-    content: content,
-    complete: complete
-  };
-  localStorage.setItem("categories", JSON.stringify(categories));
-  showPage('categoryListPage');
-}
+

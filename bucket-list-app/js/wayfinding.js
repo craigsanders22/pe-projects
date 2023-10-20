@@ -158,7 +158,20 @@ function addItem() {
 // }
 
 export function gotoDetailPage(index, item) {
-    localStorage.setItem('currentItemIndex', index);
-    localStorage.setItem('currentItem', item);
-    showPage('detailPage');
+  localStorage.setItem('currentItemIndex', index);
+  localStorage.setItem('currentItem', item);
+
+  const detailPage = document.getElementById('detailPage');
+
+  // Retrieve the item details from localStorage
+  const itemTitle = localStorage.getItem('currentItem');
+  const itemContent = localStorage.getItem('currentItemContent');
+  const itemComplete = localStorage.getItem('currentItemComplete') === 'true';
+
+  // Populate the detail page with the saved details
+  detailPage.querySelector('#itemTitle').textContent = itemTitle;
+  detailPage.querySelector('#itemContent').value = itemContent;
+  detailPage.querySelector('#itemComplete').checked = itemComplete;
+
+  showPage('detailPage');
 }

@@ -11,20 +11,17 @@ export function attachEventListeners() {
         'loginButton', 
         'signupButton', 
         'wayfindingButton', 
-        // 'categoryListButton', 
-        // 'detailButton', 
+        // 'categoryListButton', // Add this line
+        // 'detailButton', // Add this line
         'completeButton'
     ];
 
-
-
-
-    // attach event listeners for buttons
+    // Attach event listeners for buttons
     buttons.forEach(button => document.getElementById(button)
         .addEventListener('click', () => showPage(button.replace('Button','Page')))
     );
 
-    // attach listeners for links
+    // Attach listeners for links
     ['signupLink', 'loginLink'].forEach(link => document.getElementById(link)
         .addEventListener('click', (event) => {
             event.preventDefault();

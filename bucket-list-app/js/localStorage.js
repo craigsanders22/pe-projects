@@ -6,3 +6,4 @@ export function getUserData() {
 export function setSessionData(key, value) {
     sessionStorage.setItem(key, value);
 }
+
