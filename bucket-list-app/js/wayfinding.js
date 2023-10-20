@@ -5,6 +5,8 @@ import { manipulateLocalStorage } from './main.js';
 
 
 
+
+
 // get existing categories 
 export function getCategories() {
     return manipulateLocalStorage("categories", null, true);
@@ -112,6 +114,9 @@ function gotoCategory(category) {
 
 export function showCategories() {
     const categories = manipulateLocalStorage("categories", null, true);
+    if (categories === null || categories === undefined) {
+        return; // or handle the case where categories is null/undefined
+    }
     const bucketList = document.querySelector('#bucketList');
     bucketList.innerHTML = "";
 

@@ -5,6 +5,9 @@ import { showPage } from './showPage.js';
 import { showList } from './showList.js';
 import { showCategories } from './wayfinding.js';
 
+export { manipulateLocalStorage };
+
+
 // import { onLoginSuccess} from './login.js';
 
 
@@ -37,7 +40,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
  
 });
 
-export function manipulateLocalStorage(key, defaultValue, operation) {
+function manipulateLocalStorage(key, defaultValue, operation) {
     let value = localStorage.getItem(key);
     if (value === null && defaultValue !== undefined) {
       value = JSON.stringify(defaultValue);
