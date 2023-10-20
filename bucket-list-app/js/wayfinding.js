@@ -68,7 +68,7 @@ manipulateLocalStorage("categories", presetCategories);
 
 
 
-export function handleWayfinding() {
+export async function handleWayfinding() {
     const addTitleElement = document.querySelector('#addTitle');
     const placesToGoElement = document.querySelector('#placesToGo');
     const experiencesElement = document.querySelector('#experiences');
@@ -77,6 +77,7 @@ export function handleWayfinding() {
     if (placesToGoElement) placesToGoElement.addEventListener('click', () => gotoCategory('Places to Go'));    
     if (experiencesElement) experiencesElement.addEventListener('click', () => gotoCategory('Experiences'));
 
+    await manipulateLocalStorage("categories", presetCategories);
     showCategories();
 }
 
