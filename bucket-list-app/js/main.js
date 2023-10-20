@@ -3,6 +3,7 @@ import { handleLoginSubmit } from './login.js';
 import { handleSignupSubmit } from './signup.js';
 import { showPage } from './showPage.js';
 import { showList } from './showList.js';
+import { showCategories } from './wayfinding.js';
 
 
 
@@ -10,6 +11,10 @@ document.addEventListener('DOMContentLoaded', (event) => {
   attachEventListeners();    
   handleLoginSubmit();
   handleSignupSubmit();
+
+  // show the categories on load
+  showCategories();
+
   showPage('loginPage'); // default to show login page
   handleDetailPage();
 });
@@ -17,8 +22,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
 export function manipulateLocalStorage(key, defaultValue, operation) {
     let value = localStorage.getItem(key);
     if (value === null && defaultValue !== undefined) {
-        value = JSON.stringify(defaultValue);
-        localStorage.setItem(key, value);
+      value = JSON.stringify(defaultValue);
+      localStorage.setItem(key, value);
     }
     if (operation) {
         try {
@@ -29,6 +34,7 @@ export function manipulateLocalStorage(key, defaultValue, operation) {
     }
     return value;
 }
+
 
 
 export function handleDetailPage() {

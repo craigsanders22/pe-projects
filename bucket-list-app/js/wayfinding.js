@@ -1,9 +1,15 @@
-// wayfinding.js
 import { showPage } from './showPage.js';
 import { showList } from './showList.js';
 import { manipulateLocalStorage } from './main.js';
 
-// Extract common operations into functions
+
+
+
+
+
+function getCategories() {
+    return manipulateLocalStorage("categories", null, true);
+}
 
 
 function generateListElement(title) {
@@ -12,20 +18,50 @@ function generateListElement(title) {
     a.textContent = title;
     a.href = "#";
     a.addEventListener('click', () => gotoCategory(title));
+
+    const editIcon = document.createElement('span');
+    editIcon.textContent = "✏️";
+    editIcon.style.cursor = "pointer";
+    editIcon.style.marginLeft = "10px";
+    editIcon.addEventListener('click', (e) => {
+        e.stopPropagation();
+        renameCategory(title);
+    });
+
+    a.appendChild(editIcon);
     li.appendChild(a);
+
     return li;
+}
+
+function renameCategory(oldTitle) {
+    const newTitle = prompt("Enter a new title for the category", oldTitle);
+    if (newTitle && newTitle !== oldTitle) {
+        let categories = getCategories();
+        if (categories[newTitle]) {
+            alert('A category with this name already exists.');
+            return;
+        }
+        categories[newTitle] = categories[oldTitle];
+        delete categories[oldTitle];
+        manipulateLocalStorage("categories", categories);
+        showCategories();
+    }
 }
 
 // Preset categories
 const presetCategories = {
  "Places to Go": [],
  "Experiences": [],
- "Category 3": [],
- "Category 4": [],
- "Category 5": [],
+ "Foods to Eat": [],
+ "Performances to See": [],
+ "Wild Cards": [],
 };
 
 manipulateLocalStorage("categories", presetCategories);
+
+
+
 
 export function handleWayfinding() {
     const addTitleElement = document.querySelector('#addTitle');
@@ -71,7 +107,7 @@ function gotoCategory(category) {
     showPage('categoryListPage');
 }
 
-function showCategories() {
+export function showCategories() {
     const categories = manipulateLocalStorage("categories", null, true);
     const bucketList = document.querySelector('#bucketList');
     bucketList.innerHTML = "";
