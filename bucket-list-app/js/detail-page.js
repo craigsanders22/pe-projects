@@ -11,16 +11,31 @@ export function handleDetailPage() {
   const saveButton = document.querySelector('#saveButton');
 
   const currentItemIndex = localStorage.getItem('currentItemIndex');
-  const currentItem = localStorage.getItem('currentItem');
+  const currentItem = JSON.parse(localStorage.getItem('currentItem')); // Parse the JSON string
 
-  itemTitleElement.textContent = currentItem;
-  itemContentElement.value = ''; // Update with new info
-  itemCompleteElement.checked = false; // Update to complete
+  itemTitleElement.textContent = currentItem.title; // Access the title property
+  
+
+  // Get the completion status from local storage
+  const categories = getCategories();
+  const currentCategory = localStorage.getItem("currentCategory");
+  const itemCompleteStatus = categories[currentCategory][currentItemIndex].complete;
+  
+  // Update the item's completion status and CSS style
+  itemContentElement.value = currentItem;
+  itemCompleteElement.checked = itemCompleteStatus;
+  const itemElement = document.getElementById(`item${currentItemIndex}`);
+  if (itemCompleteStatus) {
+    itemElement.style.textDecoration = "line-through";
+  } else {
+    itemElement.style.textDecoration = "none";
+  }
 
   saveButton.addEventListener('click', () => {
     saveData(currentItemIndex, itemContentElement.value, itemCompleteElement.checked);
   });
 }
+
 
 function saveData(index, content, complete) {
   const currentCategory = localStorage.getItem("currentCategory");
@@ -30,5 +45,15 @@ function saveData(index, content, complete) {
     complete: complete
   };
   localStorage.setItem("categories", JSON.stringify(categories));
+  
+  // Update CSS style based on completion status
+  const itemElement = document.getElementById(`item${index}`);
+  if (complete) {
+    itemElement.style.textDecoration = "line-through";
+  } else {
+    itemElement.style.textDecoration = "none";
+  }
+  
   showPage('categoryListPage');
 }
+

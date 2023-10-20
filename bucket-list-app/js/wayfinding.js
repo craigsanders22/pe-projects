@@ -122,56 +122,83 @@ export function showCategories() {
 }
 
 function addItem() {
-    const newItemInput = document.querySelector('#newItem');
-    const newItem = newItemInput.value.trim();
-    if (newItem) {
-        let categories = manipulateLocalStorage("categories", null, true);
+  const newItemInput = document.querySelector('#newItem');
+  const content = newItemInput.value.trim();
+  if (content) {
+    const newItem = {
+      content: content,
+      complete: false
+    };
+    let categories = manipulateLocalStorage("categories", null, true);
 
-        // Check if the currentCategory array exists. If not, create...
-        const currentCategory = manipulateLocalStorage("currentCategory");
-        categories[currentCategory] = categories[currentCategory] || [];
-        categories[currentCategory].push(newItem);
+    // Check if the currentCategory array exists. If not, create...
+    const currentCategory = manipulateLocalStorage("currentCategory");
+    categories[currentCategory] = categories[currentCategory] || [];
+    categories[currentCategory].push(newItem);
 
-        localStorage.setItem("categories", JSON.stringify(categories));
-        showList();
-        newItemInput.value = "";
-    }
+    localStorage.setItem("categories", JSON.stringify(categories));
+    showList();
+    newItemInput.value = "";
+  }
 }
 
-// export function showList() {
-//     const list = document.querySelector('#list');
-//     list.innerHTML = "";
 
-//     const currentCategory = manipulateLocalStorage("currentCategory");
-//     const categories = manipulateLocalStorage("categories", null, true);
-
-//     const items = categories[currentCategory];
-//     for (let i = 0; i < items.length; i++) {
-//         const item = items[i];
-//         const li = document.createElement('li');
-//         li.textContent = item;
-//         li.classList.add('list-item');
-//         li.dataset.index = i;
-//         li.addEventListener('click', () => gotoDetailPage(i, item));
-//         list.appendChild(li);
-//     }
-// }
 
 export function gotoDetailPage(index, item) {
   localStorage.setItem('currentItemIndex', index);
-  localStorage.setItem('currentItem', item);
+  localStorage.setItem('currentItem', JSON.stringify(item)); 
+  localStorage.setItem('currentItemContent', item.content); 
+  localStorage.setItem('currentItemComplete', item.complete); 
 
   const detailPage = document.getElementById('detailPage');
 
-  // Retrieve the item details from localStorage
-  const itemTitle = localStorage.getItem('currentItem');
-  const itemContent = localStorage.getItem('currentItemContent');
-  const itemComplete = localStorage.getItem('currentItemComplete') === 'true';
+  // item details from localStorage
+  const itemTitle = item.content; 
+  const itemContent = item.content; 
+  const itemComplete = item.complete; 
 
   // Populate the detail page with the saved details
   detailPage.querySelector('#itemTitle').textContent = itemTitle;
   detailPage.querySelector('#itemContent').value = itemContent;
   detailPage.querySelector('#itemComplete').checked = itemComplete;
+  
+  const currentCategory = localStorage.getItem("currentCategory"); // Retrieve the current category from localStorage
 
-  showPage('detailPage');
+  showPage('detailPage', currentCategory); // Pass the currentCategory to showPage function
+
+
+  // Add event listener for the "save" button
+  const saveButton = detailPage.querySelector('#saveButton');
+  saveButton.addEventListener('click', () => {
+    markAsCompleted(index, item);
+    window.location.href = '#completePage';
+  });
+
+
 }
+
+function markAsCompleted(index, item) {
+  item.complete = true;
+  // Save the updated item with the completed status
+  // to the completed page in local storage
+  let completedItems = JSON.parse(localStorage.getItem("completedItems")) || [];
+  completedItems.push(item);
+  localStorage.setItem("completedItems", JSON.stringify(completedItems));
+}
+
+
+export function showCompletedList() {
+  const completedItems = JSON.parse(localStorage.getItem("completedItems")) || [];
+  const completedList = document.getElementById('completedList');
+  completedList.innerHTML = '';
+
+  completedItems.forEach(item => {
+    const listItem = document.createElement('li');
+    listItem.textContent = item.content;
+    completedList.appendChild(listItem);
+  });
+}
+
+
+
+

@@ -4,6 +4,7 @@ import { handleSignupSubmit } from './signup.js';
 import { showPage } from './showPage.js';
 import { showList } from './showList.js';
 import { showCategories } from './wayfinding.js';
+
 // import { onLoginSuccess} from './login.js';
 
 
@@ -52,7 +53,6 @@ export function manipulateLocalStorage(key, defaultValue, operation) {
     return value;
 }
 
-// Save button click event
 document.addEventListener('DOMContentLoaded', (event) => {
   document.getElementById('saveButton').addEventListener('click', () => {
     // Retrieve the item details from the detail page
@@ -65,8 +65,11 @@ document.addEventListener('DOMContentLoaded', (event) => {
     const currentCategory = manipulateLocalStorage('currentCategory');
     const categories = manipulateLocalStorage('categories', null, true);
 
-    categories[currentCategory][currentItemIndex].content = itemContent;
-    categories[currentCategory][currentItemIndex].complete = itemComplete;
+    categories[currentCategory][currentItemIndex] = {
+      ...categories[currentCategory][currentItemIndex],
+      content: itemContent,
+      complete: itemComplete
+    };
 
     localStorage.setItem('categories', JSON.stringify(categories));
   });
