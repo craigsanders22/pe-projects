@@ -50,14 +50,17 @@ function renameCategory(oldTitle) {
     }
 }
 
-// Preset categories
 const presetCategories = {
- "Places to Go": [],
- "Experiences": [],
- "Foods to Eat": [],
- "Performances to See": [],
- "Wild Cards": [],
+    "Places to Go": [],
+    "Experiences": [],
+    "Foods to Eat": [],
+    "Performances to See": [],
+    "Wild Cards": [],
+    "User Category 1": [],
+    "User Category 2": [],
+    "User Category 3": [],
 };
+
 
 manipulateLocalStorage("categories", presetCategories);
 
