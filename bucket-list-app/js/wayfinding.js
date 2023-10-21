@@ -1,6 +1,7 @@
 import { showPage } from './showPage.js';
 import { showList } from './showList.js';
 import { manipulateLocalStorage } from './main.js';
+import { showCompletedItems } from './complete.js';
 
 
 
@@ -73,13 +74,15 @@ export async function handleWayfinding() {
     const placesToGoElement = document.querySelector('#placesToGo');
     const experiencesElement = document.querySelector('#experiences');
 
-    if (addTitleElement) addTitleElement.addEventListener('click', createNewTitle);    
-    if (placesToGoElement) placesToGoElement.addEventListener('click', () => gotoCategory('Places to Go'));    
+    if (addTitleElement) addTitleElement.addEventListener('click', createNewTitle);
+    if (placesToGoElement) placesToGoElement.addEventListener('click', () => gotoCategory('Places to Go'));
     if (experiencesElement) experiencesElement.addEventListener('click', () => gotoCategory('Experiences'));
 
-    await manipulateLocalStorage("categories", presetCategories);
+    const currentCategory = manipulateLocalStorage("currentCategory");
+    document.querySelector('#listTitle').textContent = currentCategory;
     showCategories();
 }
+
 
 export function handleCategoryList() {
     const currentCategory = manipulateLocalStorage("currentCategory");
@@ -151,48 +154,49 @@ function addItem() {
 
 export function gotoDetailPage(index, item) {
   localStorage.setItem('currentItemIndex', index);
-  localStorage.setItem('currentItem', JSON.stringify(item)); 
-  localStorage.setItem('currentItemContent', item.content); 
-  localStorage.setItem('currentItemComplete', item.complete); 
+  localStorage.setItem('currentItem', JSON.stringify(item));
+  localStorage.setItem('currentItemContent', item.content);
+  localStorage.setItem('currentItemComplete', item.complete);
 
   const detailPage = document.getElementById('detailPage');
 
   // item details from localStorage
-  const itemTitle = item.content; 
-  const itemContent = item.content; 
-  const itemComplete = item.complete; 
+  const itemTitle = item.content;
+  const itemContent = item.content;
+  const itemComplete = item.complete;
+  const currentCategory = localStorage.getItem("currentCategory"); // Retrieve current category
 
-  // buikd the detail page with the saved details
+  // build the detail page with the saved details
   detailPage.querySelector('#itemTitle').textContent = itemTitle;
   detailPage.querySelector('#itemContent').value = itemContent;
   detailPage.querySelector('#itemComplete').checked = itemComplete;
-  
-  const currentCategory = localStorage.getItem("currentCategory"); // Retrieve current category
+  detailPage.querySelector('#listTitle').textContent = currentCategory;
 
   showPage('detailPage', currentCategory); // Pass the category
 
-
-  // Add event listener for the "save" button
+   // Add event listener for the "save" button
   const saveButton = detailPage.querySelector('#saveButton');
   saveButton.addEventListener('click', () => {
     markAsCompleted(index, item);
     window.location.href = '#completePage';
   });
-
-
 }
+
+
+
 
 function markAsCompleted(index, item) {
   item.complete = true;
-  // Save the updated item with the completed status to storage.
- 
   let completedItems = JSON.parse(localStorage.getItem("completedItems")) || [];
+
   completedItems.push(item);
   localStorage.setItem("completedItems", JSON.stringify(completedItems));
+
+  // Update the completed list
+  showCompletedItems();
 }
 
-
-export function showCompletedList() {
+function showCompletedList() {
   const completedItems = JSON.parse(localStorage.getItem("completedItems")) || [];
   const completedList = document.getElementById('completedList');
   completedList.innerHTML = '';
@@ -203,6 +207,9 @@ export function showCompletedList() {
     completedList.appendChild(listItem);
   });
 }
+
+
+
 
 
 
