@@ -154,46 +154,38 @@ function addItem() {
 
 export function gotoDetailPage(index, item) {
   localStorage.setItem('currentItemIndex', index);
-  localStorage.setItem('currentItem', JSON.stringify(item));
-  localStorage.setItem('currentItemContent', item.content);
-  localStorage.setItem('currentItemComplete', item.complete);
+  localStorage.setItem('currentItem', JSON.stringify(item)); 
+  localStorage.setItem('currentItemContent', item.content); 
+  localStorage.setItem('currentItemComplete', item.complete); 
 
   const detailPage = document.getElementById('detailPage');
 
   // item details from localStorage
-  const itemTitle = item.content;
-  const itemContent = item.content;
-  const itemComplete = item.complete;
+  const itemTitle = item.content; 
+  const itemContent = item.content; 
+  const itemComplete = item.complete; 
   const currentCategory = localStorage.getItem("currentCategory"); // Retrieve current category
 
-  // build the detail page with the saved details
+
+  // buikd the detail page with the saved details
   detailPage.querySelector('#itemTitle').textContent = itemTitle;
   detailPage.querySelector('#itemContent').value = itemContent;
   detailPage.querySelector('#itemComplete').checked = itemComplete;
-  detailPage.querySelector('#listTitle').textContent = currentCategory;
+detailPage.querySelector('#listTitle').textContent = currentCategory;
+  
+  // const currentCategory = localStorage.getItem("currentCategory"); // Retrieve current category
 
   showPage('detailPage', currentCategory); // Pass the category
 
-   // Add event listener for the "save" button
+
+  // Add event listener for the "save" button
   const saveButton = detailPage.querySelector('#saveButton');
   saveButton.addEventListener('click', () => {
     markAsCompleted(index, item);
     window.location.href = '#completePage';
   });
-}
 
 
-
-
-function markAsCompleted(index, item) {
-  item.complete = true;
-  let completedItems = JSON.parse(localStorage.getItem("completedItems")) || [];
-
-  completedItems.push(item);
-  localStorage.setItem("completedItems", JSON.stringify(completedItems));
-
-  // Update the completed list
-  showCompletedItems();
 }
 
 function showCompletedList() {
@@ -206,6 +198,18 @@ function showCompletedList() {
     listItem.textContent = item.content;
     completedList.appendChild(listItem);
   });
+}
+
+
+function markAsCompleted(index, item) {
+  item.complete = true;
+  let completedItems = JSON.parse(localStorage.getItem("completedItems")) || [];
+
+  completedItems.push(item);
+  localStorage.setItem("completedItems", JSON.stringify(completedItems));
+
+  // Update the completed list
+  showCompletedList();
 }
 
 
