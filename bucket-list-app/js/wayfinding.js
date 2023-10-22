@@ -22,7 +22,7 @@ function generateListElement(title) {
     a.addEventListener('click', () => gotoCategory(title));
 
     const editIcon = document.createElement('span');
-    editIcon.textContent = "✏️";
+    // editIcon.textContent = "✏️";
     editIcon.style.cursor = "pointer";
     editIcon.style.marginLeft = "10px";
     editIcon.addEventListener('click', (e) => {

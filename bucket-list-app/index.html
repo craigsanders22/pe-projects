@@ -10,15 +10,15 @@
 <header>
 	<nav>
 		<ul>
-			<li><button id="loginButton">Login</button></li>
-			<li><button id="signupButton">Sign Up</button></li>
-			<li><button id="wayfindingButton">Bucket Lists</button></li>
+			<li><button class="attention-voice" id="loginButton">Login</button></li>
+			<li><button class="attention-voice" id="signupButton">Sign Up</button></li>
+			<li><button class="attention-voice" id="wayfindingButton">Bucket Lists</button></li>
 		<!-- 	<li><button id="categoryListButton">Category List</button></li>
 			<li><button id="detailButton">Detail Page</button></li> -->
-			<li><button id="completeButton">Completed!</button></li>
+			<li><button class="attention-voice" id="completeButton">Completed!</button></li>
 		</ul>
 	</nav>
-</header>
+<!-- </header> -->
 
 
 <!-- login -->
@@ -53,18 +53,21 @@
 
 <!-- wayfinding -->
 <div id="wayfindingPage" class="page">
-  <h1>Users bucket lists</h1>
-  <ul id="bucketList"></ul>
-  <button id="addTitle">+</button>
+  <h1 class="loud-voice" id="userBuckets">Users bucket lists</h1>
+  <hr>
+  <ul class="attention-voice" id="bucketList"></ul>
+  <button class="attention-voice" id="addTitle">Add a category</button>
 </div>
 
 
 
 <!-- category list -->
 <div id="categoryListPage" class="page">
-	<h1 id="listTitle">List</h1>
-	<input type="text" id="newItem" placeholder="Type here to add item...">
-	<button id="addItemButton">Add</button>
+	<h1 class="loud-voice" id="listTitle">List</h1>
+    <div id="newItemModule">
+	<input class="calm-voice" type="text" id="newItem" placeholder="Type here to add to your list">
+	<button class="calm-voice" id="addItemButton">Add</button>
+</div>
 	<ul id="list"></ul>
 </div>
 
@@ -104,6 +107,7 @@
 
 <script src="js/main.js" type="module"></script>
 
+</div>
 
 </body>
 </html>

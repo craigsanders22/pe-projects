@@ -4,31 +4,6 @@
 
 
 
-
-
-
-
-
-ul {
-	display: flex;
-	list-style: none;
-	
-}
-
-li {
-
-	padding: 20px;
-}
-/* setup */
-a {
-	display: block;
-	text-decoration: none;
-	
-}
-
-/* structure */
-
-
 body {
 	
 	display: flex;
@@ -43,6 +18,79 @@ main {
 	flex-shrink: 0;
 	flex-basis: auto;
 }
+
+
+
+/* header */
+
+nav ul {
+	display: flex;
+	list-style: none;
+	
+	
+}
+
+nav li {
+
+	padding: 20px;
+
+}
+
+
+
+
+/* setup */
+a {
+	display: inline-block;
+	text-decoration: none;
+
+	
+}
+
+a:hover{
+	background-color: #dfe6d9;
+}
+
+button:hover {
+	background-color: #bdbfcf;
+}
+
+ li {
+/*	border: 2px solid black;*/
+	padding: 20px;
+
+}
+#addTitle {
+/*	padding: 20px;*/
+display: flex;
+	margin-left: 20px;
+	justify-content: center;
+}
+
+#listTitle {
+	padding: 20px;
+	border-bottom: 5px solid black;
+}
+
+#newItemModule {
+	padding: 20px;
+	min-height: 20px;
+
+}
+
+#newItem {
+	min-height: 20px;
+	min-width: 40ch;
+}
+
+
+#addItemButton {
+	margin-left: 20px;
+	min-height: 20px;
+}
+/* structure */
+
+
 
 .completed {
   text-decoration: line-through;
@@ -91,5 +139,13 @@ main {
 .page {
 	border: 5px solid yellow;
 
+}
+
+#signupPage {
+	display: flex;
+	flex-direction: column;
+	margin-left: auto;
+	margin-right: auto;
+	align-content: center;
 }
 
