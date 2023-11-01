@@ -13,19 +13,25 @@
         <div class="logo">
           <picture>
             <a href="#">
-           <img src="assets/logo.png"/>
+              <img src="assets/logo.png" />
+            </a>
           </picture>
+
         </div>
-    
+        
         <nav class="site-nav">
-          <ul class="nav-list">
-            
-            <li><a href="projects/">projects</a></li>
-            <li><a href="goals/">my goals</a></li>
-            <li><a href="resume/">resume</a></li>
-            <li><a href="contact/">let's chat</a> </li>
-          </ul>
+          <h3 class='strong-voice'>
+            <ul class="nav-list">
+              
+              <li><a href="projects/">projects</a></li>
+              <li><a href="goals/">my goals</a></li>
+              <li><a href="resume/">resume</a></li>
+              <li><a href="contact/">let's chat</a> </li>
+              
+            </ul>
+          </h3>
         </nav>
+
       </div>
 
     </div>

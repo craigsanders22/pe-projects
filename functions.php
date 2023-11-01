@@ -18,9 +18,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $mailContent .= "Message:\n$message";
 
     if (mail($to, $subject, $mailContent, $headers)) {
-        echo "success"; // You can handle the success response as needed
+        echo "success"; 
     } else {
-        echo "error"; // You can handle the error response as needed
+        echo "error"; 
     }
 }
 ?>

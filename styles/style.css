@@ -13,6 +13,7 @@
   justify-content: center;
   align-items: center;
   max-width: 1240px;
+  border: 2px solid yellow;
 
 }
 
@@ -20,9 +21,9 @@ header .inner-column {
   padding: 5px;
 }
 
-nav.site-nav {
+/*nav.site-nav {
   margin-top: -12px;
-}
+}*/
 
 body {
   color: white;
@@ -71,12 +72,10 @@ body {
 /* header and footer styling */
 .site-nav a {
   display: inline-block;
-  font-family: didot;
-  font-size: 18px;
-  font-weight: 700;
+
   color: #272424;
   text-decoration: none;
-  padding: 5px 10px;
+  padding: 8px 16px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -92,6 +91,7 @@ body {
   color: white;
   background: darkslategray;
   transition: 1s ease;
+  border-radius: 10px;
 }
 
 .logo img {
@@ -101,8 +101,6 @@ body {
 .box img {
   max-width: 200px;
 }
-
-
 
 
 .site-header {
@@ -131,19 +129,16 @@ body {
 
 
 
+/* about */
 
-/* body */
 
-.intro,
-.accomplishments,
-.contact {
-  background-color: #38948f;
-  background-size: cover;
-}
 
 .about svg {
   max-width: 200px;
 }
+
+
+/* accomplishments */
 
 .accomplishment-text {
   display:inline-block;
@@ -157,12 +152,10 @@ body {
 
 }
 
-.about,
-.favorite-things {
-  background-color: #2a3749;
-  padding: 40px;
-  background-size: cover;
-}
+
+
+
+/* favorite things */
 
 .favorite-things {
   display: flex;
@@ -185,12 +178,7 @@ body {
   right: -50px; 
 }
 
-.intro .inner-column {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-}
+
 
 .box-layout .box-module {
   display: flex;
@@ -222,7 +210,7 @@ ul {
 padding-inline-start: 0px;
 }
 
-
+/* contact */
 
 .contact  {
   display: flex;
@@ -258,25 +246,11 @@ padding-inline-start: 0px;
   }
 }
 
-.avatar img {
-  max-width: 350px;
-}
-
-@media (max-width: 600px) {
-  .intro .inner-column {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-  }
 
 
-  .about .inner-column {
-    display: flex;
-    align-items: center;
-    max-width: 100ch;
-    min-height: 20vh;
-  }
-}
+
+
+
 
 
 /* typography */
@@ -355,11 +329,4 @@ p {
     justify-content: center;
   }
   
-  .about h2 {
-    font-size: 24px;
-  }
-  
-  .about svg {
-    display: none;
-  }
 }

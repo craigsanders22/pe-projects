@@ -1,7 +1,8 @@
 <section class="intro">
   <div class="inner-column">
+    <div class="intro-content">
     
-    <h1 class='loud-voice'>
+    <h1 class='xxl-voice'>
       Hey there,
 
       I'm Craig.
@@ -11,5 +12,6 @@
   <div class="avatar">
     <img src="assets/avataaars.png">
   </div>
+</div>
   </div>
 </section>

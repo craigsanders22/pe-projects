@@ -1,6 +1,12 @@
+.xxl-voice {
+	font-family: 'youngSerif';
+	font-size: clamp(30px, 5vw, 50px);
+}
+
+
 .loud-voice	{
-	font-family:'Didot';
-	font-size: clamp(40px, 5vw, 56px);
+	font-family:'optima bold';
+	font-size: clamp(56px, 5vw, 40px);
 }
 @media (min-width: 600px) {
 	.loud-voice {
@@ -9,24 +15,24 @@
 }
 
 .attention-voice	{
-	font-family: 'Didot';
-	font-size: 30px;
+	font-family: 'Optima';
+		font-size: clamp(12px, 5vw, 24px);
 }
 
 .strong-voice	{
-	font-family: 'avenir next';
+	font-family: 'ortica';
 	font-weight: 700;
 	font-size:  1rem;
 }
 
-.calm-voice, p, li {
-	font-family: 'avenir next';
+.calm-voice, p {
+	font-family: 'ortica';
 	font-size: 1rem;
 	line-height: 1.4;
 }
 
 .quiet-voice {
-	font-family: 'Avenir Next';
+	font-family: 'optima';
 	font-size: 12px;
 	line-height: 1.2;
 }

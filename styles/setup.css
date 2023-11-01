@@ -1,4 +1,11 @@
+:root {
+  --main-primary: #71A09F;
+  --main-secondary: #2F3745;
+  --main-gray: #AEA3A2;
+  --main-white: #F4F6F8;
+   --main-dark: #356663;
 
+}
 
 * {
 	box-sizing: border-box;
@@ -36,3 +43,4 @@ p a {
 	color: blue;
 	text-decoration: underline;
 }
+
