@@ -18,7 +18,13 @@
                     </picture>
                     <h3 class="strong-voice">Grew a Responsive Garden</h3>
                     <p class="calm-voice"> Check out all of the responsive things that I've grown! I'm looking forward to nurturing many more! </p>
-                    <a class="calm-voice" href="projects/layout-garden/">My Garden Grows</a>
+  <div class="button-container">
+    <a href="projects/layout-garden/" class="garden-link">
+        <button class="garden-button">My Garden Grows</button>
+    </a>
+</div>
+
+
                 </div>
                 <div class="box">
                     <picture>
