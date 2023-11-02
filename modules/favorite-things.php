@@ -1,8 +1,11 @@
 
     <section class="favorite-things">
       <div class="inner-column">
+        <div class="favorite-content">
+        
 
-        <h2 class='attention-voice'>some of my<br> favorite things <br>
+        <div class="favorite-list">
+        <h2 class='attention-voice'>some of my favorite things
           (right now)</h2>
 
         <p class="calm-voice">
@@ -19,14 +22,14 @@
           <li>Learning about the next big thing</li>
         </ul>
         </p>
-    
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
-          <path fill="#c7d6e8" d="M34.15 41.6H265.84999999999997V255.26999999999998H34.15z"></path>
-          <path fill="#7e99bb" opacity="0.2" d="M265.85 41.6L34.15 41.6 34.15 136.43"></path>
-          <path fill="#5BC0BE" d="M0 230.85L61.97 199.47 118.77 230.17 233.8 103.02 300 150 300 300 0 300 0 230.85z"></path>
-          <path fill="#FFFFFF" d="M233.8 103.02L300 300 300 150 233.8 103.02z" opacity="0.15"></path>
-          <path fill="#FFFFFF" d="M61.97 199.47L0 300 0 230.85 61.97 199.47z" opacity="0.15"></path>
-        </svg>
+        </div>
+       
+
+
+        <picture>
+      <img src="assets/mountains.svg">
+      </picture>
       </div>
-    </div>
+   </div>
+
   </section>

@@ -6,17 +6,17 @@
 
 .loud-voice	{
 	font-family:'optima bold';
-	font-size: clamp(56px, 5vw, 40px);
+	font-size: clamp(24px, 5vw, 48px);
 }
 @media (min-width: 600px) {
 	.loud-voice {
-		font-weight: 700; /* or variable font */
+		font-weight: 500; /* or variable font */
 	}
 }
 
 .attention-voice	{
 	font-family: 'Optima';
-		font-size: clamp(12px, 5vw, 24px);
+		font-size: clamp(24px, 5vw, 36px);
 }
 
 .strong-voice	{
@@ -27,7 +27,7 @@
 
 .calm-voice, p {
 	font-family: 'ortica';
-	font-size: 1rem;
+	font-size: clamp(12px, 5vw, 16px);
 	line-height: 1.4;
 }
 
