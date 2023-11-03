@@ -20,17 +20,16 @@
         </div>
         
         <nav class="site-nav">
-          <h3 class='strong-voice'>
-            <ul class="nav-list">
-              
-              <li><a href="projects/">projects</a></li>
-              <li><a href="goals/">my goals</a></li>
-              <li><a href="resume/">resume</a></li>
-              <li><a href="contact/">let's chat</a> </li>
-              
-            </ul>
-          </h3>
-        </nav>
+  <h3 class='strong-voice'>
+    <div class="nav-list">
+      <div><a href="projects/">projects</a></div>
+      <div><a href="goals/">my goals</a></div>
+      <div><a href="resume/">resume</a></div>
+      <div><a href="contact/">let's chat</a> </div>
+    </div>
+  </h3>
+</nav>
+
 
       </div>
 

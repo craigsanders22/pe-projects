@@ -101,6 +101,9 @@
   margin: auto;
   min-height: 200px
 }
+.box img {
+  max-width: 200px
+}
 .box-module h3 {
   padding: 10px
 }
@@ -182,7 +185,7 @@ ul {
   opacity: 80%;
   /*  border: 2px solid white;*/
   position: absolute;
-  bottom: -97px;
+  bottom: -95px;
   right: -200px;
   overflow: hidden
 }
@@ -195,7 +198,7 @@ ul {
   }
   .favorite-content img {
     position: absolute;
-    bottom: -85px;
+    bottom: -82px;
     right: -100px;
     overflow: hidden;
     /*  border: 3px solid #73AD21;*/
@@ -246,6 +249,25 @@ ul {
 }
 
 
+.contact p {
+  margin-top: 20px;
+  max-width:85ch;
+}
+
+.link a {
+  /* Add other necessary styles here */
+
+  /* Add a transparent border */
+  border: 4px solid transparent; 
+}
+.link a:hover {
+  color: pink;
+  transform: rotate(-2deg);
+  transition: .3s;
+
+  /* This border will replace the transparent border on hover */
+  border: 2px solid white;
+}
 
 
 
