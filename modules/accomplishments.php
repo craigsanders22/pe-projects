@@ -20,7 +20,7 @@
                     <p class="calm-voice"> Check out all of the responsive things that I've grown! I'm looking forward to nurturing many more! </p>
   <div class="button-container">
     <a href="projects/layout-garden/" class="garden-link">
-        <button class="garden-button">My Garden Grows</button>
+        <button class="garden-button calm-voice">My Garden Grows</button>
     </a>
 </div>
 

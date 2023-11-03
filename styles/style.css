@@ -34,104 +34,86 @@ body {
 /* header styling */
 
 .header-items {
-  display: grid;
-  grid-auto-flow: column;
+  display: flex;
   justify-content: space-between;
   align-items: center;
   padding-top: 2px;
   padding-bottom: 2px;
-  align-items: center
+  width: 98%;
 }
 
 .nav-list {
-  display: grid;
-  grid-auto-flow: column;
-  list-style-type: none
+  display: flex;
+  list-style-type: none;
+  gap: 16px; /* Adjust this value to create more space between nav items */
 }
 
-@media (max-width: 800px) {
+.logo img {
+  max-width: 80px;
+}
+
+@media (max-width: 1000px) {
   .header-items {
-    grid-auto-flow: row
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
   }
-  .site-nav {
-    justify-self: center
-  }
-}
-
-header .inner-column {
-  padding: 5px
 }
 
 .site-nav a {
-  display: inline-block;
   color: #272424;
   text-decoration: none;
-  padding: 8px 16px;
-  margin-left: auto;
-  margin-right: auto
-}
-
-@media screen and (max-width: 600px) {
-  .site-nav a {
-    font-size: 14px;
-    padding: 0 10px
-  }
+  transition: 1s ease;
 }
 
 .site-nav a:hover {
   color: white;
   background: darkslategray;
-  transition: 1s ease;
-  border-radius: 10px
-}
-
-.logo img {
-  max-width: 80px
+  border-radius: 10px;
+  padding: 0px 5px;
 }
 
 .site-header {
   background: #b1a2a2;
   z-index: 999;
   top: -2px;
-  box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5)
+  box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
 }
 
 @media (min-width: 800px) {
   .site-header {
-    position: sticky
+    position: sticky;
   }
-}
+} 
 
 /* footer styling */ 
 
 .site-footer {
-
-   flex-shrink: 0;
   padding-top: 2px;
   padding-bottom: 2px;
   background: #b1a2a2;
   z-index: 999;
   bottom: -2px;
   box-shadow: 0 6px 10px 5px rgba(0,0,0,0.5);
-  
 }
 
 .footer-items {
-  display: grid;
-  grid-auto-flow: column;
+  display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   .footer-items {
-    grid-auto-flow: row;
+    flex-direction: column;
+    align-items: center;
   }
-  .site-nav {
-    justify-self: right;
+
+  .footer-items img {
+    display: none;
   }
 }
+
 
 
 

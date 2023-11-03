@@ -64,6 +64,10 @@
   max-width: 200px
 }
 
+.about h2 {
+  max-width: 40ch;
+  margin: auto
+}
 
 
 /* accomplishments */
@@ -131,19 +135,21 @@
 
 .garden-button {
     padding: 10px 20px;
-    background-color: var(--main-white);
+    color: var(--main-secondary);
+    background-color: var(--main-gray);
+    border: 2px solid var(--main-secondary);
     border-radius: 10px;
     margin-top: 20px;
     transition: 3s;
 }
 
 .garden-button:hover {
-    padding: 20px 30px;
+    padding: 10px 20px;
     color: var(--main-white);
-    font-weight: 700;
+   
     background-color: var(--main-dark);
     border: 2px solid var(--main-white);
-/*    transform: scale(1.5);*/
+
     cursor: pointer;
 }
 
@@ -153,18 +159,18 @@
 
 .favorite-things {
   display: flex;
-  text-align: left
+  text-align: left;
 }
 .favorite-things .inner-column {
   display: flex;
   flex-grow: 1
 }
 .favorite-things li {
-  padding-bottom: 10px
+  padding-bottom: 10px;
 }
 
 ul {
-  padding-inline-start: 0px
+  padding-inline-start: 0px;
 }
 .favorite-content {
   display: flex;
@@ -172,12 +178,12 @@ ul {
   justify-content: space-between;
   align-items: center;
   /*	border: 2px solid red;*/
-  position: relative
+  position: relative;
 }
 .favorite-things li {
   padding-bottom: 10px;
   list-style: square;
-  padding-top: 20px
+  padding-top: 20px;
 }
 .favorite-content img {
   min-width: 300px;
@@ -187,14 +193,18 @@ ul {
   position: absolute;
   bottom: -95px;
   right: -200px;
-  overflow: hidden
+  overflow: hidden;
+}
+
+.favorite-content h2 {
+	margin-bottom: 40px
 }
 
 @media (max-width: 1050px) {
   .favorite-content {
     display: flex;
     flex-direction: column;
-    position: relative
+    position: relative;
   }
   .favorite-content img {
     position: absolute;
@@ -204,70 +214,63 @@ ul {
     /*  border: 3px solid #73AD21;*/
     opacity: 50%;
     min-width: 100px;
-    max-width: 300px
+    max-width: 300px;
   }
 }
 
 @media (max-width: 700px) {
   .favorite-content img {
-    display: none
+    opacity: 10%;
   }
 }
-.about h2 {
-  max-width: 40ch;
-  margin: auto
-}
+
 
 
 /* contact */
+/* Standard display */
 .contact {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 40px
+  padding: 40px;
 }
-.contact .inner-column {
-  display: flex;
-  flex-grow: 1
-}
+
 .contact-cards {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center
+  justify-content: center;
+  gap: 40px;
 }
+
+.link-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .icon img {
   max-width: 200px;
-  padding: 40px
+  padding: 40px;
 }
-@media (min-width: 1000px) {
-  .box-layout .box-module {
-    flex-direction: row;
-    flex-basis: 20%;
-    padding: 10px
+
+.contact p {
+  margin-top: 20px;
+  max-width: 85ch;
+}
+
+/* Media queries for smaller screens (<800px) */
+@media (max-width: 800px) {
+  .contact-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    gap:20px;
+  }
+  .link-card{
+    justify-self: stretch;
   }
 }
 
 
-.contact p {
-  margin-top: 20px;
-  max-width:85ch;
-}
-
-.link a {
-  /* Add other necessary styles here */
-
-  /* Add a transparent border */
-  border: 4px solid transparent; 
-}
-.link a:hover {
-  color: pink;
-  transform: rotate(-2deg);
-  transition: .3s;
-
-  /* This border will replace the transparent border on hover */
-  border: 2px solid white;
-}
 
 
 
