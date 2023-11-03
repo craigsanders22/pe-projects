@@ -5,37 +5,41 @@
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
     padding: 20px;
     width: 500px;
-    margin-bottom: 50px;
+    margin-bottom: 150px;
+    margin-top: 75px;
 
 }
+
 
 .contact a {
     display: inline-block;
     border: none;
     background: none;
     padding: 0px 5px;
-    color: #2d3746;
-    text-decoration: underline;
+    color: var(--main-secondary);
+    text-decoration: none;
 
 }
 
 .contact h1 {
     margin-bottom: 30px;
+    margin-top: 45px;
 }
 
 .contact h2 {
-    
+ 
     margin-bottom: 20px;
-    max-width: 75ch;
+    max-width: 60ch;
    
 }
 
 .contact-form label {
-    font-family: avenir next;
+    
     display: flex;
     flex-direction: column;
     margin-bottom: 5px;
     text-align: left;
+    color: var(--main-white);
   }
 
 .contact-form input,
@@ -45,12 +49,13 @@
     margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 4px;
+
 }
 
 .contact-form button {
-    font-family: avenir next;
-    background-color: #2d3746;
-    color: #fff;
+    
+    background-color: var(--main-secondary);
+    color: var(--main-white);
     border: none;
     border-radius: 4px;
     padding: 10px 15px;
@@ -67,7 +72,7 @@
 
 
 .contact-cards a {
-    font-family: avenir next;
+   
     padding: 10px 20px;
     background-color: #2f3745;
     color: white;
@@ -79,6 +84,8 @@
     
     padding: 10px 20px 40px 20px;
 }
+
+
 
 
 
