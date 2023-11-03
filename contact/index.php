@@ -20,6 +20,7 @@
       <div class="container">
         <h2 class="attention-voice">Contact Me</h2>
         <form action="#" method="post" class="contact-form">
+
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
 
@@ -49,8 +50,8 @@
 
 
 
-    <div class="link">
-      <iframe src="https://myxwithux.substack.com/embed" width="480" height="320" style="border:5px solid #aea3a2; background-color: #aea3a2;" frameborder="0" scrolling="no"></iframe>
+    <div class="substack">
+      <iframe src="https://myxwithux.substack.com/embed" width="480" height="320" style="border:2px solid var(--main-gray); background-color: #aea3a2;" frameborder="0" scrolling="no"></iframe>
     </div>
 
 
