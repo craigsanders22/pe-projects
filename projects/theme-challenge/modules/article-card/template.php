@@ -13,7 +13,7 @@
 	<text-content>
 		<h1 class='title strong-voice'><?=$heading?></h1>
 
-		<p class='teaser'><?=$description?></p>
+		<p class='teaser calm-voice'><?=$description?></p>
 
 		<a class='button' href='#'>Shop Now</a>
 	</text-content>

@@ -3,7 +3,7 @@ graphic-diptych {
 	
 	display: flex;
 	flex-direction: column;
-	gap: 10px;
+	gap: 40px;
 	padding: 3vh 0;
 }
 

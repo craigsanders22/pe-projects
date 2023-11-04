@@ -1,5 +1,5 @@
-/* Grid styling */
-.grid {
+
+.e4p-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-gap: 20px;
@@ -15,7 +15,7 @@
   display: block;
 }
 
-/* Styling for sections */
+
 .e4p-intro,
 .e4p-exercises {
   padding: 50px;
@@ -25,7 +25,7 @@
   border-radius: 10px;
 }
 
-/* Styling for hyperlinks */
+
 .e4p a {
   border: 5px solid var(--main-dark);
   border-radius: 5px;
@@ -34,7 +34,7 @@
   margin-right: 20px;
 }
 
-/* Styling for hover state of hyperlinks */
+
 .e4p a:hover {
   background-color: var(--main-white);
 
@@ -43,7 +43,7 @@
   transition: .5s;
 }
 
-/* Inner column styling */
+
 .e4p .inner-column {
   width: 1000px;
 }

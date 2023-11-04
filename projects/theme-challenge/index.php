@@ -6,9 +6,9 @@
 		<meta charset='utf-8'>
 		<meta name='viewport' content='width=device-width, initial-scale=1'>
 
-		<title>Theme challenge master file</title>
-		<meta name='description' content='Theme challenge master file'>
-		<meta property='og:image' content='Can you research emulate a website for a specific niche industry?'>
+		<title>Saloon Candle Co.</title>
+		<meta name='description' content='Saloon Candle Co.'>
+		<meta property='og:image' content='Researching and emulating a niche product in a large industry'>
 
 		<link rel='stylesheet' href='styles/site.css'>
 	</head>
@@ -56,7 +56,7 @@
 			<section class='get-involved' id='get-involved'>
 			<inner-column>
 
-				<?php include('modules/call-to-action/template.php'); ?>
+				<?php include('modules/call-to-action/template2.php'); ?>
 
 			</inner-column>
 			</section>

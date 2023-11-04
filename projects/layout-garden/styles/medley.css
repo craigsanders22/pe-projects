@@ -69,6 +69,13 @@ body {
 	padding: 20px;
 }
 
+.articles {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px; 
+}
+
+
 .articles h2 {
 	border-top: 2px solid var(--ink);
 	margin-top: 10px;

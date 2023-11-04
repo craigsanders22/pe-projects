@@ -4,6 +4,7 @@ mast-head {
 	display: block;
 	color: var(--white);
 	border-top: 30px solid #4d4d4d;
+	align-items: center;
 }
 
 header.top {
@@ -19,10 +20,12 @@ mast-head .logo {
 	height: 60px;
 	padding: 10px;
 	margin-top: 15px;
-	border: 2px solid white;
+	
 }
 
-
+mast-head nav {
+	align-items: center;
+}
 
 
 mast-head .logo * {
@@ -36,6 +39,18 @@ mast-head nav ul {
 	align-items: center;
 }
 
+mast-head .strong-voice {
+		font-weight: 200;
+	}
+
+mast-head nav a:hover {
+	color: black;
+	outline: 2px solid white;
+	background-color: darkgrey;
+	transition: .5s;
+	font-weight: 500;
+	border-radius: 5px;
+}
 
 
 mast-head nav a:not(.home) {
@@ -51,6 +66,8 @@ mast-head nav a:not(.home) {
 		justify-content: space-between;
 		align-items: center;
 	}
+
+
 }
 
 @media (min-width: 1300px) {

@@ -14,13 +14,13 @@
       <ul>
       <p class="strong-voice">
 
-        <li><a href="modules/layout-garden/layout-1/index.php"> Description here</a></li>
+        <li><a href="modules/layout-garden/layout-1/index.php"> Crystal Garden Shop</a></li>
 
-         <li><a href="modules/layout-garden/layout-2/index.php"> Description here</a></li>
+         <li><a href="modules/layout-garden/layout-2/index.php"> REI Section</a></li>
 
-          <li><a href="modules/layout-garden/layout-3/index.php"> Description here</a></li>
+          <li><a href="modules/layout-garden/layout-3/index.php"> REI Section Two</a></li>
 
-           <li><a href="modules/layout-garden/layout-4/index.php"> Description here</a></li>    
+           <li><a href="modules/layout-garden/layout-4/index.php">World Central Kitchen </a></li>    
       </p>
       </ul>
 
