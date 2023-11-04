@@ -6,8 +6,8 @@
 <main class="project-page">
 <div class="inner-column">
 	<section class="project-intro">
-		<h1 class="loud-voice">Projects</h1>
-		<h2 class="attention-voice">A sampling of the design and development projects I've completed recently
+		<h1 class="xxl-voice">Projects</h1>
+		<h2 class="attention-voice">A sampling of the design and development projects that I've completed recently
 	</section>
 	<section class="wrapper">
 	<section class="project-grid">
