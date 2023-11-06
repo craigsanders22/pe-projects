@@ -40,6 +40,17 @@
   justify-content: flex-end;
   text-align: right;
   padding-left: 20px;
+
+}
+
+.inner-column {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.resume-head {
+/*  margin-left: 25px;*/
+  border-bottom: 5px solid var(--main-primary);
 }
 
 /* work experience */
@@ -77,9 +88,17 @@
   padding-top: 20px;
   font-size: 40px;
 }
-.work-details .work-dates {
+ .work-dates {
   font-weight: 200;
 
+  margin-left: 100px;
+}
+
+.work-details .degree {
+  padding: 0 40px 20px 40px;
+  font-size: 20px;
+  letter-spacing: 1.2px;
+  font-weight: 200;
   margin-left: 50px;
 }
 
@@ -92,6 +111,7 @@
 .role-text li {
   margin-top: 20px;
   list-style: square;
+
 }
 
 .location {
@@ -101,30 +121,25 @@
 }
 
 /* education */
-
 .education {
   margin-top: 60px;
   margin-bottom: 80px;
+
 }
 
-.education-intro {
+
+.education .education-intro {
   display: flex;
   align-items: center;
   padding-top: 40px;
 }
 
-.education .location {
-  border: 2px solid pink;
+/*.education .role-text,
+.education .education-text {
   padding: 0 40px 20px 40px;
-}
+}*/
 
-.work-dates {
-  font-weight: 200;
-
-  padding: 0 40px 20px 40px;
-}
-
-.degree {
+.education .degree {
   padding: 0 40px 20px 40px;
   font-size: 20px;
   letter-spacing: 1.2px;
@@ -133,27 +148,74 @@
 }
 
 /* skills */
-
 .skills {
-  margin-bottom: 20px;
+  margin-top: 60px;
+  margin-bottom: 80px;
 }
-.skills-list {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
 
-  padding: 0px;
-  margin: 0px;
+.skills .skills-intro {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
 }
-.skills-item {
+
+.skills .degree {
+  padding: 0 40px 20px 40px;
+  font-size: 20px;
+  letter-spacing: 1.2px;
+  font-weight: 200;
+  margin-left: 50px;
+  margin-top: 25px;
+}
+
+.skills .skills-text,
+.skills .skills-list {
+  padding: 0 40px 20px 40px;
+}
+
+/* Combining the two .skills .skills-text classes */
+
+.skills .skills-text {
+  padding: 0 40px 20px 40px;
+  font-size: 20px;
+  letter-spacing: 1.2px;
+  font-weight: 200;
+  margin-left: 50px;
+  
+
+}
+
+/*@media screen and (max-width: 599px) {
+  .skills .skills-text {
+    grid-template-columns: 1fr;
+  }
+}*/
+
+.skills .skills-text ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+@media screen and (max-width: 599px) {
+  .skills .skills-text ul {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
+.skills .skills-item {
   flex-shrink: 1;
-  width: 400px;
-  height: 50px;
-  vertical-align: justify;
   padding: 15px 10px;
   border: 1px solid #ddd;
   border-radius: 5px;
 }
+
+
+
+
+
 
 /* typography */
 
