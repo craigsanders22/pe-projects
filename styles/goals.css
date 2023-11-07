@@ -33,7 +33,7 @@
 }
 
 .goals h2 {
- color: #ad858d; 
+ color: var(--main-primary);
  font-family: 'Helvetica Neue', sans-serif;
  font-size: clamp(30px, 15vw, 275px); 
  font-weight: bold; 
@@ -45,7 +45,7 @@
 h5 {
   font-family: didot;
   font-size: clamp(30px, 5vw, 80px);
-  color: var(--main-primary);
+  color: var(--main-gray);
   padding-left: 20px;
 }
 
@@ -58,23 +58,23 @@ h5 {
 }
 
 .end-of-course {
-  border: 20px dotted #6c6874;
+  border: 20px dotted var(--main-gray);
   margin-top: 50px;
   padding: 50px 20px;
 
 }
 
 .this-month {
-  border: 5px dashed #6c6874;
+  border: 5px dashed var(--main-gray);
   border-radius: 20px;
   padding: 50px 20px;
 }
 
 .five-years {
-  border: 25px solid #6c6874;
+  border: 25px solid var(--main-gray);
   margin-top: 50px;
     padding: 50px 20px;
-    box-shadow: 5px 10px #ad858d;
+    box-shadow: 5px 10px var(--main-dark);
     margin-bottom: 50px;
 }
 
