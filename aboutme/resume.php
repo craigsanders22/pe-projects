@@ -4,7 +4,7 @@
 	<section class="resume-intro">
 		<div class="inner-column">
 
-			<div>
+			<div class="resume-heading">
 				<h1 class="loud-voice">Craig Sanders</h1>
 				<p class="calm-voice">Indianapolis, IN | craig.sanders@me.com | 765 721 0820</p>
 			</div>
