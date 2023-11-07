@@ -1,53 +1,38 @@
-window.onload = function() {
-    document.getElementById("goalButton").addEventListener("click", function() {
-        document.getElementById("goals").style.display = "block";
-        document.getElementById("resume").style.display = "none";
-    });
+var goalButton = document.getElementById("goalButton");
+var resumeButton = document.getElementById("resumeButton");
+var goals = document.getElementById("goals");
+var resume = document.getElementById("resume");
+var flap = document.querySelector('#flap');
 
-    document.getElementById("resumeButton").addEventListener("click", function() {
-        document.getElementById("resume").style.display = "block";
-        document.getElementById("goals").style.display = "none";
-    });
-    
-    // programmatically click the resumeButton
-    document.getElementById("resumeButton").click();
+function togglePages(showButton, hideButton, showElement, hideElement) {
+  showButton.addEventListener("click", function() {
+    showElement.style.display = "block";
+    hideElement.style.display = "none";
+    flap.children[0].textContent = this.nextElementSibling.textContent;
+  });
+}
+
+window.onload = function() {
+    togglePages(goalButton, resumeButton, goals, resume);
+    togglePages(resumeButton, goalButton, resume, goals);
+
+    // Simulate a click on resumeButton to set initial state
+    resumeButton.click();
 };
 
 
-
 const st = {};
-
 st.flap = document.querySelector('#flap');
 st.toggle = document.querySelector('.toggle');
 
 st.choice1 = document.querySelector('#goalButton');
 st.choice2 = document.querySelector('#resumeButton');
 
-st.flap.addEventListener('transitionend', () => {
-
-    if (st.choice1.checked) {
-        st.toggle.style.transform = 'rotateY(-15deg)';
-        setTimeout(() => st.toggle.style.transform = '', 400);
-    } else {
-        st.toggle.style.transform = 'rotateY(15deg)';
-        setTimeout(() => st.toggle.style.transform = '', 400);
-    }
-
-})
-
-st.clickHandler = (e) => {
-
-    if (e.target.tagName === 'LABEL') {
-        setTimeout(() => {
-            st.flap.children[0].textContent = e.target.textContent;
-        }, 250);
-    }
-}
+// st.flap.addEventListener('transitionend', () => {
+//     st.toggle.style.transform = st.choice1.checked ? 'rotateY(-15deg)' : 'rotateY(15deg)';
+//     st.flap.children[0].textContent = event.propertyName === 'transform' ? (st.choice1.checked ? "GOALS" : "RESUME") : st.flap.children[0].textContent;
+// });
 
 document.addEventListener('DOMContentLoaded', () => {
-    st.flap.children[0].textContent = st.choice2.nextElementSibling.textContent;
+    st.flap.children[0].textContent = "RESUME";
 });
-
-document.addEventListener('click', (e) => st.clickHandler(e));
-
-

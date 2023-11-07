@@ -57,7 +57,7 @@
     top: calc( 0px - var(--border-width));
     left: 50%;
     height: calc(100% + var(--border-width) * 2);
-    width: 60%;
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,7 +79,7 @@
 
 <div class="about-container">
 
-        <form class="toggle">
+       <form class="toggle">
            
             <input type="radio" id="goalButton" name="choice" value="goals">
             <label for="goalButton">GOALS</label>
@@ -91,25 +91,15 @@
 
         </form>
 
-    </div>
+</div>
 
+<div id="goals" class="page">
+    <?php include('goals.php');?>
+</div>
 
-
-
- <!--    <nav class="about-nav">
-        <button id="goalButton">Goals</button>
-        <button id="resumeButton">Resume</button>
-    </nav>
- -->
-
-    <div id="goals" class="page">
-        <?php include('goals.php');?>
-    </div>
-
-    <div id="resume" class="page" style="display:none">
-         <?php include('resume.php');?>
-    </div>
-
+<div id="resume" class="page" style="display:none">
+    <?php include('resume.php');?>
+</div>
     <script src="aboutme/scripts.js"></script>
 
 
