@@ -81,7 +81,7 @@
 					<div class="top-details">
 
 						<div class="title-image">
-							<img src="../assets/growth.png" alt="">
+							<img src="assets/growth.png" alt="">
 							<h3 class="work-title attention-voice">Key Account Sales Manager</h3>
 						</div>
 
@@ -109,7 +109,7 @@
 			<h2 class="resume-head loud-voice">Education</h2>
 			<div class="education-intro">
 				<div class="title-image">
-					<img src="../assets/rocket.png" alt="">
+					<img src="assets/rocket.png" alt="">
 				</div>
 				<div class="attention-voice school">Perpetual Education - Design for the Web
 				</div>
@@ -127,7 +127,7 @@
 			</div>
 			<div class="education-intro">
 				<div class="title-image">
-					<img src="../assets/exam.png" alt="">
+					<img src="assets/exam.png" alt="">
 				</div>
 				<div class="attention-voice school">Indiana University - Indianapolis
 				</div>
@@ -146,7 +146,7 @@
 			</div>
 			<div class="skills-intro">
 				<div class="title-image">
-					<img src="../assets/briefcase.png" alt="">
+					<img src="assets/briefcase.png" alt="">
 				</div>
 				<div class="attention-voice skills-type">Professional
 				</div>
@@ -169,7 +169,7 @@
 
 			<div class="skills-intro">
 				<div class="title-image">
-					<img src="../assets/web.png" alt="">
+					<img src="assets/web.png" alt="">
 				</div>
 				<div class="attention-voice skills-type">Technical
 				</div>

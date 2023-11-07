@@ -9,11 +9,11 @@
 
 
     <div id="goals" class="page">
-        <?php include('../goals/index.php');?>
+        <?php include('goals/index.php');?>
     </div>
 
     <div id="resume" class="page" style="display:none">
-         <?php include('../resume/index.php');?>
+         <?php include('resume/index.php');?>
     </div>
 
     <script src="../aboutme/scripts.js"></script>
