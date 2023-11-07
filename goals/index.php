@@ -1,7 +1,6 @@
 
 
 
-<?php include('../header.php');?>
 
 <main class="goals">
     <section class="headline">
@@ -46,5 +45,3 @@
         </div>
     </section> 
 </main>
-
-<?php include('../footer.php');?>

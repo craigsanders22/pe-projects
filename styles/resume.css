@@ -1,13 +1,10 @@
-/*.inner-column {
-  display: block;
-  max-width: 1200px;
-  padding: 20px;
-  /*border: 2px solid yellow;*/
+.about-nav button {
+  padding: 20px 40px;
+  margin-top: 25px;
+
 }
 
-*/
-
-/* intro */
+/*/* intro */
 
 .resume-intro {
   background: hsla(216, 22%, 23%, 1);
@@ -41,11 +38,10 @@
   text-align: right;
   padding-left: 20px;
 
-}
+ 
 
-.inner-column {
-  margin-left: 20px;
-  margin-right: 20px;
+/*  margin-left: 20px;
+  margin-right: 20px;*/
 }
 
 .resume-head {

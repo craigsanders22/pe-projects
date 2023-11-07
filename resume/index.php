@@ -1,4 +1,4 @@
-<?php include('../header.php');?>
+
 
 <main class="resume">
 	<section class="resume-intro">
@@ -6,7 +6,7 @@
 
 			<div>
 				<h1 class="loud-voice">Craig Sanders</h1>
-				<p class="calm-voice">Indianapolis, IN 46219 | craig.sanders@me.com | 765 721 0820</p>
+				<p class="calm-voice">Indianapolis, IN | craig.sanders@me.com | 765 721 0820</p>
 			</div>
 		</div>
 	</section>
@@ -195,4 +195,3 @@
 
 </main>
 
-<?php include('../footer.php');?>
