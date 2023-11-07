@@ -45,7 +45,7 @@
 h5 {
   font-family: didot;
   font-size: clamp(30px, 5vw, 80px);
-  color: #f7cfb6;
+  color: var(--main-primary);
   padding-left: 20px;
 }
 
