@@ -25,7 +25,7 @@
 						Indianapolis, IN</h3>
 
 						<div class="title-image">
-							<img src="../assets/cart.png" alt="">
+							<img src="assets/cart.png" alt="">
 							<h3 class="work-title attention-voice ">Small Business Owner / Operator</h3>
 						</div>
 
