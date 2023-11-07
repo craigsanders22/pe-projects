@@ -9,14 +9,14 @@
 
 
     <div id="goals" class="page">
-        <?php include('goals/index.php');?>
+        <?php include('goals.php');?>
     </div>
 
     <div id="resume" class="page" style="display:none">
-         <?php include('resume/index.php');?>
+         <?php include('resume.php');?>
     </div>
 
-    <script src="../aboutme/scripts.js"></script>
+    <script src="aboutme/scripts.js"></script>
 
 
 
