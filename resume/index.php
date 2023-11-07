@@ -58,7 +58,7 @@
 						Zionsville, IN</h3>
 
 						<div class="title-image">
-							<img src="../assets/networking.png" alt="">
+							<img src="assets/networking.png" alt="">
 							<h3 class="work-title attention-voice">Director of Operations</h3>
 						</div>
 
