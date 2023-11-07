@@ -158,7 +158,7 @@
 					<li class=" calm-voice">Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
 					<li class="calm-voice">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, sint.</li>
 					<li class="calm-voice">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, porro!</li>
-						<li class="calm-voice">Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+					<li class="calm-voice">Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
 					<li class=" calm-voice">Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
 					<li class="calm-voice">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, sint.</li>
 					<li class="calm-voice">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, porro!</li>
@@ -181,7 +181,7 @@
 					<li class=" calm-voice">Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
 					<li class="calm-voice">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, sint.</li>
 					<li class="calm-voice">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, porro!</li>
-						<li class="calm-voice">Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+					<li class="calm-voice">Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
 					<li class=" calm-voice">Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
 					<li class="calm-voice">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, sint.</li>
 					<li class="calm-voice">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, porro!</li>
