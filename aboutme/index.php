@@ -7,12 +7,14 @@
     margin-left: auto;
     margin-right: auto;
     max-width: 400px;
-    padding: 25px;
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .toggle {
     position: relative;
-    border: 2px solid var(--main-dark);
+    border: solid var(--main-dark);
     border-radius: var(--border-radius);
     transition: transform cubic-bezier(0, 0, 0.30, 2) .4s;
     transform-style: preserve-3d;
@@ -25,14 +27,19 @@
 
 .toggle>#goalButton:checked~#flap {
     transform: rotateY(-180deg);
+    
 }
 
 .toggle>#goalButton:checked~#flap>.content {
     transform: rotateY(-180deg);
+
 }
 
 .toggle>#resumeButton:checked~#flap {
     transform: rotateY(0deg);
+
+
+
 }
 
 .toggle>label {
