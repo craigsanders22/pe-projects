@@ -57,12 +57,11 @@
   min-height: 20vh
 }
 .about-content img {
-  max-width: 400px
+  max-width: 200px;
+  margin-bottom: 60px;
 }
 
-.about svg {
-  max-width: 200px
-}
+
 
 .about h2 {
   max-width: 40ch;
@@ -191,7 +190,7 @@ ul {
   opacity: 80%;
   /*  border: 2px solid white;*/
   position: absolute;
-  bottom: -95px;
+  bottom: -60px;
   right: -200px;
   overflow: hidden;
 }
@@ -208,7 +207,7 @@ ul {
   }
   .favorite-content img {
     position: absolute;
-    bottom: -82px;
+    bottom: -60px;
     right: -100px;
     overflow: hidden;
     /*  border: 3px solid #73AD21;*/

@@ -8,10 +8,11 @@
       I'm Craig.
     </h1>
   
-
+<picture>
   <div class="avatar">
-    <img src="assets/avataaars.png">
+    <img src="assets/avatar3d.png">
   </div>
+  </picture>
 </div>
   </div>
 </section>

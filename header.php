@@ -20,7 +20,7 @@
         </div>
         
         <nav class="site-nav">
-  <h3 class='strong-voice'>
+  <h3 class='calm-voice'>
     <div class="nav-list">
       <div><a href="projects/">projects</a></div>
       <div><a href="aboutme/">about me</a></div>

@@ -1,12 +1,9 @@
 .goals {
 	width: 100%;
-  
-	
-
 }
 
 
- .goals p {
+.goals p {
 
   text-align: left;
   max-width: 100ch;
@@ -15,16 +12,14 @@
 }
 
 
- .goals h1 {
-   color: #ad858d; 
+.goals h1 {
+ color: #ad858d; 
  font-family: 'Helvetica Neue', sans-serif; 
-  font-size: clamp(30px, 20vw, 275px); 
+ font-size: clamp(30px, 20vw, 275px); 
  font-weight: bold; 
  letter-spacing: -1px; 
  line-height: 1; 
  text-align: center;
-
-
 }
 
 .goal-text {
@@ -73,8 +68,8 @@ h5 {
 .five-years {
   border: 25px solid var(--main-gray);
   margin-top: 50px;
-    padding: 50px 20px;
-    box-shadow: 5px 10px var(--main-dark);
-    margin-bottom: 50px;
+  padding: 50px 20px;
+  box-shadow: 5px 10px var(--main-dark);
+  margin-bottom: 50px;
 }
 
