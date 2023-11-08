@@ -129,8 +129,8 @@
 }
 .button-container {
     display: inline-block;
-    width: 185px;/* Width on hover. Calculate it based on font sizes and paddings */;
-    height: 60px;/* Height on hover. Calculate it based on font sizes and paddings */;
+    width: 185px;
+    height: 60px;
 }
 
 .garden-button {
