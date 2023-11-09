@@ -4,13 +4,14 @@
 <main class="contact">
 
   <section class="contact-intro">
+    <div class="inner-column">
     <h1 class="loud-voice">Let's catch up!</h1>
     <h2 class="strong-voice"> I'd love to grab a cup of coffee and discuss my current journey, what I'm passionate about, and learn more about you! Please don't hesitate to reach out via <a href = "mailto: craig.sanders@me.com">email</a> or complete the form below.</h2>
 
 
    <h2 class="strong-voice">If you'd rather, feel free to  <a href="tel:+17657210820">send a text or call!</a></h2> 
 
-
+</div>
   </section>
 
 
@@ -50,10 +51,12 @@
 
 
 
-    <div class="substack">
-      <iframe src="https://myxwithux.substack.com/embed" width="480" height="320" style="border:2px solid var(--main-gray); background-color: #aea3a2;" frameborder="0" scrolling="no"></iframe>
-    </div>
+ <div class="substack">
+      <iframe src="https://myxwithux.substack.com/embed" width="480" height="320" style="border:2px solid var(--main-primary); background-color: #aea3a2; border-radius: 10px;" frameborder="2" scrolling="no"></iframe>
+</div>
 
+
+</div>
 
 </main>
 
