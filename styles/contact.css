@@ -80,6 +80,10 @@
     text-decoration: none;
 }
 
+.contact-cards img {
+    max-width: 200px;
+}
+
 .contact-cards {
     
     padding: 10px 20px 40px 20px;

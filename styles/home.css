@@ -246,10 +246,11 @@ ul {
   align-items: center;
 }
 
-.icon img {
-  max-width: 200px;
-  padding: 40px;
+.contact-svg {
+    width: 200px;
+    height: 200px;
 }
+
 
 .contact p {
   margin-top: 20px;

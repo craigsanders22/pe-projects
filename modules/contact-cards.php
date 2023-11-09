@@ -6,7 +6,7 @@
     <div class="link-card">
       <div class="icon">
         <picture>
-          <img src="assets/email.gif">
+          <img class="contact-svg" src="assets/envelope.svg">
         </picture>
       </div>
       <div class="link calm-voice">
